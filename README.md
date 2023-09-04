@@ -12,4 +12,4 @@ The Malware Behavior Catalog (MBC) is a catalog of malware objectives and behavi
 
 ## MBC and STIX ##
 
-Details on how MBC data is expressed in STIX 2.1 can be found in the [STIX 2.1 Malware Behavior Extension](https://github.com/rpiazza/cti-stix-common-objects/blob/mbc_objects/extension-definition-specifications/mbc/MBC%20STIX%202.1%20Extension%20Definition%20Object.docx) document.
+Details on how MBC data is expressed in STIX 2.1 can be found in the [STIX 2.1 Malware Behavior Extension](https://github.com/rpiazza/cti-stix-common-objects/blob/main/extension-definition-specifications/malware-behavior/STIX%202.1%20Malware%20Behavior%20Extension.docx) document.

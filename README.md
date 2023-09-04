@@ -1,6 +1,6 @@
 # Malware Behavior Catalog Expressed in STIX 2.1 #
 
-*The Malware Behavior Catalog has been expressed in STIX 2.1 JSON using the [Malware Behavior](https://github.com/oasis-open/cti-stix-common-objects/tree/main/extension-definition-specifications) extension based on the STIX 2.1 Committee Specification 03 (CS03).*
+*The Malware Behavior Catalog has been expressed in STIX 2.1 JSON using a [malware behavior extension](https://github.com/oasis-open/cti-stix-common-objects/tree/main/extension-definition-specifications) based on the STIX 2.1 Committee Specification 03 (CS03).*
 
 ## Malware Behavior Catalog ##
 
@@ -12,4 +12,4 @@ The Malware Behavior Catalog (MBC) is a catalog of malware objectives and behavi
 
 ## MBC and STIX ##
 
-Details on how MBC data maps to STIX 2.1 can be found in the [STIX 2.1 Malware Behavior Extension](https://github.com/rpiazza/cti-stix-common-objects/blob/mbc_objects/extension-definition-specifications/mbc/MBC%20STIX%202.1%20Extension%20Definition%20Object.docx) document.
+Details on how MBC data is expressed in STIX 2.1 can be found in the [STIX 2.1 Malware Behavior Extension](https://github.com/rpiazza/cti-stix-common-objects/blob/mbc_objects/extension-definition-specifications/mbc/MBC%20STIX%202.1%20Extension%20Definition%20Object.docx) document.

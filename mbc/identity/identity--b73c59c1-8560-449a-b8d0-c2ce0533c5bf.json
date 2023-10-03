@@ -1,0 +1,18 @@
+{
+    "type": "bundle",
+    "id": "bundle--6d1b9a73-8cd3-4352-be67-ffbfb92b20f8",
+    "objects": [
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2020-01-01T00:00:00.000Z",
+            "modified": "2020-01-01T00:00:00.000Z",
+            "name": "The MITRE Corporation",
+            "identity_class": "organization",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--dfc7113d-ec87-421e-a024-bb2a25454187",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--16d47b30-327d-4ae6-b9a6-36d7d8666a16",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:51.635196Z",
+            "modified": "2024-02-26T17:04:51.635196Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Send Data (B0030.001) -- The malware sends a hash value generated from system information. [1]",
+            "source_ref": "malware--6b56dc77-ea1d-4b22-9d68-1b1022e525cf",
+            "target_ref": "malware-method--832b6a2d-63fe-4e3e-ac0b-10ef81d4ab19",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

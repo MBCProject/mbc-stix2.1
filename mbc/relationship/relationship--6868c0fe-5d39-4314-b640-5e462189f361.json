@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7096518f-110f-462a-8a2a-7262595dbfd1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6868c0fe-5d39-4314-b640-5e462189f361",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:03.087999Z",
+            "modified": "2024-02-26T17:05:03.087999Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) -- The malware downloads and executes Claymore's Zcash miner from a remote server. [1]",
+            "source_ref": "malware--ab1d1ab8-cc17-4134-a01b-dbe692ac92fe",
+            "target_ref": "malware-behavior--f09c4a1c-98c9-4b39-bb5b-6cc36af8c145",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

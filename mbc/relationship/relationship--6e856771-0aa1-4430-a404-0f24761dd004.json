@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d87aab28-912e-4a42-b838-7a8e4ccf0e86",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6e856771-0aa1-4430-a404-0f24761dd004",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:03.088745Z",
+            "modified": "2024-02-26T17:05:03.088745Z",
+            "relationship_type": "uses",
+            "description": "Execution::Conditional Execution (B0025) -- The malware executes differently depending on whether it's running on an x86 or x64 system. [1]",
+            "source_ref": "malware--ab1d1ab8-cc17-4134-a01b-dbe692ac92fe",
+            "target_ref": "malware-behavior--c13e1da7-c75e-4576-b4e5-bfe5476d2255",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

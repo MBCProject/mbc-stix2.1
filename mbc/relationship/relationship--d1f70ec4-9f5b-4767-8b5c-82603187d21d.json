@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--851875ba-1871-4b0d-ba42-4eb2551341bf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d1f70ec4-9f5b-4767-8b5c-82603187d21d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:48.053081Z",
+            "modified": "2024-02-26T17:04:48.053081Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::File and Directory Permissions Modification (T1222) -- Kovter sets file attributes. [3]",
+            "source_ref": "malware--1cc62cf7-35b8-4d17-862c-ea8ccd4daecc",
+            "target_ref": "attack-pattern--65917ae0-b854-4139-83fe-bf2441cf0196",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bbf0b23c-3484-4ccb-95ca-60fbf7d61c47",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f68f9c93-b49a-4e8e-98f5-06b5319ac74e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:50.853947Z",
+            "modified": "2024-02-26T17:04:50.853947Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Kernel Modules and Extensions (F0010) -- Drovorub uses a kernel module rootkit for loading and persistence. [1]",
+            "source_ref": "malware--af7a9e74-069c-411f-9d18-8472b6db7361",
+            "target_ref": "malware-behavior--134676c8-b5e2-4c57-80bb-fe579a9076bb",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

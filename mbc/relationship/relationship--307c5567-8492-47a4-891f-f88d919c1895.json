@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f7a9d3aa-701f-4ad9-83b0-387819ec69da",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--307c5567-8492-47a4-891f-f88d919c1895",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:47.253197Z",
+            "modified": "2024-02-26T17:04:47.253197Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Query Registry Key (C0036.005) -- BlackEnergy queries or enumerates a registry key. [4]",
+            "source_ref": "malware--f2670efb-d95b-45b3-b528-541b67ca25bf",
+            "target_ref": "malware-method--7d1c82e6-123d-47a5-9271-6647cd0fe119",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

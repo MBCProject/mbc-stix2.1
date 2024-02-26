@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7c639107-c03e-4635-a204-3172ab223df0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1a765b71-48f3-4c4e-9ed3-8b9ffbde6695",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:02.405376Z",
+            "modified": "2024-02-26T17:05:02.405376Z",
+            "relationship_type": "uses",
+            "description": "Data::Encode Data::XOR (C0026.002) -- Locky Bart encodes data using XOR. [2]",
+            "source_ref": "malware--f52b7d62-b752-4148-83e1-49dc1d7e2c9e",
+            "target_ref": "malware-method--12dc9b9c-e2d3-47ed-ae40-0582c7b32187",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

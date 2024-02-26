@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--c17bf116-2712-4b18-b0e5-6714ab561084",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--80da09ec-caa7-4b1a-b450-96f8336c1589",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:58.71721Z",
+            "modified": "2024-02-26T17:04:58.71721Z",
+            "name": "Stuxnet hash",
+            "description": "This is an IoC for Stuxnet",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '9c891edb5da763398969b6aaa86a5d46971bd28a455b20c2067cb512c9f9a0f8' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-02-26T17:04:58.71721Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

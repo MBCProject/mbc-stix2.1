@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8d16b93a-d48b-45c5-801a-d6c39210be87",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--654971ac-f41a-45b7-8e9d-7e62d8c620f8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:44.855782Z",
+            "modified": "2024-02-26T17:04:44.855782Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data::RC4 (C0027.009) -- DarkComet encrypts data using RC4 PRGA. [4]",
+            "source_ref": "malware--19e217cb-fe63-419d-b3be-1658e63b2944",
+            "target_ref": "malware-method--5d072c86-dbe9-4803-94f7-c3618b725b0b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

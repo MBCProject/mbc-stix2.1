@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4637e8bf-b33f-4e28-874b-a3842e70b576",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6ada9a85-6a3a-421a-8c33-cd8ba5558ea4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:46.806013Z",
+            "modified": "2024-02-26T17:04:46.806013Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Bootkit (F0013) -- The malware can implement malicious code into firmware, allowing read, write, and/or erasure of the UEFI/BIOS firmware.  [5]",
+            "source_ref": "malware--c1642f21-c65a-4994-ad72-8369b3595555",
+            "target_ref": "malware-behavior--1f5e0f55-b74f-472d-8212-afb168d501b5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

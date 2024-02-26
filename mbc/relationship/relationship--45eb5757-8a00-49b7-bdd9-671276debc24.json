@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0900971e-d0a1-4141-b05f-8be1fa28cfec",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--45eb5757-8a00-49b7-bdd9-671276debc24",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:55.276964Z",
+            "modified": "2024-02-26T17:04:55.276964Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- GoBotKR installs itself under registry run keys to establish persistence. [1]",
+            "source_ref": "malware--36dc5f9c-ae13-4d0c-b99a-4ab888bf6282",
+            "target_ref": "malware-behavior--b293ec02-d6e2-4c3d-992c-986030462619",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

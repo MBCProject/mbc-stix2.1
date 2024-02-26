@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4771046f-973e-4fc5-b538-6b97a6948e84",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bf341f4e-6145-47e8-b451-8c78e3f7250d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:51.047361Z",
+            "modified": "2024-02-26T17:04:51.047361Z",
+            "relationship_type": "uses",
+            "description": "File System::Read File (C0051) -- Poison Ivy reads files on Windows. [5]",
+            "source_ref": "malware--65fbeb37-a5e3-40ea-b310-b28968bab6e4",
+            "target_ref": "malware-behavior--02cd71c1-6679-4e2c-92e5-b28ed1c183b4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

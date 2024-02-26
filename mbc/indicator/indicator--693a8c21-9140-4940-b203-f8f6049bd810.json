@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--cb2096a0-ec83-415f-8451-85da48b60890",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--693a8c21-9140-4940-b203-f8f6049bd810",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:47.527222Z",
+            "modified": "2024-02-26T17:04:47.527222Z",
+            "name": "Vobfus File Names",
+            "description": "This is an IoC for Vobfus",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:value = 'Sexy.exe' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-02-26T17:04:47.527222Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

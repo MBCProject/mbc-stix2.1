@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7d511fa1-ef38-4e61-bd35-2f75c8f1dd63",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cd30cf7b-0ae7-470c-9fae-65f9306def72",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:58.633965Z",
+            "modified": "2024-02-26T17:04:58.633965Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Process::Create Process via WMI (C0017.002) -- Stuxnet will use WMI operations with the explorer.exe token in order to copy itself and execute on the remote share. [1]",
+            "source_ref": "malware--94951f34-8d70-4ab0-815d-67daccba4c2f",
+            "target_ref": "malware-method--b47103df-95b3-48b6-8640-d3660d7613c8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

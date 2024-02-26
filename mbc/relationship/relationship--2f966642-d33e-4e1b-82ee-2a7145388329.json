@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b55514ce-e3a1-48d3-81d3-2b96c1f3fdfd",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2f966642-d33e-4e1b-82ee-2a7145388329",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:59.450871Z",
+            "modified": "2024-02-26T17:04:59.450871Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete Directory (C0048) -- Gamut deletes directories. [3]",
+            "source_ref": "malware--f655c91b-97fe-4be9-89e1-6c4c1c5073e6",
+            "target_ref": "malware-behavior--960d7ae8-0b98-4ff6-988e-968daf07878e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

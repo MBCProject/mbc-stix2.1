@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--aafce2bf-53e6-4b17-8894-3ef24bc9ec9c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b090e22a-9ca9-4317-9c1e-23603f232ec7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:52.84298Z",
+            "modified": "2024-02-26T17:04:52.84298Z",
+            "relationship_type": "uses",
+            "description": "Execution::Remote Commands::Uninstall (B0011.006) -- Malware loader can uninstall itself from the victim computer.  [2]",
+            "source_ref": "malware--dbb71325-44e2-4010-9bcd-2b438dcaca81",
+            "target_ref": "malware-method--baf15395-4649-447e-b1df-62a651a9a8ac",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

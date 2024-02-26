@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--76cf418a-24c8-42c5-8861-986cf1d5b1d5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b856f6b2-d540-4ceb-9e40-286adae49187",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:44.867265Z",
+            "modified": "2024-02-26T17:04:44.867265Z",
+            "relationship_type": "uses",
+            "description": "Process::Set Thread Local Storage Value (C0041) -- DarkComet set thread local storage values. [4]",
+            "source_ref": "malware--19e217cb-fe63-419d-b3be-1658e63b2944",
+            "target_ref": "malware-behavior--202ef7ac-e933-403c-a11e-862ed14a37ef",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

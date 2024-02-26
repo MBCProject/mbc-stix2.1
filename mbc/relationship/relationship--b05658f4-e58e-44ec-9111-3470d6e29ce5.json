@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--19cf7bf9-ad30-4191-b2bf-fcd176e27aac",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b05658f4-e58e-44ec-9111-3470d6e29ce5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:57.248234Z",
+            "modified": "2024-02-26T17:04:57.248234Z",
+            "relationship_type": "uses",
+            "description": "File System::Get File Attributes (C0049) -- UP007 gets file attributes. [2]",
+            "source_ref": "malware--52189989-20f1-4556-ab23-c9e4b61fc976",
+            "target_ref": "malware-behavior--7b94b533-5641-4306-9999-757af369f2a7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

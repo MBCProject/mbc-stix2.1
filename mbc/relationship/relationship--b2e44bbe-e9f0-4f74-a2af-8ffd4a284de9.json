@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--19f0fd3e-c53e-4b29-a4e4-bb477f426af4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b2e44bbe-e9f0-4f74-a2af-8ffd4a284de9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:46.59715Z",
+            "modified": "2024-02-26T17:04:46.59715Z",
+            "relationship_type": "uses",
+            "description": "Process::Set Thread Local Storage Value (C0041) -- Rombertik sets thread local storage values. [2]",
+            "source_ref": "malware--dfc7ba31-0065-4e59-bffe-a02aa24fbf3e",
+            "target_ref": "malware-behavior--202ef7ac-e933-403c-a11e-862ed14a37ef",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

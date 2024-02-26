@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--24568390-a9d8-48c3-83b7-0ceab39f9a01",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--c1e7466c-37aa-4ecf-a8a1-8be7097ecd90",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:48.495729Z",
+            "modified": "2024-02-26T17:04:48.495729Z",
+            "name": "Kovter hash",
+            "description": "This is an IoC for Kovter",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = 'bffe7ccbcf69e7c787ff10d1dc7dbf6044bffcb13b95d851f4a735917b3a6fdf' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-02-26T17:04:48.495729Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

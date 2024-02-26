@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--093c6ee8-c7a9-485b-9858-159fdd77f34b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cfdd896a-fe93-4086-b2b3-5eb802589c7e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:50.04375Z",
+            "modified": "2024-02-26T17:04:50.04375Z",
+            "relationship_type": "uses",
+            "description": "Data::Encode Data::XOR (C0026.002) -- Shamoon encodes data using XOR. [5]",
+            "source_ref": "malware--d5ea76ff-a298-4ffa-a30e-458e64fcf78d",
+            "target_ref": "malware-method--12dc9b9c-e2d3-47ed-ae40-0582c7b32187",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

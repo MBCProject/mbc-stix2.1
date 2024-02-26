@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--da7c9a86-8097-4ced-bdad-f12bcf4f6f40",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b532c666-c80e-4a86-b09c-6e0ff20bb1fd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:44.846219Z",
+            "modified": "2024-02-26T17:04:44.846219Z",
+            "relationship_type": "uses",
+            "description": "Collection::Screen Capture (E1113) -- DarkComet can take screenshots of victim's computer. [2]",
+            "source_ref": "malware--19e217cb-fe63-419d-b3be-1658e63b2944",
+            "target_ref": "malware-behavior--ed2e1bb7-1941-4d8e-a45d-da6e852fa7b0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

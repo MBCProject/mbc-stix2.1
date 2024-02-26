@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f31f113e-4693-485d-b301-1105aa26bbec",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bae436f0-0432-47cd-9619-13e7471181d9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:48.590111Z",
+            "modified": "2024-02-26T17:04:48.590111Z",
+            "relationship_type": "uses",
+            "description": "Command And Control::C2 Communication::Receive Data (B0030.002) -- GravityRAT receives data. [4]",
+            "source_ref": "malware--e0d4abbe-56d9-4e0b-826d-e12ca2a42f6c",
+            "target_ref": "malware-method--a9bd6792-a908-4e46-bdb9-878ca5517751",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

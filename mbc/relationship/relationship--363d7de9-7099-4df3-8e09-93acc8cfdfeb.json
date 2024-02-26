@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9959e5e6-582d-48a5-a3ea-c45faffe538d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--363d7de9-7099-4df3-8e09-93acc8cfdfeb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:44.85337Z",
+            "modified": "2024-02-26T17:04:44.85337Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- DarkComet accepts command line arguments. [4]",
+            "source_ref": "malware--19e217cb-fe63-419d-b3be-1658e63b2944",
+            "target_ref": "malware-behavior--882dcfcc-95d0-41d2-87c5-ed25a03fc53a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

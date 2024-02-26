@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--92996511-b3ec-4e75-9cc4-74b936e353ab",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--10779fd7-fe0c-453b-ae40-227e390b6590",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:47.045453Z",
+            "modified": "2024-02-26T17:04:47.045453Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Virtual Machine Detection::Check Processes (B0009.004) -- The malware checks if there are virtual machine processes running (Vbox, vmware, etc). [1]",
+            "source_ref": "malware--2e8543c3-3989-4888-a22d-b78d27d4b58b",
+            "target_ref": "malware-method--acb57999-3f5f-4dd6-8467-a2ea6e5f1149",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

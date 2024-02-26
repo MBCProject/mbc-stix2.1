@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--3bb1beb6-6624-4f9a-a88c-5015eb9f6650",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--06d4721e-df8a-49be-a035-89736a6d0d5f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:47.53154Z",
+            "modified": "2024-02-26T17:04:47.53154Z",
+            "name": "Vobfus File Names",
+            "description": "This is an IoC for Vobfus",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:value = 'Muoeyus.exe' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-02-26T17:04:47.53154Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

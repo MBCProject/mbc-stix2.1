@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e408616d-2634-4eb8-8d47-526842f836cb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--08f02e9d-16ff-40e7-a535-2539f2e6a786",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:50.051254Z",
+            "modified": "2024-02-26T17:04:50.051254Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Thread (C0038) -- Shamoon creates a thread. [5]",
+            "source_ref": "malware--d5ea76ff-a298-4ffa-a30e-458e64fcf78d",
+            "target_ref": "malware-behavior--89799c57-94a3-4da7-b880-bd8a4bf80a9b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--249d2acd-f3ba-47de-98be-85c051b37c3a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--811161a7-f726-478b-9c73-21ce6129d1ac",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:59.084745Z",
+            "modified": "2024-02-26T17:04:59.084745Z",
+            "relationship_type": "uses",
+            "description": "Impact::Modify Hardware (B0042) -- BadUSB can modify USB drives. [4]",
+            "source_ref": "malware--c634593d-665b-4cca-b1b8-a702ed650868",
+            "target_ref": "malware-behavior--b90fb9d5-90ed-4cf8-8ca7-f0f6b97e1c97",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--50ce927d-cefa-49f0-905b-7edec21ef6c0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cd347b16-1a7b-4d5a-b1c3-c9e66616484e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:59.457239Z",
+            "modified": "2024-02-26T17:04:59.457239Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Query Registry Value (C0036.006) -- Gamut queries or enumerates registry values. [3]",
+            "source_ref": "malware--f655c91b-97fe-4be9-89e1-6c4c1c5073e6",
+            "target_ref": "malware-method--f48578cb-9b10-4874-95e1-c2306d56a2f3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

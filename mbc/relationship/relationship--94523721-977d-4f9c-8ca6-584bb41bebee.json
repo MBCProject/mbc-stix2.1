@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f1233f5-e0c6-4c1c-bc45-138edb2f8370",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--94523721-977d-4f9c-8ca6-584bb41bebee",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:44.85637Z",
+            "modified": "2024-02-26T17:04:44.85637Z",
+            "relationship_type": "uses",
+            "description": "Data::Checksum::CRC32 (C0032.001) -- DarkComet hashes data with CRC32. [4]",
+            "source_ref": "malware--19e217cb-fe63-419d-b3be-1658e63b2944",
+            "target_ref": "malware-method--86562e0c-8ff2-4943-bef1-61545145c0bd",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

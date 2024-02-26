@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--454128d3-d4ab-46b0-9c3b-8b94dfa7ccab",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dcaf5a5e-6526-4271-9756-3f531e18bb1b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:51.638816Z",
+            "modified": "2024-02-26T17:04:51.638816Z",
+            "relationship_type": "uses",
+            "description": "File System::Writes File (C0052) -- CryptoLocker writes Fileon Windows. [2]",
+            "source_ref": "malware--6b56dc77-ea1d-4b22-9d68-1b1022e525cf",
+            "target_ref": "malware-behavior--d5df4bd1-a103-4053-a232-c7c5f7f61d21",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

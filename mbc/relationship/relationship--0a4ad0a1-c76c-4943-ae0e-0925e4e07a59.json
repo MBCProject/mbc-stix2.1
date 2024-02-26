@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e0f99c04-3859-459e-b1c9-2911760cc504",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0a4ad0a1-c76c-4943-ae0e-0925e4e07a59",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:58.629907Z",
+            "modified": "2024-02-26T17:04:58.629907Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- Stuxnet will store and execute SQL code that will extract and execute Stuxnet from the saved CAB file using xp_cmdshell. [1]",
+            "source_ref": "malware--94951f34-8d70-4ab0-815d-67daccba4c2f",
+            "target_ref": "malware-behavior--882dcfcc-95d0-41d2-87c5-ed25a03fc53a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

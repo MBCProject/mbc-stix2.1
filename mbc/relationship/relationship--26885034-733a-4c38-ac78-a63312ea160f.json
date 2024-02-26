@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1397e8cb-5124-4638-b7b7-3aeeff9dc920",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--26885034-733a-4c38-ac78-a63312ea160f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:48.587718Z",
+            "modified": "2024-02-26T17:04:48.587718Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data::AES (C0027.001) -- GravityRAT v3 supports AES file encryption. [2]",
+            "source_ref": "malware--e0d4abbe-56d9-4e0b-826d-e12ca2a42f6c",
+            "target_ref": "malware-method--d559bb5f-06c2-401c-8de0-ffeea8b04810",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

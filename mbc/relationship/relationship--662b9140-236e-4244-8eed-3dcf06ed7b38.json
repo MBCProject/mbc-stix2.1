@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b9595bf4-1f09-4868-bd17-b680b6fc8f83",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--662b9140-236e-4244-8eed-3dcf06ed7b38",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:00.99136Z",
+            "modified": "2024-02-26T17:05:00.99136Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Self Discovery (B0038.003) -- WannaCry checks the data lengh of a section before decypting a dll. [1]",
+            "source_ref": "malware--137967ed-8b8d-426c-8203-ee59372d2da7",
+            "target_ref": "malware-method--fb9bdd68-c79e-4a5c-83d6-1d796d7d42c1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

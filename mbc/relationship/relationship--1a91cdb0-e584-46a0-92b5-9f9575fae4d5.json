@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--17d6bbb8-2209-43d1-9f21-1a64293c50e2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1a91cdb0-e584-46a0-92b5-9f9575fae4d5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:58.175006Z",
+            "modified": "2024-02-26T17:04:58.175006Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Query Registry Value (C0036.006) -- Redhip queries or enumerates registry values. [2]",
+            "source_ref": "malware--1348c78d-ee60-49d1-83fa-716b33c40dd2",
+            "target_ref": "malware-method--f48578cb-9b10-4874-95e1-c2306d56a2f3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

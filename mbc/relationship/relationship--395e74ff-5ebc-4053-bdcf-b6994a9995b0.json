@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--da62efbf-1345-4510-9c0e-a6d45b0127af",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--395e74ff-5ebc-4053-bdcf-b6994a9995b0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:51.046199Z",
+            "modified": "2024-02-26T17:04:51.046199Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Debugger Detection::IsDebuggerPresent (B0001.008) -- A Poison Ivy variant uses the IsDebuggerPresent API function call to check if the process is running in a debugger. [3]",
+            "source_ref": "malware--65fbeb37-a5e3-40ea-b310-b28968bab6e4",
+            "target_ref": "malware-method--aee3f286-e048-4955-a124-f689dd55bdac",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

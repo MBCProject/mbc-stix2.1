@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8a33d7e4-6a31-4a17-b7e7-3b85f8439718",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--aee083ff-dc57-451e-a5e4-b4ef306a5866",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:46.166808Z",
+            "modified": "2024-02-26T17:04:46.166808Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Account Discovery (T1087) -- Rombertik gets a session user name. [2]",
+            "source_ref": "malware--dfc7ba31-0065-4e59-bffe-a02aa24fbf3e",
+            "target_ref": "attack-pattern--72b74d71-8169-42aa-92e0-e7b04b9f5a08",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

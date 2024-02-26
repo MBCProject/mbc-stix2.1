@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--80d513c7-cf9b-4d37-9fad-8b4589fc5bca",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--b0c9fea2-d403-4d6e-9c77-b459a0e856bc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:47.521582Z",
+            "modified": "2024-02-26T17:04:47.521582Z",
+            "name": "Vobfus Download Location",
+            "description": "This is an IoC for Vobfus",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ directory:path = '%TEMP%2724921.exe' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-02-26T17:04:47.521582Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

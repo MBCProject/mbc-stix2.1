@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1587bea9-be26-4398-a22f-3b66002dd667",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ce1bb883-6615-496c-a312-682c0e92dd55",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:56.073496Z",
+            "modified": "2024-02-26T17:04:56.073496Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Modify Existing Service (F0011) -- The malware copies itself into the $systemroot%\\system32 directory and registers as a service. [1]",
+            "source_ref": "malware--4b6c675d-f5da-4e5d-b981-6062dee587b5",
+            "target_ref": "malware-behavior--ff241ea5-a39a-4936-aa59-7bd5f76aefff",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

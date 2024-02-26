@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c502e2c5-df64-4fb9-ba8a-c35811846b0a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ddcf1005-6c19-450a-b16f-0629f734d663",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:50.036654Z",
+            "modified": "2024-02-26T17:04:50.036654Z",
+            "relationship_type": "uses",
+            "description": "Impact::Disk Wipe (F0014) -- An overwrite component will overwrite the MBR so that the compromised computer can no longer start. [4]",
+            "source_ref": "malware--d5ea76ff-a298-4ffa-a30e-458e64fcf78d",
+            "target_ref": "malware-behavior--ec69af45-c889-47b2-ba74-a312ea1b6490",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

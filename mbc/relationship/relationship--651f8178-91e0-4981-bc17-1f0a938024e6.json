@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--da3bfc6c-c66b-48cc-b551-8b2c9e19dadb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--651f8178-91e0-4981-bc17-1f0a938024e6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:52.83944Z",
+            "modified": "2024-02-26T17:04:52.83944Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Capture Evasion::Memory-Only Payload (B0036.001) -- Malware downloads multiple payloads (as files and DLLs) that are stored in a memory buffer.  [1] [2]",
+            "source_ref": "malware--dbb71325-44e2-4010-9bcd-2b438dcaca81",
+            "target_ref": "malware-method--4a809679-e3c1-4f55-a685-c0f28dce2ea2",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

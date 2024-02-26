@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c9d163c5-c5e5-4145-8a01-8577928a3c62",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1aff5648-228b-47f0-a90c-df819adc8a83",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:58.167011Z",
+            "modified": "2024-02-26T17:04:58.167011Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data (C0027) -- Redhip encrypts data using DPAPI. [2]",
+            "source_ref": "malware--1348c78d-ee60-49d1-83fa-716b33c40dd2",
+            "target_ref": "malware-behavior--502fb36d-0640-49cf-ad00-1be75525e837",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

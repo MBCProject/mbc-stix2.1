@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--58a7f274-9148-40d8-8ae3-4736063602ee",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0ad4890e-6145-44ea-9a3e-bd0341342dec",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:46.80737Z",
+            "modified": "2024-02-26T17:04:46.80737Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- The malware collects information about the computer, resources, services, installed programs, firmware, and operating system versions. [1]",
+            "source_ref": "malware--c1642f21-c65a-4994-ad72-8369b3595555",
+            "target_ref": "malware-behavior--df31bee8-c564-4047-a985-01e529ba3512",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

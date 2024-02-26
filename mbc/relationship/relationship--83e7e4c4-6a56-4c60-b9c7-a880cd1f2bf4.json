@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1a9b8462-6f56-4424-b34d-3184917eeef8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--83e7e4c4-6a56-4c60-b9c7-a880cd1f2bf4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:44.867831Z",
+            "modified": "2024-02-26T17:04:44.867831Z",
+            "relationship_type": "uses",
+            "description": "Process::Suspend Thread (C0055) -- DarkComet suspends threads. [4]",
+            "source_ref": "malware--19e217cb-fe63-419d-b3be-1658e63b2944",
+            "target_ref": "malware-behavior--125ccb89-cb06-423b-b198-d51191ca35d7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

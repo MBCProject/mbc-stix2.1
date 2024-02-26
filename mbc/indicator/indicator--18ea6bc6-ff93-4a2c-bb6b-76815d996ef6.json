@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--a2e8b2e9-d342-440a-9edc-0e53047ec1b5",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--18ea6bc6-ff93-4a2c-bb6b-76815d996ef6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:58.883617Z",
+            "modified": "2024-02-26T17:04:58.883617Z",
+            "name": "CozyCar hash",
+            "description": "This is an IoC for CozyCar",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '08b410d359ec2d6cab73bd6c0be138d9bdc475e3f63fec65794a74e5d5958b3b' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-02-26T17:04:58.883617Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

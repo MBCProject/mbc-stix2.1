@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b951d8d0-c704-4a1b-86bf-836cf5f3980b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9d0b8a6f-a6d9-44bb-a218-2fe337cf4529",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:46.330622Z",
+            "modified": "2024-02-26T17:04:46.330622Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Process Discovery (T1057) -- Rombertik gets process heap force flags. [2]",
+            "source_ref": "malware--dfc7ba31-0065-4e59-bffe-a02aa24fbf3e",
+            "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

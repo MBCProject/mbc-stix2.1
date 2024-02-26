@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d6213ec9-7e54-474b-ae13-8de676cfb66f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--316fa645-c50f-4f08-b50e-bb8e38ea7034",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:47.441008Z",
+            "modified": "2024-02-26T17:04:47.441008Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hidden Files and Directories::Location (F0005.002) -- Vobfus is located on external drives or network shares and attaches itself to any ZIP or RAR files, removable drives, and network shares. The malware hides all folders in the external drive and drops an executable with the same name and a disguished folder icon. [1]",
+            "source_ref": "malware--890b74f7-fac0-42b4-967b-6e93ef050b20",
+            "target_ref": "malware-method--2c4ccf72-199a-48c4-a3d4-231791d050b8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

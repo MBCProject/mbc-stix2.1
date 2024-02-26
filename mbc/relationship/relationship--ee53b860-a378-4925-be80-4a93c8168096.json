@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--829e4687-ae5f-4492-b8d3-94625a642bcb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ee53b860-a378-4925-be80-4a93c8168096",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:02.404751Z",
+            "modified": "2024-02-26T17:05:02.404751Z",
+            "relationship_type": "uses",
+            "description": "Data::Checksum::CRC32 (C0032.001) -- Locky Bart hashes data with CRC32. [2]",
+            "source_ref": "malware--f52b7d62-b752-4148-83e1-49dc1d7e2c9e",
+            "target_ref": "malware-method--86562e0c-8ff2-4943-bef1-61545145c0bd",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

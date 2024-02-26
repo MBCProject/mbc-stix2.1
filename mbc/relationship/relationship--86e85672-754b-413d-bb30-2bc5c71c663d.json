@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6a37b593-3607-44a8-a847-4b663e6609a1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--86e85672-754b-413d-bb30-2bc5c71c663d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:00.896556Z",
+            "modified": "2024-02-26T17:05:00.896556Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Mutex (C0042) -- Hupigon creates mutexes. [3]",
+            "source_ref": "malware--6888b342-ca7f-43f2-8877-c61d96dfeaf8",
+            "target_ref": "malware-behavior--6528abc0-7b1f-4c39-8306-00fdd072f3d8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--45406d59-0637-4607-b41f-fece3b958b1d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dcd758f3-9da6-4f50-bd72-23a12a4c418e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:58.174477Z",
+            "modified": "2024-02-26T17:04:58.174477Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Delete Registry Key (C0036.002) -- Redhip deletes registry keys. [2]",
+            "source_ref": "malware--1348c78d-ee60-49d1-83fa-716b33c40dd2",
+            "target_ref": "malware-method--8d8f1325-fca4-447b-b616-3f9e3b5ba429",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

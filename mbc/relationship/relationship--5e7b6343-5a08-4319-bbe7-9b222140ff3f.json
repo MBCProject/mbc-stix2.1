@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d0da816b-3922-4c29-8cfe-7fb3e5684672",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5e7b6343-5a08-4319-bbe7-9b222140ff3f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:51.730498Z",
+            "modified": "2024-02-26T17:04:51.730498Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hide Artifacts (E1564) -- The malware hides icons from iOS's SpringBoard and use the same name and logos of system apps to trick iOS power users. [1]",
+            "source_ref": "malware--5da8b25c-6cd0-42fd-8cc6-90b190b8c5b7",
+            "target_ref": "malware-behavior--f6853650-6292-4571-95e9-2ac206bac278",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

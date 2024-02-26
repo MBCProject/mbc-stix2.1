@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0bd637aa-0b41-470b-9ba8-6b68b14bcdf2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6de90033-0e3f-48f5-b8f1-30492f7f9585",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:46.587942Z",
+            "modified": "2024-02-26T17:04:46.587942Z",
+            "relationship_type": "uses",
+            "description": "Command And Control::C2 Communication::Receive Data (B0030.002) -- Rombertik receives data. [2]",
+            "source_ref": "malware--dfc7ba31-0065-4e59-bffe-a02aa24fbf3e",
+            "target_ref": "malware-method--a9bd6792-a908-4e46-bdb9-878ca5517751",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

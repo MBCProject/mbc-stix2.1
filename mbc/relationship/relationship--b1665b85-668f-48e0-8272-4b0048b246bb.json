@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fd6120ab-117c-45fa-8517-479475fd7884",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b1665b85-668f-48e0-8272-4b0048b246bb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:03.090477Z",
+            "modified": "2024-02-26T17:05:03.090477Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Emulator Evasion::Extra Loops/Time Locks (B0005.004) -- The malware evades emulator-based analysis by using an infinite loop to check all open windows and compare each window's title bar to a list of strings. [1]",
+            "source_ref": "malware--ab1d1ab8-cc17-4134-a01b-dbe692ac92fe",
+            "target_ref": "malware-method--6a975175-075d-416f-b9a4-642ac7751026",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

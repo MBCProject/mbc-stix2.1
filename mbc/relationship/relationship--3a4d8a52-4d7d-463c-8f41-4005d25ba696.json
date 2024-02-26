@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d0139520-d602-41f4-b5a7-84226057e048",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3a4d8a52-4d7d-463c-8f41-4005d25ba696",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:45.545997Z",
+            "modified": "2024-02-26T17:04:45.545997Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Boot or Logon Autostart Execution (T1547) -- The malware starts everytime a user logs in. [1]",
+            "source_ref": "malware--dfc7ba31-0065-4e59-bffe-a02aa24fbf3e",
+            "target_ref": "attack-pattern--1ecb2399-e8ba-4f6b-8ba7-5c27d49405cf",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

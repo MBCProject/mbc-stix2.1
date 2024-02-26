@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--60615dee-c78a-442d-b65e-7deeced34a3b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--61943825-cbcc-4a12-96bd-62e8f6c71c72",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:45.291175Z",
+            "modified": "2024-02-26T17:04:45.291175Z",
+            "relationship_type": "uses",
+            "description": "File System::Read File (C0051) -- DNSChanger reads files on Windows. [2]",
+            "source_ref": "malware--62bd4f25-84f0-4013-bedd-5c9fe5469f74",
+            "target_ref": "malware-behavior--02cd71c1-6679-4e2c-92e5-b28ed1c183b4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

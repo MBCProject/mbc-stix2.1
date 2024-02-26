@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c30cc31a-7d25-4020-a039-69f91b34e34c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--25550237-3a17-4cef-9f71-0c8cbc15f97f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:58.169375Z",
+            "modified": "2024-02-26T17:04:58.169375Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) -- Redhip contains an embedded PE file. [2]",
+            "source_ref": "malware--1348c78d-ee60-49d1-83fa-716b33c40dd2",
+            "target_ref": "malware-behavior--f09c4a1c-98c9-4b39-bb5b-6cc36af8c145",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

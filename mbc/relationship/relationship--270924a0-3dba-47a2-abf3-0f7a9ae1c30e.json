@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--23a3598b-907e-41be-89c7-64a14ede6dae",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--270924a0-3dba-47a2-abf3-0f7a9ae1c30e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:55.291446Z",
+            "modified": "2024-02-26T17:04:55.291446Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Process (C0017) -- GoBotKR creates processes on Windows. [2]",
+            "source_ref": "malware--36dc5f9c-ae13-4d0c-b99a-4ab888bf6282",
+            "target_ref": "malware-behavior--0012dcbd-40bf-4bbc-a8ad-6efb930fced6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

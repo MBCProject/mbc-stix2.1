@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ef3ae4ba-f4eb-498c-bb5d-77ae102b96f6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--17860071-3557-4389-b36b-8157f6c414b0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:52.832269Z",
+            "modified": "2024-02-26T17:04:52.832269Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hidden Files and Directories::Extension (F0005.001) -- The malware appends the filename and the extension .ocx to the ProgramData folder path. [1]",
+            "source_ref": "malware--dbb71325-44e2-4010-9bcd-2b438dcaca81",
+            "target_ref": "malware-method--bee3256b-e5e5-4178-a5b3-ca1102973a32",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

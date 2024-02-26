@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3ed86a51-b283-40b6-a6b8-3ce35a39fab8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--56d5a826-cea9-4e20-b880-4e4a9207d362",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:52.832872Z",
+            "modified": "2024-02-26T17:04:52.832872Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Ingress Tool Transfer (E1105) -- The malware downloads DLLs from a hardcoded URL/remote server. [1]",
+            "source_ref": "malware--dbb71325-44e2-4010-9bcd-2b438dcaca81",
+            "target_ref": "malware-behavior--65e411c7-0ed1-46d2-a764-a8b19c33aacb",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

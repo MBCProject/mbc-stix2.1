@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2edc27a1-2362-4b70-b80d-a34213fe9c56",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--23032f60-d350-4332-a4fd-07fea402dfc4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:01.752067Z",
+            "modified": "2024-02-26T17:05:01.752067Z",
+            "relationship_type": "uses",
+            "description": "Impact::Data Destruction (E1485) -- MazarBot can erase phone data. [3]",
+            "source_ref": "malware--4363d57b-2eb0-4bf0-80cf-7a79ff68101f",
+            "target_ref": "malware-behavior--10050ba0-75fe-4f7d-8ee2-cefe7ccad012",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

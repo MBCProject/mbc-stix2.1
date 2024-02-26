@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fd016666-74a4-4cea-ba23-096b5ecc310e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a3144cb6-6a9b-40d6-9979-580b62c41239",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:50.954892Z",
+            "modified": "2024-02-26T17:04:50.954892Z",
+            "relationship_type": "uses",
+            "description": "Collection::Screen Capture (E1113) -- CHOPSTICK takes snapshots of deskop and window contents. [1]",
+            "source_ref": "malware--33f5cc63-b91e-49c8-b505-6a57b821a025",
+            "target_ref": "malware-behavior--ed2e1bb7-1941-4d8e-a45d-da6e852fa7b0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

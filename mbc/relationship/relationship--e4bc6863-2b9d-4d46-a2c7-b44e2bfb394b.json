@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c39bb932-ecef-4c4b-bfa8-9fb66ca19a09",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e4bc6863-2b9d-4d46-a2c7-b44e2bfb394b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:44.09027Z",
+            "modified": "2024-02-26T17:04:44.09027Z",
+            "relationship_type": "related-to",
+            "description": "Additional ATT&CK technique mappings and details",
+            "source_ref": "malware--77a505e2-567d-4f33-a786-c82f30eae060",
+            "target_ref": "malware--4d56e6e9-1a6d-46e3-896c-dfdf3cc96e62",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

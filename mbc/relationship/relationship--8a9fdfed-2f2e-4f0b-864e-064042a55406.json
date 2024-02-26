@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0a7b2ec3-93a9-4502-a362-19ded0c4c8cc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8a9fdfed-2f2e-4f0b-864e-064042a55406",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:48.424249Z",
+            "modified": "2024-02-26T17:04:48.424249Z",
+            "relationship_type": "uses",
+            "description": "Process::Terminate Process (C0018) -- Kovter terminates processes. [3]",
+            "source_ref": "malware--1cc62cf7-35b8-4d17-862c-ea8ccd4daecc",
+            "target_ref": "malware-behavior--ac6a3ca1-f3c9-44e4-826d-099d05af4948",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

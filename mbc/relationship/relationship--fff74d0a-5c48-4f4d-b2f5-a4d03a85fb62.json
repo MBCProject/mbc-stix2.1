@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--53bf47ae-ec51-48f9-8b5e-2008835a6e4a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fff74d0a-5c48-4f4d-b2f5-a4d03a85fb62",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:46.80978Z",
+            "modified": "2024-02-26T17:04:46.80978Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data::AES (C0027.001) -- The malware uses an AES CBC (256 bits) encryption algorithm for its loader and configuration files. [1]",
+            "source_ref": "malware--c1642f21-c65a-4994-ad72-8369b3595555",
+            "target_ref": "malware-method--d559bb5f-06c2-401c-8de0-ffeea8b04810",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

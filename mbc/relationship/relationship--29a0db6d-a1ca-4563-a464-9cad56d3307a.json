@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c5fb815c-fd95-4419-b777-e1c8a4fed381",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--29a0db6d-a1ca-4563-a464-9cad56d3307a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:02.400111Z",
+            "modified": "2024-02-26T17:05:02.400111Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encoding-Standard Algorithm (E1027.m02) -- Locky Bart encodes data using XOR. [2]",
+            "source_ref": "malware--f52b7d62-b752-4148-83e1-49dc1d7e2c9e",
+            "target_ref": "malware-method--d6d89716-1aae-4f5b-a275-3beb8e6f0d23",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

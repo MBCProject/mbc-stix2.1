@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a4988495-1d81-4f49-83b9-a63d00c1f491",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7cfc2e57-ccc0-4a9a-9815-24b27d95a33e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:47.243896Z",
+            "modified": "2024-02-26T17:04:47.243896Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encryption-Standard Algorithm (E1027.m05) -- BlackEnergy encrypts data using RC4 via WinAPI. [4]",
+            "source_ref": "malware--f2670efb-d95b-45b3-b528-541b67ca25bf",
+            "target_ref": "malware-method--34bd6cfd-9b93-4b5f-ad38-91ee3e6bb38e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--54f758c2-3a2f-4998-81ae-da0ce1d8be6a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4d7e3e71-e3f3-4913-9fa9-4c8e1423d2ae",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:57.480648Z",
+            "modified": "2024-02-26T17:04:57.480648Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- Emotet parses PE headers. [6]",
+            "source_ref": "malware--707ae970-dd6f-4901-9386-ef7c06375c9d",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

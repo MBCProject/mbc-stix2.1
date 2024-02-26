@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b69e0b20-4da5-4876-90e6-c06e97d637b5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3c2513fd-aa50-4566-9095-ace050e99c6e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:46.596017Z",
+            "modified": "2024-02-26T17:04:46.596017Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Mutex (C0042) -- Rombertik creates a mutex. [2]",
+            "source_ref": "malware--dfc7ba31-0065-4e59-bffe-a02aa24fbf3e",
+            "target_ref": "malware-behavior--6528abc0-7b1f-4c39-8306-00fdd072f3d8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

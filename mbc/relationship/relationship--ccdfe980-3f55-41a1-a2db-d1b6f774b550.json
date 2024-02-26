@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d87a5805-02db-4a6e-b944-2d6d291127f7",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ccdfe980-3f55-41a1-a2db-d1b6f774b550",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:47.244496Z",
+            "modified": "2024-02-26T17:04:47.244496Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery (E1083) -- BlackEnergy gets the common file path. [4]",
+            "source_ref": "malware--f2670efb-d95b-45b3-b528-541b67ca25bf",
+            "target_ref": "malware-behavior--405bbc81-e02c-42cd-9d4c-7d654fe9385c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

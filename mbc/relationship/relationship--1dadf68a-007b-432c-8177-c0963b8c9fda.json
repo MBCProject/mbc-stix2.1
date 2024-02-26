@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--06cfe2ab-8a6c-46f7-b0c8-84d8aac83558",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1dadf68a-007b-432c-8177-c0963b8c9fda",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:46.813331Z",
+            "modified": "2024-02-26T17:04:46.813331Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Process (C0017) -- TrickBot creates a process on Windows. [7]",
+            "source_ref": "malware--c1642f21-c65a-4994-ad72-8369b3595555",
+            "target_ref": "malware-behavior--0012dcbd-40bf-4bbc-a8ad-6efb930fced6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

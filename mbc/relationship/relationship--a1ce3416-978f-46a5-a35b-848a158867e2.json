@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7946d3d0-292c-4e25-8b5d-5fb9603e8d34",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a1ce3416-978f-46a5-a35b-848a158867e2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:47.252533Z",
+            "modified": "2024-02-26T17:04:47.252533Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Code Discovery::Enumerate PE Sections (B0046.001) -- BlackEnergy enumerates PE sections. [4]",
+            "source_ref": "malware--f2670efb-d95b-45b3-b528-541b67ca25bf",
+            "target_ref": "malware-method--c9334bfb-805d-42c9-b850-dc0b462eaffe",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

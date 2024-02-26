@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c3ae580c-ff6e-44ac-9bc0-b4882bed7ac0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--25ac65c0-13ce-42ae-ae90-a4286c866fd2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:57.502664Z",
+            "modified": "2024-02-26T17:04:57.502664Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data::RC4 (C0027.009) -- Emotet encrypts data using RC4 PRGA. [6]",
+            "source_ref": "malware--707ae970-dd6f-4901-9386-ef7c06375c9d",
+            "target_ref": "malware-method--5d072c86-dbe9-4803-94f7-c3618b725b0b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

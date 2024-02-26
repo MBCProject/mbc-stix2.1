@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bcf177b7-3127-478b-ba6f-b3a45a17824b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3d13724e-770c-46eb-853f-beb814d8e5ff",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:51.546313Z",
+            "modified": "2024-02-26T17:04:51.546313Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Application Layer Protocol::Web Protocols (T1071.001) -- The malware uses http to communicate with C2. [1]",
+            "source_ref": "malware--6b56dc77-ea1d-4b22-9d68-1b1022e525cf",
+            "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

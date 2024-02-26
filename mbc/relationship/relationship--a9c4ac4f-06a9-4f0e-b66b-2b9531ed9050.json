@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b7306fcd-0bf6-4e44-a33a-bb882226a8e0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a9c4ac4f-06a9-4f0e-b66b-2b9531ed9050",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:53.202644Z",
+            "modified": "2024-02-26T17:04:53.202644Z",
+            "relationship_type": "uses",
+            "description": "Impact::Inhibit System Recovery (T1490) -- The malware deletes volume shadow copies using vssadmin.exe. [1]",
+            "source_ref": "malware--9fc6187a-21a5-4988-a986-b58f09325d70",
+            "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

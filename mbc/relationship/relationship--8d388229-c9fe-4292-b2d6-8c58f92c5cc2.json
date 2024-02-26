@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--94dfa9b4-615f-4170-bff3-83b52f0f9f2b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8d388229-c9fe-4292-b2d6-8c58f92c5cc2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:47.238327Z",
+            "modified": "2024-02-26T17:04:47.238327Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Install Insecure or Malicious Configuration (B0047) -- Malware configures the system to the TESTSIGNING boot configuration option to load its unsigned driver component. [1]",
+            "source_ref": "malware--f2670efb-d95b-45b3-b528-541b67ca25bf",
+            "target_ref": "malware-behavior--ed186e54-1335-4eea-933f-837d4326636d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

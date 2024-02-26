@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fcc5168b-1062-41d3-b213-46dadbb13796",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0120bcb8-d6fe-4621-a4c1-fb616d4e5f0a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:01.625102Z",
+            "modified": "2024-02-26T17:05:01.625102Z",
+            "relationship_type": "uses",
+            "description": "Execution::Shared Modules (T1129) -- Kraken accesses PEB ldr_data. [2]",
+            "source_ref": "malware--3f99bb40-ed46-4680-9bb4-70861fdbc874",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

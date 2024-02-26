@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f118f306-2992-4868-bee1-bbf538de4d84",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8c5ec4f2-bd3c-4592-9520-129178e7b612",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:55.280837Z",
+            "modified": "2024-02-26T17:04:55.280837Z",
+            "relationship_type": "uses",
+            "description": "Execution::User Execution (E1204) -- GoBotKR makes their malware look like the torrent content that the user intended to download, in order to entice a user to click on it. [1]",
+            "source_ref": "malware--36dc5f9c-ae13-4d0c-b99a-4ab888bf6282",
+            "target_ref": "malware-behavior--d4da74e1-07b5-4ee3-adab-149525f69f00",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

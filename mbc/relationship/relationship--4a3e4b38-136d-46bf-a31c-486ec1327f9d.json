@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7fa02d64-ca17-42de-9f56-322b16cff1b4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4a3e4b38-136d-46bf-a31c-486ec1327f9d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:59.913423Z",
+            "modified": "2024-02-26T17:04:59.913423Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hide Artifacts::Hidden Window (T1564.003) -- Hupigon hides a graphical window. [3]",
+            "source_ref": "malware--6888b342-ca7f-43f2-8877-c61d96dfeaf8",
+            "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9ed14b5f-f525-40e2-a9ee-23a53fb829ff",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--af1a6857-eefc-458b-8414-17e7f1cf3061",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:58.627416Z",
+            "modified": "2024-02-26T17:04:58.627416Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Rootkit::Kernel Mode Rootkit (E1014.m16) -- Stuxnet registers custom resource drives signed with a legitimate Realtek digital certificate. [1]",
+            "source_ref": "malware--94951f34-8d70-4ab0-815d-67daccba4c2f",
+            "target_ref": "malware-method--2e28d2c8-8d83-488e-8f86-43dfabab817d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--69d75f88-2280-48c1-9a62-37bda9117664",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--29d82ebc-3e31-4718-8878-2b6aa94bc876",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:50.582304Z",
+            "modified": "2024-02-26T17:04:50.582304Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) -- The malware installs an open-source program called mitmproxy. [1]",
+            "source_ref": "malware--a70d9c43-a408-4530-874c-7931102b1996",
+            "target_ref": "malware-behavior--f09c4a1c-98c9-4b39-bb5b-6cc36af8c145",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

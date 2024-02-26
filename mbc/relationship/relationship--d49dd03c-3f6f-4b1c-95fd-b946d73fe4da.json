@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e8682bfc-6ea4-4685-afa3-51a41695c5ab",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d49dd03c-3f6f-4b1c-95fd-b946d73fe4da",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:00.873279Z",
+            "modified": "2024-02-26T17:05:00.873279Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery (E1083) -- Hupigon enumerates files recursively. [3]",
+            "source_ref": "malware--6888b342-ca7f-43f2-8877-c61d96dfeaf8",
+            "target_ref": "malware-behavior--405bbc81-e02c-42cd-9d4c-7d654fe9385c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

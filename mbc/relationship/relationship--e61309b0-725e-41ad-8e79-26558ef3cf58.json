@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5f1ebaf0-d509-4597-9712-975948b4b816",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e61309b0-725e-41ad-8e79-26558ef3cf58",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:59.544519Z",
+            "modified": "2024-02-26T17:04:59.544519Z",
+            "relationship_type": "uses",
+            "description": "Communication::Socket Communication::Send TCP Data (C0001.014) -- To initiate communication with the C2 server, a uniquely crafted TCP SYN packet is sent to port 80 of the \"implanted\" router. [1]",
+            "source_ref": "malware--af1b0be0-73fd-4d87-87e2-00c332eb8b26",
+            "target_ref": "malware-method--b741b13d-bc33-40ed-bb43-ce47e0ad6a4b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

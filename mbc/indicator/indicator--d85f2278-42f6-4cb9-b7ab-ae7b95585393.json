@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--f3785e6b-6077-4c7b-b112-a14978bac98f",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--d85f2278-42f6-4cb9-b7ab-ae7b95585393",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:44.127463Z",
+            "modified": "2024-02-26T17:04:44.127463Z",
+            "name": "SamSam BTC Wallet",
+            "description": "This is an IoC for SamSam",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ btc-wallet:value = '1MddNhqRCJe825ywjdbjbAQpstWBpKHmFR' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-02-26T17:04:44.127463Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

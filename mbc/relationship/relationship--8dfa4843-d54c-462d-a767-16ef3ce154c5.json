@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b281484b-4657-444c-a7d9-d8a30cf7db46",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8dfa4843-d54c-462d-a767-16ef3ce154c5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:44.859981Z",
+            "modified": "2024-02-26T17:04:44.859981Z",
+            "relationship_type": "uses",
+            "description": "File System::Get File Attributes (C0049) -- DarkComet gets file attributes. [4]",
+            "source_ref": "malware--19e217cb-fe63-419d-b3be-1658e63b2944",
+            "target_ref": "malware-behavior--7b94b533-5641-4306-9999-757af369f2a7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

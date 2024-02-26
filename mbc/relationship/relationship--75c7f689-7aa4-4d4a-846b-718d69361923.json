@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--24b56723-c5f0-4984-b880-99a1d218cd1c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--75c7f689-7aa4-4d4a-846b-718d69361923",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:02.407231Z",
+            "modified": "2024-02-26T17:05:02.407231Z",
+            "relationship_type": "uses",
+            "description": "File System::Write File (C0052) -- Locky Bart writes files on Windows. [2]",
+            "source_ref": "malware--f52b7d62-b752-4148-83e1-49dc1d7e2c9e",
+            "target_ref": "malware-behavior--d5df4bd1-a103-4053-a232-c7c5f7f61d21",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ad9987db-75a2-401e-9fc9-d6a3cc42b6ca",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f10349de-f386-4edf-a24a-93104b349ea9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:57.497414Z",
+            "modified": "2024-02-26T17:04:57.497414Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Virtual Machine Detection::Guest Process Testing (B0009.010) -- Emotet checks for various processes that are associated with various virtual machines by comparing hash values of the process names with the hash values of the list of running process names. [4]",
+            "source_ref": "malware--707ae970-dd6f-4901-9386-ef7c06375c9d",
+            "target_ref": "malware-method--c124a7ba-3206-4e8e-9c94-fdbc362b0d58",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

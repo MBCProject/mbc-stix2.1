@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2840ba00-9aef-4961-9b91-89de4f74ca8c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--16cd6d6b-edb5-4f94-98f8-a4ddc073589b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:00.89534Z",
+            "modified": "2024-02-26T17:05:00.89534Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Query Registry Value (C0036.006) -- Hupigon queries or enumerates registry values. [3]",
+            "source_ref": "malware--6888b342-ca7f-43f2-8877-c61d96dfeaf8",
+            "target_ref": "malware-method--f48578cb-9b10-4874-95e1-c2306d56a2f3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

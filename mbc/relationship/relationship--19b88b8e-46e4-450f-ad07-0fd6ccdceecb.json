@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cec97892-3f52-4238-ac67-9783abd9752e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--19b88b8e-46e4-450f-ad07-0fd6ccdceecb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:44.017339Z",
+            "modified": "2024-02-26T17:04:44.017339Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encryption of Code (E1027.m07) -- SamSam obfuscates functions, class names and strings, including the list of targeted file extensions, the help file contents and environment variables using DES encryption with a fixed hard-coded key and the IV. [2]",
+            "source_ref": "malware--77a505e2-567d-4f33-a786-c82f30eae060",
+            "target_ref": "malware-method--21f73f4f-e8ea-4ae2-9904-1904aeaf832e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

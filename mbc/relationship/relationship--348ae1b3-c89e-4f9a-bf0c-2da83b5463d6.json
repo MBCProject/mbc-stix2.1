@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--188d98f8-6bf3-43be-b036-2dd2d2784716",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--348ae1b3-c89e-4f9a-bf0c-2da83b5463d6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:52.837671Z",
+            "modified": "2024-02-26T17:04:52.837671Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Executable Code Obfuscation::Stack Strings (B0032.017) -- The malware encodes data in a stack string and copies that data into a global character buffer as a form of string obfuscation. Different techniques are used to encrypt and obfuscate strings. Strings are dynamically decrypted when the malware needs to use them. [1] [2]",
+            "source_ref": "malware--dbb71325-44e2-4010-9bcd-2b438dcaca81",
+            "target_ref": "malware-method--bbf76d75-1ac8-46ee-a8e1-34e03df78ea2",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

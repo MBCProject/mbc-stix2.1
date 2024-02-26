@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--09e431e6-a9be-46d7-a710-811775b7fdba",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e0894998-1dab-491e-a6a3-85da09205f93",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:58.170614Z",
+            "modified": "2024-02-26T17:04:58.170614Z",
+            "relationship_type": "uses",
+            "description": "File System::Create Directory (C0046) -- Redhip creates directories. [2]",
+            "source_ref": "malware--1348c78d-ee60-49d1-83fa-716b33c40dd2",
+            "target_ref": "malware-behavior--303eb0a3-feb4-4eee-9288-d6afd8764e0b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

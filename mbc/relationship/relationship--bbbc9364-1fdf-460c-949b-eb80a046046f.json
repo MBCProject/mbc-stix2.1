@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a1908d07-8b63-488b-be9d-af9e4c56d1cc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bbbc9364-1fdf-460c-949b-eb80a046046f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:47.927349Z",
+            "modified": "2024-02-26T17:04:47.927349Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::System Binary Proxy Execution::Mshta (T1218.005) -- The malware uses mshta.exe to run Javascript. [1]",
+            "source_ref": "malware--1cc62cf7-35b8-4d17-862c-ea8ccd4daecc",
+            "target_ref": "attack-pattern--840a987a-99bd-4a80-a5c9-0cb2baa6cade",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

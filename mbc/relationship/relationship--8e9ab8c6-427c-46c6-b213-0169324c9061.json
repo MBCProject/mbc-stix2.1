@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6210776d-51fe-44e7-91f3-0c0f962a6e51",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8e9ab8c6-427c-46c6-b213-0169324c9061",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:50.956076Z",
+            "modified": "2024-02-26T17:04:50.956076Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data::RC4 (C0027.009) -- CHOPSTICK encrypts the configuration block using RC4 encryption. [1]",
+            "source_ref": "malware--33f5cc63-b91e-49c8-b505-6a57b821a025",
+            "target_ref": "malware-method--5d072c86-dbe9-4803-94f7-c3618b725b0b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

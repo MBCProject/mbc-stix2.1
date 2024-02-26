@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--39650698-206c-41a5-89ae-9a48826ecc8b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1bd2ce3f-b3bc-445b-8308-b00ebc33a334",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:48.408138Z",
+            "modified": "2024-02-26T17:04:48.408138Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- Kovter gets disk information. [3]",
+            "source_ref": "malware--1cc62cf7-35b8-4d17-862c-ea8ccd4daecc",
+            "target_ref": "malware-behavior--df31bee8-c564-4047-a985-01e529ba3512",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

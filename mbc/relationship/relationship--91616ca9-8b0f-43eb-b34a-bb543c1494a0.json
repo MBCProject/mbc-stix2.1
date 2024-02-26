@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0f0589e3-a26b-4d2b-8b8b-513c9495832f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--91616ca9-8b0f-43eb-b34a-bb543c1494a0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:44.849078Z",
+            "modified": "2024-02-26T17:04:44.849078Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Ingress Tool Transfer (E1105) -- DarkComet can download files from remote repository upon instruction. [2]",
+            "source_ref": "malware--19e217cb-fe63-419d-b3be-1658e63b2944",
+            "target_ref": "malware-behavior--65e411c7-0ed1-46d2-a764-a8b19c33aacb",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--81e4049d-fefa-4ebb-9acb-308b1555783e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--077e74b4-722f-42ed-b0c6-82155c0bb79a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:45.464108Z",
+            "modified": "2024-02-26T17:04:45.464108Z",
+            "relationship_type": "uses",
+            "description": "Initial Access::Phishing::Spearphishing Attachment (T1566.001) -- The malware is sent out to victims via an attachment. [1]",
+            "source_ref": "malware--dfc7ba31-0065-4e59-bffe-a02aa24fbf3e",
+            "target_ref": "attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

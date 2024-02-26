@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4a89e3d0-a4b2-447a-a1aa-f86783ad5f74",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2337492f-27de-4308-add9-e53cde6d4573",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:49.935195Z",
+            "modified": "2024-02-26T17:04:49.935195Z",
+            "relationship_type": "uses",
+            "description": "Execution::System Services::Service Execution (T1569.002) -- Shamoon creates services. [5]",
+            "source_ref": "malware--d5ea76ff-a298-4ffa-a30e-458e64fcf78d",
+            "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

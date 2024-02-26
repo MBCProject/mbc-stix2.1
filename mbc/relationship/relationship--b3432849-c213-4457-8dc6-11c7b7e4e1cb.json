@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--93416ebc-16d7-4972-b840-4c0fdec39122",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b3432849-c213-4457-8dc6-11c7b7e4e1cb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:44.855207Z",
+            "modified": "2024-02-26T17:04:44.855207Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Virtual Machine Detection::Human User Check (B0009.012) -- DarkComet checks for an unmoving mouse cursor. [4]",
+            "source_ref": "malware--19e217cb-fe63-419d-b3be-1658e63b2944",
+            "target_ref": "malware-method--076edfe4-ec0f-463a-a2a0-1054c434fc77",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

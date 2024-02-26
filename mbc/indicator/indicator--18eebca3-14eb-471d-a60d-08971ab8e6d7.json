@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--45487179-2bc2-4802-85ac-13f1f4f71fc1",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--18eebca3-14eb-471d-a60d-08971ab8e6d7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:57.328156Z",
+            "modified": "2024-02-26T17:04:57.328156Z",
+            "name": "UP007 hash",
+            "description": "This is an IoC for UP007",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = 'ddc05b9f39f579f64742980980ca9820b83a243889bbc5baa37f5c2c1c4beb30' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-02-26T17:04:57.328156Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

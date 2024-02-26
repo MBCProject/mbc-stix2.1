@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ed87787f-2248-4512-aae3-e61da9a40a1e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7b5d9938-bca1-42d8-af16-89c6f37f5f63",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:01.260413Z",
+            "modified": "2024-02-26T17:05:01.260413Z",
+            "relationship_type": "uses",
+            "description": "Collection::Input Capture (E1056) -- Clipminer monitors keyboard and mouse activity to determine if the machine is in use. [1]",
+            "source_ref": "malware--5b14d6b6-803b-454c-908f-a560284eb80d",
+            "target_ref": "malware-behavior--3c5f53d2-3522-476c-b04b-479bce1a229a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

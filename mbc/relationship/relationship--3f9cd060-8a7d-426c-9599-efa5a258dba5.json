@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--526669ca-c302-4c35-8c2d-222e016b04ce",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3f9cd060-8a7d-426c-9599-efa5a258dba5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:03.091198Z",
+            "modified": "2024-02-26T17:05:03.091198Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Virtual Machine Detection::Check Windows - Title Bars (B0009.022) -- WebCobra injects malicious code in to svchost.exe and uses an infinite loop to check all open windows and to compare each window\u2019s title bar text with a set of strings to determine whether it is running in a VM. [1]",
+            "source_ref": "malware--ab1d1ab8-cc17-4134-a01b-dbe692ac92fe",
+            "target_ref": "malware-method--2a6bcc90-1918-402a-bf88-20debeb7ef02",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

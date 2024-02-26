@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1a3facad-7284-4df7-a680-ee7b262e090d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d8e04efb-bb3a-4d94-911f-7bf9e727574a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:56.320472Z",
+            "modified": "2024-02-26T17:04:56.320472Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Deobfuscate/Decode Files or Information (T1140) -- The dropper writes files in encoded form and decodes files. [1]",
+            "source_ref": "malware--52189989-20f1-4556-ab23-c9e4b61fc976",
+            "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

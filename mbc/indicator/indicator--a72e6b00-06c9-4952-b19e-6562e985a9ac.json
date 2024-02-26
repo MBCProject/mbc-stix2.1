@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--f9d239f1-73ed-445d-8c02-858aeddf476c",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a72e6b00-06c9-4952-b19e-6562e985a9ac",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:57.339734Z",
+            "modified": "2024-02-26T17:04:57.339734Z",
+            "name": "UP007 IP Address",
+            "description": "This is an IoC for UP007",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ ipv4-addr:value = '59.188.12[.]123' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-02-26T17:04:57.339734Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

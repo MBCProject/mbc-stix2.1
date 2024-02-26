@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2f6aa87c-a04a-4cc0-9b27-f94aa1052683",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--86cc2a7c-d25a-42f1-8823-48510d7272f1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:59.458478Z",
+            "modified": "2024-02-26T17:04:59.458478Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Process (C0017) -- Gamut creates processes on Windows. [3]",
+            "source_ref": "malware--f655c91b-97fe-4be9-89e1-6c4c1c5073e6",
+            "target_ref": "malware-behavior--0012dcbd-40bf-4bbc-a8ad-6efb930fced6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

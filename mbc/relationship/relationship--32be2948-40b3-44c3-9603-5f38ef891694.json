@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4edde921-96c5-4e17-a4d2-5b96b7e46242",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--32be2948-40b3-44c3-9603-5f38ef891694",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:44.861767Z",
+            "modified": "2024-02-26T17:04:44.861767Z",
+            "relationship_type": "uses",
+            "description": "Memory::Allocate Memory (C0007) -- DarkComet allocates RWX memory. [4]",
+            "source_ref": "malware--19e217cb-fe63-419d-b3be-1658e63b2944",
+            "target_ref": "malware-behavior--300df11e-6ede-4935-9864-3ad6959e1f45",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

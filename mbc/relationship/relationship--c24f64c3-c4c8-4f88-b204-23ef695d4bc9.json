@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--da888ba0-4c81-4542-827c-f53f62b4aa29",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c24f64c3-c4c8-4f88-b204-23ef695d4bc9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:46.577518Z",
+            "modified": "2024-02-26T17:04:46.577518Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- The malware will proceed to install itself in order to ensure persistence across system reboots before continuing on to execute the payload. To install itself, Rombertik first creates a VBS script named \u201cfgf.vbs\u201d, which is used to kick off Rombertik every time the user logs in, and places the script into the user\u2019s Startup folder. [1]",
+            "source_ref": "malware--dfc7ba31-0065-4e59-bffe-a02aa24fbf3e",
+            "target_ref": "malware-behavior--b293ec02-d6e2-4c3d-992c-986030462619",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

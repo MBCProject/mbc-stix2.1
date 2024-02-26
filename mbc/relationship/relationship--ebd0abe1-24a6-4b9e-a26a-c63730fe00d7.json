@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8a7007f5-b469-48e1-883b-6ab594037c58",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ebd0abe1-24a6-4b9e-a26a-c63730fe00d7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:53.45459Z",
+            "modified": "2024-02-26T17:04:53.45459Z",
+            "relationship_type": "uses",
+            "description": "Impact::Data Encrypted for Impact::Ransom Note (E1486.001) -- The malware launches Internet Explorer to show ransom notes. [1]",
+            "source_ref": "malware--9fc6187a-21a5-4988-a986-b58f09325d70",
+            "target_ref": "malware-method--f34b9c77-7794-4be0-a0fc-07d61f744036",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

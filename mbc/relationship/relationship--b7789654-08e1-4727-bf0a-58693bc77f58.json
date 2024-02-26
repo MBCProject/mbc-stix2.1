@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--79c89d6c-2d26-4dd5-9c1c-7d15b3468014",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b7789654-08e1-4727-bf0a-58693bc77f58",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:57.746377Z",
+            "modified": "2024-02-26T17:04:57.746377Z",
+            "relationship_type": "uses",
+            "description": "Credential Access::Credentials from Password Stores::Windows Credential Manager (T1555.004) -- Redhip acquires credentials from Windows Credential Manager. [2]",
+            "source_ref": "malware--1348c78d-ee60-49d1-83fa-716b33c40dd2",
+            "target_ref": "attack-pattern--d336b553-5da9-46ca-98a8-0b23f49fb447",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

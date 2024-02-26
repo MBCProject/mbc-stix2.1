@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1796238b-93f8-4a00-9d04-4fe3b3803991",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bf7b3d6c-b7f6-42f7-b5ff-0bb6a68991ab",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:58.171186Z",
+            "modified": "2024-02-26T17:04:58.171186Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete File (C0047) -- Redhip deletes files. [2]",
+            "source_ref": "malware--1348c78d-ee60-49d1-83fa-716b33c40dd2",
+            "target_ref": "malware-behavior--576093cf-4551-4d58-b75e-c833be55c16a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

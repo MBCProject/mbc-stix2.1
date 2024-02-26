@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fe9cbdd3-ab49-42e7-b510-cde70e33dea2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--92e88105-950e-4080-881c-090dc6b56467",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:50.052322Z",
+            "modified": "2024-02-26T17:04:50.052322Z",
+            "relationship_type": "uses",
+            "description": "Process::Terminate Process (C0018) -- Shamoon terminates processes. [5]",
+            "source_ref": "malware--d5ea76ff-a298-4ffa-a30e-458e64fcf78d",
+            "target_ref": "malware-behavior--ac6a3ca1-f3c9-44e4-826d-099d05af4948",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

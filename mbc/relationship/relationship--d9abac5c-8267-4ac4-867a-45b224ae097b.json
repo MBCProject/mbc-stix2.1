@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6b576461-104d-4e19-a89c-49fa6d9937ec",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d9abac5c-8267-4ac4-867a-45b224ae097b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:46.411544Z",
+            "modified": "2024-02-26T17:04:46.411544Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Location Discovery (T1614) -- Rombertik gets geographical locations. [2]",
+            "source_ref": "malware--dfc7ba31-0065-4e59-bffe-a02aa24fbf3e",
+            "target_ref": "attack-pattern--c877e33f-1df6-40d6-b1e7-ce70f16f4979",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

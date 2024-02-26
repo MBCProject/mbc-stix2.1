@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--6c539896-14e9-4d56-9c3b-2cc34ae7856b",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--fa208de1-a4a1-42fb-a550-386daa29ed4a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:47.524484Z",
+            "modified": "2024-02-26T17:04:47.524484Z",
+            "name": "Vobfus File Names",
+            "description": "This is an IoC for Vobfus",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:value = 'Porn.exe' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-02-26T17:04:47.524484Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

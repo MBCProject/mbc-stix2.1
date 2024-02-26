@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a74fe845-a3de-432d-bcb8-d3c8e8bebae3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--898ccbce-8833-4161-95bc-a8c23ef5ba02",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:03.085012Z",
+            "modified": "2024-02-26T17:05:03.085012Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- Malware learns about the system so it can drop compatible miner software. [1]",
+            "source_ref": "malware--ab1d1ab8-cc17-4134-a01b-dbe692ac92fe",
+            "target_ref": "malware-behavior--df31bee8-c564-4047-a985-01e529ba3512",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1a556d41-2aea-4f49-9014-be5b65857846",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c987fd5d-712b-49e5-a614-0638aca1d7c6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:50.03735Z",
+            "modified": "2024-02-26T17:04:50.03735Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- The wiper component of Shamoon creates a service to run the driver with the command: sc create hdv_725x type= kernel start= demand binpath= WINDOWS\\hdv_725x.sys 2>&1 >nul and sends an additional reboot command after completion. [2]",
+            "source_ref": "malware--d5ea76ff-a298-4ffa-a30e-458e64fcf78d",
+            "target_ref": "malware-behavior--882dcfcc-95d0-41d2-87c5-ed25a03fc53a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

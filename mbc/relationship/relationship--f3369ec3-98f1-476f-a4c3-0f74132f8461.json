@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ee3a1013-3904-4e96-8d12-6083eb34b7e7",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f3369ec3-98f1-476f-a4c3-0f74132f8461",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:57.252874Z",
+            "modified": "2024-02-26T17:04:57.252874Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Query Registry Value (C0036.006) -- UP007 queries or enumerates registry values. [2]",
+            "source_ref": "malware--52189989-20f1-4556-ab23-c9e4b61fc976",
+            "target_ref": "malware-method--f48578cb-9b10-4874-95e1-c2306d56a2f3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

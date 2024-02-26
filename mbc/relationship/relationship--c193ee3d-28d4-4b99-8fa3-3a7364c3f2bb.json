@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--31f04a8b-176c-4c6b-a35b-8953d24f99d5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c193ee3d-28d4-4b99-8fa3-3a7364c3f2bb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:00.895917Z",
+            "modified": "2024-02-26T17:05:00.895917Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Set Registry Key (C0036.001) -- Hupigon sets registry values. [3]",
+            "source_ref": "malware--6888b342-ca7f-43f2-8877-c61d96dfeaf8",
+            "target_ref": "malware-method--5e7b7209-e1d1-4058-9fdf-2a4ee4cd9611",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--89a2d357-64d1-48cb-8b53-d6ae8453464a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9b29efbb-745b-426f-bb99-0efea1f95173",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:00.893538Z",
+            "modified": "2024-02-26T17:05:00.893538Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Delete Registry Key (C0036.002) -- Hupigon deletes registry keys. [3]",
+            "source_ref": "malware--6888b342-ca7f-43f2-8877-c61d96dfeaf8",
+            "target_ref": "malware-method--8d8f1325-fca4-447b-b616-3f9e3b5ba429",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--83d40b6e-0ed4-478a-a0a5-cd751311788a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b00d3cdd-3840-4902-9272-9051a907a74d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:01.627008Z",
+            "modified": "2024-02-26T17:05:01.627008Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encoding-Standard Algorithm (E1027.m02) -- Kraken encodes data using XOR. [2]",
+            "source_ref": "malware--3f99bb40-ed46-4680-9bb4-70861fdbc874",
+            "target_ref": "malware-method--d6d89716-1aae-4f5b-a275-3beb8e6f0d23",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

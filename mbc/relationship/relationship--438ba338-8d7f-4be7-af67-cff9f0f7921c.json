@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7424db84-d827-4544-b5b6-a6adc6ad5131",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--438ba338-8d7f-4be7-af67-cff9f0f7921c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:45.651645Z",
+            "modified": "2024-02-26T17:04:45.651645Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Deobfuscate/Decode Files or Information (T1140) -- The malware will unpack its code in memory. [1]",
+            "source_ref": "malware--dfc7ba31-0065-4e59-bffe-a02aa24fbf3e",
+            "target_ref": "attack-pattern--3ccef7ae-cb5e-48f6-8302-897105fbf55c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

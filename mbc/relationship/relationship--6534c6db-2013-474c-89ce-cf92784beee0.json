@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a39cf66e-f649-4196-9d5b-8c051f6ae2ed",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6534c6db-2013-474c-89ce-cf92784beee0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:48.132316Z",
+            "modified": "2024-02-26T17:04:48.132316Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Application Window Discovery (T1010) -- Kovter finds graphical windows. [3]",
+            "source_ref": "malware--1cc62cf7-35b8-4d17-862c-ea8ccd4daecc",
+            "target_ref": "attack-pattern--4ae4f953-fe58-4cc8-a327-33257e30a830",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--771db2c9-0b83-4021-aea9-553c1f684ed2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7c53a132-6c38-4bd9-9d13-71135b7e87e3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:58.630553Z",
+            "modified": "2024-02-26T17:04:58.630553Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hijack Execution Flow::Procedure Hooking (F0015.007) -- WTR4141.tmp hooks APIs from kernel32.dll and ntdll.dll and replaces the original code for these functions with code that checks for files with properties pertaining to Stuxnet files. If a request is made to list a file with the specified properties, the response from these APIs is altered to state that the file does not exist, thereby hiding all files with these properties. [1]",
+            "source_ref": "malware--94951f34-8d70-4ab0-815d-67daccba4c2f",
+            "target_ref": "malware-method--988d774c-6206-494d-a5c2-1a20eb1b73c0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

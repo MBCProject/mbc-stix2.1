@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--401ffa83-e6b4-453d-a4e7-f808d99f85f9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e878610f-433a-463a-81e2-1507b03c0f63",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:57.484044Z",
+            "modified": "2024-02-26T17:04:57.484044Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- Emotet collects information related to OS, processes, and sometimes mail client information and sends it to C2. [2]",
+            "source_ref": "malware--707ae970-dd6f-4901-9386-ef7c06375c9d",
+            "target_ref": "malware-behavior--df31bee8-c564-4047-a985-01e529ba3512",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

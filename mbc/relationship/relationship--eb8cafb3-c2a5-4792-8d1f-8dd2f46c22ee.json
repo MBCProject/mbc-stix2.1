@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4d2b031d-8e27-49b6-b60e-54b0cc292f54",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--eb8cafb3-c2a5-4792-8d1f-8dd2f46c22ee",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:00.891009Z",
+            "modified": "2024-02-26T17:05:00.891009Z",
+            "relationship_type": "uses",
+            "description": "File System::Read File (C0051) -- Hupigon reads files on Windows. [3]",
+            "source_ref": "malware--6888b342-ca7f-43f2-8877-c61d96dfeaf8",
+            "target_ref": "malware-behavior--02cd71c1-6679-4e2c-92e5-b28ed1c183b4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

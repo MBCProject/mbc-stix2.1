@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--76a7a337-ad33-481e-936f-e8a92db8026b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--849a2065-ff24-4d25-96a8-26435da7f24e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:00.875686Z",
+            "modified": "2024-02-26T17:05:00.875686Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- Hupigon accepts command line arguments. [3]",
+            "source_ref": "malware--6888b342-ca7f-43f2-8877-c61d96dfeaf8",
+            "target_ref": "malware-behavior--882dcfcc-95d0-41d2-87c5-ed25a03fc53a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

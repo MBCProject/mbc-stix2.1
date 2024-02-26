@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--35bd9e82-e252-4ad4-bb05-c614f68ae750",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c08c7478-b5de-4597-9396-c81dacf9aaa9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:47.245122Z",
+            "modified": "2024-02-26T17:04:47.245122Z",
+            "relationship_type": "uses",
+            "description": "Impact::Denial of Service (B0033) -- Malware was originally built to launch a distributed denial of service attacks that can target more than one IP address per hostname. [1]",
+            "source_ref": "malware--f2670efb-d95b-45b3-b528-541b67ca25bf",
+            "target_ref": "malware-behavior--c60077a1-f9a6-447f-b7fa-9e98eaacac39",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

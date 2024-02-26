@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7ed32ab3-bef7-47ed-ae31-ac61b7fb6d76",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--17774cf5-7c85-40d7-8ef0-7251d2c4e1f1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:02.407919Z",
+            "modified": "2024-02-26T17:05:02.407919Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Set Registry Key (C0036.001) -- Locky Bart sets registry values. [2]",
+            "source_ref": "malware--f52b7d62-b752-4148-83e1-49dc1d7e2c9e",
+            "target_ref": "malware-method--5e7b7209-e1d1-4058-9fdf-2a4ee4cd9611",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

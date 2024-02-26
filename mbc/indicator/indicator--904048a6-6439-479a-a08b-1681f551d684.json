@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--b0491275-5c69-4fc6-a745-8352b513d528",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--904048a6-6439-479a-a08b-1681f551d684",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:56.063185Z",
+            "modified": "2024-02-26T17:04:56.063185Z",
+            "name": "ElectroRAT hash",
+            "description": "This is an IoC for ElectroRAT",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = 'e547872761d81c3afc9c2a42cac3931e2a1defc2c56a0a3c57b28ea91e7686cd' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-02-26T17:04:56.063185Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

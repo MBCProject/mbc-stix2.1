@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4eebf560-d56c-4c4b-8d2d-fd95127e4eb1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3a582294-7a14-476a-aa8b-d2b72acefa0b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:53.367269Z",
+            "modified": "2024-02-26T17:04:53.367269Z",
+            "relationship_type": "uses",
+            "description": "Impact::Data Encrypted for Impact (T1486) -- The malware encrypts files. [1]",
+            "source_ref": "malware--9fc6187a-21a5-4988-a986-b58f09325d70",
+            "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--53591e7f-1e5b-41fc-aa2f-669a7c8f64a3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c7edbce9-45e4-4c32-95dc-5c6ffce9fa95",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:00.882016Z",
+            "modified": "2024-02-26T17:05:00.882016Z",
+            "relationship_type": "uses",
+            "description": "Command And Control::C2 Communication::Send Data (B0030.001) -- Hupigon sends data. [3]",
+            "source_ref": "malware--6888b342-ca7f-43f2-8877-c61d96dfeaf8",
+            "target_ref": "malware-method--832b6a2d-63fe-4e3e-ac0b-10ef81d4ab19",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

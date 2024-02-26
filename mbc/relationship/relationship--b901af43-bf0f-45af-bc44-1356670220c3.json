@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b6e98945-6881-4d87-b653-c9d76ecbb8a5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b901af43-bf0f-45af-bc44-1356670220c3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:58.165178Z",
+            "modified": "2024-02-26T17:04:58.165178Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Debugger Detection::Timing/Delay Check GetTickCount (B0001.032) -- Redhip checks for time delay via GetTickCount. [2]",
+            "source_ref": "malware--1348c78d-ee60-49d1-83fa-716b33c40dd2",
+            "target_ref": "malware-method--f1794c8b-70b8-45b5-9533-dbf410377d5d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

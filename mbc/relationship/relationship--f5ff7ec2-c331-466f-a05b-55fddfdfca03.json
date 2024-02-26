@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6433ebf5-eb3c-4ca7-9205-90a485f719d6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f5ff7ec2-c331-466f-a05b-55fddfdfca03",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:48.214933Z",
+            "modified": "2024-02-26T17:04:48.214933Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Location Discovery (T1614) -- Kovter gets geographical locations. [3]",
+            "source_ref": "malware--1cc62cf7-35b8-4d17-862c-ea8ccd4daecc",
+            "target_ref": "attack-pattern--c877e33f-1df6-40d6-b1e7-ce70f16f4979",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

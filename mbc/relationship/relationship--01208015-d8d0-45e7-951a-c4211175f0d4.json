@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--97399e54-975f-4396-b773-289eef9055bf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--01208015-d8d0-45e7-951a-c4211175f0d4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:49.546582Z",
+            "modified": "2024-02-26T17:04:49.546582Z",
+            "relationship_type": "uses",
+            "description": "File System::Read File (C0051) -- Mebromi reads files on Windows. [2]",
+            "source_ref": "malware--b0da7940-527f-485f-9a04-b07e6a400d56",
+            "target_ref": "malware-behavior--02cd71c1-6679-4e2c-92e5-b28ed1c183b4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

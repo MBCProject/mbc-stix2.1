@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e02404f2-709a-4f26-b97f-8a25da29f531",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9f8532d7-39b4-47f7-9955-bfab1a55a979",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:50.035241Z",
+            "modified": "2024-02-26T17:04:50.035241Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hidden Files and Directories::Timestamp (F0005.004) -- Shamoon modifies target files' time to August 2012 as an antiforensic trick. [2]",
+            "source_ref": "malware--d5ea76ff-a298-4ffa-a30e-458e64fcf78d",
+            "target_ref": "malware-method--b214a1da-1067-48be-a0ed-805d85253847",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

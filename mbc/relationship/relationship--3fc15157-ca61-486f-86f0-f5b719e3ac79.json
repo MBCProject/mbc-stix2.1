@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--16f32f05-2a06-4fb3-9c34-f7000ac4fdfc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3fc15157-ca61-486f-86f0-f5b719e3ac79",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:01.631202Z",
+            "modified": "2024-02-26T17:05:01.631202Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data::RC4 (C0027.009) -- Kraken encrypts data using RC4 PRGA. [2]",
+            "source_ref": "malware--3f99bb40-ed46-4680-9bb4-70861fdbc874",
+            "target_ref": "malware-method--5d072c86-dbe9-4803-94f7-c3618b725b0b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

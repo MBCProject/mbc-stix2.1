@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cc4fbe79-8310-4a17-9677-c07d2acdca7a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bddc5054-7b52-47f2-a64b-4aa6aa780522",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:05:02.90873Z",
+            "modified": "2024-02-26T17:05:02.90873Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Software Discovery::Security Software Discovery (T1518.001) -- The malware learns about security software on the system. [1]",
+            "source_ref": "malware--ab1d1ab8-cc17-4134-a01b-dbe692ac92fe",
+            "target_ref": "attack-pattern--cba37adb-d6fb-4610-b069-dd04c0643384",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

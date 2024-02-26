@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d4db8ddf-251d-4229-85b6-e3aae774e35d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a450e5a3-113a-40ae-ac6e-93860b874540",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:57.251518Z",
+            "modified": "2024-02-26T17:04:57.251518Z",
+            "relationship_type": "uses",
+            "description": "File System::Write File (C0052) -- UP007 writes files on Windows. [2]",
+            "source_ref": "malware--52189989-20f1-4556-ab23-c9e4b61fc976",
+            "target_ref": "malware-behavior--d5df4bd1-a103-4053-a232-c7c5f7f61d21",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

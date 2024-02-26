@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4da31c8d-d2f6-4e01-99c4-3c39bb677e6f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6b55d455-5abd-4cfa-8eea-0a0b8d76ad16",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-02-26T17:04:55.286479Z",
+            "modified": "2024-02-26T17:04:55.286479Z",
+            "relationship_type": "uses",
+            "description": "Impact::Denial of Service (B0033) -- GoBotKR has been used to execute endpoint DDoS attacks \u2013 for example, TCP Flood or SYN Flood. [1]",
+            "source_ref": "malware--36dc5f9c-ae13-4d0c-b99a-4ab888bf6282",
+            "target_ref": "malware-behavior--c60077a1-f9a6-447f-b7fa-9e98eaacac39",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

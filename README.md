@@ -12,4 +12,4 @@ The Malware Behavior Catalog ([MBC](https://github.com/MBCProject/mbc-markdown))
 
 ## MBC and STIX ##
 
-Details on how MBC data is expressed in STIX 2.1 can be found in the [STIX 2.1 Malware Behavior Extension](https://github.com/oasis-open/cti-stix-common-objects/tree/main/extension-definition-specifications/malware-behavior) document.
+Details on how MBC data is expressed in STIX 2.1 can be found in the [STIX 2.1 Malware Behavior Extension](https://github.com/oasis-open/cti-stix-common-objects/tree/main/extension-definition-specifications/malware-behavior-8e9) document.

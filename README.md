@@ -1,4 +1,4 @@
-# Malware Behavior Catalog v3.0 Expressed in STIX 2.1 #
+# Malware Behavior Catalog v3.1 Expressed in STIX 2.1 #
 
 *The Malware Behavior Catalog has been expressed in STIX 2.1 JSON using a [malware behavior extension](https://github.com/oasis-open/cti-stix-common-objects/tree/main/extension-definition-specifications) based on the STIX 2.1 Committee Specification 03 (CS03).*
 

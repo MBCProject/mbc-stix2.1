@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6ffca0a4-8025-4b87-9239-ce73c21c7b4d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--19879d16-bd0b-4c39-86e1-c193a413a74d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-03-05T19:22:36.38464Z",
+            "modified": "2024-03-05T19:22:36.38464Z",
+            "relationship_type": "uses",
+            "description": "Process::Unmap Section View (C0070) -- As part of process hollowing, Conti unmaps a view of a section from the virtual address space of a subject process. [1]",
+            "source_ref": "malware--3193fce9-f94e-4ee9-b922-c24735fb3fca",
+            "target_ref": "malware-behavior--0c69988f-1e72-45f7-bce4-2977341dd4b3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

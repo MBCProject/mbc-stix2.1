@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--505f761a-490d-4f1a-b610-720bc26fd5d7",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--79095594-20a0-4e9d-a5af-83ddad26d78a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-03-05T19:22:36.382686Z",
+            "modified": "2024-03-05T19:22:36.382686Z",
+            "relationship_type": "uses",
+            "description": "Process Injection::Process Hollowing (E1055.012) -- Conti creates a process in a suspended state and unmaps or removes the PE image layout from a given process space. [1]",
+            "source_ref": "malware--3193fce9-f94e-4ee9-b922-c24735fb3fca",
+            "target_ref": "malware-method--dcc00bc5-eed5-42d6-bff5-7839b67bd4c9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

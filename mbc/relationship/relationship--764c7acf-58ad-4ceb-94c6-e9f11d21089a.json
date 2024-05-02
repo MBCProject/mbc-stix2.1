@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--8262ad6f-cb46-4f4c-9716-0a0e8769b810",
+    "id": "bundle--9a9011cc-cd49-4df7-a207-7039934f4f6c",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--fe39f895-afd0-4714-b116-1200dc534a23",
+            "id": "relationship--764c7acf-58ad-4ceb-94c6-e9f11d21089a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2024-03-05T19:22:24.578538Z",
-            "modified": "2024-03-05T19:22:24.578538Z",
+            "created": "2024-05-02T15:14:12.839147Z",
+            "modified": "2024-05-02T15:14:12.839147Z",
             "relationship_type": "uses",
             "description": "Execution::Shared Modules (T1129) -- Access PE header (This capa rule had 3 matches) [2]",
-            "source_ref": "malware--5313fcdd-edb2-440c-bbd8-4ebe5538d620",
+            "source_ref": "malware--a2e4b1fd-608f-48a3-bdf6-ecce0fb30652",
             "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"

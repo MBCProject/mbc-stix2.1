@@ -1,17 +1,17 @@
 {
     "type": "bundle",
-    "id": "bundle--bf46c758-c0e3-4726-b58f-fe2f37fd36fb",
+    "id": "bundle--90dee7b6-c696-434e-ad57-147518112e2d",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--b99cf59b-0166-472f-8e91-1d85011959a6",
+            "id": "relationship--5fd108d7-ce71-4b23-92e3-d4aafaa3c258",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2024-03-05T19:22:24.584039Z",
-            "modified": "2024-03-05T19:22:24.584039Z",
+            "created": "2024-05-02T15:14:12.843223Z",
+            "modified": "2024-05-02T15:14:12.843223Z",
             "relationship_type": "uses",
             "description": "Operating System::Registry::Set Registry Key (C0036.001) -- DNSChanger sets registry keys. [2]",
-            "source_ref": "malware--5313fcdd-edb2-440c-bbd8-4ebe5538d620",
+            "source_ref": "malware--a2e4b1fd-608f-48a3-bdf6-ecce0fb30652",
             "target_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"

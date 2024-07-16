@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--db91a202-39e1-4168-9352-87dc66015ef7",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a3ceec22-028d-4e7b-8802-5cf30b7ffed0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-07-17T15:37:56.73037Z",
+            "modified": "2024-07-17T15:37:56.73037Z",
+            "relationship_type": "uses",
+            "description": "Process::Set Thread Context (C0072) --  As part of process hollowing, Conti sets thread context. [1]",
+            "source_ref": "malware--616a623a-1cc2-474c-9ee4-964801070166",
+            "target_ref": "malware-behavior--760fc213-d22e-4721-924e-f87dfe6010ca",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

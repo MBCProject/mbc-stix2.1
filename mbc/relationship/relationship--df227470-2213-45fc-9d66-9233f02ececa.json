@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ef9a5477-2b9a-475f-a9f0-f95235e7ee05",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--df227470-2213-45fc-9d66-9233f02ececa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-07-17T15:37:56.731223Z",
+            "modified": "2024-07-17T15:37:56.731223Z",
+            "relationship_type": "uses",
+            "description": "Process::Write Process Memory (C0071) -- As part of process hollowing, Conti writes data to an area of memory in a specified process. [1]",
+            "source_ref": "malware--616a623a-1cc2-474c-9ee4-964801070166",
+            "target_ref": "malware-behavior--f66ad53f-9569-4561-b7ab-84a532663601",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

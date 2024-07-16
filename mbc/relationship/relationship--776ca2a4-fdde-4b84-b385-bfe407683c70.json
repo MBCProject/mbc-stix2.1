@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--631762a6-38b4-4c06-8e44-18568d7020f1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--776ca2a4-fdde-4b84-b385-bfe407683c70",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-07-17T15:37:56.601935Z",
+            "modified": "2024-07-17T15:37:56.601935Z",
+            "relationship_type": "uses",
+            "description": "File System::Get File Attributes (C0049) -- DNSChanger gets file attributes. [2]",
+            "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
+            "target_ref": "malware-behavior--e123ec7c-bf1e-44dc-b7bc-df9b4a4697e5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

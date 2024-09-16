@@ -1,18 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--0d9b5844-fd43-4814-b673-3e38e7a87b22",
+    "id": "bundle--56654e2c-491d-43ad-8ce7-77be830f9c81",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--7215b7c2-b6cd-493f-9df7-945ee41baddb",
+            "id": "relationship--19626909-b7c3-4086-9f70-00db65b7e111",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2024-07-17T15:37:56.601384Z",
-            "modified": "2024-07-17T15:37:56.601384Z",
+            "created": "2024-09-16T17:57:32.030455Z",
+            "modified": "2024-09-16T17:57:32.030455Z",
             "relationship_type": "uses",
-            "description": "Cryptography::Encrypt Data::RC4 (C0027.009) -- DNSChanger encrypts data using RC4 PRGA. [2]",
+            "description": "Defense Evasion::File and Directory Permissions Modification (T1222) -- DNSChanger sets file attributes. [2]",
             "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
-            "target_ref": "malware-method--3a879212-7127-4f91-84ef-7aa65e971ef3",
+            "target_ref": "attack-pattern--65917ae0-b854-4139-83fe-bf2441cf0196",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

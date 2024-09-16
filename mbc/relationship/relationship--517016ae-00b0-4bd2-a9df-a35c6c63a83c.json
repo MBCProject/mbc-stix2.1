@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--806d72d0-225b-4eed-bcec-869d7395e36d",
+    "id": "bundle--1b8a34ca-deef-45b5-867d-dd5d3454d072",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--9740b24e-3d7b-4236-83b1-a01ba08429ee",
+            "id": "relationship--517016ae-00b0-4bd2-a9df-a35c6c63a83c",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2024-07-17T15:37:56.603281Z",
-            "modified": "2024-07-17T15:37:56.603281Z",
+            "created": "2024-09-16T17:57:32.073686Z",
+            "modified": "2024-09-16T17:57:32.073686Z",
             "relationship_type": "uses",
             "description": "Operating System::Registry::Query Registry Value (C0036.006) -- DNSChanger queries or enumerates registry values. [2]",
             "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",

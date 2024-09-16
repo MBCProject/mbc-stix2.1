@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--8817153d-35ba-4ea4-a8a2-6a4295c98ac4",
+    "id": "bundle--a21133b9-0181-47c1-848a-91e074b9d908",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--ac308867-ffe5-4fd7-99e8-5e7bfdfc565a",
+            "id": "relationship--da730643-bd5e-4b20-9e20-f0234d04c61f",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2024-07-17T15:37:58.31983Z",
-            "modified": "2024-07-17T15:37:58.31983Z",
+            "created": "2024-09-16T17:57:34.106566Z",
+            "modified": "2024-09-16T17:57:34.106566Z",
             "relationship_type": "uses",
             "description": "Collection::Archive Collected Data::Encoding-Standard Encoding (E1560.m03) -- The malware sends data as a Base64 string of JSON. [2]",
             "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",

@@ -1,18 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--6247af0e-551a-457a-b51f-bb4a6aecc118",
+    "id": "bundle--adc7e89e-df43-42d6-93d3-9eb7757b9f83",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--617336d8-5124-4950-8270-7b50dd2ce4ef",
+            "id": "relationship--f7cf0a11-5f03-4dad-a873-9ce94e8570f4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2024-07-17T15:37:56.565517Z",
-            "modified": "2024-07-17T15:37:56.565517Z",
+            "created": "2024-09-16T17:57:32.071132Z",
+            "modified": "2024-09-16T17:57:32.071132Z",
             "relationship_type": "uses",
-            "description": "Defense Evasion::File and Directory Permissions Modification (T1222) -- DNSChanger sets file attributes. [2]",
+            "description": "File System::Set File Attributes (C0050) -- DNSChanger sets file attributes. [2]",
             "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
-            "target_ref": "attack-pattern--65917ae0-b854-4139-83fe-bf2441cf0196",
+            "target_ref": "malware-behavior--caf974bd-d499-4496-839f-eb235bb815df",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

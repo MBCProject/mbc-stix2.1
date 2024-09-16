@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--39667870-b792-4dd2-9ea4-8ecd1b778977",
+    "id": "bundle--7062ecc6-4dfc-4aa9-897d-a9a3b470fb1c",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--9702bd37-8100-4caf-88be-a9140ead3a2f",
+            "id": "relationship--1065e466-faf9-45f4-857b-7a4651de1641",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2024-07-17T15:37:57.75004Z",
-            "modified": "2024-07-17T15:37:57.75004Z",
+            "created": "2024-09-16T17:57:36.372069Z",
+            "modified": "2024-09-16T17:57:36.372069Z",
             "relationship_type": "uses",
             "description": "Collection::Archive Collected Data::Encryption (E1560.m02) -- The malware uses a custom crypter leveraging Microsoft's CryptoAPI to encrypt C2 traffic. C2 update responses seem to have been digitally signed using bcrypt. [4]",
             "source_ref": "malware--279171d8-134e-4fef-85f9-d4d2eb1639cb",

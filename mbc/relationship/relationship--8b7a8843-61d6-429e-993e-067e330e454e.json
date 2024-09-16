@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--d2862222-3c4d-49e3-862e-c7b465853604",
+    "id": "bundle--0ca373b1-57be-44e5-856b-8caa8691ceca",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--fcea1e34-a320-4b61-8970-b9a721f1d299",
+            "id": "relationship--8b7a8843-61d6-429e-993e-067e330e454e",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2024-07-17T15:37:53.038447Z",
-            "modified": "2024-07-17T15:37:53.038447Z",
+            "created": "2024-09-16T17:57:36.467282Z",
+            "modified": "2024-09-16T17:57:36.467282Z",
             "relationship_type": "uses",
             "description": "Collection::Archive Collected Data::Encoding - Custom Encoding (E1560.m04) -- Stuxnet exfiltrated payloads are XORed with a static 31-byte long byte string found inside Stuxnet and hexified in order to be passed on as an ASCII data parameter in an HTTP request to the C2 servers. [1]",
             "source_ref": "malware--695d06a7-4c91-4d98-8f8c-6360316a59e7",

@@ -1,18 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--631762a6-38b4-4c06-8e44-18568d7020f1",
+    "id": "bundle--06197e2c-2ea6-4eca-a1f1-219c29068777",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--776ca2a4-fdde-4b84-b385-bfe407683c70",
+            "id": "relationship--6b2acea5-1b6e-41b7-8ff5-6d7242a5f2dc",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2024-07-17T15:37:56.601935Z",
-            "modified": "2024-07-17T15:37:56.601935Z",
+            "created": "2024-09-16T17:57:32.070079Z",
+            "modified": "2024-09-16T17:57:32.070079Z",
             "relationship_type": "uses",
-            "description": "File System::Get File Attributes (C0049) -- DNSChanger gets file attributes. [2]",
+            "description": "Data::Encode Data::XOR (C0026.002) -- DNSChanger encodes data using XOR. [2]",
             "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
-            "target_ref": "malware-behavior--e123ec7c-bf1e-44dc-b7bc-df9b4a4697e5",
+            "target_ref": "malware-method--5b9b89c1-f729-4f55-bb5d-cdf4a126820c",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

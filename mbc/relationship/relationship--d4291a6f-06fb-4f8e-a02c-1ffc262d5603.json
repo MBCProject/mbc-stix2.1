@@ -1,18 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--cbf1bcc7-15c5-45f1-98e9-2b4a9f778944",
+    "id": "bundle--d4593aec-a2f9-4dfe-9866-5061c4c12a08",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--4919e275-e178-4083-9845-98ec6362f29e",
+            "id": "relationship--d4291a6f-06fb-4f8e-a02c-1ffc262d5603",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2024-07-17T15:37:56.602207Z",
-            "modified": "2024-07-17T15:37:56.602207Z",
+            "created": "2024-09-16T17:57:32.070433Z",
+            "modified": "2024-09-16T17:57:32.070433Z",
             "relationship_type": "uses",
-            "description": "File System::Read File (C0051) -- DNSChanger reads files on Windows. [2]",
+            "description": "File System::Get File Attributes (C0049) -- DNSChanger gets file attributes. [2]",
             "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
-            "target_ref": "malware-behavior--6b99bf51-1fcb-4284-9ae0-d780e46b7825",
+            "target_ref": "malware-behavior--e123ec7c-bf1e-44dc-b7bc-df9b4a4697e5",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

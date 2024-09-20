@@ -1,14 +1,14 @@
 {
     "type": "bundle",
-    "id": "bundle--54137d3d-14e9-4599-9b58-186ff660ebe7",
+    "id": "bundle--0ecf68dd-ba39-4ab5-83ba-18c4b0797e60",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--7b43c8d2-542c-4110-a84b-707511dad904",
+            "id": "relationship--9366dafb-b1d7-4011-abdb-c383b44780b4",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2024-09-16T17:57:31.64148Z",
-            "modified": "2024-09-16T17:57:31.64148Z",
+            "created": "2024-07-17T15:37:56.7296Z",
+            "modified": "2024-07-17T15:37:56.7296Z",
             "relationship_type": "uses",
             "description": "Process::Create Process (C0017) -- As a part of process hollowing, Conti creates a process in a suspended state. [1]",
             "source_ref": "malware--616a623a-1cc2-474c-9ee4-964801070166",

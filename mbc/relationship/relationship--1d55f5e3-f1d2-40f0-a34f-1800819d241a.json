@@ -1,18 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--e571ba55-3859-4eba-a6ed-2bc93d91622e",
+    "id": "bundle--abf02dde-7c20-485e-9475-6d832b2862ad",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--e00d4180-cb64-4737-b920-bf5329f70bbc",
+            "id": "relationship--1d55f5e3-f1d2-40f0-a34f-1800819d241a",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2024-09-16T17:57:32.072022Z",
-            "modified": "2024-09-16T17:57:32.072022Z",
+            "created": "2024-07-17T15:37:56.603549Z",
+            "modified": "2024-07-17T15:37:56.603549Z",
             "relationship_type": "uses",
-            "description": "File System::Write File (C0052) -- DNSChanger writes Fileon Windows. [2]",
+            "description": "Operating System::Registry::Set Registry Key (C0036.001) -- DNSChanger sets registry keys. [2]",
             "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
-            "target_ref": "malware-behavior--7cc1a672-d56d-4b3d-915f-e3845b24ef97",
+            "target_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

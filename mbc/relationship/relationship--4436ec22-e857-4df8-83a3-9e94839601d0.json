@@ -1,18 +1,18 @@
 {
     "type": "bundle",
-    "id": "bundle--855eb5bb-52fc-4ccf-a165-06d954835764",
+    "id": "bundle--08dd7a39-6cb0-4a34-9b2b-bac3210881eb",
     "objects": [
         {
             "type": "relationship",
             "spec_version": "2.1",
-            "id": "relationship--268034fc-8b16-47d8-9ab8-d1671d7a32d6",
+            "id": "relationship--4436ec22-e857-4df8-83a3-9e94839601d0",
             "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "created": "2024-09-16T17:57:32.069265Z",
-            "modified": "2024-09-16T17:57:32.069265Z",
+            "created": "2024-07-17T15:37:56.599145Z",
+            "modified": "2024-07-17T15:37:56.599145Z",
             "relationship_type": "uses",
-            "description": "Defense Evasion::Process Injection (E1055) -- DNSChanger attaches user process memory. [2]",
+            "description": "Execution::Shared Modules (T1129) -- DNSChanger accesses PE headers. [2]",
             "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
-            "target_ref": "malware-behavior--27a92199-2b4a-4f46-b18d-d2abf34bb478",
+            "target_ref": "attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65",
             "object_marking_refs": [
                 "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
             ]

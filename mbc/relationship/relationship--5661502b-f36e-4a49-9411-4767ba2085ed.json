@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--16637937-87d4-48e9-bffc-48280a221251",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5661502b-f36e-4a49-9411-4767ba2085ed",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:51.990874Z",
+            "modified": "2024-11-01T15:41:51.990874Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys/Startup Folder (F0012) -- Vobfus adds registry keys to enable startup after reboot. [1]",
+            "source_ref": "malware--76b3b57d-d6a2-489c-a9bb-8d4c73f2f290",
+            "target_ref": "malware-behavior--68bdb0c9-2213-437d-ac60-94852160b34a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

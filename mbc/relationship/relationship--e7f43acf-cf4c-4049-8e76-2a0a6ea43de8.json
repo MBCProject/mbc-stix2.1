@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--906da3c8-847b-4fa6-a519-972840c709fb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e7f43acf-cf4c-4049-8e76-2a0a6ea43de8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:53.697325Z",
+            "modified": "2024-11-01T15:41:53.697325Z",
+            "relationship_type": "uses",
+            "description": "Process::Terminate Process (C0018) -- BlackEnergy terminates a process via fastfail. [4]",
+            "source_ref": "malware--9e87672d-5122-474c-b71a-f0c9d09e51b7",
+            "target_ref": "malware-behavior--52a18e74-ab5d-401d-a48c-37d84ece4896",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--db59ea4f-07d5-4cd3-a14a-d01ef684867c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9efd71dd-c1e2-4509-9684-7d3eae689896",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:53.694196Z",
+            "modified": "2024-11-01T15:41:53.694196Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Disassembler Evasion::Argument Obfuscation (B0012.001) -- BlackEnergy contains obfuscated stack strings. [4]",
+            "source_ref": "malware--9e87672d-5122-474c-b71a-f0c9d09e51b7",
+            "target_ref": "malware-method--389a3140-f6d4-4ea1-a435-3b990539354e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

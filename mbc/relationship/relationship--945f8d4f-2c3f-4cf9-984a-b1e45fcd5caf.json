@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ee075319-7674-40d1-954a-f525d6e8ef18",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--945f8d4f-2c3f-4cf9-984a-b1e45fcd5caf",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:57.161817Z",
+            "modified": "2024-11-01T15:41:57.161817Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Query Registry Value (C0036.006) -- GoBotKR queries or enumerates registry values. [2]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-method--72435496-9e74-411f-ba5a-0cf41767f524",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

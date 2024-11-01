@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--459d814c-52fa-4bc6-8050-c46c55ffd02f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ac8ea162-2fd5-4b76-a47f-1ea43445bf27",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:51.767007Z",
+            "modified": "2024-11-01T15:41:51.767007Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Code Discovery::Enumerate PE Sections (B0046.001) -- Hupigon enumerates PE sections. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--f84dba26-b795-4c73-9fad-44f43f5d96a4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9ca4b7ac-ddd1-4f2b-9e08-76f2bf81eaa3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3356bebc-024b-4095-84b4-ada288a9da09",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:51.992729Z",
+            "modified": "2024-11-01T15:41:51.992729Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Debugger Evasion (B0002) -- Vobfus uses GetModuleHandle API to check for the presence of a debugger. [1]",
+            "source_ref": "malware--76b3b57d-d6a2-489c-a9bb-8d4c73f2f290",
+            "target_ref": "malware-behavior--1fe2139c-f332-42ba-833c-df479946d81f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

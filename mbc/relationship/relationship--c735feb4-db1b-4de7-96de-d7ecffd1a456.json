@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--618d80c9-59f2-4f84-b2c3-31efbd3e1ea1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c735feb4-db1b-4de7-96de-d7ecffd1a456",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:56.619084Z",
+            "modified": "2024-11-01T15:41:56.619084Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Process (C0017) -- Shamoon creates a process on Windows. [5]",
+            "source_ref": "malware--126fd545-8484-4d16-a8ac-7c20fb2c8b43",
+            "target_ref": "malware-behavior--bf5c92a2-c1f9-489f-89e7-936d753be249",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

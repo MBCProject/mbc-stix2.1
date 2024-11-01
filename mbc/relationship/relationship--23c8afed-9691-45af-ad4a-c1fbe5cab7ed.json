@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--85acbc06-b577-4fa0-ba3a-df6e90080da2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--23c8afed-9691-45af-ad4a-c1fbe5cab7ed",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:57.161135Z",
+            "modified": "2024-11-01T15:41:57.161135Z",
+            "relationship_type": "uses",
+            "description": "File System::Copy File (C0045) -- GoBotKR copies files. [2]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-behavior--7ea1c41a-ed8b-4836-a4bc-48129c33c60b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

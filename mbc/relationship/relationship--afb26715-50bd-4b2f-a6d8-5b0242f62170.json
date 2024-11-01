@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f8257ec6-df33-45e9-b426-0b95e62482c4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--afb26715-50bd-4b2f-a6d8-5b0242f62170",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:53.618138Z",
+            "modified": "2024-11-01T15:41:53.618138Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter::PowerShell (T1059.001) -- Malware loader can run PowerShell commands.  [2]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--33582b37-8c72-453c-bd0c-65e44971c208",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e66fa214-0e39-4a1a-8110-338ceda6cc67",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:51.760588Z",
+            "modified": "2024-11-01T15:41:51.760588Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encoding-Standard Algorithm (E1027.m02) -- Hupigon encodes data using XOR. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--299ce1cd-bcb0-462d-be60-4757fe78820b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

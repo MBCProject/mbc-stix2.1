@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1c46a6a8-2811-4923-a29c-9718d1e27d71",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4bd790ed-0925-491e-9246-510ac28305e2",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:55.855131Z",
+            "modified": "2024-11-01T15:41:55.855131Z",
+            "relationship_type": "uses",
+            "description": "File System::Create Directory (C0046) -- Kovter creates directories. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-behavior--ad242752-7f47-4295-a734-53de5718b090",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

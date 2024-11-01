@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--265b0cdd-9ecf-4209-bad2-b32ce57f1a6b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--31aee3ce-8e95-4f9f-a6a4-5c1ad16d65f7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:56.438525Z",
+            "modified": "2024-11-01T15:41:56.438525Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encoding-Standard Algorithm (E1027.m02) -- Mebromi encodes data using XOR. [2]",
+            "source_ref": "malware--94cb6823-8c6c-4d3d-8e86-258e10c97da2",
+            "target_ref": "malware-method--299ce1cd-bcb0-462d-be60-4757fe78820b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

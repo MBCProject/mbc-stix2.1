@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b00cfa1e-358d-46a9-953a-beba82a93ff0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e7df8e60-11eb-45ac-809b-e5c8d09a5ca7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:51.771179Z",
+            "modified": "2024-11-01T15:41:51.771179Z",
+            "relationship_type": "uses",
+            "description": "Process::Set Thread Local Storage Value (C0041) -- Hupigon sets thread local storage values. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--f06be5c1-9fc5-44bd-8788-31785f8b4586",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

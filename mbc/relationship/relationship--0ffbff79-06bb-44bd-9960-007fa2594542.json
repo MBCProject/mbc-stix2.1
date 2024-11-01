@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--db27c26a-1cf7-4067-be50-4c5155d205b1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0ffbff79-06bb-44bd-9960-007fa2594542",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:51.991687Z",
+            "modified": "2024-11-01T15:41:51.991687Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Disable or Evade Security Tools (F0004) -- Vobfus uses GetModuleHandle API call to check for presence of Avast Antivirus. [1]",
+            "source_ref": "malware--76b3b57d-d6a2-489c-a9bb-8d4c73f2f290",
+            "target_ref": "malware-behavior--c2fab675-1804-4163-8d51-0f00229d2e80",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

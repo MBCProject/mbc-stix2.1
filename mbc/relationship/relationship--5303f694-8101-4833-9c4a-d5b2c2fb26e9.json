@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b4b6f187-6b38-4c6b-9fad-98286f9c1555",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5303f694-8101-4833-9c4a-d5b2c2fb26e9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.703932Z",
+            "modified": "2024-11-01T15:41:54.703932Z",
+            "relationship_type": "uses",
+            "description": "Data::Decompress Data::aPLib (C0025.003) -- Bagle decompresses data using aPLib. [4]",
+            "source_ref": "malware--526faaf2-073e-4da9-9a56-63082add55c0",
+            "target_ref": "malware-method--6ad60376-4ed0-4f74-837d-757063c2cabb",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--50fae9ac-ed17-4519-be3f-54d3d81e4b2b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b0fa38e4-fc41-4cc4-8893-db9c9bf14ba9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:53.590173Z",
+            "modified": "2024-11-01T15:41:53.590173Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::System Binary Proxy Execution::Rundll32 (T1218.011) -- Malware loader executes DLLs by using rundll32.exe.  [2]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

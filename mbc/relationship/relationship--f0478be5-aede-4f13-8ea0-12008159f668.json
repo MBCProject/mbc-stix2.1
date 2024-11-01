@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b94f98a9-de5c-49d8-b772-fb70f5fda902",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f0478be5-aede-4f13-8ea0-12008159f668",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:52.027921Z",
+            "modified": "2024-11-01T15:41:52.027921Z",
+            "relationship_type": "uses",
+            "description": "Collection::Input Capture (E1056) -- Poison Ivy can capture audio and video. [2]",
+            "source_ref": "malware--f68cd3e5-afa7-48ef-bba0-11c58ab8026f",
+            "target_ref": "malware-behavior--01b0fa0f-1d71-4cab-a76d-8d1c67d97b5b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

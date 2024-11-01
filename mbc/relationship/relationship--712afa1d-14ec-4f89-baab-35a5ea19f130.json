@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e4599915-83a8-4ec5-802f-16e391d48392",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--712afa1d-14ec-4f89-baab-35a5ea19f130",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:53.53148Z",
+            "modified": "2024-11-01T15:41:53.53148Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Create or Modify System Process::Windows Service (T1543.003) -- Malware loader creates a new instance of explorer.exe.  [2]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "attack-pattern--2959d63f-73fd-46a1-abd2-109d7dcede32",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

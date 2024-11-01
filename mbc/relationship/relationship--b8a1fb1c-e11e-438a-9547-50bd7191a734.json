@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--974e0283-e39d-4a3c-bafe-cabdd8873794",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b8a1fb1c-e11e-438a-9547-50bd7191a734",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.40473Z",
+            "modified": "2024-11-01T15:41:54.40473Z",
+            "relationship_type": "uses",
+            "description": "Process::Set Thread Local Storage Value (C0041) -- Gamut sets thread local storage values. [3]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-behavior--f06be5c1-9fc5-44bd-8788-31785f8b4586",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

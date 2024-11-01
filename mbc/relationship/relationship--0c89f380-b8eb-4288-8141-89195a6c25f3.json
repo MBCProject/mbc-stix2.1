@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--333926d0-c202-40f6-97f8-25683cf6d1fc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0c89f380-b8eb-4288-8141-89195a6c25f3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:55.168048Z",
+            "modified": "2024-11-01T15:41:55.168048Z",
+            "relationship_type": "uses",
+            "description": "Privilege Escalation::Install Certificate (F0016) -- The malware installs a certificate. [1]",
+            "source_ref": "malware--b2924e46-812f-491d-a441-b8571f7b221e",
+            "target_ref": "malware-behavior--5882c797-bbca-4626-897a-ac67ce5f64ea",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

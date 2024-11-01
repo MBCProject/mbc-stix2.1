@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f566f4dc-124f-48ee-b737-28b5b6528153",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c69593e9-d0c2-4adc-9969-70fdf04c6b44",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:56.196333Z",
+            "modified": "2024-11-01T15:41:56.196333Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Code Discovery::Enumerate PE Sections (B0046.001) -- DarkComet enumerates PE sections. [4]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-method--f84dba26-b795-4c73-9fad-44f43f5d96a4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

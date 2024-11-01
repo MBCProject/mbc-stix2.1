@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6040cb9d-6bd8-4e64-93b8-74930661da1d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7469537e-c6d2-4e1b-bc61-5c935b4c7b78",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.585023Z",
+            "modified": "2024-11-01T15:41:54.585023Z",
+            "relationship_type": "uses",
+            "description": "Impact::Data Encrypted for Impact (E1486) -- WannaCry encrypts files for ransom. [1]",
+            "source_ref": "malware--b2e84cdc-8eef-42f3-9f27-a4587787f52a",
+            "target_ref": "malware-behavior--a2416cef-7fed-48e0-8bcc-d100ac72c509",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2c62de2c-91b9-46f6-ab6a-d98940b6c896",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ed588b7e-5c62-4a1d-8a30-3956b439fde4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.264326Z",
+            "modified": "2024-11-01T15:41:54.264326Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Ingress Tool Transfer (E1105) -- The malware downloads files from the C2. [1]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-behavior--201961ae-2a71-41f5-bbd0-8c22bbd748de",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

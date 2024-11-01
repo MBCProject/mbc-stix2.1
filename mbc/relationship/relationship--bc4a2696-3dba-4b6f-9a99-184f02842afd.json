@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a3b80042-b94b-4ea0-bc6d-8cee89bec5d0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bc4a2696-3dba-4b6f-9a99-184f02842afd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:57.246612Z",
+            "modified": "2024-11-01T15:41:57.246612Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::Encrypted Channel::Asymmetric Cryptography (T1573.002) -- The malware encrypts messages with a public RSA key. [1]",
+            "source_ref": "malware--215c546e-44be-43f1-bbdd-831c356a5e95",
+            "target_ref": "attack-pattern--bf176076-b789-408e-8cba-7275e81c0ada",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8e83a315-c309-4218-90ab-64f8bac69028",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a88b61c2-424b-449b-bc34-21b6b009521c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:53.695847Z",
+            "modified": "2024-11-01T15:41:53.695847Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data::RC4 (C0027.009) -- BlackEnergy encrypts data using RC4 via WinAPI. [4]",
+            "source_ref": "malware--9e87672d-5122-474c-b71a-f0c9d09e51b7",
+            "target_ref": "malware-method--3a879212-7127-4f91-84ef-7aa65e971ef3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--cc3765d5-3d99-4622-9133-a5d3ec378a27",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8e389508-85f2-48cf-bb8e-bcff88a42d31",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:51.764166Z",
+            "modified": "2024-11-01T15:41:51.764166Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Debugger Detection::Anti-debugging Instructions (B0001.034) -- Hupigon executes anti-debugging instructions. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--d4895eb5-d380-4592-bde5-6865a26cb75b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

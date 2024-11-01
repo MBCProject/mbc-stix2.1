@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--edaa3aee-188e-4def-8c7f-9ad45192b52c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d4f5f974-78d3-4009-ad7e-de0bb891b8b4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:52.665716Z",
+            "modified": "2024-11-01T15:41:52.665716Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hide Artifacts::Hidden Window (T1564.003) -- Rombertik hides graphical windows. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "attack-pattern--cbb66055-0325-4111-aca0-40547b6ad5b0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

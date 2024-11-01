@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5ad9a464-decf-46fd-86fb-5535ba3e5859",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--636c00e8-1194-4b06-99b7-3d2a54fba2c1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:52.154669Z",
+            "modified": "2024-11-01T15:41:52.154669Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Install Insecure or Malicious Configuration (B0047) -- The malware changes iOS Safari's default configuration. [1]",
+            "source_ref": "malware--0a538d20-0f51-411f-bb26-1aee555078d0",
+            "target_ref": "malware-behavior--caeac9b3-7b20-4ecd-bf4c-d67a1c5c0321",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

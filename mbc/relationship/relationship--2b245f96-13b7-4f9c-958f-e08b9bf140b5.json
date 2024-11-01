@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--97ce8cef-4176-4dd8-a716-928a132a9d66",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2b245f96-13b7-4f9c-958f-e08b9bf140b5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:52.848384Z",
+            "modified": "2024-11-01T15:41:52.848384Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Anlaysis::Dynamic Analysis Evasion::Code Integrity Check (B0003.011) -- The function computes a 32-bit hash of a resource in memory and compares it to the PE Compile Timestamp of the unpacked sample. If the resource or compile time has been altered, the malware acts destructively. [1]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--b799c9a1-ea2a-479f-85ff-98bc60532fb1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a14453cc-6c55-4cfb-907b-31ce9d32b271",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--84f501dd-d4cd-4946-a177-d11d72b7094e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.403128Z",
+            "modified": "2024-11-01T15:41:54.403128Z",
+            "relationship_type": "uses",
+            "description": "File System::Write File (C0052) -- Gamut writes files on Windows. [3]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-behavior--7cc1a672-d56d-4b3d-915f-e3845b24ef97",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

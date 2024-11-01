@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d92a5d9b-f226-47b8-8b01-7325c6941f2f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1f7db3fe-de5d-4608-8740-13a21cd7f50c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.268267Z",
+            "modified": "2024-11-01T15:41:54.268267Z",
+            "relationship_type": "uses",
+            "description": "File System::Move File (C0063) -- UP007 moves files. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-behavior--b1be9b18-475f-4a13-9976-4118740b50c5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

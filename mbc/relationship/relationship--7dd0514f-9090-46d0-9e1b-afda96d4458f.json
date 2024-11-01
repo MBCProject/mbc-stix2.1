@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--136ce63d-e64c-4a53-b913-b2a0bb7f107c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7dd0514f-9090-46d0-9e1b-afda96d4458f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:56.615222Z",
+            "modified": "2024-11-01T15:41:56.615222Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encoding-Standard Algorithm (E1027.m02) -- Shamoon encodes data using XOR. [5]",
+            "source_ref": "malware--126fd545-8484-4d16-a8ac-7c20fb2c8b43",
+            "target_ref": "malware-method--299ce1cd-bcb0-462d-be60-4757fe78820b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

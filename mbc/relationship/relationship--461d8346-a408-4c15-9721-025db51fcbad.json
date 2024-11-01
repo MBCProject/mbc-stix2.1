@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ddd5d710-6498-470f-8566-36b33192fda4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--461d8346-a408-4c15-9721-025db51fcbad",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:57.306368Z",
+            "modified": "2024-11-01T15:41:57.306368Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- CryptoLocker queries environment variables. [2]",
+            "source_ref": "malware--215c546e-44be-43f1-bbdd-831c356a5e95",
+            "target_ref": "malware-behavior--584dc938-3789-4e53-995e-f914dff31b71",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c510ead8-f721-4081-beaa-6b0be46d2830",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5d3b7282-a2b8-4891-b5d2-356b6f4868b3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.266028Z",
+            "modified": "2024-11-01T15:41:54.266028Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Receive Data (B0030.002) -- The malware receives payloads. [1]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-method--47a66a67-6cc7-492f-90ae-0e4f198a9d11",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

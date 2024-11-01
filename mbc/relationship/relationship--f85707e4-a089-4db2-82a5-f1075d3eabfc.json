@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--755202ed-70c8-4e31-827f-6e6aa95396a1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f85707e4-a089-4db2-82a5-f1075d3eabfc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:52.55301Z",
+            "modified": "2024-11-01T15:41:52.55301Z",
+            "relationship_type": "uses",
+            "description": "Impact::Disk Wipe (T1561) -- If a specific anti-analysis check fails, the malware will overwrite the Master Boot Record or the user's home folder. [1]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "attack-pattern--1988cc35-ced8-4dad-b2d1-7628488fa967",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

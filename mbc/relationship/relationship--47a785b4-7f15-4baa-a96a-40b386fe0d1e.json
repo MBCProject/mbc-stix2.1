@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8ef5c7e2-88d4-430c-9b44-68639f9a4b98",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--47a785b4-7f15-4baa-a96a-40b386fe0d1e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:53.618828Z",
+            "modified": "2024-11-01T15:41:53.618828Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hidden Files and Directories::Location (F0005.002) -- The malware searches for a target folder on the victim. If the target folder doesn't exist, the malware creates the folder by calling CreateDirectoryA and downloads the remote file into the new folder. [1]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "malware-method--cf96f544-8d03-4185-a152-5a8243603d8d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

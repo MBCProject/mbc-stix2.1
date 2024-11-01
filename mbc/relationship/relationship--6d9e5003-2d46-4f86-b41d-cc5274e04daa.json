@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--33ecf721-272c-4ba1-be67-c4334a24ede0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6d9e5003-2d46-4f86-b41d-cc5274e04daa",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:51.767657Z",
+            "modified": "2024-11-01T15:41:51.767657Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete Directory (C0048) -- Hupigon deletes directories. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--74a0fb05-a0ac-4e83-87b3-36a11a396e45",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

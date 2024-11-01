@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b9cd23cc-3547-4a02-b671-8d613e91e280",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--37f77e47-5623-41ec-995e-8c68f2ff93b5",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:53.141158Z",
+            "modified": "2024-11-01T15:41:53.141158Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Boot or Logon Autostart Execution (T1547) -- ElectroRat enables auto start on bootup.  [1]",
+            "source_ref": "malware--78d2433b-c22e-457f-8f06-0b93d34cefb8",
+            "target_ref": "attack-pattern--1ecb2399-e8ba-4f6b-8ba7-5c27d49405cf",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

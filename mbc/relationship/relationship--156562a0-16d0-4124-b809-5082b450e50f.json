@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bc6006c9-f18d-4833-9aa6-b1fa552fc0c8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--156562a0-16d0-4124-b809-5082b450e50f",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:52.850167Z",
+            "modified": "2024-11-01T15:41:52.850167Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data::RC4 (C0027.009) -- Rombertik encrypts data using RC4 PRGA. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--3a879212-7127-4f91-84ef-7aa65e971ef3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

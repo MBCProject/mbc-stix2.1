@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a79de919-e8d0-4615-bc80-5314fe5d7e64",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8fa39312-2fc3-4e4a-a57e-5cd7cea98774",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:51.556369Z",
+            "modified": "2024-11-01T15:41:51.556369Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Network Configuration Discovery (T1016) -- Hupigon gets local IPv4 addresses. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "attack-pattern--707399d6-ab3e-4963-9315-d9d3818cd6a0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

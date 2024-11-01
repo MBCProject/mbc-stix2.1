@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d97232f3-ec0c-4ed8-a5ad-a8499390af25",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--db4781d0-26e7-4861-92aa-98b51d616723",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:52.218431Z",
+            "modified": "2024-11-01T15:41:52.218431Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery (T1083) -- The malware searches for various files and directories. [1]",
+            "source_ref": "malware--f2e49fb4-f22a-4ca3-b9a8-fc000b2b3d5e",
+            "target_ref": "attack-pattern--7bc57495-ea59-4380-be31-a64af124ef18",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

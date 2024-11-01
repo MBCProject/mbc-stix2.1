@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--35400df6-0979-4a5c-a256-2c25777a4196",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4f8c16ee-ca61-49d8-b967-24a0216e01c4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:55.368869Z",
+            "modified": "2024-11-01T15:41:55.368869Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hijack Execution Flow::Import Address Table Hooking (F0015.003) -- Stuxnet hooks ntdll.dll to monitor for requests to load specially crafted file names, which are mapped to a location specified by Stuxnet. [1]",
+            "source_ref": "malware--695d06a7-4c91-4d98-8f8c-6360316a59e7",
+            "target_ref": "malware-method--33e32618-145f-4113-9ffc-aed16ee5c2dd",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

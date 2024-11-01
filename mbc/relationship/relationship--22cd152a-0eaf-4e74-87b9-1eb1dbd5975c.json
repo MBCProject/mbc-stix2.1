@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--12ca70fa-35ce-4e15-b5a8-9a2cce3c9808",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--22cd152a-0eaf-4e74-87b9-1eb1dbd5975c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:51.869718Z",
+            "modified": "2024-11-01T15:41:51.869718Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Request Email Address List (B0030.010) -- New email addresses are collected automatically from the victim's address books. [4]",
+            "source_ref": "malware--b3879069-4f94-467f-a8eb-7bd11bc9527e",
+            "target_ref": "malware-method--de26de66-d5b4-4c79-93c1-232fde5991f2",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

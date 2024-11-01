@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8bd5793e-76ea-4b1a-be76-276101eb2516",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3866ec7e-7ec5-4bef-9939-56e312123805",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:55.460403Z",
+            "modified": "2024-11-01T15:41:55.460403Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::File and Directory Permissions Modification (T1222) -- Redhip sets file attributes. [2]",
+            "source_ref": "malware--7118a034-ac23-4a16-8277-32b790f890c5",
+            "target_ref": "attack-pattern--65917ae0-b854-4139-83fe-bf2441cf0196",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

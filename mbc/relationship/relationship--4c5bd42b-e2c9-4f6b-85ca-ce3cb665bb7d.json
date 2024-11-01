@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--58284923-30d6-456e-bce1-9a62e68a7ea6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4c5bd42b-e2c9-4f6b-85ca-ce3cb665bb7d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:55.930162Z",
+            "modified": "2024-11-01T15:41:55.930162Z",
+            "relationship_type": "uses",
+            "description": "Process::Terminate Process (C0018) -- GravityRAT terminates processes. [4]",
+            "source_ref": "malware--5b8c2b12-1114-4445-9f40-869fd713df31",
+            "target_ref": "malware-behavior--52a18e74-ab5d-401d-a48c-37d84ece4896",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

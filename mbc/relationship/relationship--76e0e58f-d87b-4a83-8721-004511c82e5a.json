@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a6044bdb-5ce6-4bbf-9721-17585761ac1a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--76e0e58f-d87b-4a83-8721-004511c82e5a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.554147Z",
+            "modified": "2024-11-01T15:41:54.554147Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Generate Pseudo-random Sequence::Use API (C0021.003) -- Locky Bart generates random numbers via WinAPI. [2]",
+            "source_ref": "malware--a8852a66-f28c-4a9f-a16d-aca871a5e54b",
+            "target_ref": "malware-method--1de80818-0c49-4de7-a85e-5ef660bafd17",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

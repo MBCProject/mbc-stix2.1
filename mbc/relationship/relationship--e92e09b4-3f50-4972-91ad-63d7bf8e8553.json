@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5f7cb72b-bfc0-4096-be37-55b201801e63",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e92e09b4-3f50-4972-91ad-63d7bf8e8553",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.584341Z",
+            "modified": "2024-11-01T15:41:54.584341Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- WannaCry creates two registry run keys to ensure persistence. [1]",
+            "source_ref": "malware--b2e84cdc-8eef-42f3-9f27-a4587787f52a",
+            "target_ref": "malware-behavior--68bdb0c9-2213-437d-ac60-94852160b34a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

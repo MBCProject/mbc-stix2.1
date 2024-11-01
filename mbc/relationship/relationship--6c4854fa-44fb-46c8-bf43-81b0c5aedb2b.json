@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--47a0e726-52bc-4c0b-9e12-b026077a0231",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6c4854fa-44fb-46c8-bf43-81b0c5aedb2b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:56.231075Z",
+            "modified": "2024-11-01T15:41:56.231075Z",
+            "relationship_type": "uses",
+            "description": "File System::Read File (C0051) -- SamSam reads files on Windows. [4]",
+            "source_ref": "malware--d36b5830-be79-40bd-aadf-092e77380409",
+            "target_ref": "malware-behavior--6b99bf51-1fcb-4284-9ae0-d780e46b7825",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

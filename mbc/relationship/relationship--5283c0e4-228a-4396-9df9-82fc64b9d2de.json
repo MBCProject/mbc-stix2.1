@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1c9eae3d-309a-4ab5-b271-79a9f8498b1b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5283c0e4-228a-4396-9df9-82fc64b9d2de",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:55.849345Z",
+            "modified": "2024-11-01T15:41:55.849345Z",
+            "relationship_type": "uses",
+            "description": "Execution::System Services::Service Execution (T1569.002) -- Kovter interacts with drivers via control codes. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "attack-pattern--f1951e8a-500e-4a26-8803-76d95c4554b4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

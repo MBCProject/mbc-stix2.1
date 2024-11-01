@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--60d011fc-415c-4cde-ba3f-94054b9a7874",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--cc9130b3-6709-4cdb-939c-a53a6f45efb1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:52.851636Z",
+            "modified": "2024-11-01T15:41:52.851636Z",
+            "relationship_type": "uses",
+            "description": "File System::Read File (C0051) -- Rombertik reads files on Windows. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-behavior--6b99bf51-1fcb-4284-9ae0-d780e46b7825",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

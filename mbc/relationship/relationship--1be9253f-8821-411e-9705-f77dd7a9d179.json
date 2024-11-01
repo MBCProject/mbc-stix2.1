@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a1d15b77-f126-42ae-8e99-7314492c76c0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1be9253f-8821-411e-9705-f77dd7a9d179",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:56.229654Z",
+            "modified": "2024-11-01T15:41:56.229654Z",
+            "relationship_type": "uses",
+            "description": "Execution::Exploitation for Client Execution::Remote Desktop Protocols (E1203.m01) -- Attackers associated with SamSam exploit vulnerabilities in remote desktop protocols (RDP), Java-based web servers, or file transfer protocol (FTP) servers. [5]",
+            "source_ref": "malware--d36b5830-be79-40bd-aadf-092e77380409",
+            "target_ref": "malware-method--274dfd6b-c5f6-47f2-9aaa-40bb3421451c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

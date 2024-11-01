@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--987366d0-cb2d-4621-9e54-977caf1c07cc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--46f0181c-b5c5-4da9-90f1-305c6501c5e7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.270079Z",
+            "modified": "2024-11-01T15:41:54.270079Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Process (C0017) -- UP007 creates a process on Windows. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-behavior--bf5c92a2-c1f9-489f-89e7-936d753be249",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

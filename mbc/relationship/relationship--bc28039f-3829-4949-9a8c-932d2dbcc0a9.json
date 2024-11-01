@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bf27a837-5a12-4056-856d-96e8cb940ca6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bc28039f-3829-4949-9a8c-932d2dbcc0a9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:51.327225Z",
+            "modified": "2024-11-01T15:41:51.327225Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Executable Code Obfuscation::API Hashing (B0032.001) -- Malware uses API hashing method. [1]",
+            "source_ref": "malware--c1d6f7fb-bb10-42a8-b2be-60922440c310",
+            "target_ref": "malware-method--27554757-5596-4a8c-8db4-ac26e02a4cd3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

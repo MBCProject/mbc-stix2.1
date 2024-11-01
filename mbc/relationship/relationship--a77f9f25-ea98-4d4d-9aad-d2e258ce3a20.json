@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1df38f22-5207-4ecf-9dc6-047b755e7409",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a77f9f25-ea98-4d4d-9aad-d2e258ce3a20",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.43528Z",
+            "modified": "2024-11-01T15:41:54.43528Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Sandbox Detection (B0007) -- EvilBunny hooks time retrieval APIs and calls each API twice to calculate a delta. Execution aborts depending on the delta value. [1]",
+            "source_ref": "malware--c1bce3d8-2fc6-4a79-9872-936edfbfcdd3",
+            "target_ref": "malware-behavior--54b3edd9-186c-4b8e-858e-95318349f658",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

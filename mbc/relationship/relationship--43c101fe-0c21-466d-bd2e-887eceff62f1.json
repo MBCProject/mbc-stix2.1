@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--59604e0f-02e6-4c6b-95be-ea283ea355a5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--43c101fe-0c21-466d-bd2e-887eceff62f1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:51.89939Z",
+            "modified": "2024-11-01T15:41:51.89939Z",
+            "relationship_type": "uses",
+            "description": "Exfiltration::Automated Exfiltration (E1020) -- Attor has a file uploader plugin that automatically exfiltrates collected data and log files to a C2 server [1]",
+            "source_ref": "malware--90d99867-dd26-45cb-bb6b-ab653f5ef904",
+            "target_ref": "malware-behavior--3300f695-c9d3-4641-a26c-0aa860378df5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

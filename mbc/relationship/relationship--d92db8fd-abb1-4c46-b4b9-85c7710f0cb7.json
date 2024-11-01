@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f4b66f33-806d-4ef5-aa45-ffdc1c4ab912",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d92db8fd-abb1-4c46-b4b9-85c7710f0cb7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.39948Z",
+            "modified": "2024-11-01T15:41:54.39948Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Receive Data (B0030.002) -- The malware receives data from C2. [1]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-method--47a66a67-6cc7-492f-90ae-0e4f198a9d11",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7f977bf9-da38-42c9-9c6e-cca2ba89f9a2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d5d2d361-0ec8-4fe2-891f-740103290c85",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:57.157661Z",
+            "modified": "2024-11-01T15:41:57.157661Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hidden Files and Directories (F0005) -- GoBotKR stores itself in a file with Hidden and System attributes. [1]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-behavior--02670a0e-a823-4dba-80f2-3a6c0a16bdec",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

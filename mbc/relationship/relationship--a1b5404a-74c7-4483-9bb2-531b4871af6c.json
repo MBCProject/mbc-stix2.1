@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3354d5a5-a64b-454e-8c43-f5ce83a6903a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a1b5404a-74c7-4483-9bb2-531b4871af6c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:56.617068Z",
+            "modified": "2024-11-01T15:41:56.617068Z",
+            "relationship_type": "uses",
+            "description": "File System::Copy File (C0045) -- Shamoon copies files. [5]",
+            "source_ref": "malware--126fd545-8484-4d16-a8ac-7c20fb2c8b43",
+            "target_ref": "malware-behavior--7ea1c41a-ed8b-4836-a4bc-48129c33c60b",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

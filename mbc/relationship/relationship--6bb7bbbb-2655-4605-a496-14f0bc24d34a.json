@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bb2664c4-4e1b-4293-bba2-dd6a106cd4eb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6bb7bbbb-2655-4605-a496-14f0bc24d34a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.553408Z",
+            "modified": "2024-11-01T15:41:54.553408Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Executable Code Virtualization (B0008) -- Code virtualization is added to the Locky Bart binary using WPProtect. [1]",
+            "source_ref": "malware--a8852a66-f28c-4a9f-a16d-aca871a5e54b",
+            "target_ref": "malware-behavior--86cf6581-cbe7-4468-b6a7-fa247ba1da8f",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

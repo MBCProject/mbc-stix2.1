@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3338df3d-cb66-4885-a822-16da2d433f8d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--83d7a0fb-c316-4d2e-9706-d4b6ad558454",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:55.853285Z",
+            "modified": "2024-11-01T15:41:55.853285Z",
+            "relationship_type": "uses",
+            "description": "Command And Control::C2 Communication::Send Data (B0030.001) -- Kovter sends data. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-method--f52bfd6d-ddfa-4552-b99b-8558d5eac711",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

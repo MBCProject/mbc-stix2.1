@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b8c2f6bc-ec80-4070-a4cf-268c83f3d5a3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7a491f43-db8f-43f9-9367-810375b8de2d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:54.266978Z",
+            "modified": "2024-11-01T15:41:54.266978Z",
+            "relationship_type": "uses",
+            "description": "Data::Checksum::CRC32 (C0032.001) -- UP007 hashes data with CRC32. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-method--e5868b60-5bee-4dd9-bc67-7d5232b641d7",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

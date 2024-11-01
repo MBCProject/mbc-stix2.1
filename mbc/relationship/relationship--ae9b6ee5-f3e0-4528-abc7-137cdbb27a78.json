@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b03e5de7-fcf7-4e49-801d-b1242e5bb8cc",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ae9b6ee5-f3e0-4528-abc7-137cdbb27a78",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:52.850518Z",
+            "modified": "2024-11-01T15:41:52.850518Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encryption Key::RC4 KSA (C0028.002) -- Rombertik encrypts data using RC4 KSA. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--e77b4c80-cb3e-4f53-85f4-6f7fc12dfbd0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4693fcb2-78ed-4cb6-ae30-b56e353508af",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--afa8dd5c-4ce7-4455-b14b-a26f2bb89c51",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:53.886254Z",
+            "modified": "2024-11-01T15:41:53.886254Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Registry Run Keys / Startup Folder (F0012) -- A copy of Crytowall is placed in the startup folder and a directory at the root of the system drive. Also adds multiple \"autostart\" registry keys. [2]",
+            "source_ref": "malware--0223c81a-a1ea-49b1-9edd-ae1e5e10697b",
+            "target_ref": "malware-behavior--68bdb0c9-2213-437d-ac60-94852160b34a",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

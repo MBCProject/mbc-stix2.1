@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c772911d-83b4-46ee-8081-5d487a22ae7e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e301c6ba-64ad-4296-9eb2-8962fcd38a31",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:55.851319Z",
+            "modified": "2024-11-01T15:41:55.851319Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Software Packing (F0001) -- The malware comes packed by a crypter/FUD. [1]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-behavior--06c60f10-a2e6-49dd-9ce4-fe36c51a11b8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0e776f2e-cc9f-419b-bb8d-5bf1410e1895",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d3fef3f1-7675-4b8e-bc3c-6649f040154c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:51.762433Z",
+            "modified": "2024-11-01T15:41:51.762433Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- Hupigon queries environment variables. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--584dc938-3789-4e53-995e-f914dff31b71",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

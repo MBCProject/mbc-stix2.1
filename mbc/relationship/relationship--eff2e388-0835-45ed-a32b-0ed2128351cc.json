@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e92ad9e5-b5ac-4b85-b9d0-e25b059a7e9a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--eff2e388-0835-45ed-a32b-0ed2128351cc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:56.789171Z",
+            "modified": "2024-11-01T15:41:56.789171Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Indicator Removal (T1070) -- GoBotKR removes the Zone identifier from the ADS (Alternate Data Streams) of the file, to conceal the fact the file has been downloaded from the internet. [1]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "attack-pattern--799ace7f-e227-4411-baa0-8868704f2a69",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

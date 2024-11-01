@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--dbf5c221-4680-4dd8-a3d7-36a5cca922b2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--581051f3-8566-4ffa-92ec-8211c8e920d6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-01T15:41:55.928842Z",
+            "modified": "2024-11-01T15:41:55.928842Z",
+            "relationship_type": "uses",
+            "description": "File System::Create Directory (C0046) -- GravityRAT creates directories. [4]",
+            "source_ref": "malware--5b8c2b12-1114-4445-9f40-869fd713df31",
+            "target_ref": "malware-behavior--ad242752-7f47-4295-a734-53de5718b090",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

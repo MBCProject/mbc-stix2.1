@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--835c24cb-da8a-4da9-9b30-9ea3a315f7a5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1282f225-f2df-4563-ada8-35818fbb7193",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.366923Z",
+            "modified": "2024-11-18T16:43:41.366923Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete Directory (C0048) -- Kovter deletes directories. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-behavior--49e3f510-dade-48a3-9e3e-2f197f052a10",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

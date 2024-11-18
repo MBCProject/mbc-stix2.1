@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3e498d10-f157-46c3-b76b-543a7aa33fa6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3d6019db-9c45-4dfa-a1b5-e36051717bd1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.767024Z",
+            "modified": "2024-11-18T16:43:39.767024Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection::Dynamic-link Library Injection (E1055.001) -- The malware loads multiple DLLs into memory. [1]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-method--df4cc311-9a6a-48e8-8e6e-c2251ca62750",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

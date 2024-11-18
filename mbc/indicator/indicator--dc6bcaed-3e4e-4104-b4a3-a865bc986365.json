@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--2d714598-1eac-4e24-9050-98fff9e709aa",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--dc6bcaed-3e4e-4104-b4a3-a865bc986365",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.729603Z",
+            "modified": "2024-11-18T16:43:41.729603Z",
+            "name": "Dark Comet hash",
+            "description": "This is an IoC for Dark Comet",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '0369aa99d731d2de260bc63b6c4f85d997eb189155c362df478d8f5afaa655b0' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-11-18T16:43:41.729603Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

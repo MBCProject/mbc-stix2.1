@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--c05dcbf8-9253-40f7-945a-e3d07b66685d",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a0fc377f-a450-4cb2-9355-6f1ba81d39ea",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.327954Z",
+            "modified": "2024-11-18T16:43:37.327954Z",
+            "name": "Hupigon hash",
+            "description": "This is an IoC for Hupigon",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '465d3aac3ca4daa9ad4de04fcb999f358396efd7abceed9701c9c28c23c126db' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-11-18T16:43:37.327954Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

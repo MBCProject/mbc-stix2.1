@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b51bcbb0-dae6-422e-b06a-a2aadd8b39f2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--268f2fd6-fac5-4471-a449-61c4db2f62eb",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:36.798624Z",
+            "modified": "2024-11-18T16:43:36.798624Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Send Data (B0030.001) -- CHOPSTICK sends data to the C2 server using HTTP POST requests. [1]",
+            "source_ref": "malware--a22c6a4e-a0c2-4f69-97e1-c9e289818842",
+            "target_ref": "malware-method--4fc8fe21-b9de-470f-a74e-c1d787d086c0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

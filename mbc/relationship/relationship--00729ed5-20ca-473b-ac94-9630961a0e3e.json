@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--dccf709a-1754-4274-95ef-91c6e8acafa2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--00729ed5-20ca-473b-ac94-9630961a0e3e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.146775Z",
+            "modified": "2024-11-18T16:43:39.146775Z",
+            "relationship_type": "uses",
+            "description": "Process::Check Mutex (C0043) -- Malware checks if multiple instances of the same mutex is running. If multiple instances are running, the malware exits. [1]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "malware-behavior--1d977a51-58bd-4628-b3d4-944142ad16f1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

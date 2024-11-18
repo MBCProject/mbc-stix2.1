@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--ed994f48-17df-4fc0-8525-2fc32965f377",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--48d42dc5-d6e3-4679-8262-b30006e7ecd0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:40.845059Z",
+            "modified": "2024-11-18T16:43:40.845059Z",
+            "name": "TrickBot Yara Rule",
+            "description": "This is an IoC for TrickBot",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ yara-rule:value = 'rule MALW_trickbot_bankBot : Trojan { meta: author = \"Marc Salinas @Bondey_m\" description = \"Detects Trickbot Banking Trojan\" strings: $str_trick_01 = \"moduleconfig\" $str_trick_02 = \"Start\" $str_trick_03 = \"Control\" $str_trick_04 = \"FreeBuffer\" $str_trick_05 = \"Release\" condition: all of ($str_trick_*) }' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-11-18T16:43:40.845059Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

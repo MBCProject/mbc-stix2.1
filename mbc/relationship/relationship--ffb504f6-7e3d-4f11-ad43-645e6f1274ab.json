@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--659206c2-283f-47bd-9123-e4ee0f6632d2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ffb504f6-7e3d-4f11-ad43-645e6f1274ab",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.560398Z",
+            "modified": "2024-11-18T16:43:37.560398Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Analysis Tool Discovery::Known Windows Class Name (B0013.010) -- A Poison Ivy variant goes through all the running program windows to check if any Windows class name contains a special string to determine if an analysis tool is running. [3]",
+            "source_ref": "malware--f68cd3e5-afa7-48ef-bba0-11c58ab8026f",
+            "target_ref": "malware-method--d65eb71b-f013-429a-a16f-00e27c0e0ef9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

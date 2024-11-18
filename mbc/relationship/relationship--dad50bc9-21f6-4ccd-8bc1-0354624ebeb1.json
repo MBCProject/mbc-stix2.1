@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b1983d9c-13a0-4a59-9d0c-f393a3dc672a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dad50bc9-21f6-4ccd-8bc1-0354624ebeb1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:40.317606Z",
+            "modified": "2024-11-18T16:43:40.317606Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) -- Malware tricks OS X keychain to create application files. Geneio installs the browser extension\u00a0~/Library/Safari/Extensions/Omnibar.safariextz. It also creates the app files listed in the description above. [1]",
+            "source_ref": "malware--035e0bf4-ee91-4a5b-bc42-edf29a4ac235",
+            "target_ref": "malware-behavior--6a39a772-8d22-4d3e-af04-71cd2c02be12",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

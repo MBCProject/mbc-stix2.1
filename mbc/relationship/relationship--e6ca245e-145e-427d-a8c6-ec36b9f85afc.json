@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--aefb8ded-3d3e-49a7-b41b-0eacc1573e35",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e6ca245e-145e-427d-a8c6-ec36b9f85afc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.89541Z",
+            "modified": "2024-11-18T16:43:39.89541Z",
+            "relationship_type": "uses",
+            "description": "File System::Get File Attributes (C0049) -- Gamut gets file attributes. [3]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-behavior--125d026d-52e9-485b-9818-2063ab402106",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

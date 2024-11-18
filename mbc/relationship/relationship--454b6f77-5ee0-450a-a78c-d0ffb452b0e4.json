@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3cffac31-0a90-4f1d-a62e-cc7a72ed1ea4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--454b6f77-5ee0-450a-a78c-d0ffb452b0e4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.332689Z",
+            "modified": "2024-11-18T16:43:37.332689Z",
+            "relationship_type": "uses",
+            "description": "Process::Resume Thread (C0054) --  As part of process hollowing, Conti resumes the execution of the suspended process. [1]",
+            "source_ref": "malware--616a623a-1cc2-474c-9ee4-964801070166",
+            "target_ref": "malware-behavior--83acd072-1156-43ec-90d9-5e7a776e72cc",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--1fd855de-75ae-4578-a48d-3b9f51c2d809",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--775c6cd4-b753-4e27-b83a-9a97226c5948",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.420041Z",
+            "modified": "2024-11-18T16:43:39.420041Z",
+            "name": "CryptoWall hash",
+            "description": "This is an IoC for CryptoWall",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '7ed58ef4fd3dc4efaea9e595614553445afb055c0c675b692f12a5629251b040' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-11-18T16:43:39.420041Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

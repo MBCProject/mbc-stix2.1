@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--65bba95a-327c-44c2-9e8a-a02a15b239f5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9efad018-7f67-4ff9-9185-c9532a224689",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.769238Z",
+            "modified": "2024-11-18T16:43:39.769238Z",
+            "relationship_type": "uses",
+            "description": "Execution::Install Additional Program (B0023) -- The malware is a dropper that creates multiple files. [1]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-behavior--6a39a772-8d22-4d3e-af04-71cd2c02be12",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3e0ccf4a-f362-4d19-8176-5d9b2d2c0825",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a8dcf4c2-7908-4bd6-b8a4-e1cd3722b97e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:40.674979Z",
+            "modified": "2024-11-18T16:43:40.674979Z",
+            "relationship_type": "uses",
+            "description": "Impact::Manipulate Network Traffic (B0019) -- SearchAwesome intercepts encrypted web traffic to inject ads. [1]",
+            "source_ref": "malware--b2924e46-812f-491d-a441-b8571f7b221e",
+            "target_ref": "malware-behavior--612c101f-613b-4332-a180-3f9e7581c184",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

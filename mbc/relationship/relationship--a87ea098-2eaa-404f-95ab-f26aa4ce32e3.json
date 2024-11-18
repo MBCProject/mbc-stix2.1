@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e4aad3c6-c642-4124-8c82-785a21bde9f8",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a87ea098-2eaa-404f-95ab-f26aa4ce32e3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.698438Z",
+            "modified": "2024-11-18T16:43:41.698438Z",
+            "relationship_type": "uses",
+            "description": "Impact::Remote Access (B0022) -- DarkComet allows an attacker to control the system via a GUI. [1]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-behavior--b41aeeb5-d38d-48e0-b94f-49b13c094c28",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

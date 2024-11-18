@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--78c9a4b1-9ec4-410d-b536-8fd1727f2f07",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7d03a56e-4571-46ce-8795-a71345b37668",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.951296Z",
+            "modified": "2024-11-18T16:43:41.951296Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete File (C0047) -- Mebromi deletes files. [2]",
+            "source_ref": "malware--94cb6823-8c6c-4d3d-8e86-258e10c97da2",
+            "target_ref": "malware-behavior--a4c7df48-36f7-4b3a-ba2b-aeb6fc01fcc6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--09a58525-7ec1-4c40-a98d-6d1650eb8824",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--154e5007-81f8-4d61-a16f-d52e666169b6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.930058Z",
+            "modified": "2024-11-18T16:43:37.930058Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Disable or Evade Security Tools (F0004) -- Most security products hook some APIs to monitor the behavior of malware. To avoid being identified by this technique, WebCobra loads ntdll.dll and user32.dll as data files in memory and overwrites the first 8 bytes of those functions, which unhooks the APIs. [1]",
+            "source_ref": "malware--f2e49fb4-f22a-4ca3-b9a8-fc000b2b3d5e",
+            "target_ref": "malware-behavior--f1b79c0f-5dfe-40f8-ab34-a23527b303fd",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

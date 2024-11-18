@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--5dc8c0f0-8d79-4942-a35e-55c5459265ba",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--21e4ee2f-e351-4f86-af9e-59005e639eec",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:42.007151Z",
+            "modified": "2024-11-18T16:43:42.007151Z",
+            "name": "Drovorub hash",
+            "description": "This is an IoC for Drovorub",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '1c0d14b530632307329de7bfb3546a91f6ebfd0256664c33a92f2b6e8ad88626' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-11-18T16:43:42.007151Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

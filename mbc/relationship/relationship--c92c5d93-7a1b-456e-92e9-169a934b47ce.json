@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8f197b34-a158-44b3-8860-b75db6d236bf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c92c5d93-7a1b-456e-92e9-169a934b47ce",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.368433Z",
+            "modified": "2024-11-18T16:43:41.368433Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Query Registry Value (C0036.006) -- Kovter queries or enumerates registry values. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-method--abc15c28-d9cd-4782-a7b7-f19f465f0856",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

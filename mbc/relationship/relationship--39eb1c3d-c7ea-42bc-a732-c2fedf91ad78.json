@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1560502a-60ff-47db-b23c-1739c12fa3d6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--39eb1c3d-c7ea-42bc-a732-c2fedf91ad78",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.772696Z",
+            "modified": "2024-11-18T16:43:39.772696Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Set Registry Key (C0036.001) -- UP007 sets registry values. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-method--edf92636-ce07-4a85-b7cf-35d146e8be78",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

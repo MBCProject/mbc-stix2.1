@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--857396d5-0d9e-4702-bf22-1e18b118c60e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--336b5db7-536d-4c85-8eeb-f603e6b39c1c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.361654Z",
+            "modified": "2024-11-18T16:43:41.361654Z",
+            "relationship_type": "uses",
+            "description": "Impact::Generate Traffic from Victim (E1643) -- Kovter performs click-fraud. [1]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-behavior--36ce6f72-49d9-4e1d-80ea-a12f26bd1694",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

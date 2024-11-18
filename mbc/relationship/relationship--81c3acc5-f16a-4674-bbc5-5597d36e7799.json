@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--410c6c32-ef59-4353-88be-fdd51ab06624",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--81c3acc5-f16a-4674-bbc5-5597d36e7799",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.929976Z",
+            "modified": "2024-11-18T16:43:39.929976Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Polymorphic Code (B0029) -- EvilBunny utilizes Lua scripts to exhibit polymorphism. [1]",
+            "source_ref": "malware--c1bce3d8-2fc6-4a79-9872-936edfbfcdd3",
+            "target_ref": "malware-behavior--4ca1b385-d008-4f7c-bf80-e41b0b612795",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

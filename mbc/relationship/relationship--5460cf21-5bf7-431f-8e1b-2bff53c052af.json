@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--68342604-5780-40c5-aae4-16b9a8037dae",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5460cf21-5bf7-431f-8e1b-2bff53c052af",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.651619Z",
+            "modified": "2024-11-18T16:43:37.651619Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encoding-Standard Algorithm (E1027.m02) -- DNSChanger encodes data using XOR. [2]",
+            "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
+            "target_ref": "malware-method--5d92db90-4b13-4904-9a88-b41110cd2cf3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

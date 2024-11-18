@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--024b7f66-b3f1-439d-84d0-500d8b2c08f7",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--622e1463-ded0-4b46-9e9f-05e88c4bf4a9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.684185Z",
+            "modified": "2024-11-18T16:43:37.684185Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Modify Existing Service (F0011) -- The malware hijacks other installed applications' launch routines to use \"ADPage\" (an installed malicious app) to display advertisements. [1]",
+            "source_ref": "malware--0a538d20-0f51-411f-bb26-1aee555078d0",
+            "target_ref": "malware-behavior--11554291-162f-44a9-a79f-6fddf692b649",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

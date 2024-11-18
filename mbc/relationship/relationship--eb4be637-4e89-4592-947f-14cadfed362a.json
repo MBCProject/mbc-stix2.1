@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--56a6bcf7-5355-402a-9466-a9d6ac9356ec",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--eb4be637-4e89-4592-947f-14cadfed362a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:42.673166Z",
+            "modified": "2024-11-18T16:43:42.673166Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral-Analysis::Sandbox Detection (B0007) -- GoBotKR performs several checks on the compromised machine to avoid being emulated or executed in a sandbox. [1]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-behavior--f1848ab3-a122-4529-9e8f-c1219d4f2d0e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

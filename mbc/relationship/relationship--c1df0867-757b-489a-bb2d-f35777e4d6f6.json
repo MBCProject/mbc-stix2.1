@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4f276cb8-cf9c-41b6-b566-335801434235",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c1df0867-757b-489a-bb2d-f35777e4d6f6",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.147459Z",
+            "modified": "2024-11-18T16:43:39.147459Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Executable Code Obfuscation::API Hashing (B0032.001) -- The function to import APIs uses a hash value and the DLL name of the target API. The API address returned from the function is stored into a global variance. API calls are obfuscated in the same manner as the stack strings and are resolved dynamically as the malware needs to use them. The malware encodes data in a stack string and copies that data into a global character buffer as a form of string obfuscation. [1] [2]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "malware-method--f5374483-346a-4e68-b7d4-e68f0c8d71d2",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

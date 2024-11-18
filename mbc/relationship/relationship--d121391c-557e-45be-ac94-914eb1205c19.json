@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bd30604a-408a-47d0-9a78-0f069817c4fe",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d121391c-557e-45be-ac94-914eb1205c19",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.393938Z",
+            "modified": "2024-11-18T16:43:39.393938Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication::Receive Data (B0030.002) -- The malware receives a public key from the C2. [1]",
+            "source_ref": "malware--0223c81a-a1ea-49b1-9edd-ae1e5e10697b",
+            "target_ref": "malware-method--41f6c7fe-0756-4e69-a04a-d0f38e8c5280",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

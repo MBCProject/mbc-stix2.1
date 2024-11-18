@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--d1f1d45c-b88b-46a8-bd95-0da9c167a416",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--1b8ad80a-bfcb-4e7b-8378-a6e9fb3c637d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.718208Z",
+            "modified": "2024-11-18T16:43:37.718208Z",
+            "name": "YiSpecter File Names",
+            "description": "This is an IoC for YiSpecter",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:value = 'qvios.od.bb800[.]com: used to download main app' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-11-18T16:43:37.718208Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

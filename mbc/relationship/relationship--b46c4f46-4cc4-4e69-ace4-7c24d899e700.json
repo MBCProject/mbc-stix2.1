@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d4da23e0-8005-4932-9017-ad78805d693d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b46c4f46-4cc4-4e69-ace4-7c24d899e700",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.36714Z",
+            "modified": "2024-11-18T16:43:41.36714Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete File (C0047) -- Kovter deletes files. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-behavior--a4c7df48-36f7-4b3a-ba2b-aeb6fc01fcc6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

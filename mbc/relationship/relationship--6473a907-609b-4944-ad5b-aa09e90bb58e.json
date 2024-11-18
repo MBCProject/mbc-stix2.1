@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--1582580d-05d8-4e40-a224-ed9f88a7c1ff",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6473a907-609b-4944-ad5b-aa09e90bb58e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.102746Z",
+            "modified": "2024-11-18T16:43:41.102746Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Mutex (C0042) -- Redhip creates a mutex. [2]",
+            "source_ref": "malware--7118a034-ac23-4a16-8277-32b790f890c5",
+            "target_ref": "malware-behavior--1c98e6b7-bfbf-4ee1-b29d-f8a551fe5bb3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

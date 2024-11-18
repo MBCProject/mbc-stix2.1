@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d4ed795b-a652-4df7-817a-84b093bfbbaf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--212a28e1-27be-4783-abca-6c09044ef9a1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.101821Z",
+            "modified": "2024-11-18T16:43:41.101821Z",
+            "relationship_type": "uses",
+            "description": "Memory::Allocate Memory (C0007) -- Redhip spawns threads to RWX shellcode. [2]",
+            "source_ref": "malware--7118a034-ac23-4a16-8277-32b790f890c5",
+            "target_ref": "malware-behavior--c8380cd5-4cf3-435c-9781-4be192a21227",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

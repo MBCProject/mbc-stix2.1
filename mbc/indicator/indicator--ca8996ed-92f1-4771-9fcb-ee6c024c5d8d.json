@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--dfe1f357-7624-40d9-84b6-b9ed281fe2b5",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--ca8996ed-92f1-4771-9fcb-ee6c024c5d8d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:40.847668Z",
+            "modified": "2024-11-18T16:43:40.847668Z",
+            "name": "TrickBot Yara Rule",
+            "description": "This is an IoC for TrickBot",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ yara-rule:value = 'rule MALW_mailsercher_trickbot_module : Trojan { meta: author = \"Marc Salinas @Bondey_m\" description = \" Detects mailsearcher module from Trickbot Trojan\" strings: $str_mails_01 = \"mailsearcher\" $str_mails_02 = \"handler\" $str_mails_03 = \"conf\" $str_mails_04 = \"ctl\" $str_mails_05 = \"SetConf\" $str_mails_06 = \"file\" $str_mails_07 = \"needinfo\" $str_mails_08 = \"mailconf\" condition: all of ($str_mails_*) }' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-11-18T16:43:40.847668Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

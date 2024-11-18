@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b5cd507f-7408-425a-b02c-9282263bcd2c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--1f31eff5-4dd2-42ec-8660-93545b1bbdc8",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:42.674282Z",
+            "modified": "2024-11-18T16:43:42.674282Z",
+            "relationship_type": "uses",
+            "description": "File System::Create Directory (C0046) -- GoBotKR creates directories. [2]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-behavior--2cdf1af9-ef29-415e-a1e7-80d7c379dc1e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

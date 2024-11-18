@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9f1f7fe0-daea-4f46-bf5e-9b4008faa4e1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c7c53f96-9c10-49ef-a958-5466fb3f933a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:38.363414Z",
+            "modified": "2024-11-18T16:43:38.363414Z",
+            "relationship_type": "uses",
+            "description": "Collection::Keylogging::Polling (F0002.002) -- Rombertik logs keystrokes via polling. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--70f9660d-2079-47d2-89d6-4200399a3d4e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

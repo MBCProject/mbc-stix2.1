@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--10a6a67a-6a9a-432c-babb-1a1ab0909d67",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--7b1f97e0-56c5-4fce-96f1-27cc5623ad0b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.95829Z",
+            "modified": "2024-11-18T16:43:37.95829Z",
+            "name": "WebCobra hash",
+            "description": "This is an IoC for WebCobra",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '5e14478931e31cf804e08a09e8dffd091db9abd684926792dbebea9b827c9f37' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-11-18T16:43:37.95829Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

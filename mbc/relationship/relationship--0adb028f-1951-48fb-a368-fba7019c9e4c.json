@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--83301edf-ea20-4050-ab2e-cb5433f9fbf1",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0adb028f-1951-48fb-a368-fba7019c9e4c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.703093Z",
+            "modified": "2024-11-18T16:43:41.703093Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Thread (C0038) -- DarkComet creates a  thread. [4]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-behavior--f58c9c71-b643-40a4-a483-c1263b856a16",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

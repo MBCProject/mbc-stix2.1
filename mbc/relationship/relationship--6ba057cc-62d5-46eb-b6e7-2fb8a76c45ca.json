@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6f95bd99-2612-4814-96ab-38667f7d4301",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--6ba057cc-62d5-46eb-b6e7-2fb8a76c45ca",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.55942Z",
+            "modified": "2024-11-18T16:43:37.55942Z",
+            "relationship_type": "uses",
+            "description": "Cryptography::Encrypt Data::Camellia (C0027.003) -- Poison Ivy's custom network protocol over TCP is encrypted using Camellia cipher with a 256-bit key. [2]",
+            "source_ref": "malware--f68cd3e5-afa7-48ef-bba0-11c58ab8026f",
+            "target_ref": "malware-method--bcd533d0-1321-4387-a3e4-e211dc42221d",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

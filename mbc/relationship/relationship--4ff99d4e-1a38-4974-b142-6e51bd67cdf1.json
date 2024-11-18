@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--49fd627e-84fd-4417-b399-b1ba2761f357",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--4ff99d4e-1a38-4974-b142-6e51bd67cdf1",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.430314Z",
+            "modified": "2024-11-18T16:43:41.430314Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete File (C0047) -- GravityRAT deletes files. [4]",
+            "source_ref": "malware--5b8c2b12-1114-4445-9f40-869fd713df31",
+            "target_ref": "malware-behavior--a4c7df48-36f7-4b3a-ba2b-aeb6fc01fcc6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

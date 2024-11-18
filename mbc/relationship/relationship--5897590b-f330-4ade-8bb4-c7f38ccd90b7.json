@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--94502f3c-aa31-41c2-aeff-d1528730be94",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5897590b-f330-4ade-8bb4-c7f38ccd90b7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.394574Z",
+            "modified": "2024-11-18T16:43:37.394574Z",
+            "relationship_type": "uses",
+            "description": "Communication::HTTP Communication::Create Request (C0002.012) -- Emotet creates a HTTP request. [6]",
+            "source_ref": "malware--b3879069-4f94-467f-a8eb-7bd11bc9527e",
+            "target_ref": "malware-method--da6ac223-a542-4658-a53a-7386d35c9aad",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--77704180-c632-46da-9d65-906aa9a3b3df",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c3c84ba6-4095-4db0-9450-843e7854bf17",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.301852Z",
+            "modified": "2024-11-18T16:43:37.301852Z",
+            "relationship_type": "uses",
+            "description": "Process::Terminate Process (C0018) -- Hupigon terminates processes. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--a87fea32-6ad8-406f-9c6b-a7416bd640b0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

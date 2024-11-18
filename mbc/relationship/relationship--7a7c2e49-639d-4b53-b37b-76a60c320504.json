@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--54c3e3ed-e933-41e8-ad0e-216ca17677a6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7a7c2e49-639d-4b53-b37b-76a60c320504",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.894296Z",
+            "modified": "2024-11-18T16:43:39.894296Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Code Discovery::Enumerate PE Sections (B0046.001) -- Gemut enumerates PE sections. [3]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-method--901f36d5-85d4-4732-adf4-e8f3cd8467aa",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

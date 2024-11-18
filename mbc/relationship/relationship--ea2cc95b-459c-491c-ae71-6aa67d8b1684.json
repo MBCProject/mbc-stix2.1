@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5bf0030c-d611-4195-88d5-c5405426a715",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ea2cc95b-459c-491c-ae71-6aa67d8b1684",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.30092Z",
+            "modified": "2024-11-18T16:43:37.30092Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Process (C0017) -- Hupigon creates processes on Windows. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-behavior--0df55a24-8574-4b22-a961-66d2a933923c",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

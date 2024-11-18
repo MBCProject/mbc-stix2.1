@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--97a58b8c-d174-48b6-adb9-2418c1b7178f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--41b91430-9623-4ab6-abda-019c38968c88",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:40.882096Z",
+            "modified": "2024-11-18T16:43:40.882096Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encoding-Standard Algorithm (E1027.m02) -- Stuxnet encodes data using XOR. [2]",
+            "source_ref": "malware--695d06a7-4c91-4d98-8f8c-6360316a59e7",
+            "target_ref": "malware-method--5d92db90-4b13-4904-9a88-b41110cd2cf3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

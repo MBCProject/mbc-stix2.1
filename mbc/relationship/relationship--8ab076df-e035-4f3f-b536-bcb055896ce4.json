@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a01aa466-1bf3-48d7-b58d-de8a15aa397f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--8ab076df-e035-4f3f-b536-bcb055896ce4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.557661Z",
+            "modified": "2024-11-18T16:43:37.557661Z",
+            "relationship_type": "uses",
+            "description": "Collection::Keylogging (F0002) -- Poison Ivy can capture keystrokes. [2]",
+            "source_ref": "malware--f68cd3e5-afa7-48ef-bba0-11c58ab8026f",
+            "target_ref": "malware-behavior--6f628891-7332-450a-9128-2fcab7c3ce29",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

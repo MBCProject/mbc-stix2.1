@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--917cd76a-057c-40e3-b401-3dc9935fd413",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d0f52def-fafe-4ff6-abe9-dba323d8cbee",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.94948Z",
+            "modified": "2024-11-18T16:43:41.94948Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- Mebromi checks OS version. [2]",
+            "source_ref": "malware--94cb6823-8c6c-4d3d-8e86-258e10c97da2",
+            "target_ref": "malware-behavior--44684ff1-9409-4340-9c8a-3c626aca64a9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

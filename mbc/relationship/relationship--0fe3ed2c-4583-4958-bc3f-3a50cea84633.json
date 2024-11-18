@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--76b9060b-6584-4482-874a-2d780f383b6a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0fe3ed2c-4583-4958-bc3f-3a50cea84633",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.767811Z",
+            "modified": "2024-11-18T16:43:39.767811Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Application Window Discovery::Window Text (E1010.m01) -- UP007 gets graphical window text. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-method--b9aaecfb-0d8e-4e69-82b3-5949686720c1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

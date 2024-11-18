@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--bff7169e-262c-4c4e-bd4b-ee7fb328312b",
+    "id": "bundle--53f2ffb9-36c7-4da8-91b3-ae77341573be",
     "objects": [
         {
             "type": "extension-definition",
@@ -12513,29 +12513,6 @@
             "type": "malware-method"
         },
         {
-            "behavior_ref": "malware-behavior--fe9e8d1e-3a90-4164-87e6-5985e726819a",
-            "spec_version": "2.1",
-            "created": "2024-09-20T14:12:37.592034Z",
-            "extensions": {
-                "extension-definition--d57b7c9c-7fa6-436b-b82c-8e6f69cdc3d0": {
-                    "extension_type": "new-sdo"
-                }
-            },
-            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
-            "id": "malware-method--dd7702ae-6a43-4eb5-a940-5011bb9cb808",
-            "modified": "2024-08-22T00:00:00.000Z",
-            "name": "Fake Function",
-            "obj_defn": {
-                "description": "A fake function call is used to call an address which confuses a disassembler and results in incorrect disassembly. Manually undefining the function call can enable the disassembler to produce the true code.",
-                "external_id": "B0012.007",
-                "source_name": "mitre-mbc"
-            },
-            "object_marking_refs": [
-                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
-            ],
-            "type": "malware-method"
-        },
-        {
             "created": "2019-08-01T00:00:00.000Z",
             "behavior_ref": "malware-behavior--b0d0ebc7-0b56-4222-88fa-b680481656b1",
             "spec_version": "2.1",
@@ -12620,6 +12597,29 @@
             "obj_defn": {
                 "description": "Malware may check windows for VM-related characteristics. May check for the presence of known windows from analysis tools running in a VM.",
                 "external_id": "B0009.021",
+                "source_name": "mitre-mbc"
+            },
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ],
+            "type": "malware-method"
+        },
+        {
+            "created": "2019-08-01T00:00:00.000Z",
+            "behavior_ref": "malware-behavior--fe9e8d1e-3a90-4164-87e6-5985e726819a",
+            "spec_version": "2.1",
+            "extensions": {
+                "extension-definition--d57b7c9c-7fa6-436b-b82c-8e6f69cdc3d0": {
+                    "extension_type": "new-sdo"
+                }
+            },
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "id": "malware-method--36760f11-3126-4841-aea6-a4e50e2ea8e6",
+            "modified": "2024-08-22T00:00:00.000Z",
+            "name": "Fake Function",
+            "obj_defn": {
+                "description": "A fake function call is used to call an address which confuses a disassembler and results in incorrect disassembly. Manually undefining the function call can enable the disassembler to produce the true code.",
+                "external_id": "B0012.007",
                 "source_name": "mitre-mbc"
             },
             "object_marking_refs": [
@@ -32821,8 +32821,8 @@
                         "System.Net.Sockets.TcpListener::BeginAcceptSocket",
                         "System.Net.Sockets.TcpListener::AcceptSocketAsync"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--e1127390-886a-4093-ade0-b79d7d3df40c",
+                    "rule_type": "capa",
                     "rule_name": "start TCP server",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/tcp/serve/start-tcp-server.yml"
                 },
@@ -32830,8 +32830,8 @@
                     "api_fncs": [
                         "System.Net.Sockets.TcpClient::ctor"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--beb8728c-0659-4153-a975-71a12c1d1edc",
+                    "rule_type": "capa",
                     "rule_name": "act as TCP client",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/tcp/client/act-as-tcp-client.yml"
                 },
@@ -32840,8 +32840,8 @@
                         "select",
                         "ws2_32.select"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--43e8a8e9-9d9f-4f87-8427-9d0e57e04ee1",
+                    "rule_type": "capa",
                     "rule_name": "get socket status",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/get-socket-status.yml"
                 },
@@ -32852,8 +32852,8 @@
                         "WSASocketA",
                         "WSASocketW"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--fbcb6a5b-1877-441e-b475-7d2dcaef21c6",
+                    "rule_type": "capa",
                     "rule_name": "create raw socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/create-raw-socket.yml"
                 },
@@ -32864,8 +32864,8 @@
                         "setsockopt",
                         "ioctlsocket"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--2e933ecd-9109-4f5a-8783-d0b5a0e8468c",
+                    "rule_type": "capa",
                     "rule_name": "set socket configuration",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/set-socket-configuration.yml"
                 },
@@ -32876,8 +32876,8 @@
                         "socket",
                         "ioctl"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--fbcb6a5b-1877-441e-b475-7d2dcaef21c6",
+                    "rule_type": "capa",
                     "rule_name": "create VMCI socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/create-vmci-socket.yml"
                 },
@@ -32886,8 +32886,8 @@
                         "ws2_32.WSAStartup",
                         "WSAStartup"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--07bb97c0-853e-4c60-b5a7-b2f3a0f87d71",
+                    "rule_type": "capa",
                     "rule_name": "initialize Winsock library",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/initialize-winsock-library.yml"
                 },
@@ -32903,8 +32903,8 @@
                         "setsockopt",
                         "bind"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--a542d817-549d-4dd8-b69a-8ab4e970c55d",
+                    "rule_type": "capa",
                     "rule_name": "connect TCP socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/tcp/connect-tcp-socket.yml"
                 },
@@ -32917,8 +32917,8 @@
                         "WSASocketW",
                         "System.Net.Sockets.Socket::ctor"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--26b8b64e-980e-4927-bdde-c56b5dfba1ff",
+                    "rule_type": "capa",
                     "rule_name": "create TCP socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/tcp/create-tcp-socket.yml"
                 },
@@ -32929,8 +32929,8 @@
                         "NtDeviceIoControlFile",
                         "kernel32.WaitForSingleObject"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--26b8b64e-980e-4927-bdde-c56b5dfba1ff",
+                    "rule_type": "capa",
                     "rule_name": "create TCP socket via raw AFD driver",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/tcp/create-tcp-socket-via-raw-afd-driver.yml"
                 },
@@ -32939,8 +32939,8 @@
                         "WSAIoctl",
                         "WSAGetLastError"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--afa8a3c3-440d-431e-ac57-cedeb033e04d",
+                    "rule_type": "capa",
                     "rule_name": "obtain TransmitPackets callback function via WSAIoctl",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/tcp/send/obtain-transmitpackets-callback-function-via-wsaioctl.yml"
                 },
@@ -32948,8 +32948,8 @@
                     "api_fncs": [
                         "fwpkclnt.FwpsStreamInjectAsync0"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--afa8a3c3-440d-431e-ac57-cedeb033e04d",
+                    "rule_type": "capa",
                     "rule_name": "send TCP data via WFP API",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/tcp/send/send-tcp-data-via-wfp-api.yml"
                 },
@@ -32963,8 +32963,8 @@
                         "System.Net.Sockets.Socket::ctor",
                         "System.Net.Sockets.UdpClient::ctor"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--5dc6357a-ecb9-4340-951d-0242afb3ce0f",
+                    "rule_type": "capa",
                     "rule_name": "create UDP socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/udp/send/create-udp-socket.yml"
                 },
@@ -32985,8 +32985,8 @@
                         "System.Net.Sockets.Socket::SendToAsync",
                         "System.Net.Sockets.UdpClient::Send"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--714905f5-038c-4b03-82f7-3e290ab84743",
+                    "rule_type": "capa",
                     "rule_name": "send data on socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/send/send-data-on-socket.yml"
                 },
@@ -33017,8 +33017,8 @@
                         "System.Net.Sockets.Socket::EndReceiveFrom",
                         "System.Net.Sockets.Socket::EndReceiveMessageFrom"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--708e1fd9-d9fe-4d9a-9b72-d1e72ff3a1b3",
+                    "rule_type": "capa",
                     "rule_name": "receive data on socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/receive/receive-data-on-socket.yml"
                 },
@@ -33142,8 +33142,8 @@
                         "System.Environment::GetEnvironmentVariables",
                         "System.Environment::ExpandEnvironmentVariables"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "query environment variable",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/environment-variable/query-environment-variable.yml"
                 },
                 {
@@ -33156,8 +33156,8 @@
                         "kernel32.GetLogicalDriveStrings",
                         "kernel32.QueryDosDevice"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "get disk information",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/hardware/storage/get-disk-information.yml"
                 },
                 {
@@ -33165,8 +33165,8 @@
                         "kernel32.GetDiskFreeSpace",
                         "kernel32.GetDiskFreeSpaceEx"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "get disk size",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/hardware/storage/get-disk-size.yml"
                 },
                 {
@@ -33182,8 +33182,8 @@
                         "ws2_32.gethostname",
                         "gethostname"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "get hostname",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/os/hostname/get-hostname.yml"
                 },
                 {
@@ -33521,8 +33521,8 @@
                         "ntdll.RtlCreateUserProcess",
                         "System.Diagnostics.Process::Start"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "create process on Windows",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/create/create-process-on-windows.yml"
                 },
                 {
@@ -33539,8 +33539,8 @@
                         "popen",
                         "fork"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "create process on Linux",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/create/create-process-on-linux.yml"
                 },
                 {
@@ -33550,8 +33550,8 @@
                         "wsystem",
                         "_wsystem"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "execute command",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/create/execute-command.yml"
                 },
                 {
@@ -33564,8 +33564,8 @@
                         "kernel32.GetStartupInfo",
                         "System.Diagnostics.Process::Start"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "create a process with modified I/O handles and window",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/create/create-a-process-with-modified-io-handles-and-window.yml"
                 },
                 {
@@ -33573,8 +33573,8 @@
                         "kernel32.CreateProcess",
                         "advapi32.CreateProcessAsUser"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--ffaac7f4-a791-4e39-8889-f2bb17a0fbc8",
+                    "rule_type": "capa",
                     "rule_name": "create process suspended",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/create/create-process-suspended.yml"
                 },
@@ -33832,16 +33832,16 @@
                         "WaitForSingleObject",
                         "GetLastError"
                     ],
-                    "rule_name": "check mutex and exit",
                     "rule_type": "capa",
+                    "rule_name": "check mutex and exit",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/mutex/check-mutex-and-exit.yml"
                 },
                 {
                     "api_fncs": [
                         "kill"
                     ],
-                    "rule_name": "terminate process via kill",
                     "rule_type": "capa",
+                    "rule_name": "terminate process via kill",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/terminate/terminate-process-via-kill.yml"
                 },
                 {
@@ -33855,17 +33855,18 @@
                         "ntdll.NtTerminateProcess",
                         "kernel32.ExitProcess"
                     ],
-                    "rule_name": "terminate process",
                     "rule_type": "capa",
+                    "rule_name": "terminate process",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/terminate/terminate-process.yml"
                 },
                 {
                     "api_fncs": [
                         "NtTerminateProcess"
                     ],
+                    "class": "TerminatesRemoteProcess",
                     "rule_name": "terminates_remote_process",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/terminates_remote_process.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/terminates_process.py"
                 }
             ],
             "extensions": {
@@ -34487,8 +34488,8 @@
                         "ORSetValue",
                         "ORSaveHive"
                     ],
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
                     "rule_name": "set registry key via offline registry library",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/registry/set-registry-key-via-offline-registry-library.yml"
                 },
@@ -34497,8 +34498,8 @@
                         "OROpenHive",
                         "OROpenKey"
                     ],
-                    "detect_ref": "malware-method--5addbf43-468e-4902-8127-c5f50e6f4430",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--5addbf43-468e-4902-8127-c5f50e6f4430",
                     "rule_name": "open registry key via offline registry library",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/registry/open-registry-key-via-offline-registry-library.yml"
                 },
@@ -34521,8 +34522,8 @@
                         "Microsoft.Win32.RegistryKey::OpenRemoteBaseKey",
                         "Microsoft.Win32.RegistryKey::OpenSubKey"
                     ],
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
                     "rule_name": "query or enumerate registry key",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/registry/query-or-enumerate-registry-key.yml"
                 },
@@ -34557,8 +34558,8 @@
                         "Microsoft.Win32.RegistryKey::GetValueNames",
                         "Microsoft.Win32.Registry::GetValue"
                     ],
-                    "detect_ref": "malware-method--72435496-9e74-411f-ba5a-0cf41767f524",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--72435496-9e74-411f-ba5a-0cf41767f524",
                     "rule_name": "query or enumerate registry value",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/registry/query-or-enumerate-registry-value.yml"
                 },
@@ -34566,8 +34567,8 @@
                     "api_fncs": [
                         "ORGetValue"
                     ],
-                    "detect_ref": "malware-method--72435496-9e74-411f-ba5a-0cf41767f524",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--72435496-9e74-411f-ba5a-0cf41767f524",
                     "rule_name": "query registry key via offline registry library",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/registry/query-registry-key-via-offline-registry-library.yml"
                 },
@@ -34576,8 +34577,8 @@
                         "ORCreateHive",
                         "ORCreateKey"
                     ],
-                    "detect_ref": "malware-method--aa594268-cc26-4c06-953d-053e2c048304",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--aa594268-cc26-4c06-953d-053e2c048304",
                     "rule_name": "create registry key via offline registry library",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/registry/create-registry-key-via-offline-registry-library.yml"
                 },
@@ -34597,8 +34598,8 @@
                         "Microsoft.Win32.RegistryKey::SetValue",
                         "Microsoft.Win32.Registry::SetValue"
                     ],
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
                     "rule_name": "set registry value",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/registry/create/set-registry-value.yml"
                 },
@@ -34616,8 +34617,8 @@
                         "Microsoft.Win32.RegistryKey::DeleteSubKey",
                         "Microsoft.Win32.RegistryKey::DeleteSubKeyTree"
                     ],
-                    "detect_ref": "malware-method--777e9965-bddd-438c-a259-938a7dedc4ba",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--777e9965-bddd-438c-a259-938a7dedc4ba",
                     "rule_name": "delete registry key",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/registry/delete/delete-registry-key.yml"
                 },
@@ -34632,8 +34633,8 @@
                         "SHRegDeleteUSValue",
                         "Microsoft.Win32.RegistryKey::DeleteValue"
                     ],
-                    "detect_ref": "malware-method--bceef697-c207-4f6c-a79b-58c53e6d3ec9",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--bceef697-c207-4f6c-a79b-58c53e6d3ec9",
                     "rule_name": "delete registry value",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/registry/delete/delete-registry-value.yml"
                 },
@@ -34663,8 +34664,8 @@
                         "Microsoft.Win32.RegistryKey::OpenRemoteBaseKey",
                         "Microsoft.Win32.RegistryKey::CreateSubKey"
                     ],
-                    "detect_ref": "malware-method--aa594268-cc26-4c06-953d-053e2c048304",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--aa594268-cc26-4c06-953d-053e2c048304",
                     "rule_name": "create or open registry key",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/lib/create-or-open-registry-key.yml"
                 },
@@ -34694,8 +34695,8 @@
                         "Microsoft.Win32.RegistryKey::OpenRemoteBaseKey",
                         "Microsoft.Win32.RegistryKey::CreateSubKey"
                     ],
-                    "detect_ref": "malware-method--5addbf43-468e-4902-8127-c5f50e6f4430",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--5addbf43-468e-4902-8127-c5f50e6f4430",
                     "rule_name": "create or open registry key",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/lib/create-or-open-registry-key.yml"
                 },
@@ -34748,12 +34749,12 @@
                     "rule_type": "cape"
                 },
                 {
+                    "rule_name": "antivm_generic_cpu",
                     "api_fncs": [
                         " RegQueryValueExW",
                         "RegQueryValueExA",
                         "NtQueryValueKey"
                     ],
-                    "rule_name": "antivm_generic_cpu",
                     "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_cpu.py",
                     "rule_type": "cape"
@@ -34863,8 +34864,8 @@
                         "RegQueryValueExW",
                         "RegOpenKeyExA"
                     ],
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
                     "rule_name": "antivm_generic_scsi",
+                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_scsi.py",
                     "rule_type": "cape"
                 },
@@ -34957,8 +34958,8 @@
                         "RegEnumKeyExA",
                         "RegOpenKeyExA"
                     ],
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
                     "rule_name": "antivm_generic_services",
+                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_services.py",
                     "rule_type": "cape"
                 },
@@ -34969,8 +34970,8 @@
                         "RegEnumKeyExA",
                         "RegOpenKeyExA"
                     ],
-                    "detect_ref": "malware-method--72435496-9e74-411f-ba5a-0cf41767f524",
                     "rule_name": "antivm_generic_services",
+                    "detect_ref": "malware-method--72435496-9e74-411f-ba5a-0cf41767f524",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_services.py",
                     "rule_type": "cape"
                 },
@@ -35135,8 +35136,8 @@
                         "RegQueryValueExA",
                         "RegQueryValueExW"
                     ],
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
                     "rule_name": "antivm_generic_scsi",
+                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_scsi.py",
                     "rule_type": "cape"
                 },
@@ -35262,7 +35263,7 @@
                         "RegSetValueExW"
                     ],
                     "rule_name": "virus_neshta",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/virus_neshta.py",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/virus_neshta.py",
                     "rule_type": "cape"
                 },
                 {
@@ -35376,10 +35377,10 @@
                     "rule_type": "cape"
                 },
                 {
+                    "rule_name": "antivm_generic_cpu",
                     "api_fncs": [
                         " filter_apinames = set"
                     ],
-                    "rule_name": "antivm_generic_cpu",
                     "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_cpu.py",
                     "rule_type": "cape"
@@ -36573,9 +36574,9 @@
             "spec_version": "2.1",
             "detection_rules": [
                 {
-                    "rule_name": "allocate RWX memory",
+                    "rule_name": "allocate or change RWX memory",
                     "rule_type": "capa",
-                    "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/inject/allocate-rwx-memory.yml"
+                    "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/inject/allocate-or-change-rwx-memory.yml"
                 },
                 {
                     "api_fncs": [
@@ -36596,9 +36597,9 @@
                     "url": "https://github.com/mandiant/capa-rules/blob/master/lib/allocate-memory.yml"
                 },
                 {
-                    "rule_name": "allocate RW memory",
+                    "rule_name": "allocate or change RW memory",
                     "rule_type": "capa",
-                    "url": "https://github.com/mandiant/capa-rules/blob/master/lib/allocate-rw-memory.yml"
+                    "url": "https://github.com/mandiant/capa-rules/blob/master/lib/allocate-or-change-rw-memory.yml"
                 },
                 {
                     "rule_name": "spawn thread to RWX shellcode",
@@ -36611,9 +36612,10 @@
                         "NtAllocateVirtualMemory",
                         "NtProtectVirtualMemory"
                     ],
+                    "class": "CAPE_Unpacker",
                     "rule_name": "Unpacker",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/Unpacker.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 }
             ],
             "extensions": {
@@ -38340,45 +38342,45 @@
                     "api_fncs": [
                         "memfrob"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--531d0505-70c1-491a-bf5c-57ff78a4746b",
+                    "rule_type": "capa",
                     "rule_name": "encrypt data using memfrob from glibc",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/encrypt-data-using-memfrob-from-glibc.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using XXTEA",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/xxtea/encrypt-data-using-xxtea.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using HC-128",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/hc-128/encrypt-data-using-hc-128.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using HC-128 via WolfSSL",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/hc-128/encrypt-data-using-hc-128-via-wolfssl.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using RC6",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/rc6/encrypt-data-using-rc6.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using twofish",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/twofish/encrypt-data-using-twofish.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using AES MixColumns step",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/aes/encrypt-data-using-aes-mixcolumns-step.yml"
                 },
                 {
@@ -38397,44 +38399,44 @@
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using AES via .NET",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/aes/encrypt-data-using-aes-via-dotnet.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "manually build AES constants",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/aes/manually-build-aes-constants.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using Sosemanuk",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/sosemanuk/encrypt-data-using-sosemanuk.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using XTEA",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/xtea/encrypt-data-using-xtea.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using Camellia",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/camellia/encrypt-data-using-camellia.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using vest",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/vest/encrypt-data-using-vest.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using DES",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/des/encrypt-data-using-des.yml"
                 },
                 {
@@ -38487,32 +38489,32 @@
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using skipjack",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/skipjack/encrypt-data-using-skipjack.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using blowfish",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/blowfish/encrypt-data-using-blowfish.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "decrypt data using TEA",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/tea/decrypt-data-using-tea.yml"
                 },
                 {
                     "detect_ref": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using TEA",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/tea/encrypt-data-using-tea.yml"
                 },
                 {
                     "detect_ref": "malware-method--299ce1cd-bcb0-462d-be60-4757fe78820b",
-                    "rule_type": "capa",
                     "rule_name": "encode data using XOR",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encoding/xor/encode-data-using-xor.yml"
                 },
                 {
@@ -38528,8 +38530,8 @@
                 },
                 {
                     "detect_ref": "malware-method--299ce1cd-bcb0-462d-be60-4757fe78820b",
-                    "rule_type": "capa",
                     "rule_name": "decode data using Base64 via dword translation table",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encoding/base64/decode-data-using-base64-via-dword-translation-table.yml"
                 },
                 {
@@ -38668,8 +38670,8 @@
                         "fchmod",
                         "fchmodat"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "change file permission on Linux",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/file-system/change-file-permission-on-linux.yml"
                 },
                 {
@@ -38685,8 +38687,8 @@
                         "System.IO.File::SetLastWriteTime",
                         "System.IO.File::SetLastWriteTimeUtc"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "set file attributes",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/file-system/meta/set-file-attributes.yml"
                 }
             ],
@@ -38737,8 +38739,8 @@
                         "System.IO.File::Move",
                         "kernel32.SHFileOperation"
                     ],
-                    "rule_name": "move file",
                     "rule_type": "capa",
+                    "rule_name": "move file",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/file-system/move/move-file.yml"
                 },
                 {
@@ -38746,9 +38748,10 @@
                         "MoveFileWithProgressTransactedA",
                         "MoveFileWithProgressTransactedW"
                     ],
+                    "class": "move_file_on_reboot",
                     "rule_name": "move_file_on_reboot",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/move_file_on_reboot.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/move_file_on_reboot.py"
                 }
             ],
             "extensions": {
@@ -38837,7 +38840,7 @@
                 },
                 {
                     "rule_name": "banker_zeus_p2p",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/banker_zeus_p2p.py",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/all/banker_zeus_p2p.py",
                     "rule_type": "cape"
                 },
                 {
@@ -39393,16 +39396,16 @@
             "detection_rules": [
                 {
                     "detect_ref": "malware-method--6ad60376-4ed0-4f74-837d-757063c2cabb",
-                    "rule_name": "decompress data using aPLib",
                     "rule_type": "capa",
+                    "rule_name": "decompress data using aPLib",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/compression/decompress-data-using-aplib.yml"
                 },
                 {
                     "api_fncs": [
                         "ole32.CoCreateInstance"
                     ],
-                    "detect_ref": "malware-method--06e5493e-6796-4a23-9420-25c35dd15b53",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--06e5493e-6796-4a23-9420-25c35dd15b53",
                     "rule_name": "decompress data via IEncodingFilterFactory",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/compression/decompress-data-via-iencodingfilterfactory.yml"
                 },
@@ -39413,8 +39416,8 @@
                 },
                 {
                     "detect_ref": "malware-method--de189a73-2b4b-4d2e-a2bf-e3c05341382e",
-                    "rule_name": "decompress data using QuickLZ",
                     "rule_type": "capa",
+                    "rule_name": "decompress data using QuickLZ",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/compression/decompress-data-using-quicklz.yml"
                 },
                 {
@@ -39427,8 +39430,9 @@
                         "RtlDecompressBuffer"
                     ],
                     "rule_name": "compression",
-                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py",
-                    "rule_type": "cape"
+                    "class": "CAPE_Compression",
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 }
             ],
             "extensions": {
@@ -39613,14 +39617,14 @@
                         "CryptGenKey",
                         "CryptImportKey"
                     ],
-                    "rule_name": "encrypt or decrypt via WinCrypt",
                     "rule_type": "capa",
+                    "rule_name": "encrypt or decrypt via WinCrypt",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/encrypt-or-decrypt-via-wincrypt.yml"
                 },
                 {
                     "detect_ref": "malware-method--5a1e7f11-1c9f-4712-8122-dadcd63a1703",
-                    "rule_name": "decrypt data using AES via x86 extensions",
                     "rule_type": "capa",
+                    "rule_name": "decrypt data using AES via x86 extensions",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/aes/decrypt-data-using-aes-via-x86-extensions.yml"
                 },
                 {
@@ -39628,8 +39632,9 @@
                         "CryptDecrypt"
                     ],
                     "rule_name": "decryption",
-                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py",
-                    "rule_type": "cape"
+                    "class": "CAPE_Decryption",
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 }
             ],
             "extensions": {
@@ -39778,8 +39783,8 @@
                         "RegSetValueExW"
                     ],
                     "rule_name": "reg_binary",
-                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 },
                 {
                     "rule_name": "stealth_hidden_extension",
@@ -39847,7 +39852,7 @@
                         "RegSetValueExW"
                     ],
                     "rule_name": "neshta_regkeys",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/neshta_regkeys.py",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/virus_neshta.py",
                     "rule_type": "cape"
                 },
                 {
@@ -42071,9 +42076,9 @@
                     "api_fncs": [
                         "kernel32.TlsSetValue"
                     ],
-                    "rule_name": "set thread local storage value",
                     "rule_type": "capa",
-                    "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/set-thread-local-storage-value.yml"
+                    "rule_name": "set thread local storage value",
+                    "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/thread/tls/set-thread-local-storage-value.yml"
                 }
             ],
             "extensions": {
@@ -42113,8 +42118,8 @@
             "detection_rules": [
                 {
                     "detect_ref": "malware-method--8d2f6d63-16d3-4b1e-9a5c-2ea3cede8a96",
-                    "rule_type": "capa",
                     "rule_name": "reference DNS over HTTPS endpoints",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/dns/reference-dns-over-https-endpoints.yml"
                 },
                 {
@@ -42133,8 +42138,8 @@
                         "gethostent",
                         "System.Net.Dns::GetHostAddresses"
                     ],
-                    "rule_type": "capa",
                     "detect_ref": "malware-method--40cb93ee-9bab-4239-a0de-0556ad4cd999",
+                    "rule_type": "capa",
                     "rule_name": "resolve DNS",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/dns/resolve-dns.yml"
                 },
@@ -42236,8 +42241,8 @@
                         "fprintf",
                         "vfprintf"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "write file on Linux",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/file-system/write/write-file-on-linux.yml"
                 },
                 {
@@ -42261,16 +42266,16 @@
                         "System.IO.File::AppendText",
                         "System.IO.FileInfo::AppendText"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "write file on Windows",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/file-system/write/write-file-on-windows.yml"
                 },
                 {
                     "api_fncs": [
                         "dbghelp.MiniDumpWriteDump"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "create process memory minidump",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/dump/create-process-memory-minidump.yml"
                 },
                 {
@@ -43238,8 +43243,8 @@
                         "CryptGenKey",
                         "CryptImportKey"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "encrypt or decrypt via WinCrypt",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/encrypt-or-decrypt-via-wincrypt.yml"
                 },
                 {
@@ -43252,32 +43257,32 @@
                 },
                 {
                     "detect_ref": "malware-method--0b2b7f04-b511-4bdc-b4ef-11667a74bde3",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using HC-128",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/hc-128/encrypt-data-using-hc-128.yml"
                 },
                 {
                     "detect_ref": "malware-method--0b2b7f04-b511-4bdc-b4ef-11667a74bde3",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using HC-128 via WolfSSL",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/hc-128/encrypt-data-using-hc-128-via-wolfssl.yml"
                 },
                 {
                     "detect_ref": "malware-method--9858fb87-fa9e-447c-91e7-951bd80d8666",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using RC6",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/rc6/encrypt-data-using-rc6.yml"
                 },
                 {
                     "detect_ref": "malware-method--e3e76b72-4e03-434e-b817-345b07479c83",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using twofish",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/twofish/encrypt-data-using-twofish.yml"
                 },
                 {
                     "detect_ref": "malware-method--d46dd942-933e-46a7-b606-e8202659c4a3",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using AES MixColumns step",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/aes/encrypt-data-using-aes-mixcolumns-step.yml"
                 },
                 {
@@ -43296,31 +43301,31 @@
                 },
                 {
                     "detect_ref": "malware-method--d46dd942-933e-46a7-b606-e8202659c4a3",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using AES via .NET",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/aes/encrypt-data-using-aes-via-dotnet.yml"
                 },
                 {
                     "detect_ref": "malware-method--d46dd942-933e-46a7-b606-e8202659c4a3",
-                    "rule_type": "capa",
                     "rule_name": "manually build AES constants",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/aes/manually-build-aes-constants.yml"
                 },
                 {
                     "detect_ref": "malware-method--516f85c6-e42f-4f15-91df-975b211b4292",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using Sosemanuk",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/sosemanuk/encrypt-data-using-sosemanuk.yml"
                 },
                 {
                     "detect_ref": "malware-method--f9ce02a4-c3a5-4e2c-b923-48913b8cb838",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using Camellia",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/camellia/encrypt-data-using-camellia.yml"
                 },
                 {
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using vest",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/vest/encrypt-data-using-vest.yml"
                 },
                 {
@@ -43334,14 +43339,14 @@
                         "SystemFunction040",
                         "SystemFunction041"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using DPAPI",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/dpapi/encrypt-data-using-dpapi.yml"
                 },
                 {
                     "detect_ref": "malware-method--1e90325a-dd63-41d6-be62-a5810e11baf7",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using DES",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/des/encrypt-data-using-des.yml"
                 },
                 {
@@ -43360,8 +43365,8 @@
                 },
                 {
                     "detect_ref": "malware-method--3a879212-7127-4f91-84ef-7aa65e971ef3",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using RC4 PRGA",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/rc4/encrypt-data-using-rc4-prga.yml"
                 },
                 {
@@ -43391,27 +43396,27 @@
                 },
                 {
                     "detect_ref": "malware-method--3a879212-7127-4f91-84ef-7aa65e971ef3",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using RC4 KSA",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/rc4/encrypt-data-using-rc4-ksa.yml"
                 },
                 {
                     "detect_ref": "malware-method--3d98ca18-c0fc-44b4-8c11-3e17e0cbba87",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using skipjack",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/skipjack/encrypt-data-using-skipjack.yml"
                 },
                 {
                     "detect_ref": "malware-method--7bfa4c7e-15a3-4c9d-b44a-757a17775c5e",
-                    "rule_type": "capa",
                     "rule_name": "encrypt data using blowfish",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/blowfish/encrypt-data-using-blowfish.yml"
                 },
                 {
-                    "rule_name": "rat_dcrat",
                     "api_fncs": [
                         "CryptHashData"
                     ],
+                    "rule_name": "rat_dcrat",
                     "class": "DCRatAPIs",
                     "rule_type": "cape",
                     "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/rat_dcrat.py"
@@ -43786,16 +43791,16 @@
             "detection_rules": [
                 {
                     "detect_ref": "malware-method--ccc62ca2-a171-46ad-a052-9085ddc73144",
-                    "rule_type": "capa",
                     "rule_name": "self delete",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/anti-analysis/anti-forensic/self-deletion/self-delete.yml"
                 },
                 {
                     "api_fncs": [
                         "SetFileInformationByHandle"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "self delete using alternate data streams",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/anti-analysis/anti-forensic/self-deletion/self-delete-using-alternate-data-streams.yml"
                 },
                 {
@@ -44429,13 +44434,13 @@
                 {
                     "detect_ref": "malware-method--269f745e-a6fc-434a-8a82-7248a1dd9955",
                     "rule_name": "uses_windows_utilities",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/uses_windows.py",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/windows_utilities.py",
                     "rule_type": "cape"
                 },
                 {
                     "detect_ref": "malware-method--269f745e-a6fc-434a-8a82-7248a1dd9955",
                     "rule_name": "uses_windows_utilities_curl",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/uses_windows.py",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/windows_utilities.py",
                     "rule_type": "cape"
                 },
                 {
@@ -44578,8 +44583,8 @@
                         "GetProcAddress",
                         "ReadProcessMemory"
                     ],
-                    "detect_ref": "malware-method--1a40603f-4a1a-4c2c-a2c2-62019ffe1557",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--1a40603f-4a1a-4c2c-a2c2-62019ffe1557",
                     "rule_name": "patch process command line",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/anti-analysis/anti-forensic/patch-process-command-line.yml"
                 },
@@ -44588,8 +44593,8 @@
                         "ntoskrnl.KeStackAttachProcess",
                         "ntoskrnl.KeUnstackDetachProcess"
                     ],
-                    "rule_name": "attach user process memory",
                     "rule_type": "capa",
+                    "rule_name": "attach user process memory",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/inject/attach-user-process-memory.yml"
                 },
                 {
@@ -44599,8 +44604,8 @@
                         "PostMessage",
                         "SendNotifyMessage"
                     ],
-                    "rule_name": "inject shellcode using extra window memory",
                     "rule_type": "capa",
+                    "rule_name": "inject shellcode using extra window memory",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/inject/inject-shellcode-using-extra-window-memory.yml"
                 },
                 {
@@ -44609,8 +44614,8 @@
                         "MapViewOfFile",
                         "MapViewOfFileNuma2"
                     ],
-                    "rule_name": "inject shellcode using a file mapping object",
                     "rule_type": "capa",
+                    "rule_name": "inject shellcode using a file mapping object",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/inject/inject-shellcode-using-a-file-mapping-object.yml"
                 },
                 {
@@ -44619,8 +44624,8 @@
                         "PostMessage",
                         "SendNotifyMessage"
                     ],
-                    "rule_name": "inject shellcode using window subclass procedure",
                     "rule_type": "capa",
+                    "rule_name": "inject shellcode using window subclass procedure",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/inject/inject-shellcode-using-window-subclass-procedure.yml"
                 },
                 {
@@ -44629,8 +44634,8 @@
                         "CreateFiber",
                         "SwitchToFiber"
                     ],
-                    "detect_ref": "malware-method--402bc087-c98f-4156-a2c4-bc26cc569b2c",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--402bc087-c98f-4156-a2c4-bc26cc569b2c",
                     "rule_name": "execute shellcode via Windows fibers",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/load-code/shellcode/execute-shellcode-via-windows-fibers.yml"
                 },
@@ -44711,23 +44716,23 @@
                 },
                 {
                     "rule_name": "doppelganging",
-                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 },
                 {
                     "rule_name": "injection_inter_process",
-                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 },
                 {
                     "rule_name": "injection_create_remote_thread",
-                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 },
                 {
                     "rule_name": "injection_process_hollowing",
-                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 },
                 {
                     "api_fncs": [
@@ -44736,8 +44741,8 @@
                         "RtlSetCurrentTransaction"
                     ],
                     "rule_name": "transacted_hollowing",
-                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 },
                 {
                     "rule_name": "persistence_ifeo",
@@ -44752,7 +44757,7 @@
                 },
                 {
                     "rule_name": "persistence_silent_process_exit",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/persistence_silent_process_exit.py",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/persistence_ifeo.py",
                     "rule_type": "cape"
                 },
                 {
@@ -46622,8 +46627,8 @@
                     "api_fncs": [
                         "kernel32.WriteFile"
                     ],
-                    "rule_type": "capa",
                     "rule_name": "overwrite Master Boot Record (MBR)",
+                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/impact/wipe-disk/wipe-mbr/overwrite-master-boot-record-mbr.yml"
                 },
                 {
@@ -47297,9 +47302,9 @@
                     "api_fncs": [
                         "kernel32.TlsAlloc"
                     ],
-                    "rule_name": "allocate thread local storage",
                     "rule_type": "capa",
-                    "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/allocate-thread-local-storage.yml"
+                    "rule_name": "allocate thread local storage",
+                    "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/thread/tls/allocate-thread-local-storage.yml"
                 }
             ],
             "extensions": {

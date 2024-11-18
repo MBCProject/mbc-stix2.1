@@ -1924,6 +1924,9 @@
     "Fake Code Insertion": {
         "B0032.004": "malware-method--0228973f-2042-4049-ae73-78566b69a079"
     },
+    "Fake Function": {
+        "B0012.007": "malware-method--36760f11-3126-4841-aea6-a4e50e2ea8e6"
+    },
     "Fast-Hash": {
         "C0030.003": "malware-method--16e0a622-72d5-499f-9e46-e256f0e5d119"
     },

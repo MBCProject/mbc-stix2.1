@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6888f605-79e3-4dfe-9410-b59213ab4d34",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f1b20fef-f5a1-42b0-adef-d0e5a717e14d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.69778Z",
+            "modified": "2024-11-18T16:43:41.69778Z",
+            "relationship_type": "uses",
+            "description": "Impact::Clipboard Modification (E1510) -- DarkComet writes clipboard data. [4]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-behavior--8f777ba2-ef76-4cd0-85ff-ae1b8d2cb584",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

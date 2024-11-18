@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ad9e731c-d4a3-4a6e-a071-5ce311e68dc3",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2e68cb85-eceb-4253-9fb7-e0b3a57e9d84",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:38.36831Z",
+            "modified": "2024-11-18T16:43:38.36831Z",
+            "relationship_type": "uses",
+            "description": "Data::Encode Data::XOR (C0026.002) -- Rombertik encodes data using XOR. [2]",
+            "source_ref": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361",
+            "target_ref": "malware-method--481b64ac-2251-45a9-8ac0-c43c2959030e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

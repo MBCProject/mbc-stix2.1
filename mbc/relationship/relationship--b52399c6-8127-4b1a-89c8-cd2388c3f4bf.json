@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--ae91107a-d879-4cb1-ab18-2e47e1dc6e78",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b52399c6-8127-4b1a-89c8-cd2388c3f4bf",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.699758Z",
+            "modified": "2024-11-18T16:43:41.699758Z",
+            "relationship_type": "uses",
+            "description": "Data::Encode Data::XOR (C0026.002) -- DarkComet encodes data using XOR. [4]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-method--481b64ac-2251-45a9-8ac0-c43c2959030e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

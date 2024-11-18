@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--726a9811-3f01-4eaa-8547-a96ad0c3a983",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--a06853a3-a666-4f79-b4eb-0bc36896c2b4",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.12905Z",
+            "modified": "2024-11-18T16:43:41.12905Z",
+            "name": "Redhip hash",
+            "description": "This is an IoC for Redhip",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:hashes.'SHA-256' = '65853e6a70b50166b2e2bd1e163d420d1184ff865183c5f68d8e8bb83eff3e6d' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-11-18T16:43:41.12905Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

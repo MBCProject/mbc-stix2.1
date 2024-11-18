@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--fb9f1219-f782-4d09-a3cf-ce5fa316e1ad",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a1fdd95f-d5c7-47a4-9b0c-e54b0d651b49",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.697339Z",
+            "modified": "2024-11-18T16:43:41.697339Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Obfuscated Files or Information::Encoding-Standard Algorithm (E1027.m02) -- DarkComet encodes data using XOR. [4]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-method--5d92db90-4b13-4904-9a88-b41110cd2cf3",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

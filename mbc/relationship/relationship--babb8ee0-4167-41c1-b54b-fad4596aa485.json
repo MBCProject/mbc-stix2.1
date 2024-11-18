@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--c76839ff-ee45-4cf7-bb6f-261d61e98756",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--babb8ee0-4167-41c1-b54b-fad4596aa485",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.094869Z",
+            "modified": "2024-11-18T16:43:41.094869Z",
+            "relationship_type": "uses",
+            "description": "Collection::Keylogging::Polling (F0002.002) -- Redhip logs keystrokes via polling. [2]",
+            "source_ref": "malware--7118a034-ac23-4a16-8277-32b790f890c5",
+            "target_ref": "malware-method--70f9660d-2079-47d2-89d6-4200399a3d4e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

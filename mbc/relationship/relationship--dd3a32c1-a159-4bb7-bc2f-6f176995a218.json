@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2014b02e-0d84-4b06-b5d4-e8b8d551dfec",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dd3a32c1-a159-4bb7-bc2f-6f176995a218",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.291817Z",
+            "modified": "2024-11-18T16:43:37.291817Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Application Window Discovery::Window Text (E1010.m01) -- Hupigon gets graphical window text. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--b9aaecfb-0d8e-4e69-82b3-5949686720c1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f16745d8-709d-4cdb-ab91-42050baa5bd5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ec102a1e-bbf9-47e5-bd5e-7d688a564401",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.695981Z",
+            "modified": "2024-11-18T16:43:41.695981Z",
+            "relationship_type": "uses",
+            "description": "Collection::Screen Capture::WinAPI (E1113.m01) -- DarkComet captures screenshots. [4]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-method--93fdc917-af08-4cbe-ae90-ca599d168b21",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

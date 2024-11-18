@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d3fabbfa-f718-4c87-9ba7-9b2810c63440",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0dd5b31b-fc72-493b-a075-ff36f1ad0ebf",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.207467Z",
+            "modified": "2024-11-18T16:43:39.207467Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection (E1055) -- Malware injects its dll component into svchost.exe. [1]",
+            "source_ref": "malware--9e87672d-5122-474c-b71a-f0c9d09e51b7",
+            "target_ref": "malware-behavior--cf168944-14ed-4757-b88b-841ff25c26ae",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

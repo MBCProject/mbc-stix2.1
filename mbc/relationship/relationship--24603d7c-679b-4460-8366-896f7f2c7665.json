@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--77896eae-393a-4d4b-a0a3-346c2a2a1a77",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--24603d7c-679b-4460-8366-896f7f2c7665",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:40.139664Z",
+            "modified": "2024-11-18T16:43:40.139664Z",
+            "relationship_type": "uses",
+            "description": "Impact::Manipulate Network Traffic (B0019) -- MazarBot intercepts data coming into and going out of the device. [1]",
+            "source_ref": "malware--5e8e83de-8308-407e-bbe7-04393dbfaf01",
+            "target_ref": "malware-behavior--612c101f-613b-4332-a180-3f9e7581c184",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

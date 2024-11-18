@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7f0a71b2-a578-4ba3-bf75-bc7c4ef833d6",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d0819797-443c-4272-9c9e-a3ee37e59432",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:42.123188Z",
+            "modified": "2024-11-18T16:43:42.123188Z",
+            "relationship_type": "uses",
+            "description": "Execution::Conditional Execution::Runs as Service (B0025.007) -- Shamoon runs as a service. [5]",
+            "source_ref": "malware--126fd545-8484-4d16-a8ac-7c20fb2c8b43",
+            "target_ref": "malware-method--a2205906-dea4-4d55-8580-60f537802187",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

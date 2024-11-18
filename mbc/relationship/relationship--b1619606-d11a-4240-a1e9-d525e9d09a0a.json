@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--6bfcc250-7f81-47e5-ae9f-75cdf2b85512",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b1619606-d11a-4240-a1e9-d525e9d09a0a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:40.0809Z",
+            "modified": "2024-11-18T16:43:40.0809Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Self Discovery (B0038) -- WannaCry checks the size of the file it loads into memory. [1]",
+            "source_ref": "malware--b2e84cdc-8eef-42f3-9f27-a4587787f52a",
+            "target_ref": "malware-behavior--4509a06f-05f4-441b-90d9-35d693f097d4",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

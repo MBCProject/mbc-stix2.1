@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--89020041-09d9-461d-b2c8-18873452cc7b",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b0106a03-d0e9-4b47-811f-ed20c523e1fe",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.684504Z",
+            "modified": "2024-11-18T16:43:37.684504Z",
+            "relationship_type": "uses",
+            "description": "Lateral Movement::Supply Chain Compromise::Exploit Private APIs (E1195.m02) -- Within the malware, the private API allows installation of malicious apps and uninstallation of legitimate apps without user notification. [1]",
+            "source_ref": "malware--0a538d20-0f51-411f-bb26-1aee555078d0",
+            "target_ref": "malware-method--56d01bc6-137b-4216-a32a-4e2b915a95fc",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

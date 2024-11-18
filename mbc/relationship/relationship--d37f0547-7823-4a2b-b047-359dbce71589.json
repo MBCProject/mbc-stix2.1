@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5825d0fb-520e-4e49-b914-32acbee07f8c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d37f0547-7823-4a2b-b047-359dbce71589",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.368005Z",
+            "modified": "2024-11-18T16:43:41.368005Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Environment Variable::Set Variable (C0034.001) -- Kovter sets environment variables. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-method--8528a57f-e5a6-463c-a565-d72ef9dba2b9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

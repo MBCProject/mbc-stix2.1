@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--56f3236c-319a-4d17-96da-3af4dcb9397e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2dd5e2ae-51f5-4c94-bd44-e6e1c1bc0a9b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.895189Z",
+            "modified": "2024-11-18T16:43:39.895189Z",
+            "relationship_type": "uses",
+            "description": "File System::Delete File (C0047) -- Gamut deletes file. [3]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-behavior--a4c7df48-36f7-4b3a-ba2b-aeb6fc01fcc6",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

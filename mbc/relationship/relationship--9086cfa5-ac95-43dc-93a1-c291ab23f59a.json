@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--5f77a074-15cf-4fd5-9439-6c63b0cf536e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9086cfa5-ac95-43dc-93a1-c291ab23f59a",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.928562Z",
+            "modified": "2024-11-18T16:43:39.928562Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- EvilBunny executes Lua scripts. [1]",
+            "source_ref": "malware--c1bce3d8-2fc6-4a79-9872-936edfbfcdd3",
+            "target_ref": "malware-behavior--4e84e063-8158-4b77-8401-0287db447fef",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

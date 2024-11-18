@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--839dfdb5-9811-41af-8b2d-f28b5e79c51a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d90520e8-2ece-4ff4-a526-51128bf3c8e7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:38.662155Z",
+            "modified": "2024-11-18T16:43:38.662155Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication (B0030) -- ElectroRat communicates to a Pastebin site via HTTP. [1]",
+            "source_ref": "malware--78d2433b-c22e-457f-8f06-0b93d34cefb8",
+            "target_ref": "malware-behavior--2da5cb6e-afe8-4110-bc40-b49c636fb2fd",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

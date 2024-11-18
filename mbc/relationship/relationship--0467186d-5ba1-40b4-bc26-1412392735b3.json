@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--95e03a4e-bcf3-4616-bbf5-71112b6fe0a9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--0467186d-5ba1-40b4-bc26-1412392735b3",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:40.88328Z",
+            "modified": "2024-11-18T16:43:40.88328Z",
+            "relationship_type": "uses",
+            "description": "Execution::Conditional Execution::Host Fingerprint Check (B0025.004) -- Stuxnet checks for specific operating systems on 32-bit machines, registry keys, and dates to profile a potential target machine before execution. If the conditions are not met to be considered a viable target, it will exit execution. [1]",
+            "source_ref": "malware--695d06a7-4c91-4d98-8f8c-6360316a59e7",
+            "target_ref": "malware-method--039cd353-051f-4513-8df7-3695750573b1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

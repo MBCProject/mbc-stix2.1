@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--bbfb303b-3843-4e95-bcf6-b9016c692d7a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--00b06587-6247-4d40-91cb-3e1a160d9285",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.294663Z",
+            "modified": "2024-11-18T16:43:37.294663Z",
+            "relationship_type": "uses",
+            "description": "Anti-Static Analysis::Disassembler Evasion::Argument Obfuscation (B0012.001) -- Hupigon contains obfuscated stack strings. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--d17e272d-b085-4b4e-b566-387ba7a93ba1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

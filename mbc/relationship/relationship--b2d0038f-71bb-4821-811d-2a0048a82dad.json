@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--09f590a5-9514-4a23-9b20-30d7e28f08f2",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b2d0038f-71bb-4821-811d-2a0048a82dad",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.294873Z",
+            "modified": "2024-11-18T16:43:37.294873Z",
+            "relationship_type": "uses",
+            "description": "Command And Control::C2 Communication::Receive Data (B0030.002) -- Hupigon receives data. [3]",
+            "source_ref": "malware--2d615630-e95e-4c84-b594-c3015c2a479c",
+            "target_ref": "malware-method--41f6c7fe-0756-4e69-a04a-d0f38e8c5280",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

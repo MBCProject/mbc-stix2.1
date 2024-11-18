@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--467d267a-4321-4232-adea-c0db756d7801",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b98f8205-1a05-488d-8989-99ec58f760dd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:42.120626Z",
+            "modified": "2024-11-18T16:43:42.120626Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Modify Existing Service (F0011) -- Shamoon enables the RemoteRegistry service to allow remote registry modification. [2]",
+            "source_ref": "malware--126fd545-8484-4d16-a8ac-7c20fb2c8b43",
+            "target_ref": "malware-behavior--11554291-162f-44a9-a79f-6fddf692b649",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--14b7f3f0-9130-4221-9d25-1ae9102a03fb",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e27c6085-9e4f-4253-a593-23120f0e7ec0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.897536Z",
+            "modified": "2024-11-18T16:43:39.897536Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Set Registry Key (C0036.001) -- Gamut sets registry values. [3]",
+            "source_ref": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917",
+            "target_ref": "malware-method--edf92636-ce07-4a85-b7cf-35d146e8be78",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

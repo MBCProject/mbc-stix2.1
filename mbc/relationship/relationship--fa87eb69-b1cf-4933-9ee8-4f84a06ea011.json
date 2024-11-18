@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--3c992d30-9d35-452f-bd16-21a359e666ad",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fa87eb69-b1cf-4933-9ee8-4f84a06ea011",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:42.675165Z",
+            "modified": "2024-11-18T16:43:42.675165Z",
+            "relationship_type": "uses",
+            "description": "Process::Create Thread (C0038) -- GoBotKR creates threads. [2]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-behavior--f58c9c71-b643-40a4-a483-c1263b856a16",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

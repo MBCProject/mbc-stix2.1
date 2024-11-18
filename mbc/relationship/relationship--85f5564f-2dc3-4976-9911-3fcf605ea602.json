@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0929eb71-102c-4a92-8fcd-98566b6e0ef4",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--85f5564f-2dc3-4976-9911-3fcf605ea602",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.930836Z",
+            "modified": "2024-11-18T16:43:37.930836Z",
+            "relationship_type": "uses",
+            "description": "Impact::Resource Hijacking::Cryptojacking (B0018.002) -- The malware drops software that mines for cryptocurrency, depending on the system architecture. If the system has x86 architecture, the malware drops Cryptonight miner. If the system has x64 architecture, the malware drops Claymore's Zcash miner. [1]",
+            "source_ref": "malware--f2e49fb4-f22a-4ca3-b9a8-fc000b2b3d5e",
+            "target_ref": "malware-method--5f89160a-2b14-482c-aed3-821474c2e634",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

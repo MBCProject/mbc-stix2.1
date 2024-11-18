@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--149d89fe-47de-45aa-b629-3b37e82257b5",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9757b8a6-58a2-48d3-be29-73ff4cbbcd1b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:42.122747Z",
+            "modified": "2024-11-18T16:43:42.122747Z",
+            "relationship_type": "uses",
+            "description": "Discovery::System Information Discovery (E1082) -- Shamoon gets the hostname. [5]",
+            "source_ref": "malware--126fd545-8484-4d16-a8ac-7c20fb2c8b43",
+            "target_ref": "malware-behavior--44684ff1-9409-4340-9c8a-3c626aca64a9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

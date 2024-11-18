@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--57fe6481-87b8-4b5c-9f87-f6cf0b6af426",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--96944e85-f7ba-461b-8675-ea0f011f2615",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.716466Z",
+            "modified": "2024-11-18T16:43:37.716466Z",
+            "name": "YiSpecter File Names",
+            "description": "This is an IoC for YiSpecter",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:value = 'bb800.com' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-11-18T16:43:37.716466Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

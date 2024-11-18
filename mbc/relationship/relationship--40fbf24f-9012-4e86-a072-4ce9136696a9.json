@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--2de08793-f8b9-49ec-a1ff-9ecb3e16163f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--40fbf24f-9012-4e86-a072-4ce9136696a9",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:38.760328Z",
+            "modified": "2024-11-18T16:43:38.760328Z",
+            "relationship_type": "uses",
+            "description": "Command and Control::C2 Communication (B0030) -- Clipminer communicates to a Tor Onion Service via HTTP. [1]",
+            "source_ref": "malware--8b920874-48f9-472c-b9d2-84306afb74fc",
+            "target_ref": "malware-behavior--2da5cb6e-afe8-4110-bc40-b49c636fb2fd",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

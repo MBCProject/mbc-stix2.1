@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--4235c479-50bd-47f4-8813-b030d3f9d729",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--74125eda-efd9-4762-a0ba-c43513493eef",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:42.675387Z",
+            "modified": "2024-11-18T16:43:42.675387Z",
+            "relationship_type": "uses",
+            "description": "Process::Suspend Thread (C0055) -- GoBotKR suspends threads. [2]",
+            "source_ref": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819",
+            "target_ref": "malware-behavior--2050b57a-52ce-4164-945c-68b71a6c6e76",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f06b5fc4-8fc5-4e39-94b2-a5c25831198c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--77c82ddd-99cb-4bad-bfea-99f03cd55b81",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.702414Z",
+            "modified": "2024-11-18T16:43:41.702414Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Query Registry Value (C0036.006) -- DarkComet queries or enumerates registry values. [4]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-method--abc15c28-d9cd-4782-a7b7-f19f465f0856",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

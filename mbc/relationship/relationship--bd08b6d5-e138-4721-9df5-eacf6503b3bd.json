@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--23223d37-3f76-4f43-8352-db0b5342d6a9",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--bd08b6d5-e138-4721-9df5-eacf6503b3bd",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:38.543358Z",
+            "modified": "2024-11-18T16:43:38.543358Z",
+            "relationship_type": "uses",
+            "description": "Execution::User Execution (T1204) -- ElectroRat makes the user execute the malware. [1]",
+            "source_ref": "malware--78d2433b-c22e-457f-8f06-0b93d34cefb8",
+            "target_ref": "attack-pattern--8c32eb4d-805f-4fc5-bf60-c4d476c131b5",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

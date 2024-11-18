@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--86f5f5dc-de43-4d0a-bc69-d6639535f968",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--30c70f83-b3ce-436c-9289-ebb266ac199b",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.701965Z",
+            "modified": "2024-11-18T16:43:41.701965Z",
+            "relationship_type": "uses",
+            "description": "Operating System::Registry::Delete Registry Value (C0036.007) -- DarkComet deletes registry values. [4]",
+            "source_ref": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e",
+            "target_ref": "malware-method--b05dd858-3afa-41a8-a023-b20ff80b1371",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

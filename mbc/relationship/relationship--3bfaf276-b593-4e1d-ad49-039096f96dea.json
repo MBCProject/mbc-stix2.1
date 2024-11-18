@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--7c0f1495-49f0-4888-9d04-0bfee86b3d7d",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--3bfaf276-b593-4e1d-ad49-039096f96dea",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:40.813701Z",
+            "modified": "2024-11-18T16:43:40.813701Z",
+            "relationship_type": "uses",
+            "description": "Execution::Command and Scripting Interpreter (E1059) -- TrickBot accepts command line arguments. [7]",
+            "source_ref": "malware--279171d8-134e-4fef-85f9-d4d2eb1639cb",
+            "target_ref": "malware-behavior--4e84e063-8158-4b77-8401-0287db447fef",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

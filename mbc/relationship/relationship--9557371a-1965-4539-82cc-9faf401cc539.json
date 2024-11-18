@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--a0a14d9a-1400-4ccb-9167-a78936af681e",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--9557371a-1965-4539-82cc-9faf401cc539",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.950439Z",
+            "modified": "2024-11-18T16:43:41.950439Z",
+            "relationship_type": "uses",
+            "description": "Data::Encode Data::XOR (C0026.002) -- Mebromi encodes data using XOR. [2]",
+            "source_ref": "malware--94cb6823-8c6c-4d3d-8e86-258e10c97da2",
+            "target_ref": "malware-method--481b64ac-2251-45a9-8ac0-c43c2959030e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

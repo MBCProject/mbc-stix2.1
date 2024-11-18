@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f40e2fc2-d8f4-4ef8-a69e-90f196cb0432",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--554344db-dc05-4c36-87eb-5cb282741e97",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:40.407512Z",
+            "modified": "2024-11-18T16:43:40.407512Z",
+            "relationship_type": "uses",
+            "description": "Persistence::Component Firmware::Router Firmware (F0009.001) -- SYNful Knock is a stealthy modification of the router's firmware image that can be used to maintain persistence within a victim's network. [1]",
+            "source_ref": "malware--bf095730-bdab-441a-9fca-a86a6b706d4f",
+            "target_ref": "malware-method--d10c43c5-c3f0-42fc-b91b-e1caa25a2dc0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

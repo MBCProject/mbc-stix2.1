@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9cc4a1b0-45f3-4a7b-ab14-6f318b378388",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--153d878b-cebf-4ec4-98e5-27e9fa918f5e",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.096386Z",
+            "modified": "2024-11-18T16:43:41.096386Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Process Injection::Thread Execution Hijacking (E1055.003) -- Redhip injects threads. [2]",
+            "source_ref": "malware--7118a034-ac23-4a16-8277-32b790f890c5",
+            "target_ref": "malware-method--c0a1570c-ac41-4825-8523-e178c75b0ccf",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

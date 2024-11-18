@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--e272c64c-5bd6-4084-9668-f991e5f37d18",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--5fdad242-44d5-4dd6-9bfe-fcb35f54f10d",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:38.792421Z",
+            "modified": "2024-11-18T16:43:38.792421Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Capture Evasion::Memory-only Payload (B0036.001) -- Malware loads its payload into memory.  [1]",
+            "source_ref": "malware--5a7c1fef-d269-488a-85b2-8751418ff707",
+            "target_ref": "malware-method--8335b0ba-e83c-4cd3-8fe8-9729bb6eb2b0",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

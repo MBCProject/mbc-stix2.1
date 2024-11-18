@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--d3cce450-993f-4c15-976f-732a974d66f0",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--93f5d183-eaf9-416a-840c-6560fb75804c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:36.798187Z",
+            "modified": "2024-11-18T16:43:36.798187Z",
+            "relationship_type": "uses",
+            "description": "Collection::Keylogging (F0002) -- CHOPSTICK collects user keystrokes. [1]",
+            "source_ref": "malware--a22c6a4e-a0c2-4f69-97e1-c9e289818842",
+            "target_ref": "malware-behavior--6f628891-7332-450a-9128-2fcab7c3ce29",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--0096d694-fe2f-4425-b4a0-f7dfbae1ee6f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a8322969-6875-4fda-a9f6-77f3bb58d835",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.431323Z",
+            "modified": "2024-11-18T16:43:41.431323Z",
+            "relationship_type": "uses",
+            "description": "File System::Write File (C0052) -- GravityRAT writes files on Windows. [4]",
+            "source_ref": "malware--5b8c2b12-1114-4445-9f40-869fd713df31",
+            "target_ref": "malware-behavior--13566e76-0b92-4140-b0b1-ed3cdf342471",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--38e003c4-9dc4-44a2-94ce-6360063a6c9c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7df62070-9989-403c-be82-0b0538126bee",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:40.523488Z",
+            "modified": "2024-11-18T16:43:40.523488Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Memory Dump Evasion (B0006) -- Dumping Kraken's c.dll module from the heap of its own process is tricky because its PE-header is erased in memory. [1]",
+            "source_ref": "malware--72acb55e-68a0-42f0-99f1-e8b37e15ac76",
+            "target_ref": "malware-behavior--76062b5f-7f44-44e1-a3ae-55c18b3de4cd",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

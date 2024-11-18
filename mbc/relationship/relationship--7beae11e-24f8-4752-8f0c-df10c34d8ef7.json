@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--8f2fdbe0-d315-4bd5-8c7f-9deaa850bd3f",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--7beae11e-24f8-4752-8f0c-df10c34d8ef7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.521348Z",
+            "modified": "2024-11-18T16:43:37.521348Z",
+            "relationship_type": "uses",
+            "description": "Anti-Behavioral Analysis::Sandbox Detection (B0007) -- Vobfus uses GetModuleHandle API to check for the presence of a sandbox. [1]",
+            "source_ref": "malware--76b3b57d-d6a2-489c-a9bb-8d4c73f2f290",
+            "target_ref": "malware-behavior--f1848ab3-a122-4529-9e8f-c1219d4f2d0e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

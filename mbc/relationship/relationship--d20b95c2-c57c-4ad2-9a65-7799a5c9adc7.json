@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--db8f3471-f908-4c7a-b717-a7edf67c2c31",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d20b95c2-c57c-4ad2-9a65-7799a5c9adc7",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.365118Z",
+            "modified": "2024-11-18T16:43:41.365118Z",
+            "relationship_type": "uses",
+            "description": "Command And Control::C2 Communication::Receive Data (B0030.002) -- Kovter receives data. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-method--41f6c7fe-0756-4e69-a04a-d0f38e8c5280",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

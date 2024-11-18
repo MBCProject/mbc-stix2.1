@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--41c82efa-29cf-4f26-832e-3c554103c9bf",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--04a1d923-fad8-47dc-bc90-bc44d091f6fc",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.367572Z",
+            "modified": "2024-11-18T16:43:41.367572Z",
+            "relationship_type": "uses",
+            "description": "File System::Read File (C0051) -- Kovter reads files on Windows. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-behavior--51a82a64-af75-429b-8b49-13092e5c0758",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

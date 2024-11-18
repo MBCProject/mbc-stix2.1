@@ -1,0 +1,26 @@
+{
+    "type": "bundle",
+    "id": "bundle--1a6c3931-e02b-451c-a2d6-07bcfd3110cf",
+    "objects": [
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--68d0c709-0f92-4df9-956f-3f4842195c7c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:40.704997Z",
+            "modified": "2024-11-18T16:43:40.704997Z",
+            "name": "SearchAwesome File Names",
+            "description": "This is an IoC for SearchAwesome",
+            "indicator_types": [
+                "malicious-activity"
+            ],
+            "pattern": "[ file:value = '~/.mitmproxy/' ]",
+            "pattern_type": "stix",
+            "pattern_version": "2.1",
+            "valid_from": "2024-11-18T16:43:40.704997Z",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

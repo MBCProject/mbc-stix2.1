@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b520e4f1-6282-4db7-9df5-2559cbb1ac40",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--437ff2ca-e273-46b7-84d1-a8d0e79f6348",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:39.768049Z",
+            "modified": "2024-11-18T16:43:39.768049Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery (E1083) -- UP007 enumerates files on Windows. [2]",
+            "source_ref": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee",
+            "target_ref": "malware-behavior--10e85e85-7ab2-4d5e-b929-b9d18103ddcf",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--55982ba5-b81d-46b8-99ec-911b43bd7503",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dcf0c9f1-28ec-4fcf-9422-2391c08b5bb0",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:37.652387Z",
+            "modified": "2024-11-18T16:43:37.652387Z",
+            "relationship_type": "uses",
+            "description": "Data::Encode Data::XOR (C0026.002) -- DNSChanger encodes data using XOR. [2]",
+            "source_ref": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85",
+            "target_ref": "malware-method--481b64ac-2251-45a9-8ac0-c43c2959030e",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

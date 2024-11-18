@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9fb6f548-7446-4963-be37-7aea86d764d7",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e2ecea72-70ba-42fa-83a2-1492943fd250",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.367356Z",
+            "modified": "2024-11-18T16:43:41.367356Z",
+            "relationship_type": "uses",
+            "description": "File System::Move File (C0063) -- Kovter moves files. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-behavior--501df7cd-54c2-4646-83a5-58c1cd068812",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

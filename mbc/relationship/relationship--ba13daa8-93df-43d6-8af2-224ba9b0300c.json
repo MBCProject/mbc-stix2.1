@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--b38557ae-3116-4bcf-976f-bbbefe2c2b08",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ba13daa8-93df-43d6-8af2-224ba9b0300c",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.363614Z",
+            "modified": "2024-11-18T16:43:41.363614Z",
+            "relationship_type": "uses",
+            "description": "Discovery::Application Window Discovery::Window Text (E1010.m01) -- Kovter gets graphical window texts. [3]",
+            "source_ref": "malware--658c6155-758c-408e-a916-77f072b9ef47",
+            "target_ref": "malware-method--b9aaecfb-0d8e-4e69-82b3-5949686720c1",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--993f46e7-8b0f-4629-804d-b188e675432a",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--94ced2fc-8962-4fe7-b88c-e1a73d766dfe",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:38.938452Z",
+            "modified": "2024-11-18T16:43:38.938452Z",
+            "relationship_type": "uses",
+            "description": "Execution::Scheduled Task/Job::Scheduled Task (T1053.005) -- Malware schedules a task to execute regsvr32.exe  every 3 minutes.  [1]",
+            "source_ref": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087",
+            "target_ref": "attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

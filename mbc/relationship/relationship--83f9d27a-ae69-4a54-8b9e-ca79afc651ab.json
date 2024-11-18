@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--f45bdd03-3d0e-4b71-b8a5-23cd08a6ac72",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--83f9d27a-ae69-4a54-8b9e-ca79afc651ab",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:41.734491Z",
+            "modified": "2024-11-18T16:43:41.734491Z",
+            "relationship_type": "uses",
+            "description": "Discovery::File and Directory Discovery (E1083) -- SamSam enumerates files on Windows. [4]",
+            "source_ref": "malware--d36b5830-be79-40bd-aadf-092e77380409",
+            "target_ref": "malware-behavior--10e85e85-7ab2-4d5e-b929-b9d18103ddcf",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

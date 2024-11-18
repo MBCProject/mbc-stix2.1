@@ -1,0 +1,21 @@
+{
+    "type": "bundle",
+    "id": "bundle--9afcbb14-1df1-40d0-bf61-ebdc0ba7901c",
+    "objects": [
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--e0690fc6-d080-43ca-bb4d-ee5bf6155199",
+            "created_by_ref": "identity--b73c59c1-8560-449a-b8d0-c2ce0533c5bf",
+            "created": "2024-11-18T16:43:40.881189Z",
+            "modified": "2024-11-18T16:43:40.881189Z",
+            "relationship_type": "uses",
+            "description": "Defense Evasion::Hide Artifacts (E1564) -- Stuxnet intercepts IRP requests (reads, writes) to devices (NFTS, FAT, CD-ROM). It monitors directory control IRPs, in particular directory query notifications, such that when an application requests the list of files, it returns a Stuxnet-specified subset of the true items. These filters hide the files used by Stuxnet to spread through removable drives. [1]",
+            "source_ref": "malware--695d06a7-4c91-4d98-8f8c-6360316a59e7",
+            "target_ref": "malware-behavior--822c8c6a-7647-4f9e-af52-1accff61cca8",
+            "object_marking_refs": [
+                "marking-definition--093b6375-cd45-4aa3-8f91-6a03ddd7a3d3"
+            ]
+        }
+    ]
+}

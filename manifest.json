@@ -52,12 +52,6 @@
     "('ElectroRAT C2 Server', \"[ url:value = 'daopoker.com' ]\")": "indicator--366826d8-0b89-4358-a19b-d281c2154d68",
     "('ElectroRAT C2 Server', \"[ url:value = 'jamm.to' ]\")": "indicator--352c7900-3144-4b67-9b60-addafa055a2f",
     "('ElectroRAT C2 Server', \"[ url:value = 'kintum.io' ]\")": "indicator--c94b7ca8-8ac0-41cc-89d4-a7fe8c9dc922",
-    "('ElectroRAT C2 Server', \"[ url:value = 'pastebin.com//raw//DF8Gikrk' ]\")": "indicator--008cebd5-b7c9-4681-b861-43b088e398aa",
-    "('ElectroRAT C2 Server', \"[ url:value = 'pastebin.com//raw//U45SvK4K' ]\")": "indicator--0672a790-5ef6-46f9-b68f-a1248fd909f4",
-    "('ElectroRAT C2 Server', \"[ url:value = 'pastebin.com//raw//UbTZx6kd' ]\")": "indicator--42a347f1-46ed-43c8-a5ac-41cb11ea8a8e",
-    "('ElectroRAT C2 Server', \"[ url:value = 'pastebin.com//raw//bfQiiqyv' ]\")": "indicator--f6228724-b98f-4fae-827a-a67ccf68fba0",
-    "('ElectroRAT C2 Server', \"[ url:value = 'pastebin.com//raw//r12wBrC7' ]\")": "indicator--77651246-ebb7-4ff1-930a-4270527cf2aa",
-    "('ElectroRAT C2 Server', \"[ url:value = 'pastebin.com//raw//zrZA4L3e' ]\")": "indicator--185a7677-ce7e-4351-94ec-37f5acd6dae1",
     "('ElectroRAT C2 Server', \"[ url:value = 'pastebin.com/raw/DF8Gikrk' ]\")": "indicator--008cebd5-b7c9-4681-b861-43b088e398aa",
     "('ElectroRAT C2 Server', \"[ url:value = 'pastebin.com/raw/U45SvK4K' ]\")": "indicator--0672a790-5ef6-46f9-b68f-a1248fd909f4",
     "('ElectroRAT C2 Server', \"[ url:value = 'pastebin.com/raw/UbTZx6kd' ]\")": "indicator--42a347f1-46ed-43c8-a5ac-41cb11ea8a8e",
@@ -87,7 +81,6 @@
     "('Kovter hash', \"[ file:hashes.'SHA-256' = '15c237f6b74af2588b07912bf18e2734594251787871c9638104e4bf5de46589' ]\")": "indicator--1617d77c-cd54-4df4-8ddc-8c71ea72e01a",
     "('Kovter hash', \"[ file:hashes.'SHA-256' = '40050153dceec2c8fbb1912f8eeabe449d1e265f0c8198008be8b34e5403e731' ]\")": "indicator--76c8c847-76d5-4684-8041-ac61d8d70932",
     "('Kovter hash', \"[ file:hashes.'SHA-256' = 'bffe7ccbcf69e7c787ff10d1dc7dbf6044bffcb13b95d851f4a735917b3a6fdf' ]\")": "indicator--55aa6560-56ca-4aeb-9609-6db067ced541",
-    "('Kraken hash', \"[ file:hashes.'SHA-256' = '1b17ce735512f3104557afe3becacd05ac802b2af79dab5bb1a7ac8d10dccffd' ]\")": "indicator--fbf630c4-0558-49a4-bbc8-c0350d58cf5f",
     "('Kraken hash', \"[ file:hashes.'SHA-256' = '466892a38785c1a499140d208a101f908e7c9589f126b87e9e20d8c916555306' ]\")": "indicator--0cca2fe4-37b9-455d-8d10-a86cf487053f",
     "('Locky Bart hash', \"[ file:hashes.'SHA-256' = 'c285e376201e2941154ec1a9acd8658cd5e0ea975c694a3fe3e9a9897efc2680' ]\")": "indicator--223776ff-929a-4c3e-8212-8c21af91612a",
     "('MazarBot hash', \"[ file:hashes.'SHA-256' = '0432a460b1af4a31c0b0ab12106886ff9e5fd1b7a109c1a9e5ab29b4fafd6719' ]\")": "indicator--7d8cd4a3-7d1a-47c0-b90f-4224959b201c",
@@ -116,13 +109,8 @@
     "('SamSam hash', \"[ file:hashes.'SHA-256' = '8f803b66f6c6bc4da9211a2c4c4c5b46a113201ecaf056d35cad325ec4054656' ]\")": "indicator--f582afc5-7eb4-425d-b8bd-c7c655c95ae1",
     "('SamSam hash', \"[ file:hashes.'SHA-256' = 'dabc0f171b55f4aff88f32871374bf09da83668e1db2d2c18b0cd58ed04f0707' ]\")": "indicator--af96074f-9cdb-4b91-8042-ebe7545e6689",
     "('SamSam hash', \"[ file:hashes.'SHA-256' = 'e7bebd1b1419f42293732c70095f35c8310fa3afee55f1df68d4fe6bbee5397e' ]\")": "indicator--e2581729-7330-492f-87c6-00773dcb376c",
-    "('SearchAwesome File Names', \"[ file:value = '//Applications//spi.app' ]\")": "indicator--e188ec19-5e1f-4611-9dfc-e6dc51389d35",
     "('SearchAwesome File Names', \"[ file:value = '/Applications/spi.app' ]\")": "indicator--e188ec19-5e1f-4611-9dfc-e6dc51389d35",
     "('SearchAwesome File Names', \"[ file:value = '~/.mitmproxy/' ]\")": "indicator--5dfdb912-05d9-429d-893b-e6e532323384",
-    "('SearchAwesome File Names', \"[ file:value = '~//.mitmproxy//' ]\")": "indicator--5dfdb912-05d9-429d-893b-e6e532323384",
-    "('SearchAwesome File Names', \"[ file:value = '~//Library//LaunchAgents//spid-uninstall.plist' ]\")": "indicator--6aca2500-f2fe-4b16-946d-b79fa7735abb",
-    "('SearchAwesome File Names', \"[ file:value = '~//Library//LaunchAgents//spid.plist' ]\")": "indicator--c885da65-dbba-49f8-9ed8-9edf41cf0e0c",
-    "('SearchAwesome File Names', \"[ file:value = '~//Library//SPI//' ]\")": "indicator--cf9bf65d-28e7-4f22-89d1-532512228082",
     "('SearchAwesome File Names', \"[ file:value = '~/Library/LaunchAgents/spid-uninstall.plist' ]\")": "indicator--6aca2500-f2fe-4b16-946d-b79fa7735abb",
     "('SearchAwesome File Names', \"[ file:value = '~/Library/LaunchAgents/spid.plist' ]\")": "indicator--c885da65-dbba-49f8-9ed8-9edf41cf0e0c",
     "('SearchAwesome File Names', \"[ file:value = '~/Library/SPI/' ]\")": "indicator--cf9bf65d-28e7-4f22-89d1-532512228082",
@@ -158,10 +146,6 @@
     "('Ursnif URL', \"[ url:value = 'au-tda[.]com' ]\")": "indicator--0c5fdb2b-912c-416b-bde4-b719fbed3973",
     "('Ursnif URL', \"[ url:value = 'au-tdc[.]com' ]\")": "indicator--c041c48d-8b3b-4b30-a9c5-99325ea51afb",
     "('Ursnif URL', \"[ url:value = 'ca-tda[.]com' ]\")": "indicator--0cd98374-db35-44ca-b810-021566a54fee",
-    "('Ursnif URL', \"[ url:value = 'hxxp:////62.138.9[.]11//30030u' ]\")": "indicator--cbabc152-4980-4005-add9-eb48cbe3c213",
-    "('Ursnif URL', \"[ url:value = 'hxxp:////62.138.9[.]11//vnc32.dll' ]\")": "indicator--3fabcb77-aa93-4ccc-b9a5-de8bd98d3787",
-    "('Ursnif URL', \"[ url:value = 'hxxp:////62.138.9[.]11//vnc64.dll' ]\")": "indicator--858c7ac8-c7e2-43d5-83d6-e2e3dcb769d4",
-    "('Ursnif URL', \"[ url:value = 'hxxp:////deekayallday[.]com//data//office' ]\")": "indicator--53a4d861-eb1c-4afe-800e-2bb93a1de825",
     "('Ursnif URL', \"[ url:value = 'hxxp://62.138.9[.]11/30030u' ]\")": "indicator--cbabc152-4980-4005-add9-eb48cbe3c213",
     "('Ursnif URL', \"[ url:value = 'hxxp://62.138.9[.]11/vnc32.dll' ]\")": "indicator--3fabcb77-aa93-4ccc-b9a5-de8bd98d3787",
     "('Ursnif URL', \"[ url:value = 'hxxp://62.138.9[.]11/vnc64.dll' ]\")": "indicator--858c7ac8-c7e2-43d5-83d6-e2e3dcb769d4",
@@ -378,7 +362,6 @@
     "('indicator--f85ea374-4b44-447d-82a6-15ffe62d42ed', 'malware--d36b5830-be79-40bd-aadf-092e77380409', 'indicates')": "relationship--d42bc5a7-cf8f-47cd-8ede-108de01abd07",
     "('indicator--f9280581-c0e1-4c34-b0fe-5197601741ed', 'malware--0a538d20-0f51-411f-bb26-1aee555078d0', 'indicates')": "relationship--47ad2aaf-f490-476b-ab13-38b2ec318be7",
     "('indicator--fb3334a0-8ac4-48aa-b401-38b7820cd308', 'malware--215c546e-44be-43f1-bbdd-831c356a5e95', 'indicates')": "relationship--d5241452-4fa6-4b04-98e2-7f8bdf744e37",
-    "('indicator--fbf630c4-0558-49a4-bbc8-c0350d58cf5f', 'malware--72acb55e-68a0-42f0-99f1-e8b37e15ac76', 'indicates')": "relationship--3d1222bd-487b-4d07-b17e-6c24a6475b27",
     "('indicator--fcc4d2c0-421c-46e4-820a-15c376fcd335', 'malware--8b920874-48f9-472c-b9d2-84306afb74fc', 'indicates')": "relationship--f9c821ff-b502-42cd-8040-f4703e322579",
     "('indicator--fd13f0eb-c5a8-452e-be8e-90b4a3f967f7', 'malware--d36b5830-be79-40bd-aadf-092e77380409', 'indicates')": "relationship--56b5b42b-d6a1-4bec-9c38-f1d3a59be5de",
     "('indicator--fec6996e-0122-4b3b-99fa-a8f323537cb8', 'malware--026e76da-ee0d-46c0-b65b-dde4d976e3dd', 'indicates')": "relationship--0e1b200a-e5cc-4fa3-8ab6-18737d5b2514",
@@ -502,11 +485,9 @@
     "('malware--25242c07-4aad-4dd6-9b70-0401fafd7a85', 'malware-behavior--e123ec7c-bf1e-44dc-b7bc-df9b4a4697e5', 'uses')": "relationship--776ca2a4-fdde-4b84-b385-bfe407683c70",
     "('malware--25242c07-4aad-4dd6-9b70-0401fafd7a85', 'malware-method--299ce1cd-bcb0-462d-be60-4757fe78820b', 'uses')": "relationship--7933b74f-8ec1-452f-b91a-35bf363efb8f",
     "('malware--25242c07-4aad-4dd6-9b70-0401fafd7a85', 'malware-method--3a879212-7127-4f91-84ef-7aa65e971ef3', 'uses')": "relationship--7215b7c2-b6cd-493f-9df7-945ee41baddb",
-    "('malware--25242c07-4aad-4dd6-9b70-0401fafd7a85', 'malware-method--58c152da-1826-4208-ad98-c33cde3c9090', 'uses')": "relationship--41a1024b-3b16-482f-b878-5f4519ec4021",
     "('malware--25242c07-4aad-4dd6-9b70-0401fafd7a85', 'malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2', 'uses')": "relationship--1d55f5e3-f1d2-40f0-a34f-1800819d241a",
     "('malware--25242c07-4aad-4dd6-9b70-0401fafd7a85', 'malware-method--5b9b89c1-f729-4f55-bb5d-cdf4a126820c', 'uses')": "relationship--5c13471e-dacf-4c2e-ab84-00c74d059d83",
     "('malware--25242c07-4aad-4dd6-9b70-0401fafd7a85', 'malware-method--72435496-9e74-411f-ba5a-0cf41767f524', 'uses')": "relationship--9740b24e-3d7b-4236-83b1-a01ba08429ee",
-    "('malware--25242c07-4aad-4dd6-9b70-0401fafd7a85', 'malware-method--e3e76b72-4e03-434e-b817-345b07479c83', 'uses')": "relationship--5669137a-a4e8-4282-acc2-4758817d62ee",
     "('malware--25242c07-4aad-4dd6-9b70-0401fafd7a85', 'malware-method--e79dbd3f-0206-462a-b832-da28783c1eea', 'uses')": "relationship--ed9a3c99-0f23-4ede-ab99-6a89c54e8987",
     "('malware--279171d8-134e-4fef-85f9-d4d2eb1639cb', 'attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65', 'uses')": "relationship--530cb6b5-1fd4-47b1-b038-0778829f8894",
     "('malware--279171d8-134e-4fef-85f9-d4d2eb1639cb', 'malware--00806466-754d-44ea-ad6f-0caf59cb8556', 'related-to')": "relationship--86f19f45-cc3e-4b46-8afe-43cc8df0fa99",
@@ -530,7 +511,6 @@
     "('malware--279171d8-134e-4fef-85f9-d4d2eb1639cb', 'malware-method--60f448c9-81e7-4ea7-a45d-229fefc20899', 'uses')": "relationship--9702bd37-8100-4caf-88be-a9140ead3a2f",
     "('malware--279171d8-134e-4fef-85f9-d4d2eb1639cb', 'malware-method--a40744c8-e422-41b1-aee9-5484ea0ad078', 'uses')": "relationship--a28bc5b7-6887-4206-b148-f31d90b2ec4c",
     "('malware--279171d8-134e-4fef-85f9-d4d2eb1639cb', 'malware-method--e3e76b72-4e03-434e-b817-345b07479c83', 'uses')": "relationship--3ba2e9ba-5386-46ac-9603-24af103446aa",
-    "('malware--279171d8-134e-4fef-85f9-d4d2eb1639cb', 'malware-method--f5b7906f-f5b1-4555-8d7d-efa1d43f3af1', 'uses')": "relationship--e4321606-62b9-46ff-afc9-dfd706b29324",
     "('malware--279171d8-134e-4fef-85f9-d4d2eb1639cb', 'malware-method--ffaac7f4-a791-4e39-8889-f2bb17a0fbc8', 'uses')": "relationship--e1c61c64-454d-4126-95f1-33830ca74f91",
     "('malware--2d615630-e95e-4c84-b594-c3015c2a479c', 'attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65', 'uses')": "relationship--69b7aecb-7e2c-43d6-8d78-f98b360a4fd9",
     "('malware--2d615630-e95e-4c84-b594-c3015c2a479c', 'attack-pattern--20fb2507-d71c-455d-9b6d-6104461cf26b', 'uses')": "relationship--5e2a2453-f09a-4fc9-8815-8aa3404bc570",
@@ -646,7 +626,6 @@
     "('malware--616a623a-1cc2-474c-9ee4-964801070166', 'malware-behavior--760fc213-d22e-4721-924e-f87dfe6010ca', 'uses')": "relationship--a3ceec22-028d-4e7b-8802-5cf30b7ffed0",
     "('malware--616a623a-1cc2-474c-9ee4-964801070166', 'malware-behavior--bf5c92a2-c1f9-489f-89e7-936d753be249', 'uses')": "relationship--9366dafb-b1d7-4011-abdb-c383b44780b4",
     "('malware--616a623a-1cc2-474c-9ee4-964801070166', 'malware-behavior--f66ad53f-9569-4561-b7ab-84a532663601', 'uses')": "relationship--df227470-2213-45fc-9d66-9233f02ececa",
-    "('malware--616a623a-1cc2-474c-9ee4-964801070166', 'malware-method--1a40603f-4a1a-4c2c-a2c2-62019ffe1557', 'uses')": "relationship--ff116585-818a-4ca3-a536-2cfd27d1c119",
     "('malware--616a623a-1cc2-474c-9ee4-964801070166', 'malware-method--327f12a0-c1fe-49a2-a326-24053625689f', 'uses')": "relationship--19e7a58f-ed8e-4aa5-b3a2-9c5f7ed7e5e9",
     "('malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087', 'attack-pattern--005a06c6-14bf-4118-afa0-ebcd8aebb0c9', 'uses')": "relationship--1a60d683-7a06-4459-8a1c-7851d6e235cc",
     "('malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087', 'attack-pattern--045d0922-2310-4e60-b5e4-3302302cb3c5', 'uses')": "relationship--7c6b91c1-1ff0-46f9-86e0-50bae75fdecd",
@@ -672,7 +651,6 @@
     "('malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087', 'malware-method--e3e76b72-4e03-434e-b817-345b07479c83', 'uses')": "relationship--332fa1dd-db83-4235-a78f-79a613c6b41e",
     "('malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087', 'malware-method--e53ac5de-2db8-46fa-9263-2c99da363c54', 'uses')": "relationship--ac308867-ffe5-4fd7-99e8-5e7bfdfc565a",
     "('malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087', 'malware-method--efcacdf1-da90-403e-ae55-d08a008b1294', 'uses')": "relationship--cac7637e-dab8-4e02-9c99-effcc7fb990c",
-    "('malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087', 'malware-method--f5b7906f-f5b1-4555-8d7d-efa1d43f3af1', 'uses')": "relationship--ed77c482-6b88-44c4-a280-81e76e0485a8",
     "('malware--658c6155-758c-408e-a916-77f072b9ef47', 'attack-pattern--0a5231ec-41af-4a35-83d0-6bdf11f28c65', 'uses')": "relationship--4436c454-98e5-4e86-93a8-e721a231418c",
     "('malware--658c6155-758c-408e-a916-77f072b9ef47', 'attack-pattern--232b7f21-adf9-4b42-b936-b9d6f7df856e', 'uses')": "relationship--3a8b3f7c-2f94-4cce-9dc9-cf1be25d9b20",
     "('malware--658c6155-758c-408e-a916-77f072b9ef47', 'attack-pattern--2e34237d-8574-43f6-aace-ae2915de8597', 'uses')": "relationship--b38e86ab-2bb6-474d-953f-24aeb60269e1",
@@ -732,7 +710,6 @@
     "('malware--695d06a7-4c91-4d98-8f8c-6360316a59e7', 'malware-method--5b9b89c1-f729-4f55-bb5d-cdf4a126820c', 'uses')": "relationship--1176abbd-5f77-4132-a97f-54435d518fff",
     "('malware--695d06a7-4c91-4d98-8f8c-6360316a59e7', 'malware-method--7cacc5a7-1a26-47db-9e6d-d4b7f520de42', 'uses')": "relationship--c5681f61-2b71-4358-b8db-5dda93f199c0",
     "('malware--695d06a7-4c91-4d98-8f8c-6360316a59e7', 'malware-method--efce34e7-bac1-4d20-bac8-491a9169df4d', 'uses')": "relationship--6d2a00dd-0fb3-4bd5-a22f-4df4bc8ed21f",
-    "('malware--695d06a7-4c91-4d98-8f8c-6360316a59e7', 'malware-method--f5b7906f-f5b1-4555-8d7d-efa1d43f3af1', 'uses')": "relationship--a5c3a05f-ead2-409f-8c1a-cce7b6308f36",
     "('malware--695d06a7-4c91-4d98-8f8c-6360316a59e7', 'malware-method--ffaac7f4-a791-4e39-8889-f2bb17a0fbc8', 'uses')": "relationship--f31feae0-1915-469c-81ab-31f4e28e7696",
     "('malware--6f5e70fa-e2f9-4489-8f17-10321bdef5af', 'malware-behavior--4720ed6f-88e8-4cd9-be5a-ab0c48fd45df', 'uses')": "relationship--6adc27ee-cc23-4711-b10d-cc96e8b04422",
     "('malware--6f6b1b5e-6a3e-44c6-86e6-ed8ca27b5195', 'attack-pattern--3b744087-9945-4a6f-91e8-9dbceda417a4', 'uses')": "relationship--45f7a15d-e07a-401d-9813-79ca628ad42d",
@@ -874,7 +851,6 @@
     "('malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917', 'malware-behavior--e123ec7c-bf1e-44dc-b7bc-df9b4a4697e5', 'uses')": "relationship--4f8133e4-1c34-4aca-ab22-6b3a42bad5f2",
     "('malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917', 'malware-behavior--f06be5c1-9fc5-44bd-8788-31785f8b4586', 'uses')": "relationship--a5a71f2a-703c-4124-ae41-4f6b314dc2b2",
     "('malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917', 'malware-method--0c2bbe11-f83b-4b11-bbcd-7e83efdb4759', 'uses')": "relationship--c76f0957-964c-4b9e-99c4-ffa355b00365",
-    "('malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917', 'malware-method--51fef92e-9702-44ca-8e2c-22a52994f4f1', 'uses')": "relationship--2d9d538b-068a-4144-853c-1f5164b62f95",
     "('malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917', 'malware-method--58c152da-1826-4208-ad98-c33cde3c9090', 'uses')": "relationship--191adaff-3da2-45d8-af42-d16923026a7c",
     "('malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917', 'malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2', 'uses')": "relationship--4ca9ab06-9ba9-4bd8-99ac-a22f63164663",
     "('malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917', 'malware-method--5b9b89c1-f729-4f55-bb5d-cdf4a126820c', 'uses')": "relationship--818ef7cf-e8f3-43e3-9614-2eb82172ffea",
@@ -1058,7 +1034,6 @@
     "('malware--b2924e46-812f-491d-a441-b8571f7b221e', 'malware-behavior--72862ee1-28ff-4c5e-ae11-ca52c681d1b3', 'uses')": "relationship--a23264ab-0683-4c65-8f45-bef49a5fb95a",
     "('malware--b2924e46-812f-491d-a441-b8571f7b221e', 'malware-behavior--819ed2ae-7ed5-4caf-a057-485563efc26f', 'uses')": "relationship--abd6bb72-5aaa-428c-a649-573f3da0fde5",
     "('malware--b2924e46-812f-491d-a441-b8571f7b221e', 'malware-behavior--d1bfc6a6-efdb-417f-afe5-596c3cf925af', 'uses')": "relationship--7e2c83cb-b5a5-4518-9ce6-1a6e27388bc5",
-    "('malware--b2924e46-812f-491d-a441-b8571f7b221e', 'malware-behavior--e236a7b0-b9c4-4720-a842-8fefcd8c82fd', 'uses')": "relationship--90170476-c56a-443e-b6da-3686780bbfd6",
     "('malware--b2924e46-812f-491d-a441-b8571f7b221e', 'malware-behavior--eb4ee065-753f-4302-b63c-0c75c3eb6a4d', 'uses')": "relationship--67a2590e-1dc0-4d4c-947c-f7a063442bab",
     "('malware--b2924e46-812f-491d-a441-b8571f7b221e', 'malware-method--0c2bbe11-f83b-4b11-bbcd-7e83efdb4759', 'uses')": "relationship--1f5b00f8-b50f-402e-b63b-0f6bb1d53914",
     "('malware--b2e84cdc-8eef-42f3-9f27-a4587787f52a', 'malware--75ecdbf1-c2bb-4afc-a3f9-c8da4de8c661', 'related-to')": "relationship--fbbe4818-2078-420b-89f9-d7af51e4de7c",
@@ -1161,115 +1136,115 @@
     "('malware--fdec4701-4623-4ec5-94ff-30c3e92620d4', 'malware-method--a40744c8-e422-41b1-aee9-5484ea0ad078', 'uses')": "relationship--084ce7d9-05e1-435d-8e9a-c0a0d317d209",
     "('malware--fdec4701-4623-4ec5-94ff-30c3e92620d4', 'malware-method--ccc62ca2-a171-46ad-a052-9085ddc73144', 'uses')": "relationship--66226fe3-e5a5-46fe-99d8-1e0695f9acdf",
     "3DES": {
-        "C0027.004": "malware-method--1e90325a-dd63-41d6-be62-a5810e11baf7",
-        "C0031.005": "malware-method--7267c2d5-0bf9-45c8-a0af-7dc7afff1bf2"
+        "C0027.004": "malware-method--31a7a43e-e20e-44aa-b90f-df177a9744a0",
+        "C0031.005": "malware-method--df137a7b-6fda-4f41-8adc-35176a4f7f23"
     },
     "AES": {
-        "C0027.001": "malware-method--d46dd942-933e-46a7-b606-e8202659c4a3",
-        "C0031.001": "malware-method--5a1e7f11-1c9f-4712-8122-dadcd63a1703"
+        "C0027.001": "malware-method--07149544-8123-4cbb-8eb1-ca22b11f950f",
+        "C0031.001": "malware-method--e3974240-0013-4ce9-b701-7aa7823a9b30"
     },
     "AMSI Bypass": {
-        "F0004.004": "malware-method--a4d5874a-1dcf-4a29-9579-a90ae63d3789"
+        "F0004.004": "malware-method--10cbd362-59b2-4dc8-a28a-c93d6af3d2a2"
     },
     "API Call": {
-        "C0059.001": "malware-method--5da7d02b-b2ba-48fd-9533-bfd083ef735a"
+        "C0059.001": "malware-method--812e1b9c-eee3-4a9a-bc64-8b2ab898c1f3"
     },
     "API Hammering": {
-        "B0003.012": "malware-method--cc282167-808c-4733-88c1-55567b219f53"
+        "B0003.012": "malware-method--5b00e053-b02f-4890-9792-2199a5f97d2b"
     },
     "API Hashing": {
-        "B0032.001": "malware-method--27554757-5596-4a8c-8db4-ac26e02a4cd3"
+        "B0032.001": "malware-method--23feeeaa-084e-4989-9420-2a075b7431c2"
     },
     "API Hook Detection": {
-        "B0001.001": "malware-method--2760bc6c-094b-48e7-8e6d-d712066f3ea6"
+        "B0001.001": "malware-method--00edb888-eedb-4710-9ccb-b616ae8513ed"
     },
     "ASPack": {
-        "F0001.013": "malware-method--c769f066-f8af-46c7-912a-3f54d34ea057"
+        "F0001.013": "malware-method--314bde84-b6d9-47a9-a897-b485209ab4c0"
     },
     "Abuse Enterprise Certificates": {
-        "E1195.m01": "malware-method--6ef20d40-47cf-47f5-b001-7f5d82e92b8c"
+        "E1195.m01": "malware-method--59b7d449-9229-4487-99b7-d5af3202f6f3"
     },
     "Abuse Windows Function Calls": {
-        "F0015.006": "malware-method--e5320e36-fe1d-4ec0-adcf-59768ff7c694"
+        "F0015.006": "malware-method--05470f53-ca33-4aa5-9042-17d0c0889504"
     },
     "Adler": {
-        "C0032.005": "malware-method--25237c62-39fb-4171-b7e1-476a12344876"
+        "C0032.005": "malware-method--9a925e50-52d5-49c0-8000-c0cc5be00964"
     },
     "Advertisement Replacement Fraud": {
-        "E1643.m02": "malware-method--344e7fc5-096b-4e39-8a44-a3c92f61a443"
+        "E1643.m02": "malware-method--cf898fc7-1343-401b-952f-74aeeac1c338"
     },
     "Adwind jRAT": {
         "X0048": "malware--c8bdfdfa-0ca4-43e2-8769-c6e08e2d34ef"
     },
     "Allocate Memory": {
-        "C0007": "malware-behavior--18cd9166-26ef-4c2a-893b-daf909f418a6"
+        "C0007": "malware-behavior--26fa7b99-f43c-4e41-81a9-a7ade69e436c"
     },
     "Allocate Thread Local Storage": {
-        "C0040": "malware-behavior--9233e9d7-fb2d-4b39-9f19-5a59c6194c29"
+        "C0040": "malware-behavior--b0f7203c-3d04-4f8b-9921-3dfb0205b240"
     },
     "Alter File Extension": {
-        "C0015": "malware-behavior--f72f00c7-d0f6-4aee-b1ac-fd43ec78a162"
+        "C0015": "malware-behavior--7d1bf2ef-e189-4bf2-81d0-3c102c7c6cfd"
     },
     "Alternative Installation Location": {
-        "B0027": "malware-behavior--ac99c349-2810-4f3d-9669-db3f805a69eb"
+        "B0027": "malware-behavior--b6e7bcdb-391e-47d6-ac01-de4af806a447"
     },
     "Alternative ntdll.dll": {
-        "B0003.001": "malware-method--ff0d042e-e146-41d1-808b-c6aa205e5fd2"
+        "B0003.001": "malware-method--0e64af8d-2dd5-4e78-a985-db15862b7d5b"
     },
     "Analysis Tool Discovery": {
-        "B0013": "malware-behavior--b0d0ebc7-0b56-4222-88fa-b680481656b1"
+        "B0013": "malware-behavior--08c55cd8-8e57-4664-b251-70a982996863"
     },
     "Anti-Behavioral Analysis": {
-        "OB0001": "malware-objective--f38b4e5f-7c1b-4c17-9610-a739550ab918"
+        "OB0001": "malware-objective--c66c4a75-a08d-4cfb-a135-d3ce2cec093e"
     },
     "Anti-Static Analysis": {
-        "OB0002": "malware-objective--46f7c0d5-2fed-4daf-884f-fa7fd63e571b"
+        "OB0002": "malware-objective--b0ebaa5c-27b4-491d-bd56-12f6eddc3e84"
     },
     "Anti-debugging Instructions": {
-        "B0001.034": "malware-method--d4895eb5-d380-4592-bde5-6865a26cb75b"
+        "B0001.034": "malware-method--b01ae136-9772-478e-86c9-c3455036452e"
     },
     "Append Extension": {
-        "C0015.001": "malware-method--b40ae3bf-b348-4607-9511-4c9f798081b6"
+        "C0015.001": "malware-method--0b65aaed-e184-4ee4-93c5-aa8b1ead8e32"
     },
     "Application Hook": {
-        "F0002.001": "malware-method--1fcbe0f6-8047-4bd8-a3b6-d2201ca60a5c"
+        "F0002.001": "malware-method--3ed2b091-807f-4243-9f03-8329939c8881"
     },
     "Application Rootkit": {
-        "E1014.m12": "malware-method--14618c69-9cc7-4e57-b674-6f8ef8bb5f8c"
+        "E1014.m12": "malware-method--69638d8a-84eb-47bc-a8c4-cc1fd8e2c2bd"
     },
     "Application Window Discovery": {
-        "E1010": "malware-behavior--73bd945b-2f1e-4c33-a0c1-282cbededf2b"
+        "E1010": "malware-behavior--a9daddda-3d67-4076-aba3-fefdcd4205f6"
     },
     "Arbitrary Memory Corruption": {
-        "B0045.003": "malware-method--edfab27b-9fc8-491e-b4dd-4a1cde45299b"
+        "B0045.003": "malware-method--79f2eaae-f0ec-46b6-acf8-d0c37fa28674"
     },
     "Archive Collected Data": {
-        "E1560": "malware-behavior--67b6544e-a15f-4acb-8b3f-a9068c3134f9"
+        "E1560": "malware-behavior--3a491018-6933-4ea8-af44-bba658827c50"
     },
     "Argument Obfuscation": {
-        "B0012.001": "malware-method--389a3140-f6d4-4ea1-a435-3b990539354e",
-        "B0032.020": "malware-method--02c603b7-daaf-4e32-a141-25531d37ee7a"
+        "B0012.001": "malware-method--2a32fb92-4b36-4190-a706-45bb1c045f0b",
+        "B0032.020": "malware-method--d2f33d66-dec9-4636-8703-98861ae25cad"
     },
     "Armadillo": {
-        "F0001.012": "malware-method--ee5560bb-47ae-432a-8157-c8ce91c42250"
+        "F0001.012": "malware-method--b1e0a357-2fe5-4fab-b1db-e012ff717e86"
     },
     "Asynchronous Procedure Call": {
-        "E1055.004": "malware-method--bc336a13-4980-4b91-a9b8-e942dc7255fa"
+        "E1055.004": "malware-method--e0bb2fa3-9900-44a7-93d6-68144e2f831f"
     },
     "Attor": {
         "X0049": "malware--90d99867-dd26-45cb-bb6b-ab653f5ef904"
     },
     "Attribute": {
-        "F0005.003": "malware-method--4ecdabdd-ee54-4a05-a8d2-68d7ae1b3f42"
+        "F0005.003": "malware-method--4cabe8a7-de80-440d-beb5-b1ac825b56a0"
     },
     "Authenticate": {
-        "B0030.011": "malware-method--15a3f947-455e-4b57-b950-b0e52b3ac2c2"
+        "B0030.011": "malware-method--50a3728a-b3a3-4adf-9b77-12f87f51b797"
     },
     "Automated Exfiltration": {
-        "E1020": "malware-behavior--3300f695-c9d3-4641-a26c-0aa860378df5"
+        "E1020": "malware-behavior--9e5680af-864f-4122-92c5-268a2d26ee25"
     },
     "BSD": {
-        "C0032.003": "malware-method--e02dfcec-e1d8-4db1-924f-9fdd2660221a"
+        "C0032.003": "malware-method--da359580-b1fb-4b80-8541-70b58b8cb492"
     },
     "BadUSB": {
         "X0046": "malware--6f6b1b5e-6a3e-44c6-86e6-ed8ca27b5195"
@@ -1278,305 +1253,304 @@
         "X0001": "malware--526faaf2-073e-4da9-9a56-63082add55c0"
     },
     "Base64": {
-        "C0026.001": "malware-method--c2ab7efa-d323-4f91-8d48-acf9d35461db",
-        "C0053.001": "malware-method--52b5f972-e1ca-4da3-b29e-379ac9311e02"
+        "C0026.001": "malware-method--c2e206a4-4309-4ccb-92cb-da85b940bcc5",
+        "C0053.001": "malware-method--603d6ab4-2c4b-4474-b74c-2607adb550c2"
     },
     "Bitcoin": {
-        "B0028.001": "malware-method--486ffd26-aded-4ab7-8c5c-385044fa2758"
+        "B0028.001": "malware-method--151913a8-e07d-471d-b93b-3e30197c0506"
     },
     "BlackEnergy": {
         "X0002": "malware--9e87672d-5122-474c-b71a-f0c9d09e51b7"
     },
     "Block Cipher": {
-        "C0027.014": "malware-method--b420a957-ec55-492d-8b80-54b4ccf0ead9",
-        "C0031.002": "malware-method--d3b48915-aa5e-4148-bb22-4b31f1ba6efa"
+        "C0027.014": "malware-method--c0520194-92ab-40d3-ba88-020d7bcbd414",
+        "C0031.002": "malware-method--b2258339-e6ae-435e-8b96-30fa4f4d9151"
     },
     "Block Interrupts": {
-        "B0002.001": "malware-method--93450277-ece6-4d60-8d36-9e88bff674ea"
+        "B0002.001": "malware-method--63e8e9a2-25a9-45ae-9979-c610089145b9"
     },
     "Blowfish": {
-        "C0027.002": "malware-method--7bfa4c7e-15a3-4c9d-b44a-757a17775c5e",
-        "C0031.003": "malware-method--7f623fb8-9aec-4017-85dc-fef9d9b38897"
+        "C0027.002": "malware-method--6db8e4ec-f2a2-4b4b-aa54-eee6a21b635b",
+        "C0031.003": "malware-method--a6795a15-229d-42f7-ade2-886039205a42"
     },
     "Bootkit": {
-        "F0013": "malware-behavior--79bc348d-301a-4388-836f-cca052b923ad"
+        "F0013": "malware-behavior--02c2d0f6-71bf-4937-beee-f4e9daff6bc5"
     },
     "Bootloader": {
-        "E1014.m13": "malware-method--0152d55a-c74c-49dc-be47-696902486283"
+        "E1014.m13": "malware-method--eb964857-4f2b-4d0f-aeb5-8a99ba51d881"
     },
     "Break Point Clearing": {
-        "B0002.002": "malware-method--f1fe32f0-4267-4c5c-85f2-0bca75bbe241"
+        "B0002.002": "malware-method--e0167414-22a7-46c4-a09b-86fb2e92b632"
     },
     "Bypass Data Execution Prevention": {
-        "B0037": "malware-behavior--680068c2-9c65-462a-b0d3-01e656894d03"
+        "B0037": "malware-behavior--fedecb30-e3b3-48fc-b3d5-83c8684ad891"
     },
     "Bypass Windows File Protection": {
-        "F0004.007": "malware-method--249010a8-f89c-4603-a927-371e1edf5177"
+        "F0004.007": "malware-method--c3c9eed7-723a-4554-8898-b7bb32898ef0"
     },
     "Byte Stealing": {
-        "B0002.003": "malware-method--1de4dd0f-3a00-4420-9bed-3198d99ba433"
+        "B0002.003": "malware-method--eaee97e4-ee45-4495-bb7f-797f06c20aab"
     },
     "C2 Communication": {
-        "B0030": "malware-behavior--22eb2825-fe0c-4ef1-a156-f967a0ffcfb7"
+        "B0030": "malware-behavior--c47f7d43-8667-4f90-bb0e-636b46449485"
     },
     "CDROM": {
-        "B0042.001": "malware-method--1216e6a4-d82a-4c20-8303-9253b6696d1c"
+        "B0042.001": "malware-method--c59de75c-4d9e-4760-b87e-1ed88436f0a3"
     },
     "CHOPSTICK": {
         "X0035": "malware--a22c6a4e-a0c2-4f69-97e1-c9e289818842"
     },
     "COMSPEC Environment Variable": {
-        "F0007.001": "malware-method--ccc62ca2-a171-46ad-a052-9085ddc73144"
+        "F0007.001": "malware-method--eb2a9b86-72f6-4bc4-9f15-4ab273ad8103"
     },
     "CRC32": {
-        "C0032.001": "malware-method--e5868b60-5bee-4dd9-bc67-7d5232b641d7"
+        "C0032.001": "malware-method--5c87a036-ed89-4e15-80f4-69d0dc266d2b"
     },
     "Call Graph Generation Evasion": {
-        "B0010": "malware-behavior--f481ad0d-27cf-455c-a613-c3cb068ed948"
+        "B0010": "malware-behavior--aa37be13-aa1d-4228-a197-5c1462408039"
     },
     "Call Indirections": {
-        "B0029.002": "malware-method--ea24c333-4c48-456c-9f2a-26e4154c234a"
+        "B0029.002": "malware-method--2db4c9a8-6a96-440d-be06-309b90254447"
     },
     "Camellia": {
-        "C0027.003": "malware-method--f9ce02a4-c3a5-4e2c-b923-48913b8cb838",
-        "C0031.004": "malware-method--40881608-374d-4090-837b-c0cc8d9be896"
+        "C0027.003": "malware-method--b0862f25-b089-4971-8145-241cb0b85df2",
+        "C0031.004": "malware-method--a2cb582a-7210-4b00-bd95-c5f6eeb5a0f6"
     },
     "Capture Evasion": {
-        "B0036": "malware-behavior--b60f5639-b73a-46ab-a6fc-20886a9c81a9"
+        "B0036": "malware-behavior--9730f453-944d-42d4-8d1d-a557bb745f6a"
     },
     "Change Memory Protection": {
-        "C0008": "malware-behavior--93c4abef-b6f2-439d-a89e-d874e98c76b8"
+        "C0008": "malware-behavior--24af9e22-94bd-4b2c-a370-7e2e58175fcc"
     },
     "Change SizeOfImage": {
-        "B0002.004": "malware-method--4a6fd610-8d6c-44dc-a9da-9d2514ad933c"
+        "B0002.004": "malware-method--5af83772-d4e6-44b3-800e-fb764b8efc36"
     },
     "Check Clipboard Data": {
-        "B0007.001": "malware-method--acd71e08-8137-407c-acab-514883b4ea27"
+        "B0007.001": "malware-method--7424c674-db92-46fe-a6b5-b49963afcc67"
     },
     "Check Emulator-related Registry Keys": {
-        "B0004.003": "malware-method--74284859-7c56-48b7-a7e7-09c7ecc56f5b"
+        "B0004.003": "malware-method--9187d87c-5e3d-4779-8f55-9355c43b2793"
     },
     "Check File and Directory Artifacts": {
-        "B0009.001": "malware-method--8bf6b48b-d872-4f9e-980f-034292ee0346"
+        "B0009.001": "malware-method--29f66f12-79bf-4774-b488-3430cbf65c0f"
     },
     "Check Files": {
-        "B0007.002": "malware-method--9ab8e8ab-1a8b-4aa8-be0f-2266da6ef985"
+        "B0007.002": "malware-method--64b39b79-797a-48c9-9acc-3eb4ff252c8e"
     },
     "Check Magic String": {
-        "B0038.002": "malware-method--b384b02c-3407-497c-9ca4-b1e3e34d8ce2"
+        "B0038.002": "malware-method--54226e28-31f7-4ebe-8b26-2213a3ec1cd7"
     },
     "Check Memory Artifacts": {
-        "B0009.002": "malware-method--bab18cd3-307a-4bb0-8b41-d7c982c99a4e"
+        "B0009.002": "malware-method--e960eff7-4cfe-4b45-8a72-707ac512260f"
     },
     "Check Mutex": {
-        "C0043": "malware-behavior--3b0f15b6-e989-4cb3-8743-15601847efa1"
+        "C0043": "malware-behavior--c6764efc-99b4-4143-961d-238130787c7a"
     },
     "Check Named System Objects": {
-        "B0009.003": "malware-method--bd0ce619-1967-44d8-9931-bdbe51794ea5"
+        "B0009.003": "malware-method--3b5fd1df-8e02-4d1d-b9c8-93f6cb8a0233"
     },
     "Check Processes": {
-        "B0001.038": "malware-method--2cdb0e87-2610-4e25-bacf-102813993823",
-        "B0009.004": "malware-method--f2e8f48a-9abf-4167-ab47-e5100fe9a786"
+        "B0001.038": "malware-method--dd583db0-16b2-4d51-9878-7b04e5ee8f8b",
+        "B0009.004": "malware-method--89d03280-45fc-4341-8fa9-4504d9579e82"
     },
     "Check Registry Keys": {
-        "B0009.005": "malware-method--a81e603e-0d34-48d7-af40-ffe5bb9a72dc"
+        "B0009.005": "malware-method--76f5bbad-1a33-4727-bc85-6e3ab1eb550e"
     },
     "Check Running Services": {
-        "B0009.006": "malware-method--a4ca4c9e-7298-47b0-83f3-a5d316e0fad9"
+        "B0009.006": "malware-method--98a3f269-66f3-48a4-889f-d7d2722c44e8"
     },
     "Check Section Length": {
-        "B0038.003": "malware-method--19f6464f-bb51-40e0-ade7-6cbd1b0d5c43"
+        "B0038.003": "malware-method--aa058887-34a6-4784-ad1e-44746ba06666"
     },
     "Check Software": {
-        "B0009.007": "malware-method--ae0eacc7-bff4-4154-b74d-f769aed47d01"
+        "B0009.007": "malware-method--2f21134f-98f3-4e11-b1eb-ce79861eb52c"
     },
     "Check String": {
-        "C0019": "malware-behavior--6fc5f771-d287-4f2e-b5da-995ff7a11f52"
+        "C0019": "malware-behavior--a71a87e0-6933-4ae8-80fb-6eefb7f4b245"
     },
     "Check Virtual Devices": {
-        "B0009.008": "malware-method--91ab0ad0-853e-4c9b-a81b-719d0b3e9dda"
+        "B0009.008": "malware-method--455d0109-19e5-4069-b64f-2ca69f689e92"
     },
     "Check Windows": {
-        "B0009.009": "malware-method--6bee4473-c74d-4f5d-b1c2-1a1d9f7cf15c"
+        "B0009.009": "malware-method--c44126a4-e91d-487e-bf61-900e46c00be6"
     },
     "Check Windows - Title bars": {
-        "B0009.022": "malware-method--c6f749b9-10f8-437b-9adc-2b8524245073"
+        "B0009.022": "malware-method--d21387e0-e044-4169-bcb4-27d03dd9e394"
     },
     "Check Windows - Unique windows": {
-        "B0009.021": "malware-method--4600872b-4d7d-487e-b313-1bb033fa2fc6"
+        "B0009.021": "malware-method--ffb502e0-f2bf-4392-83e0-a48b3fd216c5"
     },
     "Check Windows - Window size": {
-        "B0009.020": "malware-method--672d94c8-d1e1-4933-9c98-d2d785121876"
+        "B0009.020": "malware-method--e6484d04-f587-4a34-810a-a8e8f51085f5"
     },
     "Check for Emulator-related Files": {
-        "B0004.001": "malware-method--185aca63-8fbe-4d97-9163-c76e57865e3a"
+        "B0004.001": "malware-method--623fb44e-859e-4c20-97b7-bac0bba87968"
     },
     "Check for Payload": {
-        "B0030.005": "malware-method--8b2538b2-668e-4d5a-b42a-bbc66ec4524e"
+        "B0030.005": "malware-method--790319de-9f07-4d3b-a2a6-96cdee90bada"
     },
     "Check for WINE Version": {
-        "B0004.002": "malware-method--462309ef-6fbe-4c6c-a1cc-2d23b6895b28"
+        "B0004.002": "malware-method--502ebf62-5002-42f1-9eb6-77c8fe5ee2b8"
     },
     "CheckRemoteDebuggerPresent": {
-        "B0001.002": "malware-method--171ef35e-f033-4c37-a01c-115fcf2d2393"
+        "B0001.002": "malware-method--b2ab2b99-e364-4a51-857a-06b05c8fe715"
     },
     "Checksum": {
-        "C0032": "malware-behavior--2cab3dd3-af80-4296-b012-593d54525e08"
+        "C0032": "malware-behavior--994d87f9-bdb6-4863-af40-7d48a2fd4d58"
     },
     "Click Hijacking": {
-        "E1643.m01": "malware-method--e79dbd3f-0206-462a-b832-da28783c1eea"
+        "E1643.m01": "malware-method--13d473fe-eb5d-4f58-ae3a-fd067801b3e5"
     },
     "Client": {
-        "C0002.002": "malware-method--4341fae7-a0a4-451a-bbcf-7b248760b7f6"
+        "C0002.002": "malware-method--0a5b9a0a-9135-477b-9b59-f29ea1b59a0a"
     },
     "Clipboard Modification": {
-        "E1510": "malware-behavior--252ee351-ed69-4360-a405-67f8c318ba85"
+        "E1510": "malware-behavior--ed536995-9052-43c5-aeac-616ddd138dcb"
     },
     "Clipminer": {
         "X0038": "malware--8b920874-48f9-472c-b9d2-84306afb74fc"
     },
     "CloseHandle": {
-        "B0001.003": "malware-method--824fe46e-f79a-4e8a-a63c-10122b40215f"
+        "B0001.003": "malware-method--20643d0a-daf2-4d37-81c0-9754124dd749"
     },
     "Code Discovery": {
-        "B0046": "malware-behavior--d5dea857-205e-4f40-bcd1-139d75b74fae"
+        "B0046": "malware-behavior--cdf5de8e-f75f-4c53-86d3-112f370ddfb0"
     },
     "Code Encryption in Memory": {
-        "B0006.001": "malware-method--02a84dd0-4f79-4093-829c-f4127d8006f6"
+        "B0006.001": "malware-method--0ed6e786-346e-4353-a3d6-9a937b14ad99"
     },
     "Code Insertion": {
-        "B0032.002": "malware-method--5591c4d2-0f94-4f97-9ffc-d3c26cb25475"
+        "B0032.002": "malware-method--74d7db32-53da-4575-b614-e705cf02dc10"
     },
     "Code Integrity Check": {
-        "B0002.005": "malware-method--09170f1d-d3c1-4be9-b807-491aaabe4ef8",
-        "B0003.011": "malware-method--b799c9a1-ea2a-479f-85ff-98bc60532fb1"
+        "B0002.005": "malware-method--79e2ad2b-0f6d-4d23-bdda-b9ea9fd6475f",
+        "B0003.011": "malware-method--e5182974-8e25-4646-9825-c1d43e240920"
     },
     "Code Reordering": {
-        "B0029.003": "malware-method--5c7c9668-3053-4bc8-9c48-125ba2ce122a"
+        "B0029.003": "malware-method--ced5d699-63f2-47c0-82b4-3dfe082e961f"
     },
     "Collection": {
-        "OB0003": "malware-objective--790ece72-0fda-4427-87cf-2ef3a7187bce"
+        "OB0003": "malware-objective--f0d8d97a-52b2-4479-94dd-74070626ccb2"
     },
     "Command and Control": {
-        "OB0004": "malware-objective--6b7a98eb-cb9c-4cf1-aad6-714d64000dd3"
+        "OB0004": "malware-objective--acc61500-c8c2-417e-a4c2-886ebdc932de"
     },
     "Command and Scripting Interpreter": {
-        "E1059": "malware-behavior--819ed2ae-7ed5-4caf-a057-485563efc26f"
+        "E1059": "malware-behavior--dead19b0-cf66-4252-937c-3aa178f55d08"
     },
     "Communication": {
-        "OC0006": "malware-objective--5823a1fb-61cd-4484-abfc-adfa88cca816"
+        "OC0006": "malware-objective--9f46d34f-ac87-48c3-b857-03a41a187c28"
     },
     "Component Firmware": {
-        "F0009": "malware-behavior--7dde6310-f9d6-4b28-8e0e-a17f6f5125e4"
+        "F0009": "malware-behavior--1d1cbe02-473d-4199-ba52-760f46581da1"
     },
     "Compress Data": {
-        "C0024": "malware-behavior--37dccaaf-b06a-4f5b-8873-26bc5a1a299b"
+        "C0024": "malware-behavior--160ae0ce-bcc5-4183-8b4e-4bd4cf595d20"
     },
     "Compression Library": {
-        "C0060": "malware-behavior--73534995-281b-431d-8f12-a81cd5decbd7"
+        "C0060": "malware-behavior--b56e007c-a9d8-437d-819a-056562b40d62"
     },
     "Compromise Data Integrity": {
-        "B0016": "malware-behavior--0e3f2e9a-1fd9-4dd1-b90c-f1dc7b519061"
+        "B0016": "malware-behavior--d214cb35-9ffd-42bb-b8ff-8ede6b48379b"
     },
     "Conditional Execution": {
-        "B0025": "malware-behavior--6862374a-93f5-455c-bc0c-2a3903e8bc08"
+        "B0025": "malware-behavior--f5330b72-3ef4-49ec-8be9-c87bd47e3db8"
     },
     "Conditional Misdirection": {
-        "B0012.002": "malware-method--e2e47d13-fb45-41ce-9de6-c6cae191b7a0"
+        "B0012.002": "malware-method--9b622e2f-bb28-4106-806b-7a8c2bf27ccb"
     },
     "Conficker": {
         "X0003": "malware--dc4519f9-017f-41b9-a5e2-13162ad51397"
     },
     "Confuser": {
-        "F0001.009": "malware-method--77201e92-ced4-4635-a125-2e6f11b9ccb8"
+        "F0001.009": "malware-method--0387fbc7-78bd-4f2f-bfe0-869160e0dc1b"
     },
     "Connect Pipe": {
-        "C0003.002": "malware-method--a606af69-b111-42ea-9868-d39c959e5e5a"
+        "C0003.002": "malware-method--bf790c11-22e7-4865-96c1-223fb64ae5b1"
     },
     "Connect Socket": {
-        "C0001.004": "malware-method--a542d817-549d-4dd8-b69a-8ab4e970c55d"
+        "C0001.004": "malware-method--2675b76d-6003-4898-8a98-2043cb41bc6e"
     },
     "Connect to Server": {
-        "C0002.009": "malware-method--57c1f0f9-f551-4be2-857e-a9f168999eb1"
+        "C0002.009": "malware-method--aa34b2b5-fef2-412d-ba83-7617da4d34b1"
     },
     "Console": {
-        "C0033": "malware-behavior--66852856-7a85-4378-8d80-6ad9c9ceb7ed"
+        "C0033": "malware-behavior--ba265e8b-1a2b-45f1-a257-a83d1fe984af"
     },
     "Conti": {
         "X0050": "malware--616a623a-1cc2-474c-9ee4-964801070166"
     },
     "Control Dependence": {
-        "B0045.001": "malware-method--a0c35f94-0193-48c8-8274-f41f22c6faec"
+        "B0045.001": "malware-method--58e48601-1ea7-4f5c-8590-2e1cd247346a"
     },
     "Copy File": {
-        "C0045": "malware-behavior--7ea1c41a-ed8b-4836-a4bc-48129c33c60b"
+        "C0045": "malware-behavior--99092ea1-361e-4dc0-aac2-242ede6c9176"
     },
     "Covert Location": {
-        "B0040": "malware-behavior--e33ba70d-8513-4c8a-ba2f-3759219d093b"
+        "B0040": "malware-behavior--057d2e4e-84e0-4169-8027-677f17e055fb"
     },
     "CozyCar": {
         "X0034": "malware--5b31f1af-348c-46a7-a395-fcf473792606"
     },
     "Create Directory": {
-        "C0046": "malware-behavior--ad242752-7f47-4295-a734-53de5718b090"
+        "C0046": "malware-behavior--5470bbd3-8d2d-4f44-8cd0-af5d5d5c5ba8"
     },
     "Create File": {
-        "C0016": "malware-behavior--7cb5847c-f662-4260-bd44-857ffd4975da"
+        "C0016": "malware-behavior--faef58b9-34e7-4682-a760-c2a4e0bc5169"
     },
     "Create Mutex": {
-        "C0022.001": "malware-method--3ef58b0b-7da1-4699-9af4-202b20b5575d",
-        "C0042": "malware-behavior--f710327b-7f89-4b45-9a84-2f5d23b23378"
+        "C0042": "malware-behavior--7dbf99d2-aeb2-464c-b49d-75e5255700eb"
     },
     "Create Office Document": {
-        "C0016.001": "malware-method--c5001139-1e9e-4007-953e-afcde3ce43db"
+        "C0016.001": "malware-method--6bcc79e0-364b-419a-979c-4db5d98e9781"
     },
     "Create Pipe": {
-        "C0003.001": "malware-method--754b37d1-18ec-484f-bb2a-e5770af5bb3f"
+        "C0003.001": "malware-method--d7466913-26f6-4ddb-97af-d9ebbfa7e074"
     },
     "Create Process": {
-        "C0017": "malware-behavior--bf5c92a2-c1f9-489f-89e7-936d753be249"
+        "C0017": "malware-behavior--cd31985f-260b-41ae-8ef5-b31c70d53865"
     },
     "Create Process via Shellcode": {
-        "C0017.001": "malware-method--db1d5c66-8990-455f-8bc0-27c49589f65c"
+        "C0017.001": "malware-method--4a860e07-23b9-4e30-b6c1-967ecd5c8f71"
     },
     "Create Process via WMI": {
-        "C0017.002": "malware-method--41fdd942-37ff-4caa-8f04-f0ea86a631b0"
+        "C0017.002": "malware-method--12f9d655-b307-483c-aae6-a830a0ec6c15"
     },
     "Create Ransomware File": {
-        "C0016.002": "malware-method--402fdd31-7992-49fc-a430-f85407c13414"
+        "C0016.002": "malware-method--ef086313-b406-4038-b7de-01a9a48439af"
     },
     "Create Registry Key": {
-        "C0036.004": "malware-method--aa594268-cc26-4c06-953d-053e2c048304"
+        "C0036.004": "malware-method--ccddb054-81b2-4c40-aceb-c07ebb81a1b1"
     },
     "Create Request": {
-        "C0002.012": "malware-method--d80c5d48-e802-4732-b48a-c71b84f4703a"
+        "C0002.012": "malware-method--fcfbc3e9-f7df-43c7-905c-b89b11fdf8a8"
     },
     "Create Socket": {
-        "C0001.003": "malware-method--fbcb6a5b-1877-441e-b475-7d2dcaef21c6"
+        "C0001.003": "malware-method--1d80723c-583b-4ea7-88cb-cc4657ddc5ba"
     },
     "Create Suspended Process": {
-        "C0017.003": "malware-method--ffaac7f4-a791-4e39-8889-f2bb17a0fbc8"
+        "C0017.003": "malware-method--a66bf00a-d9f5-476c-a272-ec4b39848cd7"
     },
     "Create TCP Socket": {
-        "C0001.011": "malware-method--26b8b64e-980e-4927-bdde-c56b5dfba1ff"
+        "C0001.011": "malware-method--9c6d7db8-1895-4ed7-89f7-02a10060b882"
     },
     "Create Thread": {
-        "C0038": "malware-behavior--6769cac3-fb72-4892-a249-40d5756c9f4f"
+        "C0038": "malware-behavior--db5d3c3c-7b91-45f2-af9c-58237994fb7b"
     },
     "Create UDP Socket": {
-        "C0001.010": "malware-method--5dc6357a-ecb9-4340-951d-0242afb3ce0f"
+        "C0001.010": "malware-method--c11df92c-60b4-4a66-9754-a3d24124836d"
     },
     "Credential Access": {
-        "OB0005": "malware-objective--31fedb68-9931-40b1-ac24-061b50a0a4ec"
+        "OB0005": "malware-objective--e494c71a-a902-45d5-aa0b-7b4307c82e36"
     },
     "Crypto Algorithm": {
-        "C0068": "malware-behavior--d9fdc27a-3b18-4ceb-b9f8-7fd18cc3b1f7"
+        "C0068": "malware-behavior--e3b6451f-6626-497a-9269-e6df8c9f4845"
     },
     "Crypto Constant": {
-        "C0069": "malware-behavior--802d677f-f69b-4519-ab3e-67a6818671bc"
+        "C0069": "malware-behavior--f6dd0e62-458c-4ada-a849-b7f1e825289f"
     },
     "Crypto Library": {
-        "C0059": "malware-behavior--365f2a31-ba8b-4567-8bf1-fd48476e7e10"
+        "C0059": "malware-behavior--29413880-edc8-4698-9400-8403778a5e54"
     },
     "CryptoLocker": {
         "X0030": "malware--215c546e-44be-43f1-bbdd-831c356a5e95"
@@ -1585,34 +1559,34 @@
         "X0029": "malware--0223c81a-a1ea-49b1-9edd-ae1e5e10697b"
     },
     "Cryptocurrency": {
-        "B0028": "malware-behavior--68d8d44c-8587-4758-982b-af923262d9b0"
+        "B0028": "malware-behavior--69adc975-f217-45e5-90fa-c9bc5f2b7140"
     },
     "Cryptographic Hash": {
-        "C0029": "malware-behavior--b5e04c2d-3905-4afb-9435-5180ea213cb1"
+        "C0029": "malware-behavior--efbec42e-497c-40a1-872e-41d9b471ba94"
     },
     "Cryptography": {
-        "OC0005": "malware-objective--aa176dc6-7969-4333-8b7b-677c92341818"
+        "OC0005": "malware-objective--f684c549-52ae-4f61-8d1c-a3e4691ff418"
     },
     "Cryptojacking": {
-        "B0018.002": "malware-method--5aff4e21-7348-413c-89df-1cf1a4d3c611"
+        "B0018.002": "malware-method--951925e5-afdf-417e-98f7-93858a648c6f"
     },
     "Ctrl-Alt-Del": {
-        "C0057.001": "malware-method--c50fba1e-2993-4f64-8bbb-68b71ebd71b0"
+        "C0057.001": "malware-method--bee5d4e4-6a2a-4533-8085-49fd3e1b7f02"
     },
     "Custom Compression": {
-        "F0001.005": "malware-method--068a36a5-65bc-4099-99fb-8e29a2acb4ce"
+        "F0001.005": "malware-method--b78bc527-a933-4a17-96b3-9798fda09310"
     },
     "Custom Compression of Code": {
-        "F0001.006": "malware-method--9ef7c896-aedc-45c3-9ad8-1e5e468256b5"
+        "F0001.006": "malware-method--87155edf-6589-44d3-8a15-7f3c0201be3a"
     },
     "Custom Compression of Data": {
-        "F0001.007": "malware-method--1469dfd6-b7f9-4219-b937-4ab6cc144a91"
+        "F0001.007": "malware-method--88e041f6-cbd3-4ffa-8c69-e0e3bd3fdd97"
     },
     "DDNS Domain Connect": {
-        "C0011.003": "malware-method--2f33c77b-8cac-49b5-8ef4-03f2566af44a"
+        "C0011.003": "malware-method--da69afda-6125-4682-a715-d1d145ef9b04"
     },
     "DNS Communication": {
-        "C0011": "malware-behavior--a28f7a00-c512-4a1e-88a9-9eeeca8a162a"
+        "C0011": "malware-behavior--7cd26a19-bf40-4901-b057-e30e79fd5123"
     },
     "DNSChanger": {
         "X0005": "malware--25242c07-4aad-4dd6-9b70-0401fafd7a85"
@@ -1624,140 +1598,140 @@
         "X0004": "malware--97e1de03-d8bc-4c87-814e-5d63c0603d0e"
     },
     "Data": {
-        "OC0004": "malware-objective--b2d21841-4080-4e31-a0f5-fd108302c064"
+        "OC0004": "malware-objective--77527d2d-79cc-40a1-a1dc-31486da54ff5"
     },
     "Data Destruction": {
-        "E1485": "malware-behavior--fc4a59ef-a4d5-4a15-8c40-f7886513f26c"
+        "E1485": "malware-behavior--c00ef9f6-115a-40e8-bc4c-b4ed994a53ad"
     },
     "Data Encrypted for Impact ": {
-        "E1486": "malware-behavior--a2416cef-7fed-48e0-8bcc-d100ac72c509"
+        "E1486": "malware-behavior--91a51d71-f62f-48e1-a48b-e0ed53a173ad"
     },
     "Data Flood": {
-        "B0003.002": "malware-method--7a56e868-1d91-48a4-960d-1e45a0a063f9"
+        "B0003.002": "malware-method--4e810990-4448-43fb-a50e-26c1b653d3e1"
     },
     "Data Flow Analysis Evasion": {
-        "B0045": "malware-behavior--1f581f58-3e2e-4fa9-a9fd-1a9377662c93"
+        "B0045": "malware-behavior--62aa60e9-b526-4ef9-b950-67b2995d9f2d"
     },
     "Data Value Obfuscation": {
-        "B0032.008": "malware-method--d3d89049-3830-4e0c-8dcc-6c4eb0430304"
+        "B0032.008": "malware-method--6bc0742f-8ba6-4172-a72b-8985d62149a4"
     },
     "Dead Code Insertion": {
-        "B0032.003": "malware-method--7656974a-9c5a-4674-ac0e-902688052fce"
+        "B0032.003": "malware-method--d82476e4-cb0c-43c4-8375-88b168494d97"
     },
     "Debugger Artifacts": {
-        "B0001.004": "malware-method--0f7cbf1b-1a2d-4282-939f-01c3f1b29649"
+        "B0001.004": "malware-method--6b700850-f513-4177-92cd-ffa4c44b059d"
     },
     "Debugger Detection": {
-        "B0001": "malware-behavior--f69ed861-f8ce-4ada-abfc-b5b82cc2cdda"
+        "B0001": "malware-behavior--4011cf7a-625b-4219-9607-1d47468fede4"
     },
     "Debugger Evasion": {
-        "B0002": "malware-behavior--1fe2139c-f332-42ba-833c-df479946d81f"
+        "B0002": "malware-behavior--0fe94f93-a950-4597-abaf-789dcccf538e"
     },
     "Decode Data": {
-        "C0053": "malware-behavior--f1f2e3d3-7d01-41bb-a3f0-6f2f3c856c1a"
+        "C0053": "malware-behavior--abe9a69f-90b1-43b1-be5f-d2120c85354c"
     },
     "Decompress Data": {
-        "C0025": "malware-behavior--31b23f35-3c6b-4738-9983-da3581e83d35"
+        "C0025": "malware-behavior--bc022026-6b09-4672-adf3-e1b86c185a1e"
     },
     "Decrypt Data": {
-        "C0031": "malware-behavior--7778eae9-e41c-4112-bdb6-448557481846"
+        "C0031": "malware-behavior--49e116c2-b13f-48ac-845a-ded86fe9b329"
     },
     "Defense Evasion": {
-        "OB0006": "malware-objective--debfe6b5-b30d-429f-aa74-b416af866f7b"
+        "OB0006": "malware-objective--17db104d-0573-4429-b45d-e0b967d9aa3f"
     },
     "Delayed Execution": {
-        "B0003.003": "malware-method--bd4599df-2a50-4161-be68-a31ce7024620"
+        "B0003.003": "malware-method--7ff19cc9-5f79-497d-82bc-ae67bf140d6b"
     },
     "Delete Application/Software": {
-        "E1485.m03": "malware-method--973afafc-0e3a-4836-8a76-edb58d321ab2"
+        "E1485.m03": "malware-method--74c78d34-ab07-493e-becf-3ac7a722c7e3"
     },
     "Delete Directory": {
-        "C0048": "malware-behavior--74a0fb05-a0ac-4e83-87b3-36a11a396e45"
+        "C0048": "malware-behavior--ab69760a-f6df-4bd4-b8c5-cca450dd4b4c"
     },
     "Delete File": {
-        "B0011.001": "malware-method--9c012e4c-df0f-4e16-ae67-2c8408782c28",
-        "C0047": "malware-behavior--bb415897-9886-4d23-8e61-b421808d6931"
+        "B0011.001": "malware-method--0d9d22a9-58d4-42d5-acb6-ade4b7c3e0e1",
+        "C0047": "malware-behavior--e168e5f1-169b-4080-b960-abeff79f0a78"
     },
     "Delete Registry Key": {
-        "C0036.002": "malware-method--777e9965-bddd-438c-a259-938a7dedc4ba"
+        "C0036.002": "malware-method--4e4e1dc9-4b57-4af4-a99d-87a7cd399a33"
     },
     "Delete Registry Value": {
-        "C0036.007": "malware-method--bceef697-c207-4f6c-a79b-58c53e6d3ec9"
+        "C0036.007": "malware-method--1ad5adf6-2d79-4f49-a332-e545324554db"
     },
     "Delete Shadow Copies": {
-        "E1485.m04": "malware-method--13a1e113-efdd-4c7b-9c77-8d82196b467f"
+        "E1485.m04": "malware-method--8a321a89-a57f-4b09-92d1-f10d81f14a45"
     },
     "Demo Mode": {
-        "B0003.004": "malware-method--5eb804ba-eff9-442f-86c4-1efaa20677be"
+        "B0003.004": "malware-method--bcc988b2-0219-4167-b759-205f3908761d"
     },
     "Denial of Service": {
-        "B0033": "malware-behavior--1bc67df1-45f0-4171-bcb2-d0b718da522e"
+        "B0033": "malware-behavior--b0c59da3-eb66-4139-b8ca-d21719c23d49"
     },
     "Deposited Keys": {
-        "B0025.008": "malware-method--1d9d8524-8b86-46e4-a41a-45df68570725"
+        "B0025.008": "malware-method--8fe9f3a7-a7fa-496d-b634-6e34c6fd4228"
     },
     "Destroy Hardware": {
-        "B0017": "malware-behavior--3a4ae14e-6838-4e13-91ca-88eafd3ba346"
+        "B0017": "malware-behavior--5c35ac61-3c38-4dfc-9bd3-920ce6b7555a"
     },
     "Desynchronizing Opaque Predicates": {
-        "B0012.006": "malware-method--4d9bb6bf-ca87-4361-a7f3-3bdff74e75a7"
+        "B0012.006": "malware-method--4e09094f-7132-46e8-ab92-67a02a0cbba8"
     },
     "Device Driver": {
-        "F0010.001": "malware-method--08431672-da65-4055-9e97-f5c6aff235a4"
+        "F0010.001": "malware-method--eed15a91-9d6d-4d83-bca8-c6659592ef0f"
     },
     "Different Opcode Sets": {
-        "B0005.001": "malware-method--99bab42c-bc14-4c77-94df-56403c4e7979"
+        "B0005.001": "malware-method--39152673-3932-49af-9ba5-51146f4e1b02"
     },
     "Direct Kernel Object Manipulation": {
-        "E1564.m02": "malware-method--2398f2e8-09dd-4421-8325-515a8d174c3b"
+        "E1564.m02": "malware-method--c5c976ce-4fc7-48c1-bcd5-ee2e27105b58"
     },
     "Directory Listing": {
-        "B0030.012": "malware-method--4b1f3c4b-2197-4a81-90c5-93057e47c4a6"
+        "B0030.012": "malware-method--3c9514b4-ca5f-41a6-b258-e352402bc69a"
     },
     "Disable Code Integrity": {
-        "F0004.009": "malware-method--131f1698-a7d7-4ad8-b497-80a79c573463"
+        "F0004.009": "malware-method--d496ca8a-0f82-4f22-94f4-963e6e6a6266"
     },
     "Disable Kernel Patch Protection": {
-        "F0004.001": "malware-method--3cab6cde-3558-4049-b673-72a11ab4c20c"
+        "F0004.001": "malware-method--d94eb401-1bc2-4a84-9d25-b3e42908c9fd"
     },
     "Disable System File Overwrite Protection": {
-        "F0004.002": "malware-method--3e2e5435-07c6-4c07-9b21-8eec3cf82d9c"
+        "F0004.002": "malware-method--392be719-dde9-4895-aedd-871374c0667c"
     },
     "Disable or Evade Security Tools": {
-        "F0004": "malware-behavior--c2fab675-1804-4163-8d51-0f00229d2e80"
+        "F0004": "malware-behavior--7573c5a1-e5f4-4fbc-baef-876b415f9ba6"
     },
     "Disassembler Evasion": {
-        "B0012": "malware-behavior--fe9e8d1e-3a90-4164-87e6-5985e726819a"
+        "B0012": "malware-behavior--702b80f0-77a0-49ac-8258-aae69abc8eaf"
     },
     "Discovery": {
-        "OB0007": "malware-objective--f59acc38-c564-4181-93ef-3c4a5531cf4a"
+        "OB0007": "malware-objective--36d22420-0a01-4d4f-a46e-09f3ccf14728"
     },
     "Disk Wipe": {
-        "F0014": "malware-behavior--89c5c9c1-6bb8-41a4-a971-ce2273885c52"
+        "F0014": "malware-behavior--a5a2e55a-fca6-4213-8c70-67d23e6bdef8"
     },
     "Domain Name Generation": {
-        "B0031": "malware-behavior--87fe8c35-e993-49c2-a196-61f44a3f1ac1"
+        "B0031": "malware-behavior--78ed373b-4542-4229-90fe-09c6aa558ca6"
     },
     "Download File": {
-        "B0011.002": "malware-method--e29a7e2a-c23b-44fc-bde0-d9474e6d64c6"
+        "B0011.002": "malware-method--26a9e5d5-83c4-403f-a9f0-c5a843cb3332"
     },
     "Download URL": {
-        "C0002.006": "malware-method--addcbbea-4e82-4816-a138-0b19ddacd043"
+        "C0002.006": "malware-method--4772e960-a807-40a2-98df-d80c5ee674f9"
     },
     "Drop Code": {
-        "B0003.005": "malware-method--9711d4bf-41cf-41e6-939e-143408dd7094"
+        "B0003.005": "malware-method--5c1a9be5-17e0-4574-a518-09b3fc7f2001"
     },
     "Drovorub": {
         "X0045": "malware--026e76da-ee0d-46c0-b65b-dde4d976e3dd"
     },
     "Dynamic Analysis Evasion": {
-        "B0003": "malware-behavior--4db4471c-6834-4364-9d59-44c2a4ef9359"
+        "B0003": "malware-behavior--31b771c4-ff9a-4f13-94bc-6a2e11e132bd"
     },
     "Dynamic-link Library Injection": {
-        "E1055.001": "malware-method--d6b0151e-96cf-410a-afd4-def1d06d2461"
+        "E1055.001": "malware-method--9ae327b2-683b-4e31-87d4-ef6627177353"
     },
     "Echo Request": {
-        "C0014.002": "malware-method--a085bb7a-d61d-4516-be56-c1a79a71804b"
+        "C0014.002": "malware-method--4ff7b733-df9e-4c51-8680-e7c9de4afb64"
     },
     "ElectroRAT": {
         "X0044": "malware--78d2433b-c22e-457f-8f06-0b93d34cefb8"
@@ -1766,199 +1740,196 @@
         "X0028": "malware--b3879069-4f94-467f-a8eb-7bd11bc9527e"
     },
     "Empty Recycle Bin": {
-        "E1485.m02": "malware-method--8ba4e84a-3449-4052-8b58-09aee196a493"
+        "E1485.m02": "malware-method--430f53ab-9c35-4be8-8e6c-ec2bc43e079f"
     },
     "Emulator Detection": {
-        "B0004": "malware-behavior--afc3c6e1-767e-45db-810e-de45dbe5a482"
+        "B0004": "malware-behavior--6e51c6e1-edcc-4439-a89b-89bb0172f87a"
     },
     "Emulator Evasion": {
-        "B0005": "malware-behavior--804deac9-a4b7-4242-a875-561c2f4304fb"
+        "B0005": "malware-behavior--1ace2577-1155-4b35-81ea-42de14c3b866"
     },
     "Encode Data": {
-        "C0026": "malware-behavior--72985da4-70ca-46f6-b143-bc9a46aa173b"
+        "C0026": "malware-behavior--dfab209f-f631-4a51-a411-4b87e0ae358c"
     },
     "Encode File": {
-        "B0003.006": "malware-method--4167f8ca-a31b-4352-8ddc-1916c848c294"
+        "B0003.006": "malware-method--5b4b0a40-2ad1-45e4-beff-03b6c4c71340"
     },
     "Encoding": {
-        "E1027.m01": "malware-method--ceb76756-10ae-46ec-a9fc-f3299b689b43",
-        "E1560.m01": "malware-method--914248b9-d678-48c4-bf59-371f857ae6cb"
+        "E1027.m01": "malware-method--421adbb0-9254-42f4-9887-57cfee2513f5",
+        "E1560.m01": "malware-method--8db056e1-06df-492c-92e8-564bf6bf63de"
     },
     "Encoding - Custom Algorithm": {
-        "E1027.m03": "malware-method--13064739-245a-491e-b7d0-4afdfa930954",
-        "E1560.m04": "malware-method--46004e29-b682-4746-9f67-6b8c410cb63f"
+        "E1027.m03": "malware-method--44152ff8-53bd-4ae4-b9ea-9704a59834ab",
+        "E1560.m04": "malware-method--46b990bb-df74-44c2-95f2-31e83c2844dc"
     },
     "Encoding - Standard Algorithm": {
-        "E1027.m02": "malware-method--299ce1cd-bcb0-462d-be60-4757fe78820b",
-        "E1560.m03": "malware-method--e53ac5de-2db8-46fa-9263-2c99da363c54"
+        "E1027.m02": "malware-method--40f221c8-c92c-4d9a-8a6c-06ac2c026ad2",
+        "E1560.m03": "malware-method--f2d69dd2-e373-451b-acf5-29d102be1f09"
     },
     "Encrypt Data": {
-        "C0027": "malware-behavior--121d1e3e-9fec-4518-aefb-46b63c26fbba"
+        "C0027": "malware-behavior--11011dbb-ea7e-4a2a-b1ab-7385f0d88a6b"
     },
     "Encrypted Payloads": {
-        "B0036.002": "malware-method--8e654e70-5f2c-4e78-860d-fedbf1bbdfce"
+        "B0036.002": "malware-method--1de15d4c-2b55-4b02-be85-3d56aa740f55"
     },
     "Encryption": {
-        "E1027.m04": "malware-method--531d0505-70c1-491a-bf5c-57ff78a4746b",
-        "E1560.m02": "malware-method--60f448c9-81e7-4ea7-a45d-229fefc20899"
+        "E1027.m04": "malware-method--edfdd6f8-0915-496b-a10f-37f7d23ae76c",
+        "E1560.m02": "malware-method--425548e9-8e9a-490a-99a6-ebb1b8da7477"
     },
     "Encryption - Custom Algorithm": {
-        "E1027.m08": "malware-method--eb4064f6-1d13-41f5-9726-b47f9c30ca5b",
-        "E1560.m06": "malware-method--a5c6e9c5-d44a-46d0-b3ac-4768a5211a76"
+        "E1027.m08": "malware-method--5bd37e49-f3c5-4234-a058-e85983e26d4b",
+        "E1560.m06": "malware-method--41af3b31-60d6-422e-9a5e-40002837471c"
     },
     "Encryption - Standard Algorithm": {
-        "E1027.m05": "malware-method--515ae812-3d0c-4dfa-81e6-c21dc356e686",
-        "E1560.m05": "malware-method--069c6c78-5f29-4440-aa0f-ab3f1132d9bb"
-    },
-    "Encryption - Standard Encryption": {
-        "E1560.m05": "malware-method--f5b7906f-f5b1-4555-8d7d-efa1d43f3af1"
+        "E1027.m05": "malware-method--1fb9706d-2d61-4143-b13c-78c7a0743f00",
+        "E1560.m05": "malware-method--d1fd0d47-1c69-4740-bbf3-af6e98498fa1"
     },
     "Encryption Key": {
-        "C0028": "malware-behavior--5d2fbb94-84eb-44f8-a3a2-0cc04d7f112f"
+        "C0028": "malware-behavior--c1dc2ad5-e10e-488a-b460-4016ddd241a2"
     },
     "Encryption of Code": {
-        "E1027.m06": "malware-method--b6bbbdd4-8fd1-4d51-ad6c-8d790c3a00e5"
+        "E1027.m06": "malware-method--da570efd-dcd2-47fc-9a1f-f2fb85070091"
     },
     "Encryption of Data": {
-        "E1027.m07": "malware-method--58c152da-1826-4208-ad98-c33cde3c9090"
+        "E1027.m07": "malware-method--b197183e-582f-4485-9fca-38e0250fd808"
     },
     "Entry Point Obfuscation": {
-        "B0032.009": "malware-method--fd20c5a3-0ba0-4158-a0e6-62e945e49c90"
+        "B0032.009": "malware-method--207b8b78-5afe-4c43-b320-664db5b802e6"
     },
     "Enumerate Environment Variables": {
-        "E1082.m02": "malware-method--a5ae4935-2606-4580-99f0-d9d37dafb310"
+        "E1082.m02": "malware-method--0865590d-b64f-4eed-8425-6ce10bf52127"
     },
     "Enumerate PE Sections": {
-        "B0046.001": "malware-method--f84dba26-b795-4c73-9fad-44f43f5d96a4"
+        "B0046.001": "malware-method--ea96a33f-9a5f-42fa-8333-0cf9abed0722"
     },
     "Enumerate Threads": {
-        "C0064": "malware-behavior--752567ae-6d6a-47e3-91a8-efcc41b2020f"
+        "C0064": "malware-behavior--e70ef3c7-29d8-45d3-b2a0-cd54dba94a0c"
     },
     "Environment Variable": {
-        "C0034": "malware-behavior--f4a74a3d-acf0-4464-b6cc-27ec90fcb4c3"
+        "C0034": "malware-behavior--990b4db7-24fa-460d-9e9e-d788b07c72df"
     },
     "Environmental Keys": {
-        "B0025.002": "malware-method--6eb6019b-6c00-4aaf-9947-27c6d5f9dfcd"
+        "B0025.002": "malware-method--4c0bdcfe-7d51-4932-8747-a3cb23baaf96"
     },
     "Erase the PE header": {
-        "B0006.002": "malware-method--f06b19e7-4ccb-4346-9630-efe1343aaecc"
+        "B0006.002": "malware-method--7865d676-b651-4c03-acd6-1181789b0a15"
     },
     "Ethereum": {
-        "B0028.002": "malware-method--b40c7bc5-f116-4978-b9f4-e5cb5df32318"
+        "B0028.002": "malware-method--fdf6d0ac-0290-48c6-b59d-04359ba168df"
     },
     "EvilBunny": {
         "X0036": "malware--c1bce3d8-2fc6-4a79-9872-936edfbfcdd3"
     },
     "Exception Misdirection": {
-        "B0002.006": "malware-method--a50771d4-2bc8-44b6-b8e1-e3ab56fd7e48"
+        "B0002.006": "malware-method--8766ecb3-cfeb-438a-80e5-c220d48689b7"
     },
     "Executable Code Obfuscation": {
-        "B0032": "malware-behavior--7840e697-0a0f-40b7-8e10-f154de9ca193"
+        "B0032": "malware-behavior--25562606-cb9a-4798-beb0-646ff4af2229"
     },
     "Executable Code Optimization": {
-        "B0034": "malware-behavior--694332ae-5fc7-4647-bf07-942e437409e4"
+        "B0034": "malware-behavior--a0002144-98ac-41a6-b6ec-a157f504fa07"
     },
     "Executable Code Virtualization": {
-        "B0008": "malware-behavior--86cf6581-cbe7-4468-b6a7-fa247ba1da8f"
+        "B0008": "malware-behavior--b1558c1a-6bec-41df-ab2e-a2ee798fdbc8"
     },
     "Executable Heap": {
-        "C0008.002": "malware-method--ee02a2d4-e9c7-43d2-a584-0a4f9db7e17a"
+        "C0008.002": "malware-method--df11e7d8-26b9-4192-94aa-d6895911d1ae"
     },
     "Executable Stack": {
-        "C0008.001": "malware-method--e0f88f5b-3878-4817-b87d-6ea6e7e9cae6"
+        "C0008.001": "malware-method--73b42848-270a-4dc6-ac7d-366317f32392"
     },
     "Execute": {
-        "B0011.003": "malware-method--fb95d322-fab9-478a-9f07-0fc8414cf4cc"
+        "B0011.003": "malware-method--a716ac0a-5fbf-43ce-9cb8-9324fb9f08ae"
     },
     "Execute File": {
-        "B0030.013": "malware-method--af6960c9-b141-4bd0-b4f0-288e52c82645"
+        "B0030.013": "malware-method--98d34aa8-16e9-47b6-9b60-450eb5a0a250"
     },
     "Execute Shell Command": {
-        "B0030.014": "malware-method--a271c92f-de0b-4f10-a5ea-ebea24b0e07b"
+        "B0030.014": "malware-method--d20238e6-56fc-4936-b066-ff4359d6a591"
     },
     "Execution": {
-        "OB0009": "malware-objective--3336569b-d163-4a42-9b05-9eff0c7ac6d2"
+        "OB0009": "malware-objective--9770c61f-5ead-4489-89e7-b4d91f21f51b"
     },
     "Execution Dependency": {
-        "B0044": "malware-behavior--1050f24f-5fdd-41f5-9c29-a5d3a8777d8b"
+        "B0044": "malware-behavior--f1c9d959-0b73-4c8e-9796-e895c825ba3e"
     },
     "Exfiltrate via File Hosting Service": {
-        "E1020.m01": "malware-method--303012a4-687d-4dad-9061-a5b4fd5e9a2b"
+        "E1020.m01": "malware-method--0288de84-43c3-43a5-b66c-1ca7f70b620c"
     },
     "Exfiltration": {
-        "OB0010": "malware-objective--fbf5a4f0-86ec-4c2a-94c8-9ee5e336249f"
+        "OB0010": "malware-objective--6985da88-1858-4ae0-bafb-aa546c557729"
     },
     "Exploit Kit": {
-        "E1190": "malware-behavior--61c06786-0904-4cc3-b0f6-741051f278f8"
+        "E1190": "malware-behavior--0ea70ba4-76fa-4e4d-be51-9911256bc757"
     },
     "Exploit Private APIs": {
-        "E1195.m02": "malware-method--05729a47-70ec-4783-a894-5e9a902d55ca"
+        "E1195.m02": "malware-method--80e8dda5-4bc7-44c9-864d-c8c026abc917"
     },
     "Exploitation for Client Execution": {
-        "E1203": "malware-behavior--660dd799-81fa-4424-8021-4a4a0914038d"
+        "E1203": "malware-behavior--b73836d6-7812-4621-a4d8-c87ddd1c213b"
     },
     "Export Address Table Hooking": {
-        "F0015.001": "malware-method--ff1a64e4-cde4-49de-ba45-1e5590a65f40"
+        "F0015.001": "malware-method--e2288d16-aa40-439d-8564-9e94046fa80a"
     },
     "Extension": {
-        "F0005.001": "malware-method--654fe2a4-3531-4409-931a-e0cd2c7c481e"
+        "F0005.001": "malware-method--586bf3e4-0083-4bf7-aff6-900520e6dd9c"
     },
     "Extra Loops/Time Locks": {
-        "B0005.004": "malware-method--7301337b-2a39-41ea-b24f-73f53057c9a3"
+        "B0005.004": "malware-method--69e10bf2-282c-43e4-a944-25b0dc2baad0"
     },
     "Extra Window Memory Injection": {
-        "E1055.011": "malware-method--d4448150-181d-4659-a6d6-6e8b3c958e91"
+        "E1055.011": "malware-method--f228d2e0-0f8a-4ae8-8de8-f0327b1798c1"
     },
     "Extract Body": {
-        "C0002.011": "malware-method--7f1b234a-9409-4a3a-9f4c-03e21d04770a"
+        "C0002.011": "malware-method--f106c40e-4a78-4b91-bdcd-d77cfdd77095"
     },
     "FNV": {
-        "C0030.005": "malware-method--58d1341b-5804-4d75-b74b-ebc1a109f628"
+        "C0030.005": "malware-method--dd81fb82-5bce-4e6e-b7aa-d90380bca3ca"
     },
     "FTP Communication": {
-        "C0004": "malware-behavior--94fdd7ef-e492-45b2-87cc-87afce4d2f36"
+        "C0004": "malware-behavior--2b8b68ac-680b-4cde-b933-94fb4ba3cb7e"
     },
     "Failed Network Connections": {
-        "B0004.004": "malware-method--736f37c1-177e-4681-99a3-c1648bcf35b8"
+        "B0004.004": "malware-method--684e4254-7f44-4d5f-b25c-73fee67ebf4d"
     },
     "Fake Code Insertion": {
-        "B0032.004": "malware-method--0228973f-2042-4049-ae73-78566b69a079"
+        "B0032.004": "malware-method--387ce96f-9e8a-43b5-b781-aa7915f0cb9c"
     },
     "Fake Function": {
-        "B0012.007": "malware-method--36760f11-3126-4841-aea6-a4e50e2ea8e6"
+        "B0012.007": "malware-method--36592dbd-a743-4b25-a71d-d81409bf8b92"
     },
     "Fast-Hash": {
-        "C0030.003": "malware-method--16e0a622-72d5-499f-9e46-e256f0e5d119"
+        "C0030.003": "malware-method--653ffe8e-7e23-41c3-833e-e4b43251b45d"
     },
     "Feed Misinformation": {
-        "B0006.008": "malware-method--0de0550e-a22e-46d7-baef-af08874d51e0"
+        "B0006.008": "malware-method--32d0a246-97b3-4ffe-9e09-f228515b8ea8"
     },
     "File System": {
-        "OC0001": "malware-objective--b535116e-3bd9-42f6-9615-68f24c7b42ed"
+        "OC0001": "malware-objective--71f62aad-8797-461c-8a22-eef50a1afec9"
     },
     "File Transfer Protocol (FTP) Servers": {
-        "E1203.m03": "malware-method--b23c7096-ea1a-46b5-a789-1c5a93a33639"
+        "E1203.m03": "malware-method--33cf9312-5d29-403d-a5da-d3b005c344d5"
     },
     "File and Directory Discovery": {
-        "E1083": "malware-behavior--0d7ae86c-ab0b-44ff-a160-525ed224f6c9"
+        "E1083": "malware-behavior--3e41d21d-01b9-4ed7-b0b2-95e2e8f3e8b2"
     },
     "File search": {
-        "B0030.015": "malware-method--f0bdff22-bb7c-41ef-bd57-bf77dbd5ba85"
+        "B0030.015": "malware-method--73d7cebb-1bf4-427b-98ec-3e4b2d603c25"
     },
     "Fileless Malware": {
-        "B0027.001": "malware-method--a81a3b63-5b52-45c8-9354-91cef79f53b5"
+        "B0027.001": "malware-method--fe18ae31-1895-4986-abb6-0d24b71e3f2e"
     },
     "Filter by Extension": {
-        "E1083.m02": "malware-method--686a2a4b-c337-4b21-9891-d04615658618"
+        "E1083.m02": "malware-method--1a8b0bdc-6377-4ada-b1ac-bbffbf5dd23f"
     },
     "Flow Opcode Obstruction": {
-        "B0006.009": "malware-method--569b5972-820a-4b03-87b1-aad88e422801"
+        "B0006.009": "malware-method--9d458df7-fdfb-4624-af86-c7362b435484"
     },
     "Force Lazy Writing": {
-        "F0004.006": "malware-method--281787f8-06e5-4cb0-a721-6fbe1eb10095"
+        "F0004.006": "malware-method--a4df3a2b-2165-46b3-96c6-b606a92de302"
     },
     "Free Memory": {
-        "C0044": "malware-behavior--24a56eb0-a4a7-4166-915a-03b5f7c3841a"
+        "C0044": "malware-behavior--0a22db6f-0210-4125-b691-2b8a2c1e983d"
     },
     "Gamut": {
         "X0006": "malware--8e69fe0e-6fb6-4d17-bd54-3d5e54788917"
@@ -1967,34 +1938,34 @@
         "X0007": "malware--035e0bf4-ee91-4a5b-bc42-edf29a4ac235"
     },
     "Generate Pseudo-random Sequence": {
-        "C0021": "malware-behavior--19bbde8e-2a08-4ecd-a1e0-44240ed97113"
+        "C0021": "malware-behavior--8052d1c2-60a6-439a-8a7f-dac7fffce9cf"
     },
     "Generate Traffic": {
-        "C0014.001": "malware-method--50ab5e21-ee97-4c03-b81e-c42da47606ec"
+        "C0014.001": "malware-method--b063712c-a89e-406a-8ec5-b17fa8904518"
     },
     "Generate Traffic from Victim": {
-        "E1643": "malware-behavior--2c9476f6-3e44-4f69-976c-37e7c8d79d37"
+        "E1643": "malware-behavior--ca424d2f-f865-4510-bf1e-8eb48a0e5c82"
     },
     "Generate Windows Exception": {
-        "E1082.m01": "malware-method--1cd58af5-9341-4ecf-a756-18b901fd1d47"
+        "E1082.m01": "malware-method--0b136d87-1942-471a-ae2a-511345611ded"
     },
     "Get Base Indirectly": {
-        "B0002.007": "malware-method--3262d467-e5bc-4acb-aa48-2e8c0344f938"
+        "B0002.007": "malware-method--473462ba-6101-4039-9a53-01465987f704"
     },
     "Get File Attributes": {
-        "C0049": "malware-behavior--e123ec7c-bf1e-44dc-b7bc-df9b4a4697e5"
+        "C0049": "malware-behavior--e1f8abdb-0ed6-4212-8793-ca602f606341"
     },
     "Get Response": {
-        "C0002.017": "malware-method--f99e6728-13ac-4d81-9566-6d800737c68b"
+        "C0002.017": "malware-method--fb86a44d-c5b9-4a63-9f30-b10d822d843b"
     },
     "Get Socket Status": {
-        "C0001.012": "malware-method--43e8a8e9-9d9f-4f87-8427-9d0e57e04ee1"
+        "C0001.012": "malware-method--43319850-7b94-4d35-9efc-8ba64cf458a9"
     },
     "GetTickCount": {
-        "C0021.001": "malware-method--d47bd739-e5e9-48f3-aa39-35cb46d78e0e"
+        "C0021.001": "malware-method--80defbb1-b803-4be3-89de-eae19172c71d"
     },
     "GetVolumeInformation": {
-        "B0025.003": "malware-method--992291ce-42b5-4e00-ba34-aae7343238fd"
+        "B0025.003": "malware-method--6bfac698-5ab6-4e02-9df3-d4bd285bb58b"
     },
     "GoBotKR": {
         "X0027": "malware--1d7510c2-1f49-4a7b-96fd-a493a37e8819"
@@ -2003,276 +1974,275 @@
         "X0032": "malware--5b8c2b12-1114-4445-9f40-869fd713df31"
     },
     "Guard Pages": {
-        "B0002.008": "malware-method--119f0ce0-c3b9-44c8-9d6e-4710ebbbfcf5",
-        "B0006.006": "malware-method--cb804102-e951-41fa-aa99-5ff0bf1f7e1c",
-        "B0032.010": "malware-method--1c6425a1-746d-4ca0-b7bb-e7132527dac3"
+        "B0002.008": "malware-method--5e13d2ff-89f9-4e40-9293-e9e1cba9f942",
+        "B0006.006": "malware-method--b7ded5a2-aad0-4609-a129-1e0211b6ba46",
+        "B0032.010": "malware-method--8263ac04-4dcb-4be4-a54c-feca1f17ebdd"
     },
     "Guest Process Testing": {
-        "B0009.010": "malware-method--54bef43b-6134-4062-8604-a70df0ae88e4"
+        "B0009.010": "malware-method--ad2c6524-1437-4673-a849-a7c9235f1acf"
     },
     "HC-128": {
-        "C0027.006": "malware-method--0b2b7f04-b511-4bdc-b4ef-11667a74bde3",
-        "C0031.006": "malware-method--59c2f415-2050-423f-9a2b-ca028a5123fc"
+        "C0027.006": "malware-method--b883b258-8a1b-4c3f-a6ca-716e256b3152",
+        "C0031.006": "malware-method--2c411982-bc81-4337-b840-200bc653ae6a"
     },
     "HC-256": {
-        "C0027.007": "malware-method--186b76d7-e51b-4277-8838-1ea098c81678",
-        "C0031.007": "malware-method--b2ae806a-dc66-47a5-8a9e-94fb487f9951"
+        "C0027.007": "malware-method--ca31fd47-0964-4398-86bd-310f11ac0709",
+        "C0031.007": "malware-method--7cc043f4-81db-48ee-b6ed-3cbd09ad3608"
     },
     "HTML5 Performance Object Check": {
-        "B0009.011": "malware-method--9ea20917-89bb-467d-aaa0-a91428b9c449"
+        "B0009.011": "malware-method--48c77afc-cc79-4bf9-a658-47d38755cd9e"
     },
     "HTTP Communication": {
-        "C0002": "malware-behavior--c889b142-22b2-4e82-9412-cf5528523f56"
+        "C0002": "malware-behavior--fc5247e6-c4e3-4422-880d-72716aa9d7e9"
     },
     "Hardware": {
-        "OC0007": "malware-objective--04a49fc0-fce1-477b-8ed6-8fdf998a1764"
+        "OC0007": "malware-objective--3952e748-f301-47b0-8101-b57b825b0f81"
     },
     "Hardware Breakpoints": {
-        "B0001.005": "malware-method--55254629-8ead-4b2b-8e4a-2d5e4c8b4492"
+        "B0001.005": "malware-method--5bd8a0ee-5b07-4747-99a9-c9bf1558916a"
     },
     "Hardware/Firmware Rootkit": {
-        "E1014.m14": "malware-method--7dc0492a-0d92-4cd0-8712-b502ba7b5c20"
+        "E1014.m14": "malware-method--32602e56-efb9-4ad0-9a95-080616575840"
     },
     "Hashed Message Authentication Code": {
-        "C0061": "malware-behavior--1648e24c-3319-48ec-a723-094330b2485e"
+        "C0061": "malware-behavior--fc93f910-a5b8-4f01-a379-a54c717fe139"
     },
     "Heap Spray": {
-        "C0006": "malware-behavior--0a11a488-9138-4341-a879-32a2c251e01f"
+        "C0006": "malware-behavior--380a65ae-3f78-4683-a884-bfbaa857c515"
     },
     "Heavens Gate": {
-        "F0004.008": "malware-method--53d7c88c-3b0c-45ab-9142-6a2626b95a9c"
+        "F0004.008": "malware-method--366ec9b7-ec2a-427a-bd36-290926b45840"
     },
     "Heriplor": {
         "X0026": "malware--c1d6f7fb-bb10-42a8-b2be-60922440c310"
     },
     "Hidden Files and Directories": {
-        "F0005": "malware-behavior--02670a0e-a823-4dba-80f2-3a6c0a16bdec"
+        "F0005": "malware-behavior--96e2a726-f16d-47f4-8a10-a107b1d99a6c"
     },
     "Hidden Kernel Modules": {
-        "E1564.m05": "malware-method--56ced21c-13be-43c1-a6b4-5496c134820f"
+        "E1564.m05": "malware-method--16a5d6c5-1ae8-49d0-bd3c-b956fb2315ba"
     },
     "Hidden Processes": {
-        "E1564.m03": "malware-method--281129da-58df-4350-ba8a-de343506dea9"
+        "E1564.m03": "malware-method--707f86d8-c17f-48fe-9fbe-615765452a56"
     },
     "Hidden Services": {
-        "E1564.m04": "malware-method--46a61286-e689-41e3-acf5-1cbedebe3044"
+        "E1564.m04": "malware-method--e9bb0abf-b1dd-4393-85af-89257187fb3f"
     },
     "Hidden Userspace Libraries": {
-        "E1564.m01": "malware-method--009942b1-d31f-45bc-b9c6-a255685f9e2c"
+        "E1564.m01": "malware-method--f82baf0e-449d-4773-8a5f-7aed33b1d2be"
     },
     "Hide Artifacts": {
-        "E1564": "malware-behavior--5df9a3e1-8162-4add-8731-047ce0ad0192"
+        "E1564": "malware-behavior--7838c7a1-ba88-4ecd-a2ac-5e592f22e37f"
     },
     "Hide Data in Registry": {
-        "B0040.001": "malware-method--04ec09af-2383-4f16-bfe3-698b30547c4a"
+        "B0040.001": "malware-method--44f3f5f1-a283-4889-9469-2b84b2c5db49"
     },
     "Hide virtual memory": {
-        "B0006.003": "malware-method--5d0acc6b-44fd-4715-ab27-e9855d8f0313"
+        "B0006.003": "malware-method--b0b17134-9c7e-4701-8be9-040a3e05d969"
     },
     "Hijack Execution Flow": {
-        "F0015": "malware-behavior--bb3d24ec-3606-4290-974d-735d4fe26a44"
+        "F0015": "malware-behavior--1d21dc27-3484-4aee-affe-721ccac53e5d"
     },
     "Hook File System": {
-        "B0003.007": "malware-method--e6785382-3129-41b9-9bb0-029351426af2"
+        "B0003.007": "malware-method--9d9be688-7289-4fc9-99b0-04ef094d0bf4"
     },
     "Hook Injection via SetWindowsHooksEx": {
-        "E1055.m01": "malware-method--f8a254de-066d-4ed0-8d78-6c876e5133e8"
+        "E1055.m01": "malware-method--e6274856-4f4a-4ff6-b7e5-2bc293394d05"
     },
     "Hook Interrupt": {
-        "B0002.009": "malware-method--c39a9820-f5ae-4d23-9999-baa78587768b",
-        "B0003.008": "malware-method--9ea72c78-0b59-4740-9c14-29f454073d0f"
+        "B0002.009": "malware-method--8ed96c26-3cda-4e31-a4e9-8453ea539877",
+        "B0003.008": "malware-method--68df72eb-5553-4bfe-925e-31315b20312d"
     },
     "Hook memory mapping APIs": {
-        "B0006.010": "malware-method--1fa12459-bab4-467e-bed6-a88f93b1864b"
+        "B0006.010": "malware-method--ce3efca5-eb49-4a5d-9702-cc8e290e6cbb"
     },
     "Host Fingerprint Check": {
-        "B0025.004": "malware-method--a4668edf-160d-4b66-9e50-01ffc0e90fae"
+        "B0025.004": "malware-method--dacf00b5-6e92-46be-9f08-319c32d6963d"
     },
     "Human User Check": {
-        "B0007.003": "malware-method--5628930f-300d-4a92-82b4-6f1caed4b142",
-        "B0009.012": "malware-method--e5941ad8-02ee-4614-8c78-564897a1a71f"
+        "B0007.003": "malware-method--f2b91ce5-880b-42a2-b74c-d6380e9d8a1b",
+        "B0009.012": "malware-method--0f368095-37b3-4300-afbf-e0a711446acf"
     },
     "Hupigon": {
         "X0008": "malware--2d615630-e95e-4c84-b594-c3015c2a479c"
     },
     "Hypervisor/Virtualized Rootkit": {
-        "E1014.m15": "malware-method--04b03ade-3b6e-4ae4-b3f2-d2b86f516970"
+        "E1014.m15": "malware-method--ec90ab63-3ae4-47a5-b0cb-724cb13f09cb"
     },
     "ICMP Communication": {
-        "C0014": "malware-behavior--9c657228-4a24-4008-be06-deb546794a56"
+        "C0014": "malware-behavior--159f3ed7-29fe-4546-8ce5-73ec46cd6e1f"
     },
     "IEncodingFilterFactory": {
-        "C0024.002": "malware-method--b58901d2-c219-4772-b256-c49d8687c24b",
-        "C0025.002": "malware-method--06e5493e-6796-4a23-9420-25c35dd15b53"
+        "C0024.002": "malware-method--7d87a008-8907-443d-8030-995382c4dda6",
+        "C0025.002": "malware-method--5e914abe-9336-4377-b51b-7c5acdcdbf1b"
     },
     "IWebBrowser": {
-        "C0002.010": "malware-method--bf8e63c7-87a3-4653-a12e-5435d862ca09"
+        "C0002.010": "malware-method--1da68ed4-08a7-4040-af14-3374f86f47ab"
     },
     "Illusion": {
-        "B0003.009": "malware-method--ed270fb4-b6da-41d9-8905-6255333eb8bf"
+        "B0003.009": "malware-method--a1fcc1a1-e50c-46bc-aeb2-24aaadb92be7"
     },
     "Impact": {
-        "OB0008": "malware-objective--c292fd67-62d1-4f66-8e62-6820d32a86b8"
+        "OB0008": "malware-objective--dc9ccfe7-48f0-4990-be56-15045926072a"
     },
     "Implant to Controller File Transfer": {
-        "B0030.004": "malware-method--40420b54-1936-4dbc-8a37-f6433148f349"
+        "B0030.004": "malware-method--0d802b5f-3f6b-4472-97d2-2e612ce43c54"
     },
     "Implicit Flows": {
-        "B0045.002": "malware-method--ca23b51c-a98d-4163-828d-2bf34ebd2ed4"
+        "B0045.002": "malware-method--3e4f72b5-95ff-4fcf-b1da-12f617064693"
     },
     "Import Address Table Hooking": {
-        "F0015.003": "malware-method--33e32618-145f-4113-9ffc-aed16ee5c2dd"
+        "F0015.003": "malware-method--6c339efd-0a20-4ec6-916b-071f21c5f68b"
     },
     "Import Address Table Obfuscation": {
-        "B0032.011": "malware-method--2f4155dc-d101-4587-9534-75be9019361e"
+        "B0032.011": "malware-method--b6ac4dda-dcc3-435a-9d3f-cd5661dc2dfb"
     },
     "Import Compression": {
-        "B0032.012": "malware-method--1a633d10-c40e-4ced-864c-680472a43dc3"
+        "B0032.012": "malware-method--5fb24344-c4f9-4cb3-80f6-38549e2d868d"
     },
     "Import Obfuscation": {
-        "B0002.010": "malware-method--48d44d85-bcae-4fb1-a935-c0397192575a"
+        "B0002.010": "malware-method--66005179-ff42-45df-b906-f23567c565fe"
     },
     "Import Public Key": {
-        "C0028.001": "malware-method--a288aff3-3a6b-49f7-a3ee-bb982d8638ca"
+        "C0028.001": "malware-method--7b6f0d6a-7b65-47ca-b72c-05d9419b01df"
     },
     "Indicator Blocking": {
-        "F0006": "malware-behavior--835d741c-f0af-4e50-bfd9-2eb94a1fec60"
+        "F0006": "malware-behavior--9552aa38-12d3-4ef1-afc0-c3390d6e24a4"
     },
     "Ingress Tool Transfer": {
-        "E1105": "malware-behavior--201961ae-2a71-41f5-bbd0-8c22bbd748de"
+        "E1105": "malware-behavior--d5c14b52-fa7f-495a-a527-04cdf39b68a9"
     },
     "Initialize Winsock Library": {
-        "C0001.009": "malware-method--07bb97c0-853e-4c60-b5a7-b2f3a0f87d71"
+        "C0001.009": "malware-method--ed82ab27-1531-4af5-86eb-8383ab94bf30"
     },
     "Injected DLL Testing": {
-        "B0007.004": "malware-method--55e16a04-f759-413b-aa27-d53570e9ae90"
+        "B0007.004": "malware-method--140b2afb-06e3-4270-bb41-6e1852aaa333"
     },
     "Injection and Persistence via Registry Modification": {
-        "E1055.m02": "malware-method--56c9a9a5-477a-4e7b-a279-fe1669e5d464"
+        "E1055.m02": "malware-method--82e7caa5-5b3b-42cc-aef4-20bb11eb5150"
     },
     "Injection using Shims": {
-        "E1055.m03": "malware-method--1a88bdd8-8455-4f04-9807-761647ac91f7"
+        "E1055.m03": "malware-method--509cf4aa-713a-4d85-ba64-8718aa94655f"
     },
     "Injection via Windows Fibers": {
-        "E1055.m05": "malware-method--402bc087-c98f-4156-a2c4-bc26cc569b2c"
+        "E1055.m05": "malware-method--4c504451-025b-4311-87d3-3c492aa33064"
     },
     "Inline Patching": {
-        "F0015.002": "malware-method--d3e69e04-c942-436c-91ca-e4d5f4d1272b"
+        "F0015.002": "malware-method--d3244dac-6425-4cfb-9014-e9cea63aae74"
     },
     "Inlining": {
-        "B0002.011": "malware-method--9f4b6944-7ebf-428a-9858-1b77a7798898"
+        "B0002.011": "malware-method--9255040b-fe9d-495b-8510-e69dbc48cce3"
     },
     "Input Capture": {
-        "E1056": "malware-behavior--01b0fa0f-1d71-4cab-a76d-8d1c67d97b5b"
+        "E1056": "malware-behavior--c8a1fcb0-1660-4f16-85cc-c857cb442007"
     },
     "Inspect Section Memory Permissions": {
-        "B0046.002": "malware-method--ee995077-1833-46d4-959e-3fc105ff1965"
+        "B0046.002": "malware-method--06f91299-a176-451d-8321-854e68890d0b"
     },
     "Install Additional Program": {
-        "B0023": "malware-behavior--2fb1d6c1-eb1b-4dc3-9685-c7c0b38c93f4"
+        "B0023": "malware-behavior--f0ea1b14-1cee-4e7f-be09-5b6c0fa10278"
     },
     "Install Certificate": {
-        "E1608": "malware-behavior--e236a7b0-b9c4-4720-a842-8fefcd8c82fd",
-        "F0016": "malware-behavior--5882c797-bbca-4626-897a-ac67ce5f64ea"
+        "F0016": "malware-behavior--ee16f0a1-d7c4-455a-8c0b-73c7b4999521"
     },
     "Install Driver": {
-        "C0037": "malware-behavior--99fd07a3-5cd7-4080-8e5d-46dd4ded9839"
+        "C0037": "malware-behavior--cb5d6fcf-4924-4e79-bac1-bf2c85b6c1fe"
     },
     "Install Insecure or Malicious Configuration": {
-        "B0047": "malware-behavior--caeac9b3-7b20-4ecd-bf4c-d67a1c5c0321"
+        "B0047": "malware-behavior--19462f74-6477-4235-8277-6d50a99d501a"
     },
     "Instruction Overlap": {
-        "B0032.013": "malware-method--7682d4fc-bb04-4fc0-87ee-b05fcb3a7d2d"
+        "B0032.013": "malware-method--c50e2cbd-d9e3-4728-be7a-202cdfbef0e7"
     },
     "Instruction Testing": {
-        "B0009.029": "malware-method--c5b68310-3092-4c03-9252-95239560653d"
+        "B0009.029": "malware-method--4e497c49-2ce7-4c5a-9ecd-df0b8b2d2129"
     },
     "Instruction Testing - CPUID": {
-        "B0009.034": "malware-method--1b081502-7214-4135-a6c8-5dfdd2cb2791"
+        "B0009.034": "malware-method--87346cdc-40c5-44ca-8b9e-4abf7225e0bf"
     },
     "Instruction Testing - IN": {
-        "B0009.035": "malware-method--25bb2d34-0814-43aa-9ea1-58ec7587fe26"
+        "B0009.035": "malware-method--a4c3aad4-6a70-4b60-89c1-a1695f97a9c3"
     },
     "Instruction Testing - RDTSC": {
-        "B0009.036": "malware-method--fdb4836e-86d5-4cc1-b936-53243f280ea3"
+        "B0009.036": "malware-method--657e8bd1-6ef3-4f1d-a606-e61c7fa737da"
     },
     "Instruction Testing - SGDT/SLDT (no pill)": {
-        "B0009.031": "malware-method--9bf11284-fc61-4b99-a1fa-219d9aef91e3"
+        "B0009.031": "malware-method--59f3d1b8-5355-44f6-9829-9cd41844819d"
     },
     "Instruction Testing - SIDT (red pill)": {
-        "B0009.030": "malware-method--6cb00024-7b57-4f21-a74d-03e729bdcf7d"
+        "B0009.030": "malware-method--5cf8f86a-aa09-4f15-8631-c97c7c8e83cb"
     },
     "Instruction Testing - SMSW": {
-        "B0009.032": "malware-method--d06bca7d-ed78-4456-9328-f852f0a7b0a6"
+        "B0009.032": "malware-method--f9d95a96-a390-4377-828a-9c8f2a19bb2e"
     },
     "Instruction Testing - STR": {
-        "B0009.033": "malware-method--717094c3-eec5-4a24-8ae7-1812bebe8fd8"
+        "B0009.033": "malware-method--30a90268-5f8a-4603-88d1-8b289cb1ed63"
     },
     "Instruction Testing - VMCPUID": {
-        "B0009.037": "malware-method--0db618f2-bcde-4dd9-bd70-00803c19c804"
+        "B0009.037": "malware-method--0ed009d7-d158-464b-a45a-4fa32388a5e8"
     },
     "Instruction Testing - VPCEXT": {
-        "B0009.038": "malware-method--97fd1680-e6f8-4ea6-9e2e-47547e574444"
+        "B0009.038": "malware-method--7ab591a8-daa3-4588-b15a-880fc1936bc2"
     },
     "Interleaving Code": {
-        "B0032.014": "malware-method--e4b85823-9d8c-4f32-a184-0a900f38e1b2"
+        "B0032.014": "malware-method--8f67e012-7621-47f7-a337-5ac3847b382a"
     },
     "InternetConnect": {
-        "C0005.001": "malware-method--97483864-ea6f-4cb1-a422-16b0182232a5"
+        "C0005.001": "malware-method--bcae5d85-2c8c-4829-875b-54e188009cb4"
     },
     "InternetOpen": {
-        "C0005.002": "malware-method--ae3d250f-4eb5-42bd-bc8a-006683d8681d"
+        "C0005.002": "malware-method--008da8c0-e735-423e-8c6e-0c80b7682cc0"
     },
     "InternetOpenURL": {
-        "C0005.003": "malware-method--5040a7ce-5d97-4123-8abe-85f3ab72a9a9"
+        "C0005.003": "malware-method--5502cdf8-d7c5-4163-b3a0-336e0748c451"
     },
     "InternetReadFile": {
-        "C0005.004": "malware-method--1a6d354e-dfab-493a-ace1-9f74e615eb66"
+        "C0005.004": "malware-method--f6b00fa3-7ccd-44c4-8d94-24a3fdf568c3"
     },
     "InternetWriteFile": {
-        "C0005.005": "malware-method--6af37cca-5af7-458b-b131-1a165df3b4d5"
+        "C0005.005": "malware-method--cdc9b02c-27dc-41ce-975e-64360620c383"
     },
     "Interprocess Communication": {
-        "C0003": "malware-behavior--b7776e48-2eda-4db8-bbaf-d331909df206"
+        "C0003": "malware-behavior--998a2223-b8a0-4b02-8c36-b07a3bad8a81"
     },
     "Interruption": {
-        "B0001.006": "malware-method--9c4f06a6-ef63-4d25-9bb5-9475937bd485"
+        "B0001.006": "malware-method--dbf45898-453d-41d3-bfce-772eaeb65fa5"
     },
     "Invoke NTDLL System Calls via Encoded Table": {
-        "B0010.002": "malware-method--18abfa91-633d-4d05-93e3-747bb4ecb600"
+        "B0010.002": "malware-method--adf06cbb-b7a7-48fb-a282-3e0d74c13ae1"
     },
     "IsDebuggerPresent": {
-        "B0001.008": "malware-method--fde8e861-ab44-495f-901b-5290d0cf0d54"
+        "B0001.008": "malware-method--e49e470d-fc33-4dda-9a82-9cd35fdb0422"
     },
     "Java-based Web Servers": {
-        "E1203.m02": "malware-method--1425e4c4-eaf1-4d3c-8b2b-a6b68a2fedbe"
+        "E1203.m02": "malware-method--cf2b0428-056b-436c-95ae-a529bf590ad6"
     },
     "Jump Insertion": {
-        "B0032.005": "malware-method--1105981f-76c5-4995-9139-9b2bbd92f7fa"
+        "B0032.005": "malware-method--6622b156-c6e4-43e1-882b-7c1b1b72d6a8"
     },
     "Jump/Call Absolute Address": {
-        "B0034.001": "malware-method--865ebdc4-c4c2-4521-b10f-8a169b8614fb"
+        "B0034.001": "malware-method--b318f647-979c-4c57-84c0-1e1ba6a318aa"
     },
     "Junk Code Insertion": {
-        "B0032.007": "malware-method--04aa363c-645e-4243-b01a-aa760282f7f3"
+        "B0032.007": "malware-method--5b93e71c-6d3d-4cb4-b17d-a82e993b295e"
     },
     "Kernel Mode Rootkit": {
-        "E1014.m16": "malware-method--ecf3092e-dd5e-4f93-ba26-69f08982ded6"
+        "E1014.m16": "malware-method--028d45b8-9753-488f-80a7-2514832c0040"
     },
     "Kernel Modules and Extensions": {
-        "F0010": "malware-behavior--c1a807c7-b66f-43c1-9764-4bf65b6baf08"
+        "F0010": "malware-behavior--48d95425-be65-46ce-842e-a2d00fa81df9"
     },
     "Keylogging": {
-        "F0002": "malware-behavior--7d9f5f6d-dcc8-4a4b-ba8e-74f4e0cabde5"
+        "F0002": "malware-behavior--f62777a4-712b-4e99-ad29-70ac9b962304"
     },
     "Known File Location": {
-        "B0013.008": "malware-method--e9536271-b6c1-4dc6-86d4-ea20aca96a67"
+        "B0013.008": "malware-method--588bc7c9-80d5-4ad4-8d12-aa78eb395abc"
     },
     "Known Window": {
-        "B0013.009": "malware-method--f82b3b06-979a-44ea-b23b-61b09e139481"
+        "B0013.009": "malware-method--b2be61b7-0ba0-4f3c-bb7c-98c72c6ba0a6"
     },
     "Known Windows Class Name": {
-        "B0013.010": "malware-method--064389f0-0a2f-459c-8777-c7988bef9a65"
+        "B0013.010": "malware-method--97ae9412-8211-47d8-b36d-1e9632b8aa05"
     },
     "Kovter": {
         "X0009": "malware--658c6155-758c-408e-a916-77f072b9ef47"
@@ -2281,40 +2251,40 @@
         "X0010": "malware--72acb55e-68a0-42f0-99f1-e8b37e15ac76"
     },
     "Lateral Movement": {
-        "OB0011": "malware-objective--91583649-6a8a-48d9-a42a-75a928d4b241"
+        "OB0011": "malware-objective--17002d29-59c7-4041-9a3b-6942ce2303f6"
     },
     "Load Driver": {
-        "C0023": "malware-behavior--7ba984d9-ce1e-4b94-a7ae-b80318fe5161"
+        "C0023": "malware-behavior--1d8fc0d3-8a19-4045-920c-023654682c60"
     },
     "Location": {
-        "F0005.002": "malware-method--cf96f544-8d03-4185-a152-5a8243603d8d"
+        "F0005.002": "malware-method--94dffcfa-e22c-4e3a-9bf6-39add50ce0c6"
     },
     "Locky Bart": {
         "X0011": "malware--a8852a66-f28c-4a9f-a16d-aca871a5e54b"
     },
     "Log File": {
-        "E1083.m01": "malware-method--8c891ada-147e-4d06-bd09-c8fcb3e42066"
+        "E1083.m01": "malware-method--0befb917-b11e-47bc-8827-d44d929b85ae"
     },
     "Loop Escapes": {
-        "B0002.012": "malware-method--a8c5cffb-beac-40a0-b1a4-9a04cf482b64"
+        "B0002.012": "malware-method--0ec7a56b-030c-4956-921d-5afb9d907823"
     },
     "Luhn": {
-        "C0032.002": "malware-method--a4fa2258-b4ad-4701-9728-5507d7c2cc52"
+        "C0032.002": "malware-method--d723a7ac-a45e-4ef6-82a3-ce107ba21162"
     },
     "MD5": {
-        "C0029.001": "malware-method--cff15656-fb26-4277-a672-5d20a63bcaa7"
+        "C0029.001": "malware-method--fbb1a91a-e323-404b-9d50-34cfcf1ae4fa"
     },
     "MSDTC": {
-        "E1569.m01": "malware-method--bae78ebd-a4c3-40f3-8dbc-1390c71a1919"
+        "E1569.m01": "malware-method--6b87e506-eb38-439b-acc1-2e77206743a9"
     },
     "Malicious Network Driver": {
-        "B0026": "malware-behavior--9f4b9d7d-1fd3-428d-9c57-272d5df10917"
+        "B0026": "malware-behavior--490fde6a-700b-4de6-a0d2-9c611bb80495"
     },
     "Malloc Use": {
-        "B0002.013": "malware-method--e11bf8cc-003a-474f-9842-78bd446a892a"
+        "B0002.013": "malware-method--4ec0f59f-18f2-4468-ac63-e006b58c25ca"
     },
     "Manipulate Network Traffic": {
-        "B0019": "malware-behavior--d1bfc6a6-efdb-417f-afe5-596c3cf925af"
+        "B0019": "malware-behavior--1d1cd265-4c78-43b2-88ad-6f64833181cd"
     },
     "Matanbuchus": {
         "X0040": "malware--63fc3bd5-29f5-4373-8d19-0ab64c7d1087"
@@ -2326,413 +2296,413 @@
         "X0013": "malware--94cb6823-8c6c-4d3d-8e86-258e10c97da2"
     },
     "Memory": {
-        "OC0002": "malware-objective--dbe27c30-ea5f-44a0-9167-ead41fc8d420"
+        "OC0002": "malware-objective--9e3c03ab-924d-4fd4-95a9-b6c82a6c6fbb"
     },
     "Memory Breakpoints": {
-        "B0001.009": "malware-method--abe07b63-1b26-4746-9ec8-e3aedac21dc4"
+        "B0001.009": "malware-method--89993f26-d424-47ec-91ea-fafa3d6fab19"
     },
     "Memory Dump Evasion": {
-        "B0006": "malware-behavior--830cf974-2951-48d5-98d4-5a6b5c912d45"
+        "B0006": "malware-behavior--1453df86-607e-4307-b5e9-1309461a4d72"
     },
     "Memory Rootkit": {
-        "E1014.m17": "malware-method--7cacc5a7-1a26-47db-9e6d-d4b7f520de42"
+        "E1014.m17": "malware-method--40d238cc-1ba1-432d-8580-c552f8046bb8"
     },
     "Memory Write Watching": {
-        "B0001.010": "malware-method--9db9fdb1-fecb-4b37-b4eb-9ab8aa8372b1"
+        "B0001.010": "malware-method--b7d7b709-77e3-45d8-8fee-0e21edcba90e"
     },
     "Memory-only Payload": {
-        "B0036.001": "malware-method--1ca96101-7e6f-46ad-b4b8-b1d4873d38aa"
+        "B0036.001": "malware-method--05016893-1d0c-4350-8314-051a79d9ac55"
     },
     "Minification": {
-        "B0034.002": "malware-method--af17640e-8d35-489d-b1c3-264c940b83fa"
+        "B0034.002": "malware-method--684e402a-e09a-40ee-a08b-8586ee9b4729"
     },
     "Minifilter": {
-        "C0023.001": "malware-method--de8dd2a6-454f-41a5-8251-e0eae2fd977d",
-        "C0037.001": "malware-method--239164f0-aac2-4b73-8db3-3bea4a1d955d"
+        "C0023.001": "malware-method--59a9b393-9e7a-4e93-a4d9-5cc61a8a4e25",
+        "C0037.001": "malware-method--b1f21aaa-d6d6-4335-966c-5bac339da3df"
     },
     "Modern Specs Check": {
-        "B0009.013": "malware-method--6fcef7e8-e79b-4771-891f-d8d08dbd489e"
+        "B0009.013": "malware-method--6963837b-6274-43a5-8ed4-1f85c4848ba3"
     },
     "Modern Specs Check - Drive size": {
-        "B0009.015": "malware-method--b4fa30c3-a731-4e56-b0a0-5fde80008ebb"
+        "B0009.015": "malware-method--a56e060e-2707-4393-89ea-f3211948455b"
     },
     "Modern Specs Check - Keyboard layout": {
-        "B0009.019": "malware-method--6264b570-c3bd-4418-97b4-a2eb6705eece"
+        "B0009.019": "malware-method--37e7a25e-1d51-40a3-b968-3c4bea1fc711"
     },
     "Modern Specs Check - Printer": {
-        "B0009.017": "malware-method--14505640-bfdf-4ac3-a092-413fd2d0251a"
+        "B0009.017": "malware-method--5f72d019-8005-4807-a518-529122ee722f"
     },
     "Modern Specs Check - Processor count": {
-        "B0009.018": "malware-method--d0fb9ec4-6821-488d-a868-dd7dd47f9ddd"
+        "B0009.018": "malware-method--04ee3672-08a0-4e2e-9487-824ea424e6e7"
     },
     "Modern Specs Check - Total physical memory": {
-        "B0009.014": "malware-method--63ac1290-0d65-424d-b8a0-e57836583b79"
+        "B0009.014": "malware-method--c69d9208-51b4-4168-a00b-f7ee6d361c37"
     },
     "Modern Specs Check - USB drive": {
-        "B0009.016": "malware-method--7b6a0e56-fe1f-4d84-a557-321d07c75ed3"
+        "B0009.016": "malware-method--0c41a129-56e7-4335-ab3a-cfa8f3e3afc8"
     },
     "Modify Existing Service": {
-        "F0011": "malware-behavior--a4a2c762-df99-4005-b63c-449ce7ed2d28"
+        "F0011": "malware-behavior--aaf1304f-686b-4095-8691-1473a7eb41d3"
     },
     "Modify Hardware": {
-        "B0042": "malware-behavior--b132d3d6-efbc-43e9-a0d8-8466fe22e87b"
+        "B0042": "malware-behavior--8ab0512c-4c1b-473c-8449-91b6fdd15fea"
     },
     "Modify PE Header": {
-        "B0002.014": "malware-method--7b7405f6-f5b4-4c2f-bc91-86015725052e"
+        "B0002.014": "malware-method--d1132376-d702-4707-8980-d5e4ecffd875"
     },
     "Modify Policy": {
-        "F0004.005": "malware-method--2bfff342-de8f-4a49-b155-f7aa729bf8da"
+        "F0004.005": "malware-method--e13a8889-a641-42dc-885d-4e6862d32f55"
     },
     "Modify Registry": {
-        "E1112": "malware-behavior--4a1da2ed-49c6-42b8-83e0-51eafdbdeea5"
+        "E1112": "malware-behavior--91b1a6b7-1e3f-45e5-890b-8814d6199456"
     },
     "Modulo": {
-        "C0058": "malware-behavior--2284b696-393b-423b-9d19-cd7b621c0214"
+        "C0058": "malware-behavior--81629aa2-f674-4a47-9b8b-521cc9ecd791"
     },
     "Monitoring Thread": {
-        "B0001.011": "malware-method--db17ae5e-f97e-4c92-a21d-022a3f2e0a8f"
+        "B0001.011": "malware-method--3753b469-e9d3-4bb4-b156-76400c1f1c25"
     },
     "Mouse": {
-        "B0042.002": "malware-method--6b7c8f62-bb3b-45c9-9cfc-1b526f453a21"
+        "B0042.002": "malware-method--c7faf867-a7f2-4663-90ad-fb2897f1aa3b"
     },
     "Mouse Click": {
-        "C0057.002": "malware-method--63065982-7f35-48c8-ad71-714b862b3a86"
+        "C0057.002": "malware-method--eb7d69f7-18b4-41f6-9f07-14a5c5657648"
     },
     "Mouse Events": {
-        "E1056.m01": "malware-method--68b65308-5aa1-44f2-9ec6-d210c7aeed5f"
+        "E1056.m01": "malware-method--9d499852-33c6-4f88-9c53-53866ef0f210"
     },
     "Move File": {
-        "C0063": "malware-behavior--b1be9b18-475f-4a13-9976-4118740b50c5"
+        "C0063": "malware-behavior--5d2d0aba-1f21-4d48-9360-9ca657e241e4"
     },
     "Multiple Stages of Loaders": {
-        "B0036.003": "malware-method--efcacdf1-da90-403e-ae55-d08a008b1294"
+        "B0036.003": "malware-method--c4e90b0c-cccb-4b7c-b68e-e58829b77580"
     },
     "Multiple VMs": {
-        "B0008.001": "malware-method--4ded7986-ab6a-4fa4-8200-e163860733f6"
+        "B0008.001": "malware-method--27b4cf21-8800-450f-9b06-2f5df5e6c090"
     },
     "MurmurHash": {
-        "C0030.001": "malware-method--6cbc50fb-319b-4b13-9684-bdf620b39025"
+        "C0030.001": "malware-method--c298222f-b6c4-4c34-b805-b7e6b82290cb"
     },
     "Nanomites": {
-        "B0002.015": "malware-method--2be66506-252b-4d0d-a81c-5eed23e0d680"
+        "B0002.015": "malware-method--fb5100c4-5eae-478f-a59f-d7fdd46d54de"
     },
     "Nested Packing": {
-        "F0001.001": "malware-method--80331378-dd5c-48c9-8322-6023c3c27e9e"
+        "F0001.001": "malware-method--90f8ec6a-803f-4057-b2fc-781903de58c4"
     },
     "Netwalker": {
         "X0037": "malware--8eed7e54-f63b-47f3-8a5e-d8223afcde56"
     },
     "Non-Cryptographic Hash": {
-        "C0030": "malware-behavior--f9d8c51b-9600-40af-ad7f-6972030e0444"
+        "C0030": "malware-behavior--cb42a043-915f-42f1-9d9b-979ca3c969c2"
     },
     "NtQueryInformationProcess": {
-        "B0001.012": "malware-method--1a81c3f9-226f-4088-bf32-3728958e8aff"
+        "B0001.012": "malware-method--fc17c2ea-77d9-431f-8e26-a16c499277a0"
     },
     "NtQueryObject": {
-        "B0001.013": "malware-method--da5857aa-3ec2-4219-a6a2-d44eaaed9d44"
+        "B0001.013": "malware-method--472c05b8-0341-4dce-bbac-e804d9e0671b"
     },
     "NtSetInformationThread": {
-        "B0001.014": "malware-method--a9a58c99-c36d-492f-8843-f57edb2f2a8d"
+        "B0001.014": "malware-method--56f2770e-289e-4ede-9d68-d4c5376af940"
     },
     "NtYieldExecution/SwitchToThread": {
-        "B0001.015": "malware-method--ef8e21cd-350e-4de7-abae-efd0ae65f2eb"
+        "B0001.015": "malware-method--74dcc6a5-4d0e-489d-91d3-f1bb6cbe700a"
     },
     "Obfuscate Library Use": {
-        "B0002.016": "malware-method--59454a71-574b-475b-9c3f-300cab7237bc"
+        "B0002.016": "malware-method--3b375dae-ea96-4419-ade2-a3107fa24b2a"
     },
     "Obfuscated Files or Information": {
-        "E1027": "malware-behavior--a82579b7-d077-4842-8093-1aef42560f20"
+        "E1027": "malware-behavior--f6041433-8e8f-4a54-9309-d9b6bd54d42e"
     },
     "On-the-Fly APIs": {
-        "B0006.007": "malware-method--64004cc1-a47f-4b7d-a0a9-5b8f066a34c2"
+        "B0006.007": "malware-method--9093a9fb-754a-419f-b348-d35a1377727e"
     },
     "Opaque Predicate": {
-        "B0032.019": "malware-method--b1e65f43-df54-425f-a2f9-c6ad05f3a352"
+        "B0032.019": "malware-method--76ea42d9-93ee-4a19-8497-e4f2238c35c4"
     },
     "Open Process": {
-        "C0065": "malware-behavior--d9e215f4-a5fc-4a15-999b-55d7f84c3aea"
+        "C0065": "malware-behavior--023627b0-5f75-4c25-939d-8b5bde7b687b"
     },
     "Open Registry Key": {
-        "C0036.003": "malware-method--5addbf43-468e-4902-8127-c5f50e6f4430"
+        "C0036.003": "malware-method--261a45d3-9024-40b8-a396-17f3ea0dad97"
     },
     "Open Thread": {
-        "C0066": "malware-behavior--17f538af-46e1-4a71-bfcf-d199493f5148"
+        "C0066": "malware-behavior--d6ddfc02-b85f-471d-9c1a-24e35b116b15"
     },
     "Open URL": {
-        "C0002.004": "malware-method--7d0ddef2-0802-48db-8a42-73b356ed083a"
+        "C0002.004": "malware-method--7fb7ef3c-424e-41c5-bc4f-42f9f6d27393"
     },
     "Operating System": {
-        "OC0008": "malware-objective--72210627-ad38-4539-8ee9-c2c2f399df01"
+        "OC0008": "malware-objective--a478784b-4250-41fe-aaa5-dd3e82ad2be4"
     },
     "OutputDebugString": {
-        "B0001.016": "malware-method--a9f83bc8-a129-4acf-aa11-a4abf89c7bc5"
+        "B0001.016": "malware-method--58600499-1992-4d54-a781-da95435bc5f7"
     },
     "Overflow Buffer": {
-        "C0010": "malware-behavior--0f87ef6f-7ebe-45c6-b8ba-85266d4c759e"
+        "C0010": "malware-behavior--0a000ec1-0c20-46b2-9bba-ea5cda158d13"
     },
     "Packer Stub": {
-        "B0029.001": "malware-method--be2236b8-a1dd-438a-ade9-a65f1e474d13"
+        "B0029.001": "malware-method--57e49f1d-96d0-4337-a2e4-e738a4083204"
     },
     "Page Exception Breakpoint Detection": {
-        "B0001.017": "malware-method--c59ccc01-96b7-436d-a02b-f7f603214501"
+        "B0001.017": "malware-method--b489beb0-4add-4dc2-a6cf-7b66d14d9c0d"
     },
     "Parallel Threads": {
-        "B0002.017": "malware-method--f6904553-88d6-4c9b-b943-e33852e373d3"
+        "B0002.017": "malware-method--49945ed8-a8d4-4be6-99de-b495d55dceab"
     },
     "Parent Process": {
-        "B0001.018": "malware-method--b7e6e44f-b565-4621-9d0b-3cd0ebafae79"
+        "B0001.018": "malware-method--a7deb167-24fd-4085-a437-8bce3086bd81"
     },
     "Parse PE Header": {
-        "B0046.003": "malware-method--51fef92e-9702-44ca-8e2c-22a52994f4f1"
+        "B0046.003": "malware-method--328676f4-2424-4b25-8bc3-8790dc98ef06"
     },
     "Password Cracking": {
-        "B0018.001": "malware-method--1f4b76c6-d15d-4b3d-8054-9ee8883a61a8"
+        "B0018.001": "malware-method--324c41ee-21a5-4e08-84e3-0b70fa970fce"
     },
     "Patch MmGetPhysicalMemoryRanges": {
-        "B0006.011": "malware-method--c5e06b0c-d95c-4eae-943e-12dad36e4a91"
+        "B0006.011": "malware-method--1d784d08-73a4-4246-8cf8-ac2504c2c658"
     },
     "Patch Process Command Line": {
-        "E1055.m04": "malware-method--1a40603f-4a1a-4c2c-a2c2-62019ffe1557"
+        "E1055.m04": "malware-method--5c9468d3-8887-4599-9563-bd31e4344f99"
     },
     "Persistence": {
-        "OB0012": "malware-objective--b0d7b24c-db02-461a-a9c9-bcf790572114"
+        "OB0012": "malware-objective--e8ea7a3c-9da9-41e8-85c1-c684c11af65b"
     },
     "Pipeline Misdirection": {
-        "B0002.018": "malware-method--08047158-bff0-4e37-aeb2-4bca142ed27c"
+        "B0002.018": "malware-method--4580ea71-8728-412b-b301-765d3b79a055"
     },
     "Poison Ivy": {
         "X0014": "malware--f68cd3e5-afa7-48ef-bba0-11c58ab8026f"
     },
     "Polling": {
-        "F0002.002": "malware-method--1274cb44-aa5e-453b-a63d-2e394ff771c8"
+        "F0002.002": "malware-method--deb668c5-4836-44a0-afe9-0391ba533fc8"
     },
     "Polymorphic Code": {
-        "B0029": "malware-behavior--50673640-44d0-4c2e-888e-7846cbe49798"
+        "B0029": "malware-behavior--2c05c4f7-9994-486b-ae3d-24f304af893e"
     },
     "Portable Executable Injection": {
-        "E1055.002": "malware-method--72e60835-f2a7-48a6-a901-9817e47d2565"
+        "E1055.002": "malware-method--8a1976b5-1f99-4888-ba25-971f84b54c2c"
     },
     "Pre-Debug": {
-        "B0002.019": "malware-method--847f799b-0dd9-4774-8104-33883785cb17"
+        "B0002.019": "malware-method--0eb58d59-653c-4ee3-b032-075d20517971"
     },
     "Prevent Concurrent Execution": {
-        "B0024": "malware-behavior--2b0ab661-a5a3-4167-befa-85d083092c7e"
+        "B0024": "malware-behavior--027b17d4-bb94-4922-ade3-36f81c1049c5"
     },
     "Printer": {
-        "B0042.003": "malware-method--d8269b78-f42c-49c3-bff5-cef94f253cb5"
+        "B0042.003": "malware-method--b5d087af-8683-4355-a932-f51158dd8ba3"
     },
     "Privilege Escalation": {
-        "OB0013": "malware-objective--84875b35-71e1-445d-bd40-0fb23e5b9e1c"
+        "OB0013": "malware-objective--8d461d5d-49e7-4812-9f74-1f285e68fe3a"
     },
     "Procedure Hooking": {
-        "F0015.007": "malware-method--f2058ea2-8c20-46c2-af01-8ff3b1dcf0c5"
+        "F0015.007": "malware-method--b634d326-0608-428b-ae88-fdd0f44ff1b4"
     },
     "Process": {
-        "OC0003": "malware-objective--340ce208-c849-44e7-bb4d-47b90fe19e7c"
+        "OC0003": "malware-objective--7d9144e2-b870-4037-bcac-76a5ee65fd44"
     },
     "Process Environment Block": {
-        "B0001.019": "malware-method--71b29d14-ca63-4cb3-9495-1a9345eec2c6"
+        "B0001.019": "malware-method--8e2ce11c-fb27-4c00-aa14-a8468ca8968e"
     },
     "Process Environment Block BeingDebugged": {
-        "B0001.035": "malware-method--53f5c51c-ad5d-48b4-862d-bd251f918010"
+        "B0001.035": "malware-method--cd858840-931a-48af-9d59-95262061c323"
     },
     "Process Environment Block IsDebugged": {
-        "B0001.037": "malware-method--5d0a3279-396c-462c-b963-53f31b22e377"
+        "B0001.037": "malware-method--e91a01a8-295b-4fe8-b2dd-01d6975e815f"
     },
     "Process Environment Block NtGlobalFlag": {
-        "B0001.036": "malware-method--f5c760be-fa9f-416c-9d74-2239aec262e1"
+        "B0001.036": "malware-method--6ed553fa-79e0-4dca-826d-9476eb2aacd7"
     },
     "Process Hollowing": {
-        "E1055.012": "malware-method--327f12a0-c1fe-49a2-a326-24053625689f"
+        "E1055.012": "malware-method--e17c7dfd-bfe1-41e3-88f4-d3bfc6c04250"
     },
     "Process Injection": {
-        "E1055": "malware-behavior--27a92199-2b4a-4f46-b18d-d2abf34bb478"
+        "E1055": "malware-behavior--2024b44b-5a85-424a-bbb9-e93e79af1b09"
     },
     "Process Jobs": {
-        "B0001.020": "malware-method--e2431b0c-8d15-4a08-916d-ab296357d09b"
+        "B0001.020": "malware-method--45bf5382-c703-4705-b69b-eb071c471708"
     },
     "Process detection": {
-        "B0013.001": "malware-method--4146a327-03f4-4cd8-a944-9271894b46c9"
+        "B0013.001": "malware-method--9ce06ac9-640c-46a7-b788-e3cf4ce09d34"
     },
     "Process detection - Debuggers": {
-        "B0013.002": "malware-method--731840a1-fd9f-43b1-bd5b-f1959d146bc6"
+        "B0013.002": "malware-method--0cd7c5d2-86cc-4290-9727-11c42c07b01f"
     },
     "Process detection - PCAP Utilities": {
-        "B0013.004": "malware-method--cf5922ed-d558-4d29-bbbc-ae5a0875f226"
+        "B0013.004": "malware-method--ea30e9f3-2cd5-4ea2-8a9d-462df8c24f72"
     },
     "Process detection - PE Utilities": {
-        "B0013.006": "malware-method--b5d4f297-d548-47e4-a0f6-803a3524d22e"
+        "B0013.006": "malware-method--f816fe6a-3128-43c3-86b1-996a152391df"
     },
     "Process detection - Process Utilities": {
-        "B0013.005": "malware-method--b02f45c7-9f42-4b0e-ad70-14567e77971f"
+        "B0013.005": "malware-method--b87193a0-b895-4175-b78e-55ae0aefe775"
     },
     "Process detection - Sandboxes": {
-        "B0013.007": "malware-method--b8f1f3fe-dc30-4568-bd31-d9b142e4c47a"
+        "B0013.007": "malware-method--93f17b9e-9246-4f18-b140-7a3d5f603b78"
     },
     "Process detection - SysInternals Suite Tools": {
-        "B0013.003": "malware-method--69ccd0bd-1139-4518-83cb-6ec6b689b01a"
+        "B0013.003": "malware-method--715c43e5-838c-4744-bc7d-b82965f48aa9"
     },
     "ProcessHeap": {
-        "B0001.021": "malware-method--a64ef2c8-3938-4f2a-90c9-a820534d7d64"
+        "B0001.021": "malware-method--8b84170e-1c99-4075-97c1-13c032f72b8c"
     },
     "Product Key/ID Testing": {
-        "B0007.005": "malware-method--8780cf44-7dfc-41f9-9955-c7c68292e4e9"
+        "B0007.005": "malware-method--53bd75cb-06a7-4253-9ef6-9ae1306fe75d"
     },
     "Query Registry Key": {
-        "C0036.005": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802"
+        "C0036.005": "malware-method--cb94f9c0-fb0d-4061-b8bd-a3be5c5bed39"
     },
     "Query Registry Value": {
-        "C0036.006": "malware-method--72435496-9e74-411f-ba5a-0cf41767f524"
+        "C0036.006": "malware-method--b6c714fb-29b0-4dc8-91de-911fa687cb65"
     },
     "QuickLZ": {
-        "C0024.001": "malware-method--a8896806-7c9b-4033-8ee9-40440d85423d",
-        "C0025.001": "malware-method--de189a73-2b4b-4d2e-a2bf-e3c05341382e"
+        "C0024.001": "malware-method--a3eb65da-47fb-4160-9f4b-18001aae515e",
+        "C0025.001": "malware-method--77c04dc5-c728-478b-a8f2-5cb09e01ba2a"
     },
     "RC4": {
-        "C0027.009": "malware-method--3a879212-7127-4f91-84ef-7aa65e971ef3",
-        "C0031.008": "malware-method--ce830efe-16ec-41a4-9fff-41255449d077"
+        "C0027.009": "malware-method--92778117-7065-485a-a275-7633acb3c728",
+        "C0031.008": "malware-method--634fb943-d1e3-4ef2-b624-34ea33719198"
     },
     "RC4 KSA": {
-        "C0028.002": "malware-method--e77b4c80-cb3e-4f53-85f4-6f7fc12dfbd0"
+        "C0028.002": "malware-method--2b383158-9e1d-4b36-be0a-5b9f612756ae"
     },
     "RC4 PRGA": {
-        "C0021.004": "malware-method--f762e3c0-d54d-44fb-8bdb-d58818cf9a8d"
+        "C0021.004": "malware-method--e81ecc00-6f68-4396-9d74-6e46290ebf31"
     },
     "RC6": {
-        "C0027.010": "malware-method--9858fb87-fa9e-447c-91e7-951bd80d8666",
-        "C0031.009": "malware-method--63136be0-0572-4616-8812-4ade3842488a"
+        "C0027.010": "malware-method--b0f921af-72bf-4506-943b-ab49a3d01ed2",
+        "C0031.009": "malware-method--531466e2-ce4d-4de7-87ee-596d77599e15"
     },
     "ROP Chains": {
-        "B0037.001": "malware-method--bb35021f-82c1-4460-818c-090a88ec0787"
+        "B0037.001": "malware-method--3ae33169-8d59-4a5e-b67e-af017ef8f31f"
     },
     "RSA": {
-        "C0027.011": "malware-method--38aca5da-a97f-4b97-bb98-d6f006f6c4a8",
-        "C0031.010": "malware-method--e02cd40b-8966-4888-ab12-ed68f7016c55"
+        "C0027.011": "malware-method--66fc99d9-3ead-40bf-a8e2-0db1dad38130",
+        "C0031.010": "malware-method--56eaedd4-b348-4193-bff3-094b67d794f6"
     },
     "Ransom Note": {
-        "E1486.001": "malware-method--41d64725-719a-4834-9129-729c28cd892a"
+        "E1486.001": "malware-method--e56306fb-a88a-48fc-9e49-eacf84e083e7"
     },
     "Read File": {
-        "C0051": "malware-behavior--6b99bf51-1fcb-4284-9ae0-d780e46b7825"
+        "C0051": "malware-behavior--d28be111-9e82-48ad-bdb2-7073ca361cd4"
     },
     "Read Header": {
-        "C0002.014": "malware-method--f497cb57-7379-4ee2-a82d-72f6af86428a"
+        "C0002.014": "malware-method--89f4a546-28f0-477c-aca0-02962f0dd12c"
     },
     "Read Pipe": {
-        "C0003.003": "malware-method--ac17257e-e8fc-402a-99d0-f0dc79ed9b4d"
+        "C0003.003": "malware-method--8ee333ae-3d47-4cf7-a3de-e68a57d72169"
     },
     "Read Virtual Disk": {
-        "C0056": "malware-behavior--dcfcb0e4-5e23-4898-8336-380935154fdc"
+        "C0056": "malware-behavior--edc54469-eac9-474d-b01b-e32953430fa5"
     },
     "Receive Data": {
-        "B0030.002": "malware-method--47a66a67-6cc7-492f-90ae-0e4f198a9d11",
-        "C0001.006": "malware-method--708e1fd9-d9fe-4d9a-9b72-d1e72ff3a1b3"
+        "B0030.002": "malware-method--24ce9bf3-3a84-44d6-b57d-ac17ca7284c9",
+        "C0001.006": "malware-method--64732852-ef6f-4c31-bc56-ae7a2813801d"
     },
     "Receive Request": {
-        "C0002.015": "malware-method--350f8e7d-a2c1-435f-a0bd-03160cc222ff"
+        "C0002.015": "malware-method--ed6c4db0-3ed7-4eb1-beaa-09c1707210cc"
     },
     "Receive TCP Data": {
-        "C0001.016": "malware-method--0d63b27b-c395-4224-a077-ff5f69390518"
+        "C0001.016": "malware-method--6a2004d4-0e84-4724-952e-17312e36763d"
     },
     "Receive UDP Data": {
-        "C0001.017": "malware-method--4e43f7c1-f797-4e9f-8295-1ff884e48e32"
+        "C0001.017": "malware-method--e542debf-bf5f-485d-8f66-e443c6dcb772"
     },
     "Red Hat JBoss Enterprise Products": {
-        "E1203.m04": "malware-method--b9feceb2-3c4d-4480-9f8d-e742084497a6"
+        "E1203.m04": "malware-method--51c6a0d1-5b4f-4689-a0f4-9860f4794a96"
     },
     "Redhip": {
         "X0015": "malware--7118a034-ac23-4a16-8277-32b790f890c5"
     },
     "Registry": {
-        "C0036": "malware-behavior--dd921419-4526-431b-a2f0-b6be73e706a9"
+        "C0036": "malware-behavior--2cd0446a-5f8c-43ee-8df7-079efc230f06"
     },
     "Registry Install": {
-        "B0027.002": "malware-method--c031e5cc-8cef-4283-aa82-8efe476185e8"
+        "B0027.002": "malware-method--003d049e-0dee-4498-a034-d7cd9e1a9fa9"
     },
     "Registry Run Keys / Startup Folder": {
-        "F0012": "malware-behavior--68bdb0c9-2213-437d-ac60-94852160b34a"
+        "F0012": "malware-behavior--91b45b82-c30a-4709-9f0c-1120c42cf076"
     },
     "Relocate API Code": {
-        "B0002.020": "malware-method--f597afc6-e34d-4b6e-83fc-886395d34b89"
+        "B0002.020": "malware-method--9825a38a-687f-45ea-a3ed-03dbbe45fd5c"
     },
     "Remote Access": {
-        "B0022": "malware-behavior--a9d84dd9-1e8b-435e-b48a-c9e8c5464e47"
+        "B0022": "malware-behavior--92713076-d9e7-4b4f-8551-933915b8862d"
     },
     "Remote Commands": {
-        "B0011": "malware-behavior--bb49ae05-47fd-401f-96c1-3daae570ff40"
+        "B0011": "malware-behavior--2efafd4d-8802-43d6-b885-6a7b572bec65"
     },
     "Remote Desktop Protocols": {
-        "E1203.m01": "malware-method--274dfd6b-c5f6-47f2-9aaa-40bb3421451c"
+        "E1203.m01": "malware-method--696a6f09-56bb-4222-ba08-3cb4ba447c91"
     },
     "Remove SMS Warning Messages": {
-        "F0006.001": "malware-method--030ef847-d990-47f5-86a3-8f571bfd19cc"
+        "F0006.001": "malware-method--e0a5147b-9a32-411a-affb-159ee8530a38"
     },
     "Request": {
-        "C0012.002": "malware-method--d8aea44c-1d65-404e-8bb1-5f4c3dfb2bd3"
+        "C0012.002": "malware-method--87cdff78-461e-4bac-abb9-9270e01afbdf"
     },
     "Request Command": {
-        "B0030.008": "malware-method--ecb60691-dbce-4ca1-9f19-f185da002425"
+        "B0030.008": "malware-method--303e0cbe-dba4-41b5-80d1-f14d6a494b14"
     },
     "Request Email Address List": {
-        "B0030.010": "malware-method--de26de66-d5b4-4c79-93c1-232fde5991f2"
+        "B0030.010": "malware-method--b78394e0-7515-4c98-ae3a-d1efd3652c7a"
     },
     "Request Email Template": {
-        "B0030.009": "malware-method--44ed66fc-cf5b-413f-96f4-359752d727bc"
+        "B0030.009": "malware-method--785c237a-c3aa-4e55-847b-cbfb14473aaa"
     },
     "Resolve": {
-        "C0011.001": "malware-method--40cb93ee-9bab-4239-a0de-0556ad4cd999"
+        "C0011.001": "malware-method--48e6541e-c281-4cc9-a37c-02b8a13bdc5c"
     },
     "Resolve Free Hosting Domain": {
-        "C0011.005": "malware-method--b9c9fb8c-71d5-4e9f-9b06-88ba43873c86"
+        "C0011.005": "malware-method--9e5e6554-ed2a-4289-b34b-0cfda733fe1e"
     },
     "Resolve TLD": {
-        "C0011.004": "malware-method--d801c4df-f1b2-45d1-9af4-facafabc7c81"
+        "C0011.004": "malware-method--46757c3d-8f6e-4088-bd2f-d773eeb17878"
     },
     "Resource Hijacking": {
-        "B0018": "malware-behavior--a6d22894-e7fc-48b9-9a3b-472e62be6482"
+        "B0018": "malware-behavior--1804a6a1-27bb-4205-819d-5c3df7e84d0e"
     },
     "Restart": {
-        "B0003.010": "malware-method--a40744c8-e422-41b1-aee9-5484ea0ad078"
+        "B0003.010": "malware-method--29aad1f0-a65e-4b20-8806-07b7baea34a5"
     },
     "Resume Thread": {
-        "C0054": "malware-behavior--2073c44d-8e1f-40c9-bfee-f27c7f747106"
+        "C0054": "malware-behavior--c8bc4196-d2bb-4d27-970e-c1e2259f4de7"
     },
     "Return Obfuscation": {
-        "B0002.021": "malware-method--d19d6d6b-7c6a-45ff-9fad-22f311df7bf4"
+        "B0002.021": "malware-method--f4bf1f07-c5ea-4cc6-ae9b-e7a87b5c9584"
     },
     "Reverse Shell": {
-        "B0022.001": "malware-method--67252110-dddb-4ca1-aaa9-014af2e26fd4"
+        "B0022.001": "malware-method--c3f16b29-a2df-46b6-8467-661cdb60dd93"
     },
     "Rombertik": {
         "X0031": "malware--aa78a8d3-04bc-4fc9-868b-c3a203d5a361"
     },
     "Rootkit": {
-        "E1014": "malware-behavior--5e6ff582-b883-4900-a835-8eff747b173b"
+        "E1014": "malware-behavior--5a5abd91-c2ca-4f19-b0e2-5beb29bcbe6d"
     },
     "Router Firmware": {
-        "F0009.001": "malware-method--3d3a0c4c-a0ee-4fb3-beb1-0e5f1d1b0a66"
+        "F0009.001": "malware-method--f3f728d3-712d-4cc9-8a49-0f37d70798cb"
     },
     "RtlAdjustPrivilege": {
-        "B0001.022": "malware-method--3138ec1e-a954-4e0f-bf3c-02a734f8cdf3",
-        "B0002.022": "malware-method--7d8bd569-9780-4675-9098-9f4171c1340f"
+        "B0001.022": "malware-method--449a1975-5865-465f-9c5f-60174886fee6",
+        "B0002.022": "malware-method--cf457a2d-5d1f-40a8-801e-874af98b1cad"
     },
     "Runs as Service": {
-        "B0025.007": "malware-method--6bee13f7-2172-42ba-8944-57106c2dc1d9"
+        "B0025.007": "malware-method--9775cc2c-1140-4d92-9410-9ca796f37fad"
     },
     "SHA1": {
-        "C0029.002": "malware-method--dbd5e7eb-dc21-493d-8c05-adfbd7ce7d76"
+        "C0029.002": "malware-method--b476a5a7-02b6-4538-a18c-b517c284c369"
     },
     "SHA224": {
-        "C0029.004": "malware-method--3f6ed1e1-37f8-4283-affe-9b3c65af826d"
+        "C0029.004": "malware-method--809cb61e-47ba-45ca-80eb-af88dd5d46fb"
     },
     "SHA256": {
-        "C0029.003": "malware-method--270561e5-9534-455c-abaa-4a7556e24a4d"
+        "C0029.003": "malware-method--cdbce9e0-8406-4c1f-b120-06b271bf649c"
     },
     "SMTP Communication": {
-        "C0012": "malware-behavior--2c2c62f6-7aee-4754-ba36-377461e7b1a6"
+        "C0012": "malware-behavior--1ba2eff1-98c5-45a5-ae33-88c42dbf71d7"
     },
     "SMTP Connection Discovery": {
-        "B0014": "malware-behavior--4720ed6f-88e8-4cd9-be5a-ab0c48fd45df"
+        "B0014": "malware-behavior--e00b7558-3a01-48d5-bc29-a8321dcc0689"
     },
     "SYNful Knock": {
         "X0020": "malware--bf095730-bdab-441a-9fca-a86a6b706d4f"
@@ -2741,399 +2711,396 @@
         "X0016": "malware--d36b5830-be79-40bd-aadf-092e77380409"
     },
     "Sandbox Detection": {
-        "B0007": "malware-behavior--54b3edd9-186c-4b8e-858e-95318349f658"
+        "B0007": "malware-behavior--b18640c7-0d71-4184-81e6-789983aa2366"
     },
     "Screen Capture": {
-        "E1113": "malware-behavior--231885f2-a847-4d23-9d6a-ad0a34a920e9"
+        "E1113": "malware-behavior--4c11cbdb-ebf6-451d-ae5f-59a9785c0385"
     },
     "Screen Resolution Testing": {
-        "B0007.006": "malware-method--3ed936fb-2595-4176-86fb-7bc0f4c918ea"
+        "B0007.006": "malware-method--153364bd-6a0c-455a-9d90-6c06eaa92424"
     },
     "SeDebugPrivilege": {
-        "B0001.023": "malware-method--93820bfa-d8e8-4a6c-b2f4-eab00e715751"
+        "B0001.023": "malware-method--21a323df-0a3d-453c-8618-2b7c1559d066"
     },
     "SearchAwesome": {
         "X0017": "malware--b2924e46-812f-491d-a441-b8571f7b221e"
     },
     "Section Misalignment": {
-        "B0002.023": "malware-method--b8ac16b0-3896-41b0-8573-b6d17ece61c3"
+        "B0002.023": "malware-method--092a2c0e-1c5a-422c-bbd4-4f2d593d1c8e"
     },
     "Secure Triggers": {
-        "B0025.005": "malware-method--a97d86fa-1f8d-4053-98ef-8e9b336f8a4c"
+        "B0025.005": "malware-method--5d93f320-bb2d-4950-9e1e-78ca2f357a9c"
     },
     "Self Check": {
-        "B0007.007": "malware-method--ed853a7c-3427-427c-887c-dc449690a473"
+        "B0007.007": "malware-method--489ede22-dc31-49ce-bc41-6b80b4a945ff"
     },
     "Self Deletion": {
-        "F0007": "malware-behavior--eb4ee065-753f-4302-b63c-0c75c3eb6a4d"
+        "F0007": "malware-behavior--422d1dc5-1037-4041-968d-e05716bd9dbc"
     },
     "Self Discovery": {
-        "B0038": "malware-behavior--357989d5-fbbd-46c6-b43e-0057bfa8a4fb"
+        "B0038": "malware-behavior--bf137d5e-f7c6-4850-b2f0-a0d307a35bb5"
     },
     "Self-Debugging": {
-        "B0002.024": "malware-method--8f26003e-cc64-4c62-a964-57e87c5b20fa"
+        "B0002.024": "malware-method--51105b32-892c-48a9-b5fa-1815405ddc0a"
     },
     "Self-Unmapping": {
-        "B0002.025": "malware-method--ef6a14b1-cd4c-4e27-95d6-a85826d686f8"
+        "B0002.025": "malware-method--e455eae3-92fd-4fe7-811a-5f0add3a56e9"
     },
     "Send Data": {
-        "B0030.001": "malware-method--f52bfd6d-ddfa-4552-b99b-8558d5eac711",
-        "C0001.007": "malware-method--714905f5-038c-4b03-82f7-3e290ab84743",
-        "C0002.005": "malware-method--9d13adf5-2774-4ea2-bbb1-ba8e8e3ca7ea"
+        "B0030.001": "malware-method--ac45e15e-b72c-4191-8e57-2e8b295089ec",
+        "C0001.007": "malware-method--a21456f1-c495-43b4-b161-f6e5a57a2db0",
+        "C0002.005": "malware-method--62acf419-1ac7-4b83-b140-d2299e60f7f4"
     },
     "Send Email": {
-        "B0020": "malware-behavior--2a7e2929-23d3-48bf-9b57-c5c902524d55"
+        "B0020": "malware-behavior--62ee0bca-ebe4-4448-b48a-6f7486c85ce3"
     },
     "Send File": {
-        "C0004.001": "malware-method--ee173cd2-a7c5-4794-82d7-c50f45ad7eb5"
+        "C0004.001": "malware-method--99449315-3506-4e8a-9f27-998edf6775b8"
     },
     "Send Heartbeat": {
-        "B0030.007": "malware-method--095d0e44-7eec-477b-870a-8723a58f6ad8"
+        "B0030.007": "malware-method--6f556b46-71d8-4ad6-a8b2-749cbe1ed077"
     },
     "Send Poisoned Text Message": {
-        "B0021": "malware-behavior--e2a9c4f1-4d44-487e-9225-9bc46eb9e347"
+        "B0021": "malware-behavior--b4c3f64e-4460-4b7a-961a-383f9e41f33f"
     },
     "Send Request": {
-        "C0002.003": "malware-method--c291cee5-5ea7-468a-8974-dc2624e7cbae"
+        "C0002.003": "malware-method--8b31170a-86ca-41c2-8122-55b99b0b4bf1"
     },
     "Send Response": {
-        "C0002.016": "malware-method--d64110a6-b465-472d-b0c7-fa3202c60a9d"
+        "C0002.016": "malware-method--c9f9ee57-2005-43bd-9a4e-e2b752e0fdbf"
     },
     "Send System Information": {
-        "B0030.006": "malware-method--5e658b0e-6fdc-40cd-8d65-b5f44d8637dd"
+        "B0030.006": "malware-method--f11c0974-12a0-4b5e-b1e6-3ae85e823d36"
     },
     "Send TCP Data": {
-        "C0001.014": "malware-method--afa8a3c3-440d-431e-ac57-cedeb033e04d"
+        "C0001.014": "malware-method--97241f4d-aaf2-4c41-829c-cde5b26b1397"
     },
     "Send UDP Data": {
-        "C0001.015": "malware-method--e0e821f4-d4e1-4062-83d5-234b7a56026c"
+        "C0001.015": "malware-method--fe7aa726-691a-453f-ba5d-1c0efa75addf"
     },
     "Server": {
-        "C0002.001": "malware-method--b2e065d8-2d8f-4b8b-9a8b-f952e3ef8e1b"
+        "C0002.001": "malware-method--68c3bd87-bc66-4273-9a68-8cb264e197c8"
     },
     "Server Connect": {
-        "C0011.002": "malware-method--8d2f6d63-16d3-4b1e-9a5c-2ea3cede8a96",
-        "C0012.001": "malware-method--1dc31cf4-f74e-42a9-bd76-29a464c303c0"
+        "C0011.002": "malware-method--c7ff511f-45e4-4261-967c-cedaebd4506c",
+        "C0012.001": "malware-method--23300597-28eb-4101-844b-ed82b7749eec"
     },
     "Server to Client File Transfer": {
-        "B0030.003": "malware-method--73a87642-8eeb-4309-82a8-8f4e88cf104a"
+        "B0030.003": "malware-method--7fd582e8-ae99-432b-9c1c-cd8e7e6802ce"
     },
     "Set File Attributes": {
-        "C0050": "malware-behavior--caf974bd-d499-4496-839f-eb235bb815df"
+        "C0050": "malware-behavior--daef78fb-254a-4a42-89c0-8ecd45a1fdcb"
     },
     "Set Header": {
-        "C0002.013": "malware-method--b64291e4-c45a-4453-b913-65dba7268a1a"
+        "C0002.013": "malware-method--80023b38-31f0-4b0e-bfe5-100a98cdea90"
     },
     "Set Registry Value": {
-        "C0036.001": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2"
+        "C0036.001": "malware-method--62b067e7-2d2b-4c24-b437-7002046c4ca2"
     },
     "Set Socket Config": {
-        "C0001.001": "malware-method--2e933ecd-9109-4f5a-8783-d0b5a0e8468c"
+        "C0001.001": "malware-method--487a5247-e354-43c3-b153-72ca019c1cb3"
     },
     "Set Thread Context": {
-        "C0072": "malware-behavior--760fc213-d22e-4721-924e-f87dfe6010ca"
+        "C0072": "malware-behavior--b33a1747-3d85-41cd-88ed-ee4a244f336b"
     },
     "Set Thread Local Storage Value": {
-        "C0041": "malware-behavior--f06be5c1-9fc5-44bd-8788-31785f8b4586"
+        "C0041": "malware-behavior--6213aa1a-2f39-4aa7-b378-55da35d0d72a"
     },
     "Set Variable": {
-        "C0034.001": "malware-method--81e76726-99f8-4cfc-834c-64459602c114"
+        "C0034.001": "malware-method--a1a42155-6f1b-4370-8933-8876de5d254f"
     },
     "SetHandleInformation": {
-        "B0001.024": "malware-method--65d246ed-b32a-4d51-b927-9f46d8ae2139"
+        "B0001.024": "malware-method--d9d4adb4-1e28-4e6c-b40d-c327e486855b"
     },
     "Shadow Process Communication": {
-        "B0010.003": "malware-method--6659277b-316f-4bea-90af-48c916d642af"
+        "B0010.003": "malware-method--268dc637-a454-416f-8c49-70efa0c554c2"
     },
     "Shadow System Service Dispatch Table Hooking": {
-        "F0015.004": "malware-method--1d7cdb30-875f-4237-9a30-e38dee4fbae8"
+        "F0015.004": "malware-method--a3fd3c56-db02-4408-825e-d896ace3f3ab"
     },
     "Shamoon": {
         "X0018": "malware--126fd545-8484-4d16-a8ac-7c20fb2c8b43"
     },
     "Shutdown": {
-        "B0011.004": "malware-method--68fb23e4-0cbf-4968-909b-aa307e9cd55f"
+        "B0011.004": "malware-method--ea761874-9990-40bc-a5f6-57d2a5a5a00c"
     },
     "Shutdown Event": {
-        "B0035": "malware-behavior--88057c6b-7be3-4e04-a610-d553598240ea"
+        "B0035": "malware-behavior--e0179d37-98ef-458d-bbbf-8a936dabaf4d"
     },
     "Simulate Hardware": {
-        "C0057": "malware-behavior--9e399bac-83b3-4cbd-865e-f04983c3c113"
+        "C0057": "malware-behavior--5c0fb504-e67a-4d55-9825-e32c4631f873"
     },
     "SizeOfImage": {
-        "B0006.004": "malware-method--fd78558c-1858-4087-83ad-2d8aae96c0f9"
+        "B0006.004": "malware-method--28d46042-c34c-4a27-812b-6c6bc989b151"
     },
     "Skipjack": {
-        "C0027.013": "malware-method--3d98ca18-c0fc-44b4-8c11-3e17e0cbba87",
-        "C0031.011": "malware-method--cd7b5f2f-8563-49a2-8048-c2862c12427a"
+        "C0027.013": "malware-method--75c9ebe2-6e6a-486e-a8c6-aaa340f9d787",
+        "C0031.011": "malware-method--46ab35b6-e820-4ea1-a3fb-19c1e21dc10a"
     },
     "Sleep": {
-        "B0011.005": "malware-method--dc11f3d3-9a4e-403b-b446-709e1239aee8"
+        "B0011.005": "malware-method--9b816b78-aec3-434c-b54f-50999474c45f"
     },
     "Snake": {
         "X0047": "malware--6f5e70fa-e2f9-4489-8f17-10321bdef5af"
     },
     "Snefru": {
-        "C0029.006": "malware-method--51794bf9-27a4-47b9-9568-082616857316"
+        "C0029.006": "malware-method--a701bddd-9f11-48ce-a1e6-39a78a553722"
     },
     "Socket Communication": {
-        "C0001": "malware-behavior--3b52f0b3-2898-47ec-87b7-f1b90999cc7a"
+        "C0001": "malware-behavior--7cd76f45-90ce-4264-a16e-7e6f3954a1da"
     },
     "Software Breakpoints": {
-        "B0001.025": "malware-method--ac288f75-352d-459a-9d0f-3dc8bc612052"
+        "B0001.025": "malware-method--bceb2144-6cc0-4dfb-ad9f-5d852a62f972"
     },
     "Software Packing": {
-        "F0001": "malware-behavior--06c60f10-a2e6-49dd-9ce4-fe36c51a11b8"
+        "F0001": "malware-behavior--baf18dd6-4e3d-4904-ab76-ccdb04414cc5"
     },
     "Sosemanuk": {
-        "C0027.008": "malware-method--516f85c6-e42f-4f15-91df-975b211b4292",
-        "C0031.012": "malware-method--dd9da605-1122-4b2f-a5bb-34e6244249d3"
+        "C0027.008": "malware-method--b1576d76-8a86-410b-a791-94665b7544e2",
+        "C0031.012": "malware-method--8bb9eff2-c562-458c-922d-0835e183589c"
     },
     "Spamming": {
-        "B0039": "malware-behavior--1be31bad-73cb-4537-abe8-43112d3d72ff"
+        "B0039": "malware-behavior--60d5de2c-c22a-4c71-ae41-79e9b37918c7"
     },
     "Stack Canary": {
-        "B0001.026": "malware-method--42f3cea9-3552-471f-b40b-b9a02654966c"
+        "B0001.026": "malware-method--85f7ca6d-2b9d-49a2-aa6e-5e3ade2f7c7b"
     },
     "Stack Pivot": {
-        "C0009": "malware-behavior--f4b47199-651b-4ae8-a29b-f0969d382c8a"
+        "C0009": "malware-behavior--e40622ac-5813-4f1f-b86e-e1e22a8994e1"
     },
     "Stack Strings": {
-        "B0032.017": "malware-method--b85df1c8-7a03-4ac8-b29c-a84cb80106bb"
+        "B0032.017": "malware-method--faf38832-efa2-4469-bfeb-644d6d5d7d0c"
     },
     "Standard Compression": {
-        "F0001.002": "malware-method--70c1a0c1-6e57-48a2-87bd-5cf172888e0d"
+        "F0001.002": "malware-method--8c7a1a80-a9f0-4b1a-8032-43251599fbf2"
     },
     "Standard Compression of Code": {
-        "F0001.003": "malware-method--568d182c-ac4c-4806-a27e-26f8558707c6"
+        "F0001.003": "malware-method--7a7d0b8c-bc6e-4e4e-9e7c-fb4330a5736c"
     },
     "Standard Compression of Data": {
-        "F0001.004": "malware-method--4d137832-7815-4d04-95d6-6e8c229b9bbc"
+        "F0001.004": "malware-method--5f8c6386-e2c2-4759-8451-43ea4f11f711"
     },
     "Start Interactive Shell": {
-        "B0030.016": "malware-method--0c2bbe11-f83b-4b11-bbcd-7e83efdb4759"
+        "B0030.016": "malware-method--23bf55eb-4046-4c21-affc-8504b93f8a2a"
     },
     "Start Server": {
-        "C0002.018": "malware-method--1a300b38-c1ee-499b-9407-d5dbb6b34f8c"
+        "C0002.018": "malware-method--742d3dae-4f77-46a4-9500-37a1657626cb"
     },
     "Start TCP Server": {
-        "C0001.005": "malware-method--e1127390-886a-4093-ade0-b79d7d3df40c"
+        "C0001.005": "malware-method--1a1fab73-71ac-476f-a567-8c7337953ba8"
     },
     "Static Linking": {
-        "B0002.026": "malware-method--c28bb677-4103-42d6-8b66-fc41f4be7e0c"
+        "B0002.026": "malware-method--0924e02f-9141-4458-84af-ec5fc2ca8daf"
     },
     "Static Public Library": {
-        "C0059.002": "malware-method--90b7a8fb-f7a5-4d9c-bfad-6d24017507d5"
+        "C0059.002": "malware-method--31618c02-63ee-4622-ae43-819743187b08"
     },
     "Steganography": {
-        "B0040.002": "malware-method--2525e7c9-5385-4136-aa9f-23284dbf8e96"
+        "B0040.002": "malware-method--052e9d55-3292-4454-9d19-e7e05166bf0d"
     },
     "Stolen API Code": {
-        "B0002.027": "malware-method--b66fe7c3-c673-4a2f-8e30-84d9580130f7"
+        "B0002.027": "malware-method--ec2a80b1-f7f5-42f5-baa2-90c1f054de9d"
     },
     "Stream Cipher": {
-        "C0027.012": "malware-method--0f5a651c-382b-4272-bf1a-83e308e45dac",
-        "C0031.013": "malware-method--0a0d1d5b-ad75-4b05-8914-61b77e1b8d4e"
+        "C0027.012": "malware-method--89e16704-fbec-48f5-9b01-ef2e8cd22642",
+        "C0031.013": "malware-method--c75e26eb-f643-48a1-88c1-02b4ea2cb6c2"
     },
     "Structured Exception Handling (SEH)": {
-        "B0032.016": "malware-method--4a4c043e-5681-4f7a-85f9-62ea9d5460a5"
+        "B0032.016": "malware-method--e9887fd2-ad14-4db5-9053-86a2a0ee5534"
     },
     "Stuxnet": {
         "X0019": "malware--695d06a7-4c91-4d98-8f8c-6360316a59e7"
     },
     "Suicide Exit": {
-        "B0025.001": "malware-method--855d9760-4220-475e-abe6-2c4e528a2490"
+        "B0025.001": "malware-method--07a03d69-ee23-475d-811e-9173ce4bb1b2"
     },
     "Supply Chain Compromise": {
-        "E1195": "malware-behavior--fbe3cb2d-0b41-4ada-9817-92d23016aafc"
+        "E1195": "malware-behavior--e21c5870-d0da-47dd-955d-1d85d2684a31"
     },
     "Suspend Thread": {
-        "C0055": "malware-behavior--c28adef6-2df9-41ce-8a65-716af5e96dce"
+        "C0055": "malware-behavior--e0359c68-a00a-4d65-936d-a70dc3c365d2"
     },
     "Symbol Obfuscation": {
-        "B0032.018": "malware-method--735dcc16-9dc6-47fa-b9b3-760b16b392ba"
-    },
-    "Synchronization": {
-        "C0022": "malware-behavior--ff38d99b-1ec3-4f6c-8864-a610faef6898"
+        "B0032.018": "malware-method--fe39f6aa-5b4e-425a-b10c-f6887d9166db"
     },
     "Sysinternals": {
-        "E1203.m05": "malware-method--af39c269-e15a-4135-aa5c-dacbad30aa52"
+        "E1203.m05": "malware-method--6126534b-605f-459e-8aee-710ffacf4795"
     },
     "System Information Discovery": {
-        "E1082": "malware-behavior--584dc938-3789-4e53-995e-f914dff31b71"
+        "E1082": "malware-behavior--8566b3b5-1606-4b25-bcd2-afc27504c980"
     },
     "System Service Dispatch Table Hooking": {
-        "F0015.005": "malware-method--392fb1f7-2fcb-4ee3-9f0a-2a89baf9adbf"
+        "F0015.005": "malware-method--fb555c1d-8ea6-4930-8a67-768c74dd8a18"
     },
     "System Services": {
-        "E1569": "malware-behavior--a0616b46-0e2d-417f-8cab-f28eb499a4f3"
+        "E1569": "malware-behavior--9c75f3e9-d101-490d-8d5d-b9e660d1b8f6"
     },
     "TCP Client": {
-        "C0001.008": "malware-method--beb8728c-0659-4153-a975-71a12c1d1edc"
+        "C0001.008": "malware-method--862dee86-de42-4cee-ad19-8b5dc192f94b"
     },
     "TCP Server": {
-        "C0001.002": "malware-method--b92242ee-3b03-4958-8736-abacfee3318c"
+        "C0001.002": "malware-method--24c9fbc6-e6dd-4d02-bcdb-de1a3b5e1168"
     },
     "TEARDROP": {
         "X0041": "malware--5a7c1fef-d269-488a-85b2-8751418ff707"
     },
     "TIB Aware": {
-        "B0001.027": "malware-method--84509418-3e98-4036-88f5-2daebc637f38"
+        "B0001.027": "malware-method--62729492-c438-4490-b008-fe1df92b977f"
     },
     "TLS Callbacks": {
-        "B0001.029": "malware-method--0ec65e86-cd5a-4278-808d-2c8b14b519b1"
+        "B0001.029": "malware-method--f5261a0d-7447-49e4-8a52-c7e797cc7b4b"
     },
     "Tampering": {
-        "B0002.028": "malware-method--30f03a46-8724-4490-a9dc-a3e7f6617dcd",
-        "B0006.005": "malware-method--8d924342-9375-4b3b-a82a-8d12030c42aa"
+        "B0002.028": "malware-method--f5b2de11-9b87-4fe7-92f7-b056ab2ac73e",
+        "B0006.005": "malware-method--24f6a59c-adb8-4cc0-b038-9c04bfc676df"
     },
     "Taskbar Discovery": {
-        "B0043": "malware-behavior--1170d45b-dda8-455b-a993-dd13d5a3ebcd"
+        "B0043": "malware-behavior--f1367cf9-1bef-4072-817e-ea65ac5a454c"
     },
     "Terminate Process": {
-        "C0018": "malware-behavior--52a18e74-ab5d-401d-a48c-37d84ece4896"
+        "C0018": "malware-behavior--b7204714-c637-47f0-bf34-491a6c244aca"
     },
     "Terminate Thread": {
-        "C0039": "malware-behavior--77177af6-f74b-46b3-949b-d22c16fc74fd"
+        "C0039": "malware-behavior--d000e451-385d-4e29-a385-3d2a794d06dd"
     },
     "Terminator": {
         "X0021": "malware--fdec4701-4623-4ec5-94ff-30c3e92620d4"
     },
     "Test API Routines": {
-        "B0007.010": "malware-method--34024afc-efbd-44de-8870-ed2db9239fc8"
+        "B0007.010": "malware-method--ecd9432f-622e-45e8-a5ef-2b34b7e29139"
     },
     "Themida": {
-        "F0001.011": "malware-method--05ffdcb1-61a3-4876-a3af-44f79ff84e0f"
+        "F0001.011": "malware-method--2fb4e18d-1dfa-43e0-90e8-8558cb5d562e"
     },
     "Thread Execution Hijacking": {
-        "E1055.003": "malware-method--da41390c-04f6-4677-91e2-326a9b1d8b68"
+        "E1055.003": "malware-method--d530b576-4afb-4973-924f-68e53d7dd80b"
     },
     "Thread Timeout": {
-        "B0002.029": "malware-method--80c82a22-b8e8-4d41-85f2-04ee0b5b9a93"
+        "B0002.029": "malware-method--46e7b622-bd92-46f7-8894-761284652d47"
     },
     "Thunk Code Insertion": {
-        "B0032.006": "malware-method--3451a003-de10-4941-a710-9ee9c23c5b05"
+        "B0032.006": "malware-method--d414ce7b-e560-4f38-ae4c-ef5df021afb1"
     },
     "Tiger": {
-        "C0029.005": "malware-method--a6dfd5c7-a18f-4b59-aa65-fa6f6772bbe7"
+        "C0029.005": "malware-method--ae2d06e3-e6e0-4b68-9e97-d504124c227d"
     },
     "Timestamp": {
-        "F0005.004": "malware-method--b55996c4-2d03-4542-b733-fbf606fed20f"
+        "F0005.004": "malware-method--83835bd7-eda1-49c8-bbcf-03f7a96a6486"
     },
     "Timing/Date Check": {
-        "B0007.008": "malware-method--4b1fe52b-91db-47b5-a9c8-c3310a5eb04c"
+        "B0007.008": "malware-method--16fd6c60-5bfd-426f-ab77-87cea927276d"
     },
     "Timing/Delay Check": {
-        "B0001.028": "malware-method--1e01fd5f-c043-4123-98c6-c18e8f285777"
+        "B0001.028": "malware-method--f57b62a2-1190-47b3-8a37-c38900c9913f"
     },
     "Timing/Delay Check GetTickCount": {
-        "B0001.032": "malware-method--5133f892-8ecb-4502-bec6-c4a62d641a9b"
+        "B0001.032": "malware-method--6fab3114-c43f-49db-b8ef-478b7b81f6c7"
     },
     "Timing/Delay Check QueryPerformanceCounter": {
-        "B0001.033": "malware-method--d68a5e9c-0ca4-4cc5-a9ad-856f21fb2b56"
+        "B0001.033": "malware-method--7bc69490-a13c-4fa4-9aba-fe882804d9f6"
     },
     "Timing/Uptime Check": {
-        "B0007.009": "malware-method--4b5c22e1-820f-4e19-9ed1-a54507d82a22"
+        "B0007.009": "malware-method--34f72675-39a9-4c21-a945-258b5a0ba31e"
     },
     "Token Check": {
-        "B0025.006": "malware-method--efce34e7-bac1-4d20-bac8-491a9169df4d"
+        "B0025.006": "malware-method--b808de06-bb57-42c9-90e2-8f2afd1f6890"
     },
     "TrickBot": {
         "X0025": "malware--279171d8-134e-4fef-85f9-d4d2eb1639cb"
     },
     "Two-layer Function Return": {
-        "B0010.001": "malware-method--cac98a7a-41d9-434d-b6b3-518baafc0bb3"
+        "B0010.001": "malware-method--8d51e3a0-204e-42fa-9a67-1f3710d70a81"
     },
     "Twofish": {
-        "C0027.005": "malware-method--e3e76b72-4e03-434e-b817-345b07479c83",
-        "C0031.014": "malware-method--c5cb555e-a34c-4b15-8d8e-1698f8f933de"
+        "C0027.005": "malware-method--174ff21e-67c5-4b47-ba25-770241c2977f",
+        "C0031.014": "malware-method--411db098-d4aa-44ab-ae51-0433a375fab8"
     },
     "UDP Client": {
-        "C0001.013": "malware-method--02d02ea0-408e-4f4e-95ef-f9b18f147a32"
+        "C0001.013": "malware-method--224e539b-8e81-4c5b-8d95-c29aad771ed5"
     },
     "UP007": {
         "X0033": "malware--7a9aa9af-a386-4d3d-8140-5495063788ee"
     },
     "UPX": {
-        "F0001.008": "malware-method--2e560ec5-5cd3-4d26-bb2b-0a6c1bfe938f"
+        "F0001.008": "malware-method--46bbc316-24e9-4525-994b-2d646ec78efd"
     },
     "Undocumented/Unimplemented Opcodes": {
-        "B0005.002": "malware-method--3a2768f1-db06-4f09-a1d6-906e004ec03e"
+        "B0005.002": "malware-method--3244905a-1cec-4490-9b7a-087187957172"
     },
     "UnhandledExceptionFilter": {
-        "B0001.030": "malware-method--8024da4d-371a-4515-9f7f-63a5a3930c37"
+        "B0001.030": "malware-method--abf13f29-fa77-4d11-8837-dfff89fd9641"
     },
     "Unhook APIs": {
-        "F0004.003": "malware-method--93d9895f-056d-4164-bb37-4afd90ec5a94"
+        "F0004.003": "malware-method--324abbd5-91bf-43d1-9c29-b8b42574a086"
     },
     "Uninstall": {
-        "B0011.006": "malware-method--dc152e86-20c2-45c4-a137-54359da320f1"
+        "B0011.006": "malware-method--2536a813-f45e-4e8f-9982-664b85434e62"
     },
     "Unique Hardware/Firmware Check": {
-        "B0009.023": "malware-method--3c1f7359-2ba3-4905-a453-e29a55d7996a"
+        "B0009.023": "malware-method--4591644e-ec36-4dcf-8220-1471257c78e4"
     },
     "Unique Hardware/Firmware Check - BIOS": {
-        "B0009.024": "malware-method--eea931dc-c691-4dc9-92dd-86ca29cc4289"
+        "B0009.024": "malware-method--984854da-3136-4221-b4a7-1dff456fe2fa"
     },
     "Unique Hardware/Firmware Check - CPU Location": {
-        "B0009.027": "malware-method--429db320-0ea3-4fe7-b7d4-339037b8d510"
+        "B0009.027": "malware-method--292465ef-cc2a-493a-89e2-75c6f7510604"
     },
     "Unique Hardware/Firmware Check - CPU Name": {
-        "B0009.026": "malware-method--58baeb04-f688-45dc-a95e-6dc7cc4fac9e"
+        "B0009.026": "malware-method--90f5362b-bd41-45be-9f67-3f60b4468cfa"
     },
     "Unique Hardware/Firmware Check - I/O Communication Port": {
-        "B0009.025": "malware-method--f692a14c-9855-4704-a471-55457badf080"
+        "B0009.025": "malware-method--4189567d-0645-47c8-a2c8-a6c7c97d1a2f"
     },
     "Unique Hardware/Firmware Check - MAC Address": {
-        "B0009.028": "malware-method--610e10e9-530f-4871-9f31-2548e10d2d01"
+        "B0009.028": "malware-method--68ecd220-4974-43c1-989c-2e74d9ca7ded"
     },
     "Unmap Section View": {
-        "C0070": "malware-behavior--0c69988f-1e72-45f7-bce4-2977341dd4b3"
+        "C0070": "malware-behavior--f19d1cc6-379c-4cb8-9027-9c6462b58750"
     },
     "Unusual/Undocumented API Calls": {
-        "B0005.003": "malware-method--e7d0423f-1093-4b70-9ed9-fce26d9827cf"
+        "B0005.003": "malware-method--5ae6d4ec-94db-4898-87a6-d16e7153bb98"
     },
     "Upload File": {
-        "B0011.007": "malware-method--b03bbd3e-fa55-4f0d-822e-791fe55ee28e"
+        "B0011.007": "malware-method--04c513d2-ab37-4fb5-bc4e-8912e9cbaf5f"
     },
     "Ursnif": {
         "X0022": "malware--3227f4aa-415d-459c-b04c-8460c3a6437e"
     },
     "Use API": {
-        "C0021.003": "malware-method--1de80818-0c49-4de7-a85e-5ef660bafd17"
+        "C0021.003": "malware-method--3edc93c1-823e-4a28-bc3b-d4afd2802f49"
     },
     "Use Constant": {
-        "C0020": "malware-behavior--bdd238aa-9ec7-417e-a889-cdd5b927297d"
+        "C0020": "malware-behavior--25b49a9c-b286-47a3-902c-7f0b46eb014c"
     },
     "Use Hashquine": {
-        "B0038.001": "malware-method--58e0b5cb-da6e-40c8-a2d3-832526541c70"
+        "B0038.001": "malware-method--f6c761e9-ed83-4f50-a6cc-85e14935fffa"
     },
     "Use Interrupts": {
-        "B0002.030": "malware-method--5e01ed0b-3f7a-4274-b903-22996f99284c"
+        "B0002.030": "malware-method--f577d4b4-e91b-4d27-848a-74448b518825"
     },
     "User Execution": {
-        "E1204": "malware-behavior--72862ee1-28ff-4c5e-ae11-ca52c681d1b3"
+        "E1204": "malware-behavior--927fa3c2-6fd0-46ca-b646-e1ba265e537c"
     },
     "VBA Stomping": {
-        "B0012.005": "malware-method--003f24ad-340c-4fd8-b6f0-db871bae3138"
+        "B0012.005": "malware-method--e4774b42-54d6-4d69-88ef-8e17a10af977"
     },
     "VMProtect": {
-        "F0001.010": "malware-method--df0c655c-74c8-417c-8e83-24da64e8be89"
+        "F0001.010": "malware-method--6ba9a574-56f1-4cec-b5ae-9928cc4b93de"
     },
     "Value Dependent Jumps": {
-        "B0012.003": "malware-method--7513ab06-30b7-4204-9131-173c133f1dc7"
+        "B0012.003": "malware-method--dbdbf50e-9612-4222-9de8-29bbedbb7857"
     },
     "Variable Recomposition": {
-        "B0032.021": "malware-method--4459fa62-0896-412a-9ab0-beb1b84126a3"
+        "B0032.021": "malware-method--d599092b-3879-464b-9d48-a8ef5be8ce2f"
     },
     "Virtual Machine Detection": {
-        "B0009": "malware-behavior--8d21a9e4-bf53-43aa-81fd-c3f72c12f7b3"
+        "B0009": "malware-behavior--22588a41-a00f-4f3a-9c93-31fa61ab8171"
     },
     "Vobfus": {
         "X0039": "malware--76b3b57d-d6a2-489c-a9bb-8d4c73f2f290"
     },
     "Wallpaper": {
-        "C0035": "malware-behavior--23ac0454-6207-4657-a526-dee901c6ff7b"
+        "C0035": "malware-behavior--8740155f-6ef4-4bcb-9c9c-8304fd773b23"
     },
     "WannaCry": {
         "X0043": "malware--b2e84cdc-8eef-42f3-9f27-a4587787f52a"
@@ -3142,57 +3109,57 @@
         "X0023": "malware--f2e49fb4-f22a-4ca3-b9a8-fc000b2b3d5e"
     },
     "WinAPI": {
-        "E1113.m01": "malware-method--0db352f5-165e-46b7-b918-febfb5376439"
+        "E1113.m01": "malware-method--125ae107-e1b4-4a86-8309-8d028869515a"
     },
     "WinHTTP": {
-        "C0002.008": "malware-method--d7c2b07a-e9e6-462f-a3c0-fd7db1bb2e4c"
+        "C0002.008": "malware-method--ae5218cf-e78f-4b31-a47d-c059849f381c"
     },
     "WinINet": {
-        "C0002.007": "malware-method--d20b288c-11cc-48cc-9526-c6cefe7739ee",
-        "C0004.002": "malware-method--623960e0-fba7-40ff-948a-8c7c49583ecb",
-        "C0005": "malware-behavior--57f26c06-94cd-46d4-b944-9debbac1f0e0"
+        "C0002.007": "malware-method--ec5c604a-e033-4e32-90bb-47fa2af4e639",
+        "C0004.002": "malware-method--367bf9b7-e144-4d82-8a3b-341fe502e9b0",
+        "C0005": "malware-behavior--e74a1467-dbc8-401f-907c-f4d50181d8e3"
     },
     "Window Text": {
-        "E1010.m01": "malware-method--e83a38e5-6849-4683-9185-d7a34c6b1940"
+        "E1010.m01": "malware-method--a2f97624-e56f-4963-9ce3-3a419b1b99e7"
     },
     "Windows Utilities": {
-        "E1203.m06": "malware-method--269f745e-a6fc-434a-8a82-7248a1dd9955"
+        "E1203.m06": "malware-method--9804c548-a573-4d72-a7ad-5c0f4c9da8d4"
     },
     "Write Pipe": {
-        "C0003.004": "malware-method--66de65ba-2b85-4bce-a301-34eb74b6d057"
+        "C0003.004": "malware-method--238ff78f-1d1b-4dc3-aed3-0b79a8940dde"
     },
     "Write Process Memory": {
-        "C0071": "malware-behavior--f66ad53f-9569-4561-b7ab-84a532663601"
+        "C0071": "malware-behavior--d5f0fbaf-f2ee-41c9-81d1-9a6b602ecfca"
     },
     "Writes File": {
-        "C0052": "malware-behavior--7cc1a672-d56d-4b3d-915f-e3845b24ef97"
+        "C0052": "malware-behavior--55c9dce2-748f-4a6f-9233-d773b24270ee"
     },
     "WudfIsAnyDebuggerPresent": {
-        "B0001.031": "malware-method--d575197c-ba13-4570-ada1-4d5f3a416484"
+        "B0001.031": "malware-method--9a73229e-5026-4a43-b7d1-e1f1e6079c47"
     },
     "XOR": {
-        "C0026.002": "malware-method--5b9b89c1-f729-4f55-bb5d-cdf4a126820c",
-        "C0053.002": "malware-method--50cb3a45-bb76-4483-a134-6f6312d44c92"
+        "C0026.002": "malware-method--aa729bd6-2e89-4cf6-a9ce-9a2c9be60e37",
+        "C0053.002": "malware-method--e6fc0237-f590-4031-99a1-b309510ebc4c"
     },
     "YiSpecter": {
         "X0024": "malware--0a538d20-0f51-411f-bb26-1aee555078d0"
     },
     "Zcash": {
-        "B0028.003": "malware-method--ad7c384c-c6d1-4fe5-92e0-0d36750a1cb3"
+        "B0028.003": "malware-method--70ce9d3e-c703-4846-b1bb-8a188e0a271c"
     },
     "aPLib": {
-        "C0025.003": "malware-method--6ad60376-4ed0-4f74-837d-757063c2cabb"
+        "C0025.003": "malware-method--066c30a0-5d90-4265-abc2-15144207cea7"
     },
     "dhash": {
-        "C0030.004": "malware-method--ba7da026-7f8e-43f5-a1e6-cb229c123bba"
+        "C0030.004": "malware-method--9215bb2f-c038-42c2-b288-d581b927979f"
     },
     "djb2": {
-        "C0030.006": "malware-method--3bb9066e-9e02-46af-96b3-66365230e130"
+        "C0030.006": "malware-method--5f224d45-8af0-4110-ad51-2a1d9e6c74cc"
     },
     "pHash": {
-        "C0030.002": "malware-method--f3198137-808f-4847-95e3-36fd4d26b1ea"
+        "C0030.002": "malware-method--b582e6be-4943-4a47-9a50-c165fb80c7eb"
     },
     "rand": {
-        "C0021.002": "malware-method--f717db53-b6b4-434f-b1e4-33773ec13e24"
+        "C0021.002": "malware-method--ea0f8b65-2ed3-47a8-8580-02857576e591"
     }
 }

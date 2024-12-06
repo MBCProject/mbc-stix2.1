@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--64340357-a7b8-42c1-840b-afe7b4af3209",
+    "id": "bundle--5e7055c3-4158-42bc-b6eb-8bf5d97c3eae",
     "objects": [
         {
             "type": "extension-definition",
@@ -11,7 +11,7 @@
             "modified": "2023-03-12T10:12:00.000Z",
             "name": "Malware Behavior Extension for the Malware Object",
             "description": "An extension to support MBC (Malware Behavior Catalog) for Malware SDO",
-            "schema": "https://github.com/oasis-open/cti-stix-common-objects/blob/fix-malware-artifact/extension-definition-specifications/malware-behavior-8e9/extension-definition--d57b7c9c-7fa6-436b-b82c-8e6f69cdc3d0.json",
+            "schema": "https://raw.githubusercontent.com/oasis-open/cti-stix-common-objects/refs/heads/fix-malware-artifact/extension-definition-specifications/malware-behavior-8e9/extension-definition--8e9e338f-c9ee-4d4f-8cac-85b4dcfdf3c1.json",
             "version": "1.0.0",
             "extension_types": [
                 "property-extension"
@@ -26,7 +26,7 @@
             "modified": "2023-09-27T10:12:00.000Z",
             "name": "Malware Behavior Extension",
             "description": "This schema defines new SDOs to capture malware behaviors.",
-            "schema": "https://github.com/oasis-open/cti-stix-common-objects/blob/fix-malware-artifact/extension-definition-specifications/malware-behavior-8e9/extension-definition--d57b7c9c-7fa6-436b-b82c-8e6f69cdc3d0.json",
+            "schema": "https://raw.githubusercontent.com/oasis-open/cti-stix-common-objects/refs/heads/fix-malware-artifact/extension-definition-specifications/malware-behavior-8e9/extension-definition--d57b7c9c-7fa6-436b-b82c-8e6f69cdc3d0.json",
             "version": "1.0.0",
             "extension_types": [
                 "new-sdo"

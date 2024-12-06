@@ -1,6 +1,6 @@
 {
     "type": "bundle",
-    "id": "bundle--53f2ffb9-36c7-4da8-91b3-ae77341573be",
+    "id": "bundle--c70dd013-905d-4594-b7cb-7efa5838f0c4",
     "objects": [
         {
             "type": "extension-definition",
@@ -11,7 +11,7 @@
             "modified": "2023-03-12T10:12:00.000Z",
             "name": "Malware Behavior Extension for the Malware Object",
             "description": "An extension to support MBC (Malware Behavior Catalog) for Malware SDO",
-            "schema": "https://raw.githubusercontent.com/oasis-open/cti-stix-common-objects/main/extension-definition-specifications/malware-behavior/extension-definition--8e9e338f-c9ee-4d4f-8cac-85b4dcfdf3c1.json",
+            "schema": "https://raw.githubusercontent.com/oasis-open/cti-stix-common-objects/refs/heads/main/extension-definition-specifications/malware-behavior-8e9/extension-definition--8e9e338f-c9ee-4d4f-8cac-85b4dcfdf3c1.json",
             "version": "1.0.0",
             "extension_types": [
                 "property-extension"
@@ -26,7 +26,7 @@
             "modified": "2023-09-27T10:12:00.000Z",
             "name": "Malware Behavior Extension",
             "description": "This schema defines new SDOs to capture malware behaviors.",
-            "schema": "https://raw.githubusercontent.com/oasis-open/cti-stix-common-objects/main/extension-definition-specifications/malware-behavior/extension-definition--d57b7c9c-7fa6-436b-b82c-8e6f69cdc3d0.json",
+            "schema": "https://raw.githubusercontent.com/oasis-open/cti-stix-common-objects/refs/heads/main/extension-definition-specifications/malware-behavior-8e9/extension-definition--d57b7c9c-7fa6-436b-b82c-8e6f69cdc3d0.json",
             "version": "1.0.0",
             "extension_types": [
                 "new-sdo"
@@ -32748,18 +32748,25 @@
                         "InternetOpenUrlA"
                     ],
                     "class": "NemtyNetworkActivity",
-                    "detect_ref": "malware-method--ae3d250f-4eb5-42bd-bc8a-006683d8681d",
-                    "rule_name": "ransomware_nemty",
+                    "rule_name": "nemty_network_activity",
                     "rule_type": "cape",
                     "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/ransomware_nemty.py"
                 },
                 {
                     "api_fncs": [
-                        "InternetOpenA",
+                        "InternetOpenA"
+                    ],
+                    "detect_ref": "malware-method--ae3d250f-4eb5-42bd-bc8a-006683d8681d",
+                    "rule_name": "nemty_network_activity",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/ransomware_nemty.py"
+                },
+                {
+                    "api_fncs": [
                         "InternetOpenUrlA"
                     ],
                     "detect_ref": "malware-method--5040a7ce-5d97-4123-8abe-85f3ab72a9a9",
-                    "rule_name": "ransomware_nemty",
+                    "rule_name": "nemty_network_activity",
                     "rule_type": "cape",
                     "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/ransomware_nemty.py"
                 },
@@ -32768,9 +32775,9 @@
                         "InternetCrackUrlW",
                         "InternetCrackUrlA"
                     ],
-                    "rule_name": "powershell_command",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/powershell_command.py",
-                    "rule_type": "cape"
+                    "rule_name": "powershell_network_connection",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/powershell_command.py"
                 }
             ],
             "extensions": {
@@ -32821,8 +32828,8 @@
                         "System.Net.Sockets.TcpListener::BeginAcceptSocket",
                         "System.Net.Sockets.TcpListener::AcceptSocketAsync"
                     ],
-                    "detect_ref": "malware-method--e1127390-886a-4093-ade0-b79d7d3df40c",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--e1127390-886a-4093-ade0-b79d7d3df40c",
                     "rule_name": "start TCP server",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/tcp/serve/start-tcp-server.yml"
                 },
@@ -32830,8 +32837,8 @@
                     "api_fncs": [
                         "System.Net.Sockets.TcpClient::ctor"
                     ],
-                    "detect_ref": "malware-method--beb8728c-0659-4153-a975-71a12c1d1edc",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--beb8728c-0659-4153-a975-71a12c1d1edc",
                     "rule_name": "act as TCP client",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/tcp/client/act-as-tcp-client.yml"
                 },
@@ -32840,8 +32847,8 @@
                         "select",
                         "ws2_32.select"
                     ],
-                    "detect_ref": "malware-method--43e8a8e9-9d9f-4f87-8427-9d0e57e04ee1",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--43e8a8e9-9d9f-4f87-8427-9d0e57e04ee1",
                     "rule_name": "get socket status",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/get-socket-status.yml"
                 },
@@ -32852,8 +32859,8 @@
                         "WSASocketA",
                         "WSASocketW"
                     ],
-                    "detect_ref": "malware-method--fbcb6a5b-1877-441e-b475-7d2dcaef21c6",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--fbcb6a5b-1877-441e-b475-7d2dcaef21c6",
                     "rule_name": "create raw socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/create-raw-socket.yml"
                 },
@@ -32864,8 +32871,8 @@
                         "setsockopt",
                         "ioctlsocket"
                     ],
-                    "detect_ref": "malware-method--2e933ecd-9109-4f5a-8783-d0b5a0e8468c",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--2e933ecd-9109-4f5a-8783-d0b5a0e8468c",
                     "rule_name": "set socket configuration",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/set-socket-configuration.yml"
                 },
@@ -32876,8 +32883,8 @@
                         "socket",
                         "ioctl"
                     ],
-                    "detect_ref": "malware-method--fbcb6a5b-1877-441e-b475-7d2dcaef21c6",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--fbcb6a5b-1877-441e-b475-7d2dcaef21c6",
                     "rule_name": "create VMCI socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/create-vmci-socket.yml"
                 },
@@ -32886,8 +32893,8 @@
                         "ws2_32.WSAStartup",
                         "WSAStartup"
                     ],
-                    "detect_ref": "malware-method--07bb97c0-853e-4c60-b5a7-b2f3a0f87d71",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--07bb97c0-853e-4c60-b5a7-b2f3a0f87d71",
                     "rule_name": "initialize Winsock library",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/initialize-winsock-library.yml"
                 },
@@ -32903,8 +32910,8 @@
                         "setsockopt",
                         "bind"
                     ],
-                    "detect_ref": "malware-method--a542d817-549d-4dd8-b69a-8ab4e970c55d",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--a542d817-549d-4dd8-b69a-8ab4e970c55d",
                     "rule_name": "connect TCP socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/tcp/connect-tcp-socket.yml"
                 },
@@ -32917,8 +32924,8 @@
                         "WSASocketW",
                         "System.Net.Sockets.Socket::ctor"
                     ],
-                    "detect_ref": "malware-method--26b8b64e-980e-4927-bdde-c56b5dfba1ff",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--26b8b64e-980e-4927-bdde-c56b5dfba1ff",
                     "rule_name": "create TCP socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/tcp/create-tcp-socket.yml"
                 },
@@ -32929,8 +32936,8 @@
                         "NtDeviceIoControlFile",
                         "kernel32.WaitForSingleObject"
                     ],
-                    "detect_ref": "malware-method--26b8b64e-980e-4927-bdde-c56b5dfba1ff",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--26b8b64e-980e-4927-bdde-c56b5dfba1ff",
                     "rule_name": "create TCP socket via raw AFD driver",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/tcp/create-tcp-socket-via-raw-afd-driver.yml"
                 },
@@ -32939,8 +32946,8 @@
                         "WSAIoctl",
                         "WSAGetLastError"
                     ],
-                    "detect_ref": "malware-method--afa8a3c3-440d-431e-ac57-cedeb033e04d",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--afa8a3c3-440d-431e-ac57-cedeb033e04d",
                     "rule_name": "obtain TransmitPackets callback function via WSAIoctl",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/tcp/send/obtain-transmitpackets-callback-function-via-wsaioctl.yml"
                 },
@@ -32948,8 +32955,8 @@
                     "api_fncs": [
                         "fwpkclnt.FwpsStreamInjectAsync0"
                     ],
-                    "detect_ref": "malware-method--afa8a3c3-440d-431e-ac57-cedeb033e04d",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--afa8a3c3-440d-431e-ac57-cedeb033e04d",
                     "rule_name": "send TCP data via WFP API",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/tcp/send/send-tcp-data-via-wfp-api.yml"
                 },
@@ -32963,8 +32970,8 @@
                         "System.Net.Sockets.Socket::ctor",
                         "System.Net.Sockets.UdpClient::ctor"
                     ],
-                    "detect_ref": "malware-method--5dc6357a-ecb9-4340-951d-0242afb3ce0f",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--5dc6357a-ecb9-4340-951d-0242afb3ce0f",
                     "rule_name": "create UDP socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/udp/send/create-udp-socket.yml"
                 },
@@ -32985,8 +32992,8 @@
                         "System.Net.Sockets.Socket::SendToAsync",
                         "System.Net.Sockets.UdpClient::Send"
                     ],
-                    "detect_ref": "malware-method--714905f5-038c-4b03-82f7-3e290ab84743",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--714905f5-038c-4b03-82f7-3e290ab84743",
                     "rule_name": "send data on socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/send/send-data-on-socket.yml"
                 },
@@ -33017,16 +33024,16 @@
                         "System.Net.Sockets.Socket::EndReceiveFrom",
                         "System.Net.Sockets.Socket::EndReceiveMessageFrom"
                     ],
-                    "detect_ref": "malware-method--708e1fd9-d9fe-4d9a-9b72-d1e72ff3a1b3",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--708e1fd9-d9fe-4d9a-9b72-d1e72ff3a1b3",
                     "rule_name": "receive data on socket",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/socket/receive/receive-data-on-socket.yml"
                 },
                 {
                     "class": "NetworkExcessiveUDP",
                     "rule_name": "network_excessive_udp",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/all/network_excessive_udp.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/all/network_excessive_udp.py"
                 },
                 {
                     "api_fncs": [
@@ -33034,24 +33041,24 @@
                         "bind"
                     ],
                     "rule_name": "network_bind",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_bind.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_bind.py"
                 },
                 {
                     "api_fncs": [
                         "send"
                     ],
-                    "rule_name": "rat_blackremote",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/rat_blackremote.py",
-                    "rule_type": "cape"
+                    "rule_name": "blackrat_network_activity",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/rat_blackremote.py"
                 },
                 {
                     "api_fncs": [
                         "send"
                     ],
-                    "rule_name": "rat_oblique",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/rat_oblique.py",
-                    "rule_type": "cape"
+                    "rule_name": "obliquerat_network_activity",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/rat_oblique.py"
                 }
             ],
             "extensions": {
@@ -33521,8 +33528,8 @@
                         "ntdll.RtlCreateUserProcess",
                         "System.Diagnostics.Process::Start"
                     ],
-                    "rule_name": "create process on Windows",
                     "rule_type": "capa",
+                    "rule_name": "create process on Windows",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/create/create-process-on-windows.yml"
                 },
                 {
@@ -33539,8 +33546,8 @@
                         "popen",
                         "fork"
                     ],
-                    "rule_name": "create process on Linux",
                     "rule_type": "capa",
+                    "rule_name": "create process on Linux",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/create/create-process-on-linux.yml"
                 },
                 {
@@ -33550,8 +33557,8 @@
                         "wsystem",
                         "_wsystem"
                     ],
-                    "rule_name": "execute command",
                     "rule_type": "capa",
+                    "rule_name": "execute command",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/create/execute-command.yml"
                 },
                 {
@@ -33564,8 +33571,8 @@
                         "kernel32.GetStartupInfo",
                         "System.Diagnostics.Process::Start"
                     ],
-                    "rule_name": "create a process with modified I/O handles and window",
                     "rule_type": "capa",
+                    "rule_name": "create a process with modified I/O handles and window",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/create/create-a-process-with-modified-io-handles-and-window.yml"
                 },
                 {
@@ -33573,8 +33580,8 @@
                         "kernel32.CreateProcess",
                         "advapi32.CreateProcessAsUser"
                     ],
-                    "detect_ref": "malware-method--ffaac7f4-a791-4e39-8889-f2bb17a0fbc8",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--ffaac7f4-a791-4e39-8889-f2bb17a0fbc8",
                     "rule_name": "create process suspended",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/create/create-process-suspended.yml"
                 },
@@ -33593,17 +33600,26 @@
                         "CreateProcessInternalW",
                         " NtCreateUserProcess"
                     ],
-                    "rule_name": "stack_pivot",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/stack_pivot.py",
-                    "rule_type": "cape"
+                    "rule_name": "stack_pivot_process_create",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/stack_pivot.py"
                 },
                 {
                     "api_fncs": [
                         " CreateProcessInternalW",
                         "NtCreateUserProcess"
                     ],
+                    "rule_name": "wmi_create_process",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/wmi.py"
+                },
+                {
+                    "api_fncs": [
+                        " CreateProcessInternalW",
+                        "NtCreateUserProcess"
+                    ],
+                    "rule_name": "wmi_create_process",
                     "detect_ref": "malware-method--41fdd942-37ff-4caa-8f04-f0ea86a631b0",
-                    "rule_name": "wmi",
                     "rule_type": "cape",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/wmi.py"
                 },
@@ -33612,9 +33628,9 @@
                         "CreateProcessInternalW",
                         "NtCreateUserProcess"
                     ],
-                    "rule_name": "script_downloader",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/script_downloader.py",
-                    "rule_type": "cape"
+                    "rule_name": "script_created_process",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/script_downloader.py"
                 }
             ],
             "extensions": {
@@ -34209,8 +34225,8 @@
                         "crypt32.CryptStringToBinary",
                         "crypt32.CryptDecodeObjectEx"
                     ],
-                    "detect_ref": "malware-method--a288aff3-3a6b-49f7-a3ee-bb982d8638ca",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--a288aff3-3a6b-49f7-a3ee-bb982d8638ca",
                     "rule_name": "import public key",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/import-public-key.yml"
                 },
@@ -34218,14 +34234,14 @@
                     "api_fncs": [
                         "advapi32.CryptAcquireContext"
                     ],
-                    "rule_name": "create new key via CryptAcquireContext",
                     "rule_type": "capa",
+                    "rule_name": "create new key via CryptAcquireContext",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/create-new-key-via-cryptacquirecontext.yml"
                 },
                 {
                     "detect_ref": "malware-method--e77b4c80-cb3e-4f53-85f4-6f7fc12dfbd0",
-                    "rule_name": "encrypt data using RC4 KSA",
                     "rule_type": "capa",
+                    "rule_name": "encrypt data using RC4 KSA",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/rc4/encrypt-data-using-rc4-ksa.yml"
                 },
                 {
@@ -34238,7 +34254,7 @@
                         "CryptEncrypt"
                     ],
                     "class": "MassDataEncryption",
-                    "rule_name": "ransomware_crypto",
+                    "rule_name": "mass_data_encryption",
                     "rule_type": "cape",
                     "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/ransomware_crypto.py"
                 },
@@ -34247,9 +34263,9 @@
                         "CryptGenKey",
                         "CryptExportKey"
                     ],
-                    "rule_name": "crypto_apis",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/crypto_apis.py",
-                    "rule_type": "cape"
+                    "rule_name": "generates_crypto_key",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/crypto_apis.py"
                 }
             ],
             "extensions": {
@@ -34701,51 +34717,97 @@
                     "url": "https://github.com/mandiant/capa-rules/blob/master/lib/create-or-open-registry-key.yml"
                 },
                 {
-                    "class": "DarkCometRegkeys",
-                    "rule_name": "darkcomet_regkeys",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/darkcomet_regkeys.py",
+                    "rule_name": "accesses_mailslot",
+                    "class": "AccessesMailslot",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/accesses_netlogon.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "ransomware_revil_regkey",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_revil_regkey.py",
+                    "rule_name": "accesses_mailslot",
+                    "detect_ref": "malware-method--5addbf43-468e-4902-8127-c5f50e6f4430",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/accesses_netlogon.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "browser_security",
+                    "rule_name": "accesses_netlogon_regkey",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/accesses_netlogon.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "accesses_netlogon_regkey",
+                    "detect_ref": "malware-method--5addbf43-468e-4902-8127-c5f50e6f4430",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/accesses_netlogon.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "antianalysis_detectreg",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antianalysis_detectreg.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "antianalysis_detectreg",
+                    "detect_ref": "malware-method--5addbf43-468e-4902-8127-c5f50e6f4430",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antianalysis_detectreg.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "antiav_detectreg",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiav_detectreg.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "antiav_detectreg",
+                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiav_detectreg.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "antiav_srp",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiav_srp.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "antiav_srp",
                     "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_security.py",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiav_srp.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "disables_notificationcenter",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_notificationcenter.py",
+                    "rule_name": "antiemu_wine",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiemu_wine.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "removes_networking_icon",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_networking_icon.py",
+                    "rule_name": "antiemu_wine",
+                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiemu_wine.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "tampers_powershell_logging",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/tampers_powershell_logging.py",
+                    "rule_name": "antivm_bochs_keys",
+                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_bochs_keys.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "disables_power_options",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_power_options.py",
+                    "rule_name": "antivm_generic_bios",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_bios.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "browser_startpage",
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_startpage.py",
+                    "rule_name": "antivm_generic_bios",
+                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_bios.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "disables_restore_default_state",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_restore_default_state.py",
+                    "rule_name": "antivm_generic_cpu",
+                    "api_fncs": [
+                        " RegQueryValueExW",
+                        "RegQueryValueExA",
+                        "NtQueryValueKey"
+                    ],
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_cpu.py",
                     "rule_type": "cape"
                 },
                 {
@@ -34760,373 +34822,14 @@
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "prevents_safeboot",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/prevents_safeboot.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_smartscreen",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_smartscreen.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_context_menus",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_context_menus.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_generic_bios",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_bios.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_run_command",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_run_command.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "persistence_ifeo",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/persistence_ifeo.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "persistence_ifeo",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/persistence_ifeo.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_vbox_keys",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_vbox_keys.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "packer_armadillo_regkey",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/packer_armadillo_regkey.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_backups",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_backups.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antianalysis_detectreg",
-                    "detect_ref": "malware-method--5addbf43-468e-4902-8127-c5f50e6f4430",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antianalysis_detectreg.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "RegSetValueExA",
-                        "RegSetValueExW",
-                        "NtSetValueKey"
-                    ],
-                    "rule_name": "creates_largekey",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/creates_largekey.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "removes_username_startmenu",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_username_startmenu.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "stealth_hiddenreg",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/stealth_hiddenreg.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_startmenu_search",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_startmenu_search.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_hyperv_keys",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_hyperv_keys.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "NtCreateKey",
-                        "NtSetValueKey"
-                    ],
-                    "rule_name": "creates_nullvalue",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/creates_nullvalue.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "RegOpenKeyExW",
-                        "RegQueryValueExA",
-                        "RegQueryValueExW",
-                        "RegOpenKeyExA"
-                    ],
-                    "rule_name": "antivm_generic_scsi",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_scsi.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_appv_virtualization",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_appv_virtualization.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_xen_keys",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_xen_keys.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_parallels_keys",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_parallels_keys.py",
+                    "rule_name": "antivm_generic_diskreg",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_diskreg.py",
                     "rule_type": "cape"
                 },
                 {
                     "rule_name": "antivm_generic_diskreg",
                     "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_diskreg.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_vpc_keys",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_vpc_keys.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_folder_options",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_folder_options.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "office_security",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/office_security.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_bochs_keys",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_bochs_keys.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "tampers_etw",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/tampers_etw.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_event_logging",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_event_logging.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_generic_system",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_system.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "browser_addon",
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_addon.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "removes_startmenu_defaults",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_startmenu_defaults.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_uac",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_uac.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_wer",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_wer.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "RegOpenKeyExW",
-                        "RegEnumKeyExW",
-                        "RegEnumKeyExA",
-                        "RegOpenKeyExA"
-                    ],
-                    "rule_name": "antivm_generic_services",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_services.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "RegOpenKeyExW",
-                        "RegEnumKeyExW",
-                        "RegEnumKeyExA",
-                        "RegOpenKeyExA"
-                    ],
-                    "rule_name": "antivm_generic_services",
-                    "detect_ref": "malware-method--72435496-9e74-411f-ba5a-0cf41767f524",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_services.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antiav_detectreg",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiav_detectreg.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_vmware_keys",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_vmware_keys.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_windowsupdate",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_windowsupdate.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "RegQueryValueExA",
-                        "RegQueryValueExW"
-                    ],
-                    "rule_name": "recon_programs",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/recon_programs.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antiav_srp",
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiav_srp.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "recon_fingerprint",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/recon_fingerprint.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "removes_pinned_programs",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_pinned_programs.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "bypass_firewall",
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/bypass_firewall.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_vmware_keys",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_vmware_keys.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_vbox_keys",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_vbox_keys.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_smartscreen",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_smartscreen.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "recon_fingerprint",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/recon_fingerprint.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "browser_proxy",
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_proxy.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "stealth_hiddenextension",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/stealth_hiddenextension.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        " RegSetValueExW",
-                        "RegQueryValueExW"
-                    ],
-                    "rule_name": "rat_blackremote",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_blackremote.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_event_logging",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_event_logging.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_sysrestore",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_sysrestore.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "removes_pinned_programs",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_pinned_programs.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "removes_startmenu_defaults",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_startmenu_defaults.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_warzone",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_warzone.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "bypass_firewall",
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/bypass_firewall.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "stealth_hidenotifications",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/stealth_hidenotifications.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "stealth_hiddenreg",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/stealth_hiddenreg.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "ransomware_revil_regkey",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_revil_regkey.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "accesses_netlogon",
-                    "detect_ref": "malware-method--5addbf43-468e-4902-8127-c5f50e6f4430",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/accesses_netlogon.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "accesses_netlogon",
-                    "detect_ref": "malware-method--5addbf43-468e-4902-8127-c5f50e6f4430",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/accesses_netlogon.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "browser_addon",
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_addon.py",
                     "rule_type": "cape"
                 },
                 {
@@ -35143,106 +34846,54 @@
                 },
                 {
                     "api_fncs": [
-                        " RegQueryValueExA",
-                        "RegQueryValueExW"
+                        "RegOpenKeyExW",
+                        "RegQueryValueExA",
+                        "RegQueryValueExW",
+                        "RegOpenKeyExA"
                     ],
-                    "rule_name": "recon_programs",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/recon_programs.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_windefender",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_windefender.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_windefender",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_windefender.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_windefender",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_windefender.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_windefender",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_windefender.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "office_dll_loading",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/office_dll_loading.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_folder_options",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_folder_options.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "ransomware_radamant",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_radamant.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antiav_bypass",
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiav_bypass.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_spynet",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_spynet.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_njrat_regkeys",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_njrat_regkeys.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_uac",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_uac.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "remcos",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/remcos.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_power_options",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_power_options.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "browser_bho",
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_bho.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_windowsupdate",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_windowsupdate.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_vpc_keys",
+                    "rule_name": "antivm_generic_scsi",
                     "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_vpc_keys.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_scsi.py"
                 },
                 {
-                    "rule_name": "antivm_hyperv_keys",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_hyperv_keys.py",
-                    "rule_type": "cape"
+                    "api_fncs": [
+                        "RegOpenKeyExW",
+                        "RegEnumKeyExW",
+                        "RegEnumKeyExA",
+                        "RegOpenKeyExA"
+                    ],
+                    "rule_name": "antivm_generic_services",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_services.py"
                 },
                 {
-                    "rule_name": "antivm_xen_keys",
+                    "api_fncs": [
+                        "RegOpenKeyExW",
+                        "RegEnumKeyExW",
+                        "RegEnumKeyExA",
+                        "RegOpenKeyExA"
+                    ],
+                    "rule_name": "antivm_generic_services",
                     "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_xen_keys.py",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_services.py"
+                },
+                {
+                    "api_fncs": [
+                        "RegOpenKeyExW",
+                        "RegEnumKeyExW",
+                        "RegEnumKeyExA",
+                        "RegOpenKeyExA"
+                    ],
+                    "rule_name": "antivm_generic_services",
+                    "detect_ref": "malware-method--72435496-9e74-411f-ba5a-0cf41767f524",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_services.py"
+                },
+                {
+                    "rule_name": "antivm_generic_system",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_system.py",
                     "rule_type": "cape"
                 },
                 {
@@ -35252,53 +34903,19 @@
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "antiemu_wine",
+                    "rule_name": "antivm_hyperv_keys",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_hyperv_keys.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "antivm_hyperv_keys",
                     "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiemu_wine.py",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_hyperv_keys.py",
                     "rule_type": "cape"
                 },
                 {
-                    "api_fncs": [
-                        " RegSetValueExA",
-                        "RegSetValueExW"
-                    ],
-                    "rule_name": "virus_neshta",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/virus_neshta.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_generic_bios",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_bios.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "hides_recyclebin_icon",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/hides_recyclebin_icon.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antiav_detectreg",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiav_detectreg.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "browser_security",
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_security.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "banker_geodo",
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/banker_geodo.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antiav_srp",
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiav_srp.py",
+                    "rule_name": "antivm_parallels_keys",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_parallels_keys.py",
                     "rule_type": "cape"
                 },
                 {
@@ -35308,53 +34925,122 @@
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "disables_startmenu_search",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_startmenu_search.py",
+                    "rule_name": "antivm_vbox_keys",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_vbox_keys.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "office_security",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/office_security.py",
+                    "rule_name": "antivm_vbox_keys",
+                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_vbox_keys.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "tampers_etw",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/tampers_etw.py",
+                    "rule_name": "antivm_vmware_keys",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_vmware_keys.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "persistence_ifeo",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/persistence_ifeo.py",
+                    "rule_name": "antivm_vmware_keys",
+                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_vmware_keys.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "persistence_ifeo",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/persistence_ifeo.py",
+                    "rule_name": "antivm_vpc_keys",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_vpc_keys.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "persistence_shim",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/persistence_shim.py",
+                    "rule_name": "antivm_vpc_keys",
+                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_vpc_keys.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "disables_app",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_app.py",
+                    "rule_name": "antivm_xen_keys",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_xen_keys.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "disables_backups",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_backups.py",
+                    "rule_name": "antivm_xen_keys",
+                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_xen_keys.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "disables_appv_virtualization",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_appv_virtualization.py",
+                    "rule_name": "banker_geodo",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/banker_geodo.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "disables_browserwarn",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_browserwarn.py",
+                    "rule_name": "banker_geodo",
+                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/banker_geodo.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "api_fncs": [
+                        " RegSetValueExW",
+                        "RegQueryValueExW"
+                    ],
+                    "rule_name": "blackrat_registry_keys",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_blackremote.py"
+                },
+                {
+                    "rule_name": "browser_addon",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_addon.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "browser_addon",
+                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_addon.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "browser_helper_object",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_bho.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "browser_helper_object",
+                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_bho.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "browser_security",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_security.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "browser_security",
+                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_security.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "browser_startpage",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_startpage.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "browser_startpage",
+                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_startpage.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "bypass_firewall",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/bypass_firewall.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "bypass_firewall",
+                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/bypass_firewall.py",
                     "rule_type": "cape"
                 },
                 {
@@ -35367,86 +35053,6 @@
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "remote_desktop",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/remote_desktop.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "ransomware_medusalocker",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_medusalocker.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_generic_cpu",
-                    "api_fncs": [
-                        " filter_apinames = set"
-                    ],
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_cpu.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_app_autotermination",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_app_autotermination.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_restore_default_state",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_restore_default_state.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_context_menus",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_context_menus.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_nemty.py",
-                    "rule_name": "ransomware_nemty",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "disables_cpl_display",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_cpl_display.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "antivm_generic_diskreg",
-                    "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antivm_generic_diskreg.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "modifies_oem",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/modifies_oem.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "forces_mappeddrives_uac",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/forces_mappeddrives_uac.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_limerat",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_limerat.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "persistence_remotedesktop",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/persistence_remotedesktop.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "prevents_safeboot",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/prevents_safeboot.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "removes_sec_maintain_icon",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_sec_maintain_icon.py",
-                    "rule_type": "cape"
-                },
-                {
                     "api_fncs": [
                         " NtSetValueKey",
                         "NtCreateKey"
@@ -35456,9 +35062,53 @@
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "antianalysis_detectreg",
-                    "detect_ref": "malware-method--5addbf43-468e-4902-8127-c5f50e6f4430",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antianalysis_detectreg.py",
+                    "rule_name": "darkcomet_regkeys",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/darkcomet_regkeys.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_app_launch",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_app.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_appv_virtualization",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_appv_virtualization.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_auto_app_termination",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_app_autotermination.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_backups",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_backups.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_browser_warn",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_browserwarn.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_context_menus",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_context_menus.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_cpl_display",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_cpl_display.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_event_logging",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_event_logging.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_folder_options",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_folder_options.py",
                     "rule_type": "cape"
                 },
                 {
@@ -35467,29 +35117,13 @@
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "trojan_ursnif",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/trojan_ursnif.py",
+                    "rule_name": "disables_power_options",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_power_options.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "packer_armadillo_regkey",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/packer_armadillo_regkey.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "browser_startpage",
-                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_startpage.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "tampers_powershell_logging",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/tampers_powershell_logging.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "credential_access",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/credential_access.py",
+                    "rule_name": "disables_restore_default_state",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_restore_default_state.py",
                     "rule_type": "cape"
                 },
                 {
@@ -35498,14 +35132,84 @@
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "backdoor_ketrican_regkeys",
+                    "rule_name": "disables_smartscreen",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_smartscreen.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_startmenu_search",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_startmenu_search.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_sysrestore",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_sysrestore.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_uac",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_uac.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_wer",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_wer.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_windows_defender_dism",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_windefender.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_windows_defender_logging",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_windefender.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "disables_windowsupdate",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_windowsupdate.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "dotnet_clr_usagelog_regkeys",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/modifies_dotnetclr_knobs.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "enables_wdigest",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/credential_access.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "hides_recycle_bin_icon",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/hides_recyclebin_icon.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "ketrican_reg_keys",
                     "detect_ref": "malware-method--39e77df7-4fbb-4905-abc9-0c37761ea802",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/backdoor_ketrican_regkeys.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "removes_networking_icon",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_networking_icon.py",
+                    "rule_name": "ketrican_regkeys",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/backdoor_ketrican_regkeys.py"
+                },
+                {
+                    "rule_name": "limerat_regkeys",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_limerat.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "mapped_drives_uac",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/forces_mappeddrives_uac.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "medusalocker_regkeys",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_medusalocker.py",
                     "rule_type": "cape"
                 },
                 {
@@ -35514,13 +35218,198 @@
                     "rule_type": "cape"
                 },
                 {
+                    "rule_name": "modifies_oem_information",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/modifies_oem.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "modify_attachment_manager",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiav_bypass.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "modify_attachment_manager",
+                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/antiav_bypass.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "modify_proxy",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_proxy.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "modify_proxy",
+                    "detect_ref": "malware-method--59c224f1-595f-432a-b0fe-5ad9a33489d2",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/browser_proxy.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "modirat_behavior",
+                    "url": "https://https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/rat_modi.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "nemty_regkeys",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_nemty.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "api_fncs": [
+                        " RegSetValueExA",
+                        "RegSetValueExW"
+                    ],
+                    "rule_name": "neshta_regkeys",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/virus_neshta.py"
+                },
+                {
+                    "rule_name": "njrat_regkeys",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_njrat_regkeys.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "office_perfkey",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/office_dll_loading.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "office_security",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/office_security.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "packer_armadillo_regkey",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/packer_armadillo_regkey.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "persistence_ifeo",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/persistence_ifeo.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "persistence_rdp_registry",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/persistence_remotedesktop.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "persistence_shim_database",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/persistence_shim.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "persistence_slient_process_exit",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/persistence_ifeo.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "prevents_safeboot",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/prevents_safeboot.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "ransomware_radamant",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_radamant.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "ransomware_revil_regkey",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_revil_regkey.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "rat_spynet",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_spynet.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "rdptcp_key",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/remote_desktop.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "recon_fingerprint",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/recon_fingerprint.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "api_fncs": [
+                        "RegQueryValueExA",
+                        "RegQueryValueExW"
+                    ],
+                    "rule_name": "recon_programs",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/recon_programs.py"
+                },
+                {
+                    "rule_name": "remcos_regkeys",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/remcos.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "removes_networking_icon",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_networking_icon.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "removes_pinned_programs",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_pinned_programs.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "removes_sec_maintain_icon",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_sec_maintain_icon.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "removes_startmenu_defaults",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_startmenu_defaults.py",
+                    "rule_type": "cape"
+                },
+                {
                     "rule_name": "removes_username_startmenu",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_username_startmenu.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "disables_wer",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_wer.py",
+                    "rule_name": "removes_windows_defender_contextmenu",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/disables_windefender.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "stealth_hidden_extension",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/stealth_hiddenextension.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "stealth_hiddenreg",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/stealth_hiddenreg.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "stealth_hidenotifications",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/stealth_hidenotifications.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "tampers_etw",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/tampers_etw.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "tampers_powershell_logging",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/tampers_powershell_logging.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "ursnif_behavior",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/trojan_ursnif.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "warzonerat_regkeys",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_warzone.py",
                     "rule_type": "cape"
                 }
             ],
@@ -36412,15 +36301,15 @@
                         "System.IO.DirectoryInfo::Create",
                         "System.IO.DirectoryInfo::CreateSubdirectory"
                     ],
-                    "rule_name": "create directory",
                     "rule_type": "capa",
+                    "rule_name": "create directory",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/file-system/create/create-directory.yml"
                 },
                 {
                     "class": "ArkeiFiles",
-                    "rule_name": "infostealer_arkei",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/infostealer_arkei.py",
-                    "rule_type": "cape"
+                    "rule_name": "arkei_files",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/infostealer_arkei.py"
                 }
             ],
             "extensions": {
@@ -37134,8 +37023,8 @@
                         "System.Threading.Mutex::TryOpenExisting",
                         "kernel32.GetLastError"
                     ],
-                    "rule_name": "check mutex",
                     "rule_type": "capa",
+                    "rule_name": "check mutex",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/mutex/check-mutex.yml"
                 },
                 {
@@ -37147,8 +37036,8 @@
                         "WaitForSingleObject",
                         "GetLastError"
                     ],
-                    "rule_name": "check mutex and exit",
                     "rule_type": "capa",
+                    "rule_name": "check mutex and exit",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/mutex/check-mutex-and-exit.yml"
                 },
                 {
@@ -37168,7 +37057,7 @@
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "infostealer_purplewave",
+                    "rule_name": "purplewave_mutexes",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/infostealer_purplewave.py",
                     "rule_type": "cape"
                 },
@@ -38018,8 +37907,8 @@
                         "RegSetValueExW"
                     ],
                     "rule_name": "evil_grab",
-                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 },
                 {
                     "api_fncs": [
@@ -38027,8 +37916,8 @@
                         "RtlDecompressBuffer"
                     ],
                     "rule_name": "PlugX",
-                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 },
                 {
                     "rule_name": "ratsnif_mutexes",
@@ -38544,16 +38433,16 @@
                         "RtlDecompressBuffer"
                     ],
                     "rule_name": "compression",
-                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 },
                 {
                     "api_fncs": [
                         "CryptDecrypt"
                     ],
                     "rule_name": "decryption",
-                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 },
                 {
                     "rule_name": "cmdline_obfuscation",
@@ -38808,164 +38697,19 @@
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/mutex/lock-file.yml"
                 },
                 {
-                    "class": "ZeusMutexes",
-                    "rule_name": "banker_zeus_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/banker_zeus_mutex.py",
+                    "class": "AllapleMutexes",
+                    "rule_name": "allaple_mutexes",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/worm_allaple_mutex.py"
+                },
+                {
+                    "rule_name": "andromut_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/downloader_andromut_mutex.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "packer_armadillo_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/packer_armadillo_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "trickbot_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/trickbot_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "banker_cridex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/banker_cridex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "deepfreeze_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/deepfreeze_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "bot_russkill",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/bot_russkill.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "banker_zeus_p2p",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/all/banker_zeus_p2p.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "carberp_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/carberp_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "ransomware_radamant",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_radamant.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_plugx_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_plugx_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_spynet",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_spynet.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_limerat",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_limerat.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_dcrat",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_dcrat.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_nanocore",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_nanocore.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "bot_russkill",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/bot_russkill.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_fynloski_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_fynloski_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "ransomware_germanwiper",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_germanwiper.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_xtreme_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_xtreme_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_crat",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_crat.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "cypherit_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/cypherit_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "deepfreeze_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/deepfreeze_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "remcos",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/remcos.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "ransomware_medusalocker",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_medusalocker.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_blackremote",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_blackremote.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_beebus_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_beebus_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_poisonivy",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_poisonivy.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "trojan_ursnif",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/trojan_ursnif.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "backdoor_okrum_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/backdoor_okrum_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "ransomware_stop",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_stop.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "trojan_lokibot_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/trojan_lokibot_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_venom",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_venom.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "trojan_fleercivet_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/trojan_fleercivet_mutex.py",
+                    "rule_name": "asyncrat_mutex_raccoon",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/infostealer_raccoon.py",
                     "rule_type": "cape"
                 },
                 {
@@ -38974,112 +38718,8 @@
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "virus_neshta",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/virus_neshta.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "virus_renamer_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/virus_renamer_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "infostealer_raccoon",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/infostealer_raccoon.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "ransomware_gandcrab",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_gandcrab.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "downloader_andromut_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/downloader_andromut_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "downloader_phorpiex_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/downloader_phorpiex_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "infostealer_azorult_mutex",
+                    "rule_name": "azorult_mutexes",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/infostealer_azorult_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "ransomware_fonix_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_fonix_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_parallax_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_parallax_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "ransomware_cryptomix",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_cryptomix.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "downloader_protonbot_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/downloader_protonbot_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_ratsnif_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_ratsnif_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "ransomware_revil_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_revil_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "carberp_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/carberp_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "infostealer_qulab",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/infostealer_qulab.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "banker_geodo",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/banker_geodo.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "powerpool_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/powerpool_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_quasar",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_quasar.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "ransomware_snake_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_snake_mutex.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        " CryptHashData",
-                        "NtCreateMutant"
-                    ],
-                    "rule_name": "rat_luminosity",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_luminosity.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_nemty.py",
-                    "rule_name": "ransomware_nemty",
                     "rule_type": "cape"
                 },
                 {
@@ -39088,13 +38728,123 @@
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "banker_spyeye_mutex",
+                    "rule_name": "banker_spyeye_mutexes",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/banker_spyeye_mutex.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "ransomware_pysa_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_pysa_mutex.py",
+                    "rule_name": "banker_zeus_mutex",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/banker_zeus_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "banker_zeus_p2p",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/all/banker_zeus_p2p.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "blackrat_mutexes",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_blackremote.py"
+                },
+                {
+                    "rule_name": "bot_russkill",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/bot_russkill.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "carberp_mutex",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/carberp_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "crat_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_crat.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "cryptomix_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_cryptomix.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "cypherit_mutex",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/cypherit_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "dcrat_mutexes",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_dcrat.py"
+                },
+                {
+                    "rule_name": "deepfreeze_mutex",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/deepfreeze_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "dharma_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_dharma.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "fleercivet_mutex",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/trojan_fleercivet_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "fonix_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_fonix_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "gandcrab_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_gandcrab.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "geodo_banking_trojan",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/banker_geodo.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "germanwiper_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_germanwiper.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "limerat_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_limerat.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "lokibot_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/trojan_lokibot_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "medusalocker_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_medusalocker.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "nemty_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_nemty.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "neshta_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/virus_neshta.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "obliquerat_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_oblique.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "okrum_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/backdoor_okrum_mutex.py",
                     "rule_type": "cape"
                 },
                 {
@@ -39103,18 +38853,132 @@
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "targeted_flame",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/targeted_flame.py",
+                    "rule_name": "parallax_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_parallax_mutex.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "ransomware_satan_mutex",
+                    "rule_name": "phorpiex_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/downloader_phorpiex_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "powerpool_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/powerpool_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "protonbot_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/downloader_protonbot_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "pysa_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_pysa_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "qulab_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/infostealer_qulab.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "ransomware_radamant",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_radamant.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "rat_beebus_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_beebus_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "rat_fynloski_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_fynloski_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "api_fncs": [
+                        " CryptHashData",
+                        "NtCreateMutant"
+                    ],
+                    "rule_name": "rat_luminosity",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_luminosity.py"
+                },
+                {
+                    "rule_name": "rat_nanocore",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_nanocore.py"
+                },
+                {
+                    "rule_name": "rat_pcclient",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_pcclient.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "rat_plugx_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_plugx_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "rat_poisonivy_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_poisonivy.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "rat_quasar_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_quasar.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "rat_spynet",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_spynet.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "rat_xtreme_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_xtreme_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "ratsnif_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_ratsnif_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "remcos_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/remcos.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "renamer_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/virus_renamer_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "revil_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_revil_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "satan_mutexes",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_satan_mutex.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "rat_oblique",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_oblique.py",
+                    "rule_name": "snake_ransom_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_snake_mutex.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "stop_ransom_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_stop.py",
+                    "rule_type": "cape"
+                },
+                {
+                    "rule_name": "targeted_flame",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/targeted_flame.py",
                     "rule_type": "cape"
                 },
                 {
@@ -39123,23 +38987,18 @@
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "ransomware_dharma",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_dharma.py",
+                    "rule_name": "ursnif_behavior",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/trojan_ursnif.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "worm_allaple_mutex",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/worm_allaple_mutex.py",
+                    "rule_name": "venomrat_mutexes",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_venom.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "rat_xpert",
+                    "rule_name": "xpertrat_mutexes",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_xpert.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "rat_pcclient",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/rat_pcclient.py",
                     "rule_type": "cape"
                 }
             ],
@@ -39219,8 +39078,8 @@
                 {
                     "class": "CAPE_InjectionCreateRemoteThread",
                     "rule_name": "injection_create_remote_thread",
-                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/kevoreilly/CAPEv2/blob/master/modules/signatures/CAPE.py"
                 },
                 {
                     "api_fncs": [
@@ -42118,8 +41977,8 @@
             "detection_rules": [
                 {
                     "detect_ref": "malware-method--8d2f6d63-16d3-4b1e-9a5c-2ea3cede8a96",
-                    "rule_name": "reference DNS over HTTPS endpoints",
                     "rule_type": "capa",
+                    "rule_name": "reference DNS over HTTPS endpoints",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/dns/reference-dns-over-https-endpoints.yml"
                 },
                 {
@@ -42138,55 +41997,63 @@
                         "gethostent",
                         "System.Net.Dns::GetHostAddresses"
                     ],
-                    "detect_ref": "malware-method--40cb93ee-9bab-4239-a0de-0556ad4cd999",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--40cb93ee-9bab-4239-a0de-0556ad4cd999",
                     "rule_name": "resolve DNS",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/dns/resolve-dns.yml"
+                },
+                {
+                    "class": "NetworkDNSBlockChain",
+                    "rule_name": "network_dns_blockchain",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py"
+                },
+                {
+                    "api_fncs": [
+                        "DnsQueryA"
+                    ],
+                    "rule_name": "network_dns_idn",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py"
+                },
+                {
+                    "rule_name": "network_dns_opennic",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py"
+                },
+                {
+                    "rule_name": "network_dns_reverse_proxy",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py"
+                },
+                {
+                    "api_fncs": [
+                        "DnsQueryA"
+                    ],
+                    "rule_name": "network_dns_suspicious_querytype",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py"
                 },
                 {
                     "api_fncs": [
                         "DnsQuery_A",
                         "DnsQuery_W"
                     ],
-                    "class": "NetworkDNSTunnelingRequest",
-                    "rule_name": "network_dns_suspicious.py",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py",
-                    "rule_type": "cape"
+                    "rule_name": "network_dns_tunneling_request",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py"
                 },
                 {
+                    "rule_name": "network_dns_doh_tls",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py"
+                },
+                {
+                    "rule_name": "network_dga",
                     "api_fncs": [
-                        "DnsQueryA"
+                        " --"
                     ],
-                    "rule_name": "network_dns_suspicious.py",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "DnsQueryA"
-                    ],
-                    "rule_name": "network_dns_suspicious.py",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "network_dns_suspicious.py",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "network_dns_suspicious.py",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "network_dns_suspicious.py",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "network_dns_suspicious.py",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_dns_suspicious.py",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/all/network_dga.py",
                     "rule_type": "cape"
                 }
             ],
@@ -42241,8 +42108,8 @@
                         "fprintf",
                         "vfprintf"
                     ],
-                    "rule_name": "write file on Linux",
                     "rule_type": "capa",
+                    "rule_name": "write file on Linux",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/file-system/write/write-file-on-linux.yml"
                 },
                 {
@@ -42266,59 +42133,59 @@
                         "System.IO.File::AppendText",
                         "System.IO.FileInfo::AppendText"
                     ],
-                    "rule_name": "write file on Windows",
                     "rule_type": "capa",
+                    "rule_name": "write file on Windows",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/file-system/write/write-file-on-windows.yml"
                 },
                 {
                     "api_fncs": [
                         "dbghelp.MiniDumpWriteDump"
                     ],
-                    "rule_name": "create process memory minidump",
                     "rule_type": "capa",
+                    "rule_name": "create process memory minidump",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/process/dump/create-process-memory-minidump.yml"
                 },
                 {
                     "class": "UpatreFiles",
                     "rule_name": "upatre_files",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/upatre_files.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/upatre_files.py"
                 },
                 {
                     "api_fncs": [
                         "NtWriteFile"
                     ],
-                    "rule_name": "wiper",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/wiper.py",
-                    "rule_type": "cape"
+                    "rule_name": "wiper_zeroedbytes",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/wiper.py"
                 },
                 {
-                    "rule_name": "modifies_hostsfile",
+                    "rule_name": "modify_hostsfile",
                     "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/modifies_hostsfile.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "accesses_sysvol",
+                    "rule_name": "writes_sysvol",
                     "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/accesses_sysvol.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "trojan_ursnif",
+                    "rule_name": "ursnif_behavior",
                     "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/trojan_ursnif.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "infostealer_poullight",
+                    "rule_name": "poullight_files",
                     "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/infostealer_poullight.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "infostealer_echelon",
+                    "rule_name": "echelon_files",
                     "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/infostealer_echelon.py",
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "infostealer_apocalypse",
+                    "rule_name": "apocalypse_stealer_file_behavior",
                     "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/infostealer_apocalypse.py",
                     "rule_type": "cape"
                 },
@@ -42326,18 +42193,18 @@
                     "api_fncs": [
                         "NtWriteFile"
                     ],
-                    "rule_name": "infostealer_masslogger",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/infostealer_masslogger.py",
-                    "rule_type": "cape"
+                    "rule_name": "masslogger_version",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/infostealer_masslogger.py"
                 },
                 {
                     "api_fncs": [
                         "FindFirstFileExW",
                         "CryptDecrypt"
                     ],
-                    "rule_name": "infostealer_masslogger",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/infostealer_masslogger.py",
-                    "rule_type": "cape"
+                    "rule_name": "masslogger_artifacts",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/infostealer_masslogger.py"
                 }
             ],
             "extensions": {
@@ -43257,8 +43124,8 @@
                 },
                 {
                     "detect_ref": "malware-method--0b2b7f04-b511-4bdc-b4ef-11667a74bde3",
-                    "rule_name": "encrypt data using HC-128",
                     "rule_type": "capa",
+                    "rule_name": "encrypt data using HC-128",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/hc-128/encrypt-data-using-hc-128.yml"
                 },
                 {
@@ -43402,22 +43269,58 @@
                 },
                 {
                     "detect_ref": "malware-method--3d98ca18-c0fc-44b4-8c11-3e17e0cbba87",
-                    "rule_name": "encrypt data using skipjack",
                     "rule_type": "capa",
+                    "rule_name": "encrypt data using skipjack",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/skipjack/encrypt-data-using-skipjack.yml"
                 },
                 {
                     "detect_ref": "malware-method--7bfa4c7e-15a3-4c9d-b44a-757a17775c5e",
-                    "rule_name": "encrypt data using blowfish",
                     "rule_type": "capa",
+                    "rule_name": "encrypt data using blowfish",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/data-manipulation/encryption/blowfish/encrypt-data-using-blowfish.yml"
+                },
+                {
+                    "api_fncs": [
+                        "CryptEncrypt"
+                    ],
+                    "class": "MassDataEncryption",
+                    "rule_name": "mass_data_encryption",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/ransomware_crypto.py"
+                },
+                {
+                    "api_fncs": [
+                        "CryptEncrypt"
+                    ],
+                    "rule_name": "encrypt_data_agenttesla",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/malware_data_encryption.py"
+                },
+                {
+                    "api_fncs": [
+                        "CryptEncrypt",
+                        "GetComputerNameW",
+                        "GetUserNameW"
+                    ],
+                    "rule_name": "encrypt_data_agentteslat2_http",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/malware_data_encryption.py"
+                },
+                {
+                    "api_fncs": [
+                        "CryptEncrypt",
+                        "GetComputerNameW",
+                        "GetUserNameW"
+                    ],
+                    "rule_name": "encrypt_data_nanocore",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/malware_data_encryption.py"
                 },
                 {
                     "api_fncs": [
                         "CryptHashData"
                     ],
-                    "rule_name": "rat_dcrat",
-                    "class": "DCRatAPIs",
+                    "rule_name": "dcrat_behavior",
                     "rule_type": "cape",
                     "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/rat_dcrat.py"
                 },
@@ -43426,35 +43329,27 @@
                         "CryptHashData"
                     ],
                     "rule_name": "rat_nanocore",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/rat_nanocore.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "CryptEncrypt"
-                    ],
-                    "rule_name": "ransomware_crypto",
                     "rule_type": "cape",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/ransomware_crypto.py"
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/rat_nanocore.py"
                 },
                 {
                     "api_fncs": [
                         "CryptHashData"
                     ],
                     "rule_name": "rat_luminosity",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/rat_luminosity.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/rat_luminosity.py"
                 },
                 {
                     "api_fncs": [
                         "SslEncryptPacket"
                     ],
-                    "rule_name": "script_downloader",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/script_downloader.py",
-                    "rule_type": "cape"
+                    "rule_name": "script_network_activity",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/script_downloader.py"
                 },
                 {
-                    "rule_name": "ransomware_filemodifications",
+                    "rule_name": "ransomware_file_modifications",
                     "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/ransomware_filemodifications.py",
                     "rule_type": "cape"
                 },
@@ -43462,37 +43357,9 @@
                     "api_fncs": [
                         "CryptHashData"
                     ],
-                    "rule_name": "rat_blackremote",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/rat_blackremote.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "CryptEncrypt"
-                    ],
-                    "rule_name": "malware_data_encryption",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/malware_data_encryption.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "CryptEncrypt",
-                        "GetComputerNameW",
-                        "GetUserNameW"
-                    ],
-                    "rule_name": "malware_data_encryption",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/malware_data_encryption.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "CryptEncrypt",
-                        "GetComputerNameW",
-                        "GetUserNameW"
-                    ],
-                    "rule_name": "malware_data_encryption",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/malware_data_encryption.py",
-                    "rule_type": "cape"
+                    "rule_name": "blackrat_apis",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/rat_blackremote.py"
                 }
             ],
             "extensions": {
@@ -45476,8 +45343,8 @@
                     "api_fncs": [
                         "winhttp.WinHttpQueryHeaders"
                     ],
-                    "detect_ref": "malware-method--f497cb57-7379-4ee2-a82d-72f6af86428a",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--f497cb57-7379-4ee2-a82d-72f6af86428a",
                     "rule_name": "read HTTP header",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/read-http-header.yml"
                 },
@@ -45485,8 +45352,8 @@
                     "api_fncs": [
                         "winhttp.WinHttpOpen"
                     ],
-                    "detect_ref": "malware-method--d7c2b07a-e9e6-462f-a3c0-fd7db1bb2e4c",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--d7c2b07a-e9e6-462f-a3c0-fd7db1bb2e4c",
                     "rule_name": "initialize WinHTTP library",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/initialize-winhttp-library.yml"
                 },
@@ -45494,8 +45361,8 @@
                     "api_fncs": [
                         "ole32.CoCreateInstance"
                     ],
-                    "detect_ref": "malware-method--bf8e63c7-87a3-4653-a12e-5435d862ca09",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--bf8e63c7-87a3-4653-a12e-5435d862ca09",
                     "rule_name": "initialize IWebBrowser2",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/initialize-iwebbrowser2.yml"
                 },
@@ -45503,8 +45370,8 @@
                     "api_fncs": [
                         "wininet.HttpQueryInfo"
                     ],
-                    "rule_name": "get HTTP content length",
                     "rule_type": "capa",
+                    "rule_name": "get HTTP content length",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/get-http-content-length.yml"
                 },
                 {
@@ -45512,8 +45379,8 @@
                         "winhttp.WinHttpAddRequestHeaders",
                         "System.Net.WebHeaderCollection::Add"
                     ],
-                    "detect_ref": "malware-method--b64291e4-c45a-4453-b913-65dba7268a1a",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--b64291e4-c45a-4453-b913-65dba7268a1a",
                     "rule_name": "set HTTP header",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/set-http-header.yml"
                 },
@@ -45521,8 +45388,8 @@
                     "api_fncs": [
                         "urlmon.ObtainUserAgentString"
                     ],
-                    "rule_name": "reference HTTP User-Agent string",
                     "rule_type": "capa",
+                    "rule_name": "reference HTTP User-Agent string",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/reference-http-user-agent-string.yml"
                 },
                 {
@@ -45531,8 +45398,8 @@
                         "httpapi.HttpTerminate",
                         "System.Net.HttpListener::Start"
                     ],
-                    "detect_ref": "malware-method--1a300b38-c1ee-499b-9407-d5dbb6b34f8c",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--1a300b38-c1ee-499b-9407-d5dbb6b34f8c",
                     "rule_name": "start HTTP server",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/server/start-http-server.yml"
                 },
@@ -45541,8 +45408,8 @@
                         "httpapi.HttpReceiveHttpRequest",
                         "httpapi.HttpReceiveRequestEntityBody"
                     ],
-                    "detect_ref": "malware-method--350f8e7d-a2c1-435f-a0bd-03160cc222ff",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--350f8e7d-a2c1-435f-a0bd-03160cc222ff",
                     "rule_name": "receive HTTP request",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/server/receive-http-request.yml"
                 },
@@ -45551,8 +45418,8 @@
                         "httpapi.HttpSendHttpResponse",
                         "httpapi.HttpSendResponseEntityBody"
                     ],
-                    "detect_ref": "malware-method--d64110a6-b465-472d-b0c7-fa3202c60a9d",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--d64110a6-b465-472d-b0c7-fa3202c60a9d",
                     "rule_name": "send HTTP response",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/server/send-http-response.yml"
                 },
@@ -45563,8 +45430,8 @@
                         "winhttp.WinHttpReadData",
                         "winhttp.WinHttpQueryDataAvailable"
                     ],
-                    "detect_ref": "malware-method--f99e6728-13ac-4d81-9566-6d800737c68b",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--f99e6728-13ac-4d81-9566-6d800737c68b",
                     "rule_name": "receive HTTP response",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/receive-http-response.yml"
                 },
@@ -45581,8 +45448,8 @@
                         "winhttp.WinHttpOpenRequest",
                         "winhttp.WinHttpConnect"
                     ],
-                    "detect_ref": "malware-method--c291cee5-5ea7-468a-8974-dc2624e7cbae",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--c291cee5-5ea7-468a-8974-dc2624e7cbae",
                     "rule_name": "send HTTP request",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/send-http-request.yml"
                 },
@@ -45597,8 +45464,8 @@
                         "System.Net.WebClient::DownloadDataAsync",
                         "System.Net.WebClient::DownloadDataTaskAsync"
                     ],
-                    "detect_ref": "malware-method--f99e6728-13ac-4d81-9566-6d800737c68b",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--f99e6728-13ac-4d81-9566-6d800737c68b",
                     "rule_name": "read data from Internet",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/read-data-from-internet.yml"
                 },
@@ -45607,8 +45474,8 @@
                         "oleaut32.SysAllocString",
                         "oleaut32.VariantInit"
                     ],
-                    "detect_ref": "malware-method--f99e6728-13ac-4d81-9566-6d800737c68b",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--f99e6728-13ac-4d81-9566-6d800737c68b",
                     "rule_name": "get HTTP document via IWebBrowser2",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/get-http-document-via-iwebbrowser2.yml"
                 },
@@ -45617,8 +45484,8 @@
                         "oleaut32.SysAllocString",
                         "oleaut32.VariantInit"
                     ],
-                    "detect_ref": "malware-method--bf8e63c7-87a3-4653-a12e-5435d862ca09",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--bf8e63c7-87a3-4653-a12e-5435d862ca09",
                     "rule_name": "get HTTP document via IWebBrowser2",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/get-http-document-via-iwebbrowser2.yml"
                 },
@@ -45634,8 +45501,8 @@
                         "System.Net.WebClient::DownloadFileTaskAsync",
                         "Microsoft.VisualBasic.Devices.Network::DownloadFile"
                     ],
-                    "detect_ref": "malware-method--addcbbea-4e82-4816-a138-0b19ddacd043",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--addcbbea-4e82-4816-a138-0b19ddacd043",
                     "rule_name": "download URL",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/download-url.yml"
                 },
@@ -45643,8 +45510,8 @@
                     "api_fncs": [
                         "winhttp.WinHttpOpenRequest"
                     ],
-                    "detect_ref": "malware-method--d80c5d48-e802-4732-b48a-c71b84f4703a",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--d80c5d48-e802-4732-b48a-c71b84f4703a",
                     "rule_name": "prepare HTTP request",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/prepare-http-request.yml"
                 },
@@ -45656,8 +45523,8 @@
                         "System.Net.WebRequest::CreateHttp",
                         "wininet.InternetCloseHandle"
                     ],
-                    "detect_ref": "malware-method--d80c5d48-e802-4732-b48a-c71b84f4703a",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--d80c5d48-e802-4732-b48a-c71b84f4703a",
                     "rule_name": "create HTTP request",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/create-http-request.yml"
                 },
@@ -45665,15 +45532,15 @@
                     "api_fncs": [
                         "wininet.InternetWriteFile"
                     ],
-                    "detect_ref": "malware-method--9d13adf5-2774-4ea2-bbb1-ba8e8e3ca7ea",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--9d13adf5-2774-4ea2-bbb1-ba8e8e3ca7ea",
                     "rule_name": "send file via HTTP",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/send-file-via-http.yml"
                 },
                 {
+                    "rule_type": "capa",
                     "rule_name": "decompress HTTP response via IEncodingFilterFactory",
                     "detect_ref": "malware-method--f99e6728-13ac-4d81-9566-6d800737c68b",
-                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/decompress-http-response-via-iencodingfilterfactory.yml"
                 },
                 {
@@ -45681,8 +45548,8 @@
                         "atoi",
                         "wininet.HttpQueryInfo"
                     ],
-                    "detect_ref": "malware-method--f497cb57-7379-4ee2-a82d-72f6af86428a",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--f497cb57-7379-4ee2-a82d-72f6af86428a",
                     "rule_name": "check HTTP status code",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/check-http-status-code.yml"
                 },
@@ -45690,8 +45557,8 @@
                     "api_fncs": [
                         "wininet.HttpQueryInfo"
                     ],
-                    "detect_ref": "malware-method--f99e6728-13ac-4d81-9566-6d800737c68b",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--f99e6728-13ac-4d81-9566-6d800737c68b",
                     "rule_name": "get HTTP response content encoding",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/get-http-response-content-encoding.yml"
                 },
@@ -45699,8 +45566,8 @@
                     "api_fncs": [
                         "wininet.InternetOpenUrl"
                     ],
-                    "detect_ref": "malware-method--7d0ddef2-0802-48db-8a42-73b356ed083a",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--7d0ddef2-0802-48db-8a42-73b356ed083a",
                     "rule_name": "connect to URL",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/connect-to-url.yml"
                 },
@@ -45708,15 +45575,15 @@
                     "api_fncs": [
                         "wininet.InternetConnect"
                     ],
-                    "detect_ref": "malware-method--57c1f0f9-f551-4be2-857e-a9f168999eb1",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--57c1f0f9-f551-4be2-857e-a9f168999eb1",
                     "rule_name": "connect to HTTP server",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/connect-to-http-server.yml"
                 },
                 {
                     "detect_ref": "malware-method--7f1b234a-9409-4a3a-9f4c-03e21d04770a",
-                    "rule_name": "extract HTTP body",
                     "rule_type": "capa",
+                    "rule_name": "extract HTTP body",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/http/client/extract-http-body.yml"
                 },
                 {
@@ -45726,10 +45593,10 @@
                         "HttpOpenRequestW",
                         "InternetConnectW"
                     ],
-                    "class": "Internet_Dropper",
                     "rule_name": "internet_dropper",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/internet_dropper.py",
-                    "rule_type": "cape"
+                    "class": "Internet_Dropper",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/internet_dropper.py"
                 },
                 {
                     "rule_name": "bot_madness",
@@ -45773,6 +45640,15 @@
                     "rule_type": "cape"
                 },
                 {
+                    "api_fncs": [
+                        "WinHttpConnect",
+                        "WinHttpOpenRequest"
+                    ],
+                    "rule_name": "explorer_http",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/network_explorer.py"
+                },
+                {
                     "rule_name": "bot_drive2",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/all/bot_drive2.py",
                     "rule_type": "cape"
@@ -45801,6 +45677,15 @@
                 },
                 {
                     "api_fncs": [
+                        "WinHttpOpenRequest",
+                        "HttpOpenRequestW"
+                    ],
+                    "rule_name": "koadic_network_activity",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/exploitation_framework_koadic.py"
+                },
+                {
+                    "api_fncs": [
                         "HttpOpenRequestA",
                         "HttpOpenRequestW",
                         "InternetConnectW",
@@ -45814,16 +45699,13 @@
                     "rule_type": "cape"
                 },
                 {
-                    "rule_name": "banker_zeus_url",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/all/banker_zeus_url.py",
+                    "rule_name": "cmdline_http_link",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/cmdline_anomaly.py",
                     "rule_type": "cape"
                 },
                 {
-                    "api_fncs": [
-                        "HttpSendRequestA,HttpOpenRequestA"
-                    ],
-                    "rule_name": "reacon_beacon",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/recon_beacon.py",
+                    "rule_name": "cmdline_reversed_http_link",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/cmdline_anomaly.py",
                     "rule_type": "cape"
                 },
                 {
@@ -45840,14 +45722,8 @@
                     "rule_type": "cape"
                 },
                 {
-                    "api_fncs": [
-                        "InternetOpenW",
-                        "HttpAddRequestHeadersA",
-                        "HttpSendRequestW",
-                        "HttpOpenRequestW"
-                    ],
-                    "rule_name": "infostealer_purplewave",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/infostealer_purplewave.py",
+                    "rule_name": "banker_zeus_url",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/all/banker_zeus_url.py",
                     "rule_type": "cape"
                 },
                 {
@@ -45855,53 +45731,20 @@
                         "InternetOpenUrlA",
                         "WinHttpOpenRequest"
                     ],
-                    "rule_name": "filehostings",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/filehostings.py",
-                    "rule_type": "cape"
+                    "rule_name": "downloads_from_filehosting",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/filehostings.py"
                 },
                 {
                     "api_fncs": [
-                        "WinHttpConnect",
-                        "WinHttpOpenRequest"
-                    ],
-                    "rule_name": "network_explorer",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/network_explorer.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "cmdline_anomaly.py",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/cmdline_anomaly.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "cmdline_anomaly.py",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/cmdline_anomaly.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "WinHttpOpenRequest",
+                        "InternetOpenW",
+                        "HttpAddRequestHeadersA",
+                        "HttpSendRequestW",
                         "HttpOpenRequestW"
                     ],
-                    "rule_name": "exploitation_framework_koadic.py",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/exploitation_framework_koadic.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "WinHttpOpen"
-                    ],
-                    "rule_name": "ransomware_sodinokibi",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/ransomware_sodinokibi.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "HttpOpenRequestW"
-                    ],
-                    "rule_name": "powershell_command",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/powershell_command.py",
-                    "rule_type": "cape"
+                    "rule_name": "purplewave_network_activity",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/infostealer_purplewave.py"
                 }
             ],
             "extensions": {
@@ -46410,28 +46253,41 @@
                         "kernel32.SHFileOperation",
                         "MoveFileEx"
                     ],
-                    "rule_name": "delete file",
                     "rule_type": "capa",
+                    "rule_name": "delete file",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/host-interaction/file-system/delete/delete-file.yml"
                 },
                 {
-                    "class": "ClearsLogs",
                     "rule_name": "clears_logs",
+                    "class": "ClearsLogs",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/clears_logs.py",
                     "rule_type": "cape"
                 },
                 {
                     "api_fncs": [
-                        "DeleteFileW",
-                        "DeleteFileA"
+                        "DeleteFileW"
                     ],
-                    "rule_name": "removes_zoneid_ads",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_zoneid_ads.py",
-                    "rule_type": "cape"
+                    "rule_name": "trickbot_task_delete",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/trickbot_files.py"
                 },
                 {
-                    "rule_name": "ransomware_recyclebin",
-                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_recyclebin.py",
+                    "api_fncs": [
+                        "DeleteFileA"
+                    ],
+                    "rule_name": "upatre_behavior",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/deprecated/upatre_apis.py"
+                },
+                {
+                    "rule_name": "ransomware_file_modifications",
+                    "api_fncs": [
+                        "MoveFileWithProgressW",
+                        "MoveFileWithProgressTransactedW",
+                        "NtCreateFile",
+                        "NtWriteFile"
+                    ],
+                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/ransomware_filemodifications.py",
                     "rule_type": "cape"
                 },
                 {
@@ -46457,37 +46313,23 @@
                     "rule_type": "cape"
                 },
                 {
-                    "api_fncs": [
-                        "DeleteFileW"
-                    ],
-                    "rule_name": "trickbot_files",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/trickbot_files.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "api_fncs": [
-                        "MoveFileWithProgressW",
-                        "MoveFileWithProgressTransactedW",
-                        "NtCreateFile",
-                        "NtWriteFile"
-                    ],
-                    "rule_name": "ransomware_filemodifications",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/ransomware_filemodifications.py",
-                    "rule_type": "cape"
-                },
-                {
-                    "rule_name": "deletes_files *(Linux)*)",
+                    "rule_name": "deletes_files",
                     "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/linux/deletes_files.py",
                     "rule_type": "cape"
                 },
                 {
+                    "rule_name": "ransomware_recyclebin",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ransomware_recyclebin.py",
+                    "rule_type": "cape"
+                },
+                {
                     "api_fncs": [
-                        "DeleteFileA",
-                        "DeleteFileW"
+                        "DeleteFileW",
+                        "DeleteFileA"
                     ],
                     "rule_name": "removes_zoneid_ads",
-                    "url": "https://github.com/CAPESandbox/community/blob/master/modules/signatures/windows/removes_zoneid_ads.py",
-                    "rule_type": "cape"
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/removes_zoneid_ads.py"
                 }
             ],
             "extensions": {
@@ -47152,8 +46994,8 @@
                         "kernel32.GetMailslotInfo",
                         "kernel32.SetMailslotInfo"
                     ],
-                    "rule_name": "create mailslot",
                     "rule_type": "capa",
+                    "rule_name": "create mailslot",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/mailslot/create-mailslot.yml"
                 },
                 {
@@ -47162,8 +47004,8 @@
                         "kernel32.ReadFile",
                         "kernel32.ReadFileEx"
                     ],
-                    "rule_name": "read from mailslot",
                     "rule_type": "capa",
+                    "rule_name": "read from mailslot",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/mailslot/read-from-mailslot.yml"
                 },
                 {
@@ -47177,15 +47019,15 @@
                         "System.IO.Pipes.NamedPipeServerStream::ctor",
                         "System.IO.Pipes.NamedPipeServerStreamAcl::Create"
                     ],
-                    "detect_ref": "malware-method--754b37d1-18ec-484f-bb2a-e5770af5bb3f",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--754b37d1-18ec-484f-bb2a-e5770af5bb3f",
                     "rule_name": "create pipe",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/named-pipe/create/create-pipe.yml"
                 },
                 {
+                    "rule_type": "capa",
                     "rule_name": "create two anonymous pipes",
                     "detect_ref": "malware-method--754b37d1-18ec-484f-bb2a-e5770af5bb3f",
-                    "rule_type": "capa",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/named-pipe/create/create-two-anonymous-pipes.yml"
                 },
                 {
@@ -47194,8 +47036,8 @@
                         "kernel32.TransactNamedPipe",
                         "kernel32.CallNamedPipe"
                     ],
-                    "detect_ref": "malware-method--66de65ba-2b85-4bce-a301-34eb74b6d057",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--66de65ba-2b85-4bce-a301-34eb74b6d057",
                     "rule_name": "write pipe",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/named-pipe/write/write-pipe.yml"
                 },
@@ -47206,8 +47048,8 @@
                         "System.IO.Pipes.NamedPipeClientStream::Connect",
                         "System.IO.Pipes.NamedPipeClientStream::ConnectAsync"
                     ],
-                    "detect_ref": "malware-method--a606af69-b111-42ea-9868-d39c959e5e5a",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--a606af69-b111-42ea-9868-d39c959e5e5a",
                     "rule_name": "connect pipe",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/named-pipe/connect/connect-pipe.yml"
                 },
@@ -47218,8 +47060,8 @@
                         "kernel32.TransactNamedPipe",
                         "kernel32.CallNamedPipe"
                     ],
-                    "detect_ref": "malware-method--ac17257e-e8fc-402a-99d0-f0dc79ed9b4d",
                     "rule_type": "capa",
+                    "detect_ref": "malware-method--ac17257e-e8fc-402a-99d0-f0dc79ed9b4d",
                     "rule_name": "read pipe",
                     "url": "https://github.com/mandiant/capa-rules/blob/master/communication/named-pipe/read/read-pipe.yml"
                 },
@@ -47229,8 +47071,18 @@
                         "NtCreateNamedPipeFile",
                         "NtWriteFile"
                     ],
-                    "detect_ref": "malware-method--754b37d1-18ec-484f-bb2a-e5770af5bb3f",
                     "class": "IPC_NamedPipe",
+                    "rule_name": "ipc_namedpipe",
+                    "rule_type": "cape",
+                    "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ipc_namedpipe.py"
+                },
+                {
+                    "api_fncs": [
+                        "NtReadFile",
+                        "NtCreateNamedPipeFile",
+                        "NtWriteFile"
+                    ],
+                    "detect_ref": "malware-method--754b37d1-18ec-484f-bb2a-e5770af5bb3f",
                     "rule_name": "ipc_namedpipe",
                     "rule_type": "cape",
                     "url": "https://github.com/CAPESandbox/community/tree/master/modules/signatures/windows/ipc_namedpipe.py"
